@@ -1,0 +1,172 @@
+2025-10-28T12:55:22.353Z [side-letter-knowledge-base] [info] Initializing server... { metadata: undefined }
+2025-10-28T12:55:22.437Z [side-letter-knowledge-base] [info] Using MCP server command: C:\Program Files\nodejs\node.exe with args and path: {
+  metadata: {
+    args: [
+      'C:\\Users\\UK-PC\\Desktop\\side-letter-mcp-server\\build\\server.js',
+      [length]: 1
+    ],
+    paths: [
+      'C:\\Program Files\\nodejs',
+      'C:\\Program Files\\Java\\jdk-24\\bin',
+      'C:\\Program Files\\Java\\jdk-24\\bin',
+      'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath',
+      'C:\\Program Files\\FireDaemon OpenSSL 3\\bin\\',
+      'C:\\Windows\\system32',
+      'C:\\Windows',
+      'C:\\Windows\\System32\\Wbem',
+      'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\',
+      'C:\\Windows\\System32\\OpenSSH\\',
+      'C:\\Program Files\\Git\\cmd',
+      'C:\\ProgramData\\chocolatey\\bin',
+      'C:\\Program Files\\nodejs\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts',
+      'C:\\Program Files\\Docker\\Docker\\resources\\bin',
+      'C:\\Program Files\\OpenRPA\\',
+      'C:\\Program Files\\dotnet\\',
+      'C:\\Python311\\Scripts\\',
+      'C:\\Python311\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Python313\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Launcher\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Google\\Chrome\\Application',
+      'C:\\Program Files\\FireDaemon OpenSSL 3\\bin\\',
+      'C:\\Windows\\system32',
+      'C:\\Windows',
+      'C:\\Windows\\System32\\Wbem',
+      'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\',
+      'C:\\Windows\\System32\\OpenSSH\\',
+      'C:\\Program Files\\Git\\cmd',
+      'C:\\ProgramData\\chocolatey\\bin',
+      'C:\\Program Files\\nodejs\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Microsoft\\WindowsApps',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin',
+      'C:\\Users\\UK-PC\\AppData\\Roaming\\npm',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Trae\\bin',
+      'c:\\Users\\UK-PC\\AppData\\Local\\Programs\\Trae\\bin',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Python312\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\reflex\\bun\\bin',
+      'C:\\Users\\UK-PC\\.dotnet\\tools',
+      [length]: 44
+    ]
+  }
+} %o
+2025-10-28T12:55:22.464Z [side-letter-knowledge-base] [info] Server started and connected successfully { metadata: undefined }
+2025-10-28T12:55:23.329Z [side-letter-knowledge-base] [info] Message from client: {"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0} { metadata: undefined }
+2025-10-28T12:55:31.291Z [side-letter-knowledge-base] [error] Unexpected token 'd', "[dotenv@17."... is not valid JSON {
+  metadata: {
+    context: 'connection',
+    stack: `SyntaxError: Unexpected token 'd', "[dotenv@17."... is not valid JSON\n` +
+      '    at JSON.parse (<anonymous>)\n' +
+      '    at dce (C:\\Users\\UK-PC\\AppData\\Local\\AnthropicClaude\\app-0.14.7\\resources\\app.asar\\.vite\\build\\index.js:193:207)\n' +
+      '    at fce.readMessage (C:\\Users\\UK-PC\\AppData\\Local\\AnthropicClaude\\app-0.14.7\\resources\\app.asar\\.vite\\build\\index.js:193:133)\n' +
+      '    at mce.processReadBuffer (C:\\Users\\UK-PC\\AppData\\Local\\AnthropicClaude\\app-0.14.7\\resources\\app.asar\\.vite\\build\\index.js:194:2201)\n' +
+      '    at Socket.<anonymous> (C:\\Users\\UK-PC\\AppData\\Local\\AnthropicClaude\\app-0.14.7\\resources\\app.asar\\.vite\\build\\index.js:194:1651)\n' +
+      '    at Socket.emit (node:events:519:28)\n' +
+      '    at addChunk (node:internal/streams/readable:561:12)\n' +
+      '    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n' +
+      '    at Readable.push (node:internal/streams/readable:392:5)\n' +
+      '    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)'
+  }
+}
+2025-10-28T12:55:31.296Z [side-letter-knowledge-base] [info] Message from server: {"jsonrpc":"2.0","id":0,"result":{"protocolVersion":"2025-06-18","capabilities":{"tools":{"listChanged":true}},"serverInfo":{"name":"side-letter-knowledge-base","version":"1.0.0","capabilities":{"resources":{},"tools":{},"prompts":{}}}}} { metadata: undefined }
+2025-10-28T12:55:31.307Z [side-letter-knowledge-base] [info] Message from client: {"method":"notifications/initialized","jsonrpc":"2.0"} { metadata: undefined }
+2025-10-28T12:55:31.315Z [side-letter-knowledge-base] [info] Message from client: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1} { metadata: undefined }
+2025-10-28T12:55:31.317Z [side-letter-knowledge-base] [info] Message from client: {"method":"prompts/list","params":{},"jsonrpc":"2.0","id":2} { metadata: undefined }
+2025-10-28T12:55:31.318Z [side-letter-knowledge-base] [info] Message from client: {"method":"resources/list","params":{},"jsonrpc":"2.0","id":3} { metadata: undefined }
+2025-10-28T12:55:31.570Z [side-letter-knowledge-base] [info] Message from server: {"jsonrpc":"2.0","id":2,"error":{"code":-32601,"message":"Method not found"}} { metadata: undefined }
+2025-10-28T12:55:31.571Z [side-letter-knowledge-base] [info] Message from server: {"jsonrpc":"2.0","id":3,"error":{"code":-32601,"message":"Method not found"}} { metadata: undefined }
+2025-10-28T12:55:31.573Z [side-letter-knowledge-base] [info] Message from server: {"jsonrpc":"2.0","id":1,"result":{"tools":[{"name":"search","description":"The search query in natural language","inputSchema":{"type":"object","properties":{"query":{"type":"string","description":"The search query in natural language"},"top_k":{"type":"number","default":10,"description":"Number of results to return"}},"required":["query"],"additionalProperties":false,"$schema":"http://json-schema.org/draft-07/schema#"}}]}} { metadata: undefined }
+2025-10-28T12:59:02.873Z [side-letter-knowledge-base] [info] Message from client: {"method":"tools/call","params":{"name":"search","arguments":{"query":"Roger Luo briefing companies mentioned"}},"jsonrpc":"2.0","id":4} { metadata: undefined }
+Error in search tool: Error: Ragie API error: Request failed with status code 403
+    at RagieService.search (C:\Users\UK-PC\Desktop\side-letter-mcp-server\build\ragieService.js:53:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\UK-PC\Desktop\side-letter-mcp-server\build\server.js:32:32
+    at async C:\Users\UK-PC\Desktop\side-letter-mcp-server\node_modules\@modelcontextprotocol\sdk\dist\cjs\server\mcp.js:95:30
+2025-10-28T12:59:05.300Z [side-letter-knowledge-base] [info] Message from server: {"jsonrpc":"2.0","id":4,"result":{"content":[{"type":"text","text":"Error: Error: Ragie API error: Request failed with status code 403"}]}} { metadata: undefined }
+2025-10-28T13:05:59.444Z [side-letter-knowledge-base] [info] Client transport closed { metadata: undefined }
+2025-10-28T13:05:59.460Z [side-letter-knowledge-base] [info] Server transport closed { metadata: undefined }
+2025-10-28T13:05:59.461Z [side-letter-knowledge-base] [info] Client transport closed { metadata: undefined }
+2025-10-28T13:05:59.464Z [side-letter-knowledge-base] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log. { metadata: undefined }
+2025-10-28T13:05:59.465Z [side-letter-knowledge-base] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) { metadata: { context: 'connection', stack: undefined } }
+2025-10-28T13:05:59.516Z [side-letter-knowledge-base] [info] Server transport closed { metadata: undefined }
+2025-10-28T13:05:59.517Z [side-letter-knowledge-base] [info] Client transport closed { metadata: undefined }
+2025-10-28T13:06:41.030Z [side-letter-knowledge-base] [info] Initializing server... { metadata: undefined }
+2025-10-28T13:06:41.086Z [side-letter-knowledge-base] [info] Using MCP server command: C:\Program Files\nodejs\node.exe with args and path: {
+  metadata: {
+    args: [
+      'C:\\Users\\UK-PC\\Desktop\\side-letter-mcp-server\\src\\server.ts',
+      [length]: 1
+    ],
+    paths: [
+      'C:\\Program Files\\nodejs',
+      'C:\\Program Files\\Java\\jdk-24\\bin',
+      'C:\\Program Files\\Java\\jdk-24\\bin',
+      'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath',
+      'C:\\Program Files\\FireDaemon OpenSSL 3\\bin\\',
+      'C:\\Windows\\system32',
+      'C:\\Windows',
+      'C:\\Windows\\System32\\Wbem',
+      'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\',
+      'C:\\Windows\\System32\\OpenSSH\\',
+      'C:\\Program Files\\Git\\cmd',
+      'C:\\ProgramData\\chocolatey\\bin',
+      'C:\\Program Files\\nodejs\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts',
+      'C:\\Program Files\\Docker\\Docker\\resources\\bin',
+      'C:\\Program Files\\OpenRPA\\',
+      'C:\\Program Files\\dotnet\\',
+      'C:\\Python311\\Scripts\\',
+      'C:\\Python311\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Python313\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Launcher\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Google\\Chrome\\Application',
+      'C:\\Program Files\\FireDaemon OpenSSL 3\\bin\\',
+      'C:\\Windows\\system32',
+      'C:\\Windows',
+      'C:\\Windows\\System32\\Wbem',
+      'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\',
+      'C:\\Windows\\System32\\OpenSSH\\',
+      'C:\\Program Files\\Git\\cmd',
+      'C:\\ProgramData\\chocolatey\\bin',
+      'C:\\Program Files\\nodejs\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Microsoft\\WindowsApps',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin',
+      'C:\\Users\\UK-PC\\AppData\\Roaming\\npm',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Trae\\bin',
+      'c:\\Users\\UK-PC\\AppData\\Local\\Programs\\Trae\\bin',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\Scripts',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Python312\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\',
+      'C:\\Users\\UK-PC\\AppData\\Local\\reflex\\bun\\bin',
+      'C:\\Users\\UK-PC\\.dotnet\\tools',
+      [length]: 44
+    ]
+  }
+} %o
+2025-10-28T13:06:41.105Z [side-letter-knowledge-base] [info] Server started and connected successfully { metadata: undefined }
+node:internal/modules/esm/get_format:219
+  throw new ERR_UNKNOWN_FILE_EXTENSION(ext, filepath);
+        ^
+
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts" for C:\Users\UK-PC\Desktop\side-letter-mcp-server\src\server.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:219:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:245:36)
+    at defaultLoad (node:internal/modules/esm/load:120:22)
+    at async ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:32)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:115:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+
+Node.js v22.14.0
+2025-10-28T13:06:41.367Z [side-letter-knowledge-base] [info] Server transport closed { metadata: undefined }
+2025-10-28T13:06:41.368Z [side-letter-knowledge-base] [info] Client transport closed { metadata: undefined }
+2025-10-28T13:06:41.371Z [side-letter-knowledge-base] [info] Server transport closed unexpectedly, this is likely due to the process exiting early. If you are developing this MCP server you can add output to stderr (i.e. `console.error('...')` in JavaScript, `print('...', file=sys.stderr)` in python) and it will appear in this log. { metadata: undefined }
+2025-10-28T13:06:41.372Z [side-letter-knowledge-base] [error] Server disconnected. For troubleshooting guidance, please visit our [debugging documentation](https://modelcontextprotocol.io/docs/tools/debugging) { metadata: { context: 'connection', stack: undefined } }
+2025-10-28T13:06:41.375Z [side-letter-knowledge-base] [info] Client transport closed { metadata: undefined }
