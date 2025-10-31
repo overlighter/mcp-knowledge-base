@@ -1,0 +1,1329 @@
+#1
+ID: rec0Hdv4GhXpix7L0
+{
+  "Fund Name": "Untapped Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:46.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#2
+ID: rec1wTvM4VjLHjpse
+{
+  "Fund Name": "Conviction",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-29T16:07:43.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#3
+ID: rec2BDRuIBLIFbBNa
+{
+  "Fund Name": "Neuvation Ventures",
+  "GP Name": "Mahesh Narayanan",
+  "GP Linkedin": "https://www.linkedin.com/in/maheshlnarayanan/",
+  "Fund Number": "I",
+  "Fund Size": 5000000,
+  "Why Interesting?": "Impact investment fund investing in ideas, research, and early-stage companies in Brain Health",
+  "Submission Date": "2025-09-24T17:22:37.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Raising ",
+  "Fund Website": "https://www.neuvation.fund/"
+}
+
+#4
+ID: rec2PHoj6dhJco8QX
+{
+  "Fund Name": "Position Ventures",
+  "GP Name": "Jenny He",
+  "Fund Number": "II",
+  "Why Interesting?": "Focused on helping companies with PR; Helped with the PR around Square's IPO; is really close with Justin Kan; husband was the CoS for Parker Conrad",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#5
+ID: rec3Tsue4LM1nTtvd
+{
+  "Fund Name": "Remote First Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#6
+ID: rec56WO4rJTtbXsFi
+{
+  "Fund Name": "Audacious Ventures",
+  "GP Name": "Nakul Mandan + 2",
+  "Fund Number": "II",
+  "Co-Investors": [
+    "Next Legacy"
+  ],
+  "Why Interesting?": "Former GP at Lightspeed, focused on helping founders recruit the best talent and has an in-house recruiting team to help them",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#7
+ID: rec5AK3z4elxayxzM
+{
+  "Fund Name": "LMNT Ventures",
+  "GP Name": "Jeff Miller",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-22T13:56:50.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Raising "
+}
+
+#8
+ID: rec6ERFteAT2IDaUm
+{
+  "Fund Name": "Bungalow Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#9
+ID: rec6hVAmwMdRCGbwZ
+{
+  "Fund Name": "Schema Ventures",
+  "GP Name": "Aarthi Ramamurthy",
+  "Fund Number": "I",
+  "Co-Investors": [
+    "Elad Gil",
+    "Marc Andreessen/Chris Dixon"
+  ],
+  "Why Interesting?": "Serial operator; Elad Gil is her mentor; runs one of the largest podcasts in tech; her husband is Sriram Krishnan (a16z, now working in the Trump administration)",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#10
+ID: rec6oOpTf8jIKZVw2
+{
+  "Fund Name": "Pathlight Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T20:17:42.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#11
+ID: rec6rABaQtpHFNY4L
+{
+  "Fund Name": "Deciens III",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#12
+ID: rec7FGaDDnaDyggYd
+{
+  "Fund Name": "Inception Studio Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#13
+ID: rec7bBCa1MnsYQM48
+{
+  "Fund Name": "Oncology Ventures",
+  "GP Name": "Ben Freeberg",
+  "GP Linkedin": "https://www.linkedin.com/in/ben-freeberg/",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-24T20:11:28.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.oncology.ventures/"
+}
+
+#14
+ID: rec7hT6cYehq7zAg0
+{
+  "Fund Name": "Schema Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-11T00:20:00.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#15
+ID: rec8QUKY5eKtcR8Sz
+{
+  "Fund Name": "SF1",
+  "GP Name": "Sudarshan Sridharan",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-19T14:20:51.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Raising "
+}
+
+#16
+ID: rec9f0hmo5LSqXYSE
+{
+  "Fund Name": "DayDream Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#17
+ID: rec9je5w8vK1S53UZ
+{
+  "Fund Name": "Rebellion Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#18
+ID: recC0nCpOQcGukitA
+{
+  "Fund Name": "1st Hand Alliance",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#19
+ID: recDRvzDTUkO5haXD
+{
+  "Fund Name": "Stellation Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#20
+ID: recDe4WKnpaPAyejL
+{
+  "Fund Name": "Lightspeed",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#21
+ID: recEEWjcTdZvbeWQ3
+{
+  "Fund Name": "Banana Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#22
+ID: recF7PL7iDivW6WI2
+{
+  "Fund Name": "Anomaly ",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#23
+ID: recF7wpWITVZgmZbW
+{
+  "Fund Name": "Wisdom Ventures",
+  "GP Name": "Bradley Horowitz et al",
+  "Fund Number": "II",
+  "Co-Investors": [
+    "Franklin Park"
+  ],
+  "Why Interesting?": "He knows everyone and gets to participate in the hottest rounds at ground zero",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Raising "
+}
+
+#24
+ID: recF9GWsyDL976aqx
+{
+  "Fund Name": "Incisive Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#25
+ID: recFKqGf7dlvX7Iwc
+{
+  "Fund Name": "Orange Fund",
+  "GP Name": "Don Ho",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T20:17:52.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#26
+ID: recFcuAZweY4dE1gv
+{
+  "Fund Name": "Dune Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-09T20:57:04.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#27
+ID: recGgHdFaZawn2cdB
+{
+  "Fund Name": "Intuition VC",
+  "GP Name": "Etienne Boutan",
+  "Fund Number": "I",
+  "Co-Investors": [
+    "General Catalyst"
+  ],
+  "Submission Date": "2025-10-29T18:58:05.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#28
+ID: recGuhp2YYr6vStav
+{
+  "Fund Name": "Steel Atlas",
+  "GP Name": "Cameron Porter",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-19T14:18:41.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#29
+ID: recIEq3mIo3z3zV2L
+{
+  "Fund Name": "Topology Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#30
+ID: recIqfk5ocGbyI1LL
+{
+  "Fund Name": "Spice Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-08T15:46:11.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#31
+ID: recJtSrfhmwx0HOxG
+{
+  "Fund Name": "Banter Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#32
+ID: recKJjmds7UEErK0w
+{
+  "Fund Name": "Stellar Ventures",
+  "GP Name": "David Anderman",
+  "Fund Number": "III",
+  "Why Interesting?": "Former COO for SpaceX, former COO and General Counsel for Lucasfilm",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#33
+ID: recMSwjeJqc05VMAa
+{
+  "Fund Name": "Sarah Smith Fund",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#34
+ID: recMxqkXI5696x0bL
+{
+  "Fund Name": "Forward Deployed VC",
+  "GP Name": "Mark Scianna",
+  "Fund Number": "II",
+  "Co-Investors": [
+    "Bain Capital Ventures",
+    "GREE LP Fund"
+  ],
+  "Why Interesting?": "Palantir / Anduril mafia",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#35
+ID: recOBtX7Xrn9lfH6q
+{
+  "Fund Name": "GreyMatter",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#36
+ID: recOsf9ZMqFL4gwTZ
+{
+  "Fund Name": "Ubiquity Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#37
+ID: recP3FRFQ6YWUiMUh
+{
+  "Fund Name": "Rackhouse Ventures",
+  "GP Name": "Kevin Novak",
+  "Fund Number": "III",
+  "Why Interesting?": "Created surge pricing at Uber (has the patent); is a very data-centric person when it comes to AI",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Soon"
+}
+
+#38
+ID: recQRLqRIpoB7xTQQ
+{
+  "Fund Name": "Hobart Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#39
+ID: recQxufJ9GF3UJfE7
+{
+  "Fund Name": "Alpine Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#40
+ID: recR6guCMuT3oPHkK
+{
+  "Fund Name": "Seven Stars",
+  "GP Name": "Steven Lee",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-14T15:11:01.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#41
+ID: recRbhq1dHjDyDzLk
+{
+  "Fund Name": "Buckley Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#42
+ID: recRtnvcecgjImKEU
+{
+  "Fund Name": "Leonis Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-03T17:01:01.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#43
+ID: recSrKcYFkPSI2soG
+{
+  "Fund Name": "Stepchange",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#44
+ID: recUM3pSIbxFGb3SW
+{
+  "Fund Name": "Outcast Ventures",
+  "GP Name": "Andy Chen +1",
+  "Fund Number": "I",
+  "Why Interesting?": "Andy's the former Coatue GP; focused on helping founders with talent and building a fellowship program to help solo founders meet each other",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#45
+ID: recUSmmzOH6iq8Ilh
+{
+  "Fund Name": "Basecase",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#46
+ID: recUpUhi7rjYpq0ge
+{
+  "Fund Name": "Wischoff Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#47
+ID: recW8mGdITI0hHtFQ
+{
+  "Fund Name": "Pebbebed",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#48
+ID: recX3O0dpL0AS1owZ
+{
+  "Fund Name": "Ravelin",
+  "Fund Number": "I",
+  "Co-Investors": [
+    "Peter Thiel"
+  ],
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#49
+ID: recY9aYDSBZd3E9lE
+{
+  "Fund Name": "Swizzle VC",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#50
+ID: recYA2eb3Bw3KloIR
+{
+  "Fund Name": "Blockchain Builders",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#51
+ID: recYHhTyuicOdZh2X
+{
+  "Fund Name": "Humba Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#52
+ID: recYhWnLaViXrOcyl
+{
+  "Fund Name": "Stratus",
+  "GP Name": "Benji Stern",
+  "GP Linkedin": "https://www.linkedin.com/in/benjaminalanstern/",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-24T17:21:55.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Raising "
+}
+
+#53
+ID: recYhczKF2ttievKC
+{
+  "Fund Name": "SuccessVP",
+  "GP Name": "John Gleeson",
+  "Fund Number": "I",
+  "Co-Investors": [
+    "Community-Driven"
+  ],
+  "Why Interesting?": "Collects office keys; only VC focusing on helping founders with customer success (much needed in the age of AI)",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Briefing"
+  ],
+  "Fundraising Status": "Raising ",
+  "Briefings": [
+    "rec3i4OalGtmEwyTB"
+  ]
+}
+
+#54
+ID: recYkS2BSpbmDayKC
+{
+  "Fund Name": "Premise VC",
+  "GP Name": "Vanessa Larco, Mercedes Bent",
+  "Fund Number": "I",
+  "Why Interesting?": "Strong track record on consumer, and board members of multiple successful consumer companies, including Robinhood, etc.",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Raising "
+}
+
+#55
+ID: recYl3ld8Buya8uP8
+{
+  "Fund Name": "Reasons to Be Optimistic",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#56
+ID: recYpYNQ89JpJ0gII
+{
+  "Fund Name": "Looking Glass Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#57
+ID: recZAovRwbxB2KMyw
+{
+  "Fund Name": "Comma Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#58
+ID: recZM96WLnDQaS81f
+{
+  "Fund Name": "Array Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#59
+ID: recaiMc9zVbXiCPTS
+{
+  "Fund Name": "Mensch Capital Partners",
+  "GP Name": "Boaz Shedletsky",
+  "Fund Number": "III",
+  "Submission Date": "2025-10-22T19:35:38.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Keywords": [
+    "Israel"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#60
+ID: recao06OqdXVJVo5z
+{
+  "Fund Name": "MTF VC",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-11T00:22:49.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#61
+ID: recb2NsNizypj6AD3
+{
+  "Fund Name": "Arkane (fmr. RPV)",
+  "GP Name": "Arkady Kulik",
+  "Fund Number": "I",
+  "Co-Investors": [
+    "Dave McClure",
+    "First Momentum/Ben Ehrlich/Eric Ries"
+  ],
+  "Why Interesting?": "Using AI to discover market needs cross-analyzed against TRL levels and commerciable viability of technologies",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Soon"
+}
+
+#62
+ID: recbIAC3wekvn7fYF
+{
+  "Fund Name": "Spacecadet",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#63
+ID: recbNDsb9vVLsFbhz
+{
+  "Fund Name": "Terrain",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#64
+ID: recc5Azb1Z4Eb0VMg
+{
+  "Fund Name": "Powerset",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#65
+ID: reccSZnoOXMNBNe9U
+{
+  "Fund Name": "Mission Street Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-09T21:01:10.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#66
+ID: recdZ9SH5ljhOdDmg
+{
+  "Fund Name": "81 Collection",
+  "GP Name": "Vijen Patel",
+  "Fund Number": "II",
+  "Co-Investors": [
+    "First Momentum",
+    "NVNG",
+    "Northern Trust"
+  ],
+  "Why Interesting?": "Founder of Tide Cleaners (sold to P&G); is deeply well versed and networked in unsexy industries; brings a PE mindset to VC; Scott Malpass (Notre Dame CIO) is his mentor/advisor/LP",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Briefing"
+  ],
+  "Fundraising Status": "Closed",
+  "Briefings": [
+    "rec3EppTKNgeaUQoV"
+  ]
+}
+
+#67
+ID: recdqItYs6c5rmgue
+{
+  "Fund Name": "Veridical Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-09T21:02:02.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#68
+ID: receCh5V1IrYj4Bvv
+{
+  "Fund Name": "Octave",
+  "GP Name": "William Smith",
+  "Fund Number": "II",
+  "Co-Investors": [
+    "Spring Creek"
+  ],
+  "Why Interesting?": "Spring Creek backed both Fund I and II",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#69
+ID: receLNVlRAbbLJgj1
+{
+  "Fund Name": "1517 Fund",
+  "GP Name": "Danielle Strachman, Michael Gibson",
+  "Fund Number": "IV",
+  "Co-Investors": [
+    "Peter Thiel"
+  ],
+  "Why Interesting?": "Co-founded the Thiel fellowship, backs dropouts including Dylan Field (Figma) and Vitalik @ Ethereum",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#70
+ID: recehbcn0hLnCXtkS
+{
+  "Fund Name": "Inuka",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#71
+ID: recgLhzyfydQgMuXw
+{
+  "Fund Name": "Chapter One",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#72
+ID: rech9Ra1eLzXDJ7ME
+{
+  "Fund Name": "Coughdrop Capital",
+  "GP Name": "Stu Smith",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-22T19:59:43.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#73
+ID: reciIr2gzZRWB4oan
+{
+  "Fund Name": "Genius Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-09T20:56:42.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#74
+ID: recj4LT3giAecdkNf
+{
+  "Fund Name": "Multifaceted Capital",
+  "GP Name": "Smaiyl Makyshov",
+  "GP Linkedin": "https://www.linkedin.com/in/smaiyl/",
+  "Fund Number": "I",
+  "Fund Size": 5000000,
+  "Why Interesting?": "Focused on backing founders from top prep schools",
+  "Submission Date": "2025-09-24T20:03:15.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://multifaceted.capital/"
+}
+
+#75
+ID: recjPyEVQ8RLnnChD
+{
+  "Fund Name": "Kearny Jackson",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#76
+ID: recjgUpaIf9YAe957
+{
+  "Fund Name": "Wave Function",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-03T17:00:49.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#77
+ID: recjt0meS2Uq9MBko
+{
+  "Fund Name": "Browder Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#78
+ID: reck0lciv5UMZ40jP
+{
+  "Fund Name": "Six Point Ventures",
+  "GP Name": "Trace Cohen",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-25T13:54:08.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#79
+ID: recm4MQxCycURJYsK
+{
+  "Fund Name": "8-Bit II",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#80
+ID: recmErFkGh7cJfd21
+{
+  "Fund Name": "Theory Ventures",
+  "GP Name": "Tomasz Tunguz",
+  "Fund Number": "II",
+  "Why Interesting?": "Formerly GP at Redpoint; writes a blog with a large following and is very data centric",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#81
+ID: recnpUKp8ETvBKKqo
+{
+  "Fund Name": "Geek Ventures",
+  "GP Name": "Ihar Mahaniok",
+  "GP Linkedin": "https://www.linkedin.com/in/mahaniok/",
+  "Fund Number": "II",
+  "Submission Date": "2025-09-24T20:12:43.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#82
+ID: recoJjua5hud3AZjp
+{
+  "Fund Name": "Novera Ventures",
+  "GP Name": "Arvind Gupta",
+  "Fund Number": "I",
+  "Why Interesting?": "Mayfield affiliate fund; Navin Chaddha is a co-GP; Arvind is also the founder of IndieBio",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#83
+ID: recoOnrpwcC37ZJe9
+{
+  "Fund Name": "YLEM",
+  "GP Name": "Bastian Lehmann, Vivek Patel",
+  "Fund Number": "I",
+  "Co-Investors": [
+    "Neil Mehta",
+    "Griffin Schroeder",
+    "Kristin Schaefer",
+    "Gokul Rajaram",
+    "Sean Plaice",
+    "Scott Bannister",
+    "Cyan Banister",
+    "Harry Stebbings"
+  ],
+  "Why Interesting?": "Founders of Postmates",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#84
+ID: recqBjX5IgNyNiNRS
+{
+  "Fund Name": "Oceans Ventures",
+  "GP Name": "Steven Rosenblatt + 4",
+  "Fund Number": "III",
+  "Why Interesting?": "Steven = former president of Foursquare, all other 4 GPs are all former big tech execs",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#85
+ID: recrGAPAtK4mOy3kD
+{
+  "Fund Name": "Parable Partners",
+  "GP Name": "Anne Lee Skates",
+  "Fund Number": "I",
+  "Co-Investors": [
+    "Mixi"
+  ],
+  "Why Interesting?": "Has been deep in consumer and was one of the primary investors while at a16z in Whatnot; married to Spencer Skates (founder/CEO of Amplitude)",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#86
+ID: recrWj35qncFnDedo
+{
+  "Fund Name": "Better Tomorrow Ventures",
+  "GP Name": "Sheel Mohnot",
+  "Fund Number": "II",
+  "Why Interesting?": "Investing at the earliest stages of fintech and has become the primary voice of fintech in the last few years",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#87
+ID: recrqcXjiTp1caPft
+{
+  "Fund Name": "Walkabout Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#88
+ID: recsGKkbRj1uLEaYY
+{
+  "Fund Name": "Argon Ventures II",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#89
+ID: recsSGSwdcEEbfm0h
+{
+  "Fund Name": "Balaji Fund",
+  "GP Name": "Balaji S. Srinivasan",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-22T13:55:15.000Z",
+  "Visibility": [
+    "Review"
+  ],
+  "Fundraising Status": "Raising ",
+  "Fund Website": "https://venture.angellist.com/v/back/balaji-fund"
+}
+
+#90
+ID: rect2WBFy7ZuaXkNU
+{
+  "Fund Name": "Julian Capital",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#91
+ID: rectdRlI0U0UdzN2G
+{
+  "Fund Name": "Sandbox Studios",
+  "GP Name": "Jackie Fast",
+  "Fund Number": "II",
+  "Why Interesting?": "Backing celebrity-endorsed/owned brands",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#92
+ID: rectq54QMcxOD560C
+{
+  "Fund Name": "HF0",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#93
+ID: rectrPOz0FOVWvSkd
+{
+  "Fund Name": "Park Rangers",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#94
+ID: recud7DTNbKDCqi7L
+{
+  "Fund Name": "Mythos Ventures",
+  "GP Name": "Vishal Maini",
+  "Fund Number": "I",
+  "Co-Investors": [
+    "Pattern Ventures"
+  ],
+  "Submission Date": "2025-09-25T15:57:51.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#95
+ID: recvAG7PNqh88mgQC
+{
+  "Fund Name": "Garuda Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#96
+ID: recwTg7UGoBmJs4Q8
+{
+  "Fund Name": "Red Glass Ventures",
+  "GP Name": "Bilal Zuberi",
+  "Fund Number": "I",
+  "Why Interesting?": "Former GP at Lux Capital",
+  "Submission Date": "2025-09-18T15:17:19.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#97
+ID: recwk4shl9e8OWqYz
+{
+  "Fund Name": "Cambrian",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#98
+ID: recxn7iIGAKMdAdAF
+{
+  "Fund Name": "Nebular Ventures",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}
+
+#99
+ID: reczZJTGlZH1QkbKh
+{
+  "Fund Name": "Asylum VC",
+  "Fund Number": "I",
+  "Submission Date": "2025-09-18T23:12:49.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed"
+}

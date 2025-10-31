@@ -1,0 +1,3396 @@
+#1
+ID: rec02g1tUC6tJFHvr
+{
+  "Investor Name": "Kevin King",
+  "Investor Type": "Family Office",
+  "Website": "https://www.53stations.com/",
+  "Title": "Co-Founder and General Partner",
+  "City": "Greater Boston",
+  "Country": "England",
+  "Gender": "Male",
+  "Entity Name": "53 Stations partners (Pritzker Family)",
+  "Linkedin URL": "https://www.linkedin.com/in/kevin-p-king/"
+}
+
+#2
+ID: rec0M1UDry4lFiCEn
+{
+  "Investor Name": "Jaclyn Freeman Hester",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Emerging Managers",
+    "hybrid FoF"
+  ],
+  "Gender": "Female",
+  "Entity Name": "Foundry Group",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Jaclyn Freeman Hester is a Partner at Foundry. She joined in 2016 with a passion for supporting the next generation of entrepreneurs and investors. Jaclyn leads direct investments in early-stage companies, often collaborating with Foundry’s partner funds. She loves working closely with founders to solve hard problems and think about the human elements of business. She invests across B2B and consumer companies that exhibit strong end-user empathy and use technology to empower individuals, unlock potential, and improve experiences.\n\nJaclyn helped launch Foundry’s partner fund strategy, building the portfolio to nearly 50 managers. Bringing her unique GP + LP perspective, Jaclyn has become a go-to sounding board for emerging VCs.\n\nJaclyn first fell in love with entrepreneurship while earning her JD/MBA at CU Boulder (Go Buffs!). There, she served as Executive Director of Startup Colorado, where she got to know Foundry and the incredible Boulder/Denver startup community the firm helped catalyze. In her brief stint as a practicing attorney, Jaclyn advised clients in M&A transactions and early-stage financings. She also witnessed the founder journey first-hand, working closely with her husband and his family as they built a B2B SaaS company, FareHarbor (acquired by BKNG).\n\nJaclyn loves the Boulder lifestyle, but her heart will always be on the East Coast, having grown up a New England “beach kid.” She is the proud mother of three humans and three dogs and is a blue-groomer-on-a-sunny-day skier and 9-hole golfer. In her glimpses of free time, you can find Jaclyn enjoying live music, especially at Red Rocks and in Telluride, two of the most magical places in the world."
+}
+
+#3
+ID: rec0ocJTc61N6dY4P
+{
+  "Investor Name": "James CK Ho",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.animocabrands.com/",
+  "Title": "Head",
+  "City": "Hong Kong",
+  "Country": "Hong Kong SAR",
+  "Gender": "Male",
+  "Entity Name": "Animoca Brands/Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/jamesckho/"
+}
+
+#4
+ID: rec176R3qY1QVQD1U
+{
+  "Investor Name": "Ian Park",
+  "Investor Type": "Soverign Wealth",
+  "Website": "https://www.ifswf.org/member-profiles/korea-investment-corporation",
+  "City": "San Francisco",
+  "Gender": "Male",
+  "Entity Name": "Korea Investment Corporation (KIC)",
+  "Linkedin URL": "https://www.linkedin.com/in/park-ian/"
+}
+
+#5
+ID: rec1ie3IoGTGnf3S6
+{
+  "Investor Name": "Steve Chasan",
+  "Website": "https://www.rothcap.com/",
+  "Title": "Head of Investments",
+  "City": "London",
+  "Country": "United Kingdom",
+  "Gender": "Male",
+  "Entity Name": "Catalyst42",
+  "Linkedin URL": "https://www.linkedin.com/in/steve-chasan/?originalSubdomain=uk"
+}
+
+#6
+ID: rec1loRQwRd9ogyRU
+{
+  "Investor Name": "Benjamin Gallacher",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#SFO"
+  ],
+  "Title": "https://www.linkedin.com/in/william-gallacher-24b38854/",
+  "Gender": "Male",
+  "Entity Name": "Cannonball Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/benjamingallacher/"
+}
+
+#7
+ID: rec2Mt365UgKETQNO
+{
+  "Investor Name": "Christina Tan",
+  "Investor Type": "Fund of Funds",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Female",
+  "Linkedin URL": "https://www.linkedin.com/in/christina-xiao-tan/"
+}
+
+#8
+ID: rec2RiJAuyd5WjrsC
+{
+  "Investor Name": "Peter Lacaillade",
+  "Gender": "Female",
+  "Entity Name": "SCS Financial Services",
+  "Linkedin URL": "https://www.linkedin.com/in/peter-lacaillade-b9aa654/"
+}
+
+#9
+ID: rec2cnYpPhONSzVZ8
+{
+  "Investor Name": "Will Poole",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#southamerica #globalsouth"
+  ],
+  "Website": "https://capria.vc/",
+  "Title": "Managing Partner and Co-Founder",
+  "City": "Greater Seattle Area",
+  "Gender": "Male",
+  "Entity Name": "Capria Fund",
+  "Linkedin URL": "https://www.linkedin.com/in/wpoole8/"
+}
+
+#10
+ID: rec2luAYfOUohyT29
+{
+  "Investor Name": "Paul Mace",
+  "Investor Type": "Endowment/Pension",
+  "Website": "https://www.williams.edu/",
+  "Title": "Managing Director",
+  "City": "Boston",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Williams College",
+  "Linkedin URL": "https://www.linkedin.com/in/paulbmace/"
+}
+
+#11
+ID: rec2or9RMVnMOozNG
+{
+  "Investor Name": "Lo Toney",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#women #diversity"
+  ],
+  "Website": "https://www.plexocap.com/",
+  "Title": "Founding Partner",
+  "City": "San Francisco",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Plexo Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/ltoney/"
+}
+
+#12
+ID: rec3EuuSOeydHLg9e
+{
+  "Investor Name": "Adriana Tortajada Narv√°ez",
+  "Investor Type": "Fund of Funds",
+  "Website": "twelvehundred.vc",
+  "Title": "CEO & Managing Partner",
+  "City": "San Diego, California,",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "1200 VC",
+  "Linkedin URL": "https://www.linkedin.com/in/adriana-tortajada-2784869b/"
+}
+
+#13
+ID: rec3GdiJeyaJ4SXgi
+{
+  "Investor Name": "Jordan Stein",
+  "Website": "https://cressetpartners.com/",
+  "Gender": "Male",
+  "Entity Name": "Cresset Partners",
+  "Linkedin URL": "https://www.linkedin.com/in/jordan-stein17/"
+}
+
+#14
+ID: rec3LexVt1e7ZULIc
+{
+  "Investor Name": "Melissa \n  Lucas",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#Asylum #MFO"
+  ],
+  "Website": "https://truenorthadvisors.com/",
+  "Gender": "Female",
+  "Entity Name": "True North Advisors"
+}
+
+#15
+ID: rec3TnJK0gNMdusSn
+{
+  "Investor Name": "Soumya Rajan",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#India"
+  ],
+  "Website": "https://waterfieldadvisors.com/fund-of-funds",
+  "Title": "Founder & CEO",
+  "City": "Mumbai, Maharashtra,",
+  "Country": "India",
+  "Gender": "Female",
+  "Entity Name": "Waterfield Advisors",
+  "Linkedin URL": "https://www.linkedin.com/in/soumya-rajan-124b9b66/"
+}
+
+#16
+ID: rec40qdkJrbbjMp7D
+{
+  "Investor Name": "David Clark",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.vencap.com/",
+  "Gender": "Male",
+  "Entity Name": "VenCap",
+  "Linkedin URL": "https://www.linkedin.com/in/david-clark-6678b6b/"
+}
+
+#17
+ID: rec42Z3qQMcdNf0NI
+{
+  "Investor Name": "Jessie Guo",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#diversity #BenChoi"
+  ],
+  "Website": "nextlegacy.com",
+  "Gender": "Female",
+  "Entity Name": "Next Legacy Partners",
+  "Linkedin URL": "https://linkedin.com/in/jessiejiaguo"
+}
+
+#18
+ID: rec4EVh2LqB3ZvGg6
+{
+  "Investor Name": "Joshua Manasseh",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Title": "Managing Partner",
+  "Country": "United Kingdom",
+  "Gender": "Male",
+  "Entity Name": "Arbury Advisors",
+  "Linkedin URL": "https://www.linkedin.com/in/joshua-manasseh-48a31453/"
+}
+
+#19
+ID: rec4K5oH53gFUinPE
+{
+  "Investor Name": "Amit Kurz",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#Israel"
+  ],
+  "Website": "sweetwoodventures.com",
+  "Title": "General Partner",
+  "Country": "Israel",
+  "Gender": "Male",
+  "Entity Name": "Sweetwood Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/amitkurz/?originalSubdomain=il"
+}
+
+#20
+ID: rec4MeF1yDxtxwzXA
+{
+  "LP Keywords": [
+    "#Spain #FoF"
+  ],
+  "Website": "https://www.mastertechvc.es/",
+  "Gender": "Male",
+  "Entity Name": "Master Tech"
+}
+
+#21
+ID: rec4dDJr2fsoxKFAI
+{
+  "Investor Name": "Ian Park",
+  "Investor Type": "HNWI",
+  "LP Keywords": [
+    "Korea",
+    "Beauty"
+  ],
+  "Gender": "Male",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Ian Park is a Partner at Primer Sazze, a firm dedicated to investing in ambitious talent across East Asia and North America. Prior to Primer Sazze, he was a venture capital allocator at Korea Investment Corporation (KIC), one of the largest sovereign wealth institutions in the world, where he focused on investments into venture managers and founders. He’s also amassed a fervent following of AI, VC, and LP fans over the years through writing his newsletter and his YouTube channel. Prior to KIC, he’s built his investing repertoire at VMG Partners and Bertram Capital after leaving the world of consulting.\n\nIan studied mathematics and economics at University of Minnesota and earned his master’s degree in economics at Boston College. He’s also got his master’s in computer and information technology from University of Pennsylvania as well.\n\n"
+}
+
+#22
+ID: rec4gFCynfoQJR8fW
+{
+  "Investor Name": "Itay Rotem",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#israel"
+  ],
+  "Website": "edmond-de-rothschild.com",
+  "Title": "Managing Partner",
+  "Country": "Israel",
+  "Gender": "Male",
+  "Entity Name": "EdRITECH",
+  "Linkedin URL": "https://www.linkedin.com/in/itay-rotem-623bb8/"
+}
+
+#23
+ID: rec4jkjLfveRvXSVP
+{
+  "Investor Name": "Tom White",
+  "Investor Type": "Fund of Funds",
+  "Website": "firstmomentum.vc",
+  "Title": "Advisor",
+  "City": "New York, New York",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "First Momentum Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/tjwtjw/"
+}
+
+#24
+ID: rec4mls40CKCFIQPf
+{
+  "Investor Name": "Rob Mazzoni",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://truebridgecapital.com/",
+  "Title": "Partner",
+  "City": "Chapel Hill, North Carolina",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "TrueBridge",
+  "Linkedin URL": "https://www.linkedin.com/in/rob-mazzoni-34197611/"
+}
+
+#25
+ID: rec4yoknEh9DDOJ7v
+{
+  "Investor Name": "Miles Deamer",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#NBA"
+  ],
+  "Website": "crossovervc.com",
+  "Gender": "Male",
+  "Entity Name": "Crossover ",
+  "Linkedin URL": "https://linkedin.com/in/miles-deamer-aaa90b37"
+}
+
+#26
+ID: rec55kG5XRjJc2MGy
+{
+  "Investor Name": "Neetu Puranikmath",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.cooperfamilyoffice.com/",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Cooper Family Office",
+  "Linkedin URL": "https://www.linkedin.com/in/neetupuranikmath/"
+}
+
+#27
+ID: rec57OvRfIXyU2ur7
+{
+  "Investor Name": "Ken Wallace",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.nimblepartners.vc/",
+  "Title": "Partner",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Nimble Partners, LLC",
+  "Linkedin URL": "https://www.linkedin.com/in/kcw3rd/"
+}
+
+#28
+ID: rec5f04Nvsv9Dagfd
+{
+  "Investor Name": "Tyler Hartsock",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.peakview.capital/",
+  "Title": "Partner",
+  "City": "San Francisco, California,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Peakview Capital (Shengjing Group)",
+  "Linkedin URL": "https://www.linkedin.com/in/tyler-hartsock-7191bb16/"
+}
+
+#29
+ID: rec5khx4VdbXGNy9q
+{
+  "Investor Name": "David Fauchier",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#web3 #blockchain"
+  ],
+  "Website": "https://cambrial.com/",
+  "Title": "CIO",
+  "City": "London",
+  "Country": "United Kingdom",
+  "Gender": "Male",
+  "Entity Name": "Cambrial Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/dfauchier/"
+}
+
+#30
+ID: rec74HZXs5xWICNhP
+{
+  "Investor Name": "Evan Jaysane-Darr",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.invesco.com/",
+  "Title": "Partner",
+  "City": "Miami, Florida,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Invesco Private Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/evan-jaysane-darr-8290191/"
+}
+
+#31
+ID: rec7VfazpVIKWBPUf
+{
+  "Investor Name": "Dave McClure",
+  "Investor Type": "HNWI",
+  "LP Keywords": [
+    "Secondaries"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Practical VC",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Dave McClure has been a Silicon Valley entrepreneur and investor for over 25 years. He has invested in hundreds of startups around the world, including 10+ IPOs and 40+ unicorns (Credit Karma, Twilio, SendGrid, Lyft, The RealReal, Talkdesk, Grab, Intercom, Canva, Udemy, Lucid, GitLab, Reddit, Stripe, Bukalapak).\n\nPrior to launching PVC in 2019, he was the founding partner of 500 Startups, a global VC firm with $1B AUM that has invested in over 2,500 companies and 5,000 founders across 75 countries. Dave created 20 VC funds under the 500 brand and invested in 20 other VC funds around the world.\n\nDave began his investing career at Founders Fund where he made seed-stage investments in 40 companies, resulting in 4 unicorns and 3 IPOs. He led the Credit Karma seed round in 2009 (acq INTU, over 400X return). His $3M portfolio returned more than $200M (~65X) in under 10 years.\n\nBefore he became an investor, Dave was Director of Marketing at PayPal from 2001-2004. He was also the founder/CEO of Aslan Computing, acquired by Servinet in 1998. Dave graduated from the Johns Hopkins University (BS, Engineering / Applied Mathematics).\n\n"
+}
+
+#32
+ID: rec7iOx79erf0YZk7
+{
+  "Investor Name": "Raida Daouk",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Emerging Managers",
+    "Solo GPs"
+  ],
+  "Gender": "Female",
+  "Entity Name": "Amkan Ventures",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Raida Daouk started her career in banking before moving to the investment team of BY Venture Partner, a venture fund with offices in Beirut and Abu Dhabi. She quickly climbed the ranks within the company and ultimately became a Venture Partner.\n\nRecognizing a void in the market for personalized venture consulting services, Raida established Amkan Advisory, a boutique consultancy firm specializing in assisting family offices and high-net-worth individuals in identifying venture funds that align with their specific strategies. Given that first-time fund managers often possess the most aligned incentives with their investors, she understood the significant value they bring to the venture capital landscape. However, Raida also understood the reluctance of family offices to commit capital to relatively unproven managers. By curating a portfolio of carefully selected funds, she aims to mitigate the perceived risk associated with investing in first-time managers while still accessing the high-growth potential of emerging ventures.\n\nAmkan Ventures emerged to offer LPs access to emerging managers beyond their direct reach. Focusing on small Funds I and II led by ambitious managers with a conviction-driven approach, the firm prioritizes delivering returns and nurturing opportunities in the venture arena.\n\nAmkan Ventures’ first close occurred in April 2024, with one investment already made in a $30M fund I out of NY and one more about to be announced.\n\nRaida currently serves on the Selection Committees of RAISE Global and The Bridge Platform."
+}
+
+#33
+ID: rec7tIjz1xv4BIWti
+{
+  "Investor Name": "Nicky Sugarman",
+  "Gender": "Male",
+  "Entity Name": "Mountside Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/nicky-sugarman-98188636/",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Nicky Sugarman is a highly sought after advisor to both family offices and venture investors. Prior, he was also a partner at Stanhope, a $40B multi family office, running their private equity and venture practices. Moreover he, along with Jonathan Hollis at Mountside Ventures, launched the program for the emerging manager to learn the institutional lens."
+}
+
+#34
+ID: rec7urVaXxWGnDTdE
+{
+  "Investor Name": "Guy Perelmuter",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#deeptech #science"
+  ],
+  "Website": "https://www.gridscapital.com/",
+  "Title": "Founder",
+  "City": "Sao Paulo",
+  "Country": "Brazil",
+  "Gender": "Male",
+  "Entity Name": "GRIDS Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/guyperelmuter/"
+}
+
+#35
+ID: rec7yET6v2gVfepdB
+{
+  "Investor Name": "Sara Zulkosky",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://recastcapital.com/",
+  "Title": "Co-Founder & Managing Partner",
+  "City": "Washington DC-Baltimore Area",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Recast Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/sara-zulkosky-43855a3a/"
+}
+
+#36
+ID: rec86jEyurQxqpe8C
+{
+  "Investor Name": "Lexi Pan",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#china"
+  ],
+  "Website": "https://www.gopherasset.com/en-us",
+  "Gender": "Female",
+  "Entity Name": "Gopher Asset Management",
+  "Linkedin URL": "https://www.linkedin.com/in/wentingpan/"
+}
+
+#37
+ID: rec8IKNImAyQnMCem
+{
+  "Investor Name": "Lindel Eakman",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://foundry.vc/blog/2016/09/our-newest-fund-foundry-group-next/",
+  "Title": "Partner",
+  "City": "Boulder",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Foundry Group Next",
+  "Linkedin URL": "https://www.linkedin.com/in/lindel-eakman-778326/"
+}
+
+#38
+ID: rec8vbkoBSH0amUj1
+{
+  "Investor Type": "CVC",
+  "LP Keywords": [
+    "#revere"
+  ],
+  "Website": "https://www.techv.co.jp/en/",
+  "Gender": "Male",
+  "Entity Name": "ITOCHU Technology Ventures (ITV)"
+}
+
+#39
+ID: rec95t6ULFjVIyVIC
+{
+  "Investor Name": "Michael Sidgmore",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#fintech #europe"
+  ],
+  "Website": "https://www.broadhaven.vc/",
+  "Title": "Co-Founder & Partner",
+  "City": "New York, New York,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Broadhaven Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/michaelsidgmore/"
+}
+
+#40
+ID: rec9NBjuT8GioHANQ
+{
+  "Investor Name": "Jeff Rinvelt",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Emerging Managers",
+    "CVCs"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Renaissance Capital",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Jeff is a partner at Renaissance Venture Capital an innovative venture capital fund of funds. Jeff’s diverse background in venture capital and technology and his experience working in various start-up ventures uniquely position him to advise startups. In addition, Jeff is quite active in the Michigan start-up community, volunteering his time to mentor young entrepreneurs, judge pitch competitions, and guest lecture student classes and organizations. Through Jeff’s work on the Fund, his volunteer efforts, and his role as the chair of the Michigan Venture Capital Association’s board of directors, his passion for fostering a productive environment for venture capital investment in the State of Michigan is evident."
+}
+
+#41
+ID: rec9POs7qN7SQaboJ
+{
+  "Investor Name": "Raida \n  Daouk",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#Dubai #VCLab"
+  ],
+  "Website": "https://www.amkanventures.com/",
+  "Gender": "Female",
+  "Entity Name": "Amkan Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/raidadaouk/"
+}
+
+#42
+ID: rec9vCl0CWepT5NyW
+{
+  "Investor Name": "Andrew Van Nest",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#diversity #underrepresentedfounders"
+  ],
+  "Website": "https://amazoncatalyticcapital.com/",
+  "Title": "Managing Partner",
+  "City": "Miami, Florida,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Amazon Catalytic Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/andrew-van-nest-29008726/"
+}
+
+#43
+ID: rec9ycYgm3bwyW0vS
+{
+  "LP Keywords": [
+    "#korea #climate"
+  ],
+  "Website": "https://www.musinsapartners.co.kr/",
+  "Entity Name": "Musina Partners"
+}
+
+#44
+ID: recAF6H4ArxdUtv28
+{
+  "Investor Name": "Omar Darwazah",
+  "Investor Type": "Family Office",
+  "Website": "https://aaf.vc/",
+  "Gender": "Male",
+  "Entity Name": "Darwazah Capital",
+  "Linkedin URL": "https://linkedin.com/in/omar-darwazah-93721a1"
+}
+
+#45
+ID: recAHINnaBfQWkLGj
+{
+  "Investor Name": "Dario de Wet",
+  "Investor Type": "Fund of Funds",
+  "Website": "ltvcapital.co",
+  "Title": "Founding Partner",
+  "City": "London, England",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "LTV Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/dariodewet/"
+}
+
+#46
+ID: recAO7obhewSEFBKK
+{
+  "Investor Name": "Aakar Vachhani",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#diversity",
+    "SMA"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Fairview Capital",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Aakar Vachhani is a Managing Partner and a member of Fairview’s investment committee. He is involved in research, due diligence, investment monitoring, and business development for Fairview’s venture capital and private equity partnership and direct co-investment portfolios.\n\nPrior to joining Fairview, Aakar was with Cambridge Associates, a leading investment advisor to foundations, endowments and corporate and government entities. He was responsible for analyzing private equity and venture capital investments in support of the firm’s clients and consultants. In addition, he led research and data analytics projects on the firm’s private equity and venture capital database. Aakar also spent time with MK Capital, a multi-stage venture capital firm with a sector focus on software and cloud services.\n\nAakar Vachhani holds a B.S. in Economics-Finance from Bentley University and an MBA in Finance and Entrepreneurship & Innovation from the Kellogg School of Management. He is a member of the Board of Directors of San Francisco Achievers and the New Breath Foundation. On top of that, Aakar established and leads Fairview’s San Francisco office."
+}
+
+#47
+ID: recARB2llPqymdNJb
+{
+  "Investor Name": "Scott Saslow",
+  "Investor Type": "SFO",
+  "Gender": "Male",
+  "Entity Name": "One World Investments",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Scott Saslow is the founder, CEO, and family office principal for ONE WORLD. He’s also the founder and CEO of The Institute of Executive Development, as well as the author of Building a Sustainable Family Office: An Insider’s Guide to What Works and What Doesn’t, which at the time of the podcast launch is the only book written for family office principals by a family office principal. Scott is also the host of the podcast Family Office Principals where he interviews principals on how families can be made to be more resilient. Prior, he’s also found independent success at both Microsoft and Seibel Systems.\n\n"
+}
+
+#48
+ID: recAa86MJeS2I7KuX
+{
+  "Investor Name": "Pamela \n  Pavkov",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://next.tpg.com/",
+  "Gender": "Female",
+  "Entity Name": "TPG NEXT",
+  "Linkedin URL": "https://www.linkedin.com/in/pamela-pavkov-88937b4/"
+}
+
+#49
+ID: recAfS32gizOTJuHL
+{
+  "Investor Name": "Eric Woo",
+  "Investor Type": "Platform",
+  "LP Keywords": [
+    "Emerging Managers"
+  ],
+  "Website": "https://www.reverealts.com/",
+  "Title": "Founder",
+  "City": "San Francisco",
+  "Country": "USA",
+  "Gender": "Male",
+  "Entity Name": "Revere",
+  "Linkedin URL": "https://www.linkedin.com/in/ericwoo/",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Eric Woo is co-founder and CEO of Revere, where he leads product development and investment analysis & due diligence efforts.\n\nPrior to starting Revere, he was Head of Institutional Capital at AngelList, the world’s largest online venture capital investment platform that supports over $10B in assets and has participated in the financing of over 190 “unicorn” companies. At AngelList, Eric worked closely with investors to curate early-stage fund and deal opportunities. He also developed systematic and data-driven strategies for institutional investors.\n\nOver the last 12 years, Eric has helped allocate over $160 million in venture funds and direct co-investments. Notably, he played a key role in establishing the emerging manager investment programs at Top Tier Capital and Northgate Capital, organizations that collectively have more than $15B in AUM. Eric is an acknowledged thought leader in the VC emerging managers ecosystem.\n\nBefore his venture career, Eric worked in pricing and risk management for a large insurance company and financial guarantor. He also has experience in online marketing and private market research. Eric is also a  venture partner at N Fund, a fund of funds. A Bay Area native, Eric graduated with a B.S. degree in Mechanical Engineering from UC Berkeley and has been a CFA charter holder since 2004."
+}
+
+#50
+ID: recAoxDfoTCklzzZR
+{
+  "Investor Name": "Jaap \n  Vriesendorp",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#Superclusters #Europe #Dutch"
+  ],
+  "Website": "https://www.marktlinkcapital.com/en/",
+  "Gender": "Male",
+  "Entity Name": "Marktlink Capital"
+}
+
+#51
+ID: recB5GM59SAQHjp46
+{
+  "Investor Name": "Lisha Bell",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#race #equality"
+  ],
+  "Gender": "Female",
+  "Entity Name": "Economic Opportunity Fund (PayPal)",
+  "Linkedin URL": "https://www.linkedin.com/in/lishabell/"
+}
+
+#52
+ID: recBJj5dJiTELQ7p3
+{
+  "Investor Name": "Julian Ullrich",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://assets.21e6.io/",
+  "Title": "Strategic Advisor",
+  "Country": "Germany",
+  "Gender": "Male",
+  "Entity Name": "21e6 Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/julian-ullrich-/"
+}
+
+#53
+ID: recBVIBFx0DH1lLdF
+{
+  "Investor Name": "Susan Kimberlin",
+  "Investor Type": "HNWI",
+  "LP Keywords": [
+    "Emerging Managers"
+  ],
+  "Gender": "Female",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Susan Kimberlin builds and invests in things that are Good & Useful. She is an angel investor, limited partner and product leader with a career that is equal parts building SaaS software products, and investing in companies, funds, teams, and projects that promote social equity with practical solutions for real-world problems. She is committed to bringing more diverse people into investing and the innovation economy. With a background in building search and natural language products for companies like PayPal and Salesforce, she leverages her experience to help her portfolio companies with product and fundraising strategies. Susan believes that bringing diverse perspectives to creative and practical challenges is the best way to create durable and impactful change.\n\nIn addition to her tech roles, Susan co-owns and manages Tammberlin Vineyards, growing Rhône wine varietals in Bennett Valley, Sonoma County. She works on documentary and narrative film projects as an executive producer, supporting creative projects that raise awareness, start conversations, and bring joy. She is a lifelong singer, and has been singing with pop a cappella group The Loose Interpretations for nearly 20 years."
+}
+
+#54
+ID: recBch5s9UT7ofq7f
+{
+  "Investor Name": "Kelly Goldstein",
+  "Investor Type": "Family Office",
+  "Website": "https://www.53stations.com/",
+  "Title": "Partner and Head of Platform",
+  "City": "Chicago, Illinois",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "53 Stations partners (Pritzker Family)",
+  "Linkedin URL": "https://www.linkedin.com/in/kellykopchik/"
+}
+
+#55
+ID: recC0aYT8bMEFnzqM
+{
+  "Investor Name": "Bobby Vernon",
+  "Investor Type": "HNWI",
+  "Title": "President of the Board of Directors",
+  "City": "Miami, Florida",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Milano Condominium of Deering Bay",
+  "Linkedin URL": "https://www.linkedin.com/in/bobby-vernon/"
+}
+
+#56
+ID: recC8ktpcT1XKLzTT
+{
+  "Investor Name": "Joelle Kayden",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.accoladepartners.com/",
+  "Title": "Managing Partner",
+  "City": "Washington DC",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Accolade Partners",
+  "Linkedin URL": "https://www.linkedin.com/in/joelle-kayden-938a708/"
+}
+
+#57
+ID: recCDgmAuzYV3q1uT
+{
+  "Investor Name": "Albert Azout",
+  "Investor Type": "Fund of Funds",
+  "Gender": "Male",
+  "Entity Name": "Level Ventures",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Albert Azout is the Co-Founder and Managing Partner of Level Ventures, a technology investment firm built on software and data science and invests in both entrepreneurs and venture capital managers, including the likes of Air Street Capital, Emergent Ventures and Work-Bench, just to name a few. Prior to Level, Albert has been a serial founder, starting analytics businesses and even a social media company before Facebook."
+}
+
+#58
+ID: recCZjAnMWJ2CJDjy
+{
+  "Investor Name": "Branson Bollinger",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.bollinger.xyz/",
+  "Title": "Managing Director",
+  "City": "Grapevine, Texas,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Bollinger Investment Group",
+  "Linkedin URL": "https://www.linkedin.com/in/bkbollinger"
+}
+
+#59
+ID: recCaLRbWUXCJN7Fo
+{
+  "Investor Name": "Felipe Valencia",
+  "Investor Type": "Fund of Funds",
+  "Gender": "Male",
+  "Entity Name": "Veronorte",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Felipe Valencia is one of the co-founders of Veronorte, a venture capital investment firm based out of Colombia. In the first decade, Veronorte focused on managing Corporate Venture Programs for some of the largest Corporations in Latam.\n\nThese days, they’re diving into a Fund of Funds investment strategy in the Venture Capital space. For the last 12 years, Veronorte has invested in over 25 startups across the U.S., India, Europe, Mexico, and Colombia, and in more than 12 Venture Capital funds, primarily in the U.S.\n\nWith over 20 years of experience under his belt, Felipe has dabbled in various fields like robotics, the internet, international trade, and infrastructure project management.\n\nFelipe graduated summa cum laude with a Mechanical Engineering degree from EAFIT University. He also holds a Master’s in Web Communication from the European Institute of Design in Rome and an MBA from the University of Chicago, where he focused on entrepreneurship and finance.\n\nFelipe’s journey has taken him all over the world: He worked for AVG – Robotics in Los Angeles, did research and development in Mechatronics at Siemens in Germany, and was the Commercial and Strategic Director of Indexcol in Colombia. He also served as the Commercial Attaché at the Colombian Embassy in China and led the Proexport office there. Most recently, he was involved in business development at Pierson Capital in Beijing and managed infrastructure projects in Mexico."
+}
+
+#60
+ID: recCqJKAtiIznf01x
+{
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#NEA"
+  ],
+  "Website": "https://www.kwiadvisory.com/",
+  "Gender": "Male",
+  "Entity Name": "Knollwood Investment Advisory"
+}
+
+#61
+ID: recCsJyg31pLqsQCw
+{
+  "Investor Name": "Evan Finkel",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Services"
+  ],
+  "Gender": "Male",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Evan currently serves as Head of Venture Capital Investments and Research for Integra Global Advisors, a multi-family office. Prior to Integra, Evan served as Senior Manager of Data Science for Anheuser-Busch InBev where he oversaw data science and strategy for the US marketing organization. Prior to Anheuser-Busch, Evan spent two years as a Management Consultant at Marketing Management Analytics and held a technical role at Amazon. Evan earned an MS in Computer Science with a concentration in machine learning from Georgia Tech and studied computational and applied mathematics at the City University of New York and finance and psychology at the University of Miami."
+}
+
+#62
+ID: recDNLQKu1lWRstgk
+{
+  "Investor Type": "Soverign Wealth",
+  "LP Keywords": [
+    "#UAE"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Mubadala"
+}
+
+#63
+ID: recDTpRkjVsTWKpZQ
+{
+  "Investor Name": "Erik Lassila",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#china #US"
+  ],
+  "Website": "https://www.peakview.capital/",
+  "Title": "CEO & Managing Partner",
+  "City": "Palo Alto, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Peakview Capital (Shengjing Group)",
+  "Linkedin URL": "https://www.linkedin.com/in/erik-lassila-45727/"
+}
+
+#64
+ID: recE00D1GBtlBGjGZ
+{
+  "Investor Name": "Michael Hoeing",
+  "Investor Type": "Fund of Funds",
+  "Website": "kwiadvisory.com",
+  "Title": "Investment Team",
+  "City": "New York, New York",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Knollwood Investment Advisory",
+  "Linkedin URL": "https://www.linkedin.com/in/michaelhoeing/"
+}
+
+#65
+ID: recEGb72UrkXaowlA
+{
+  "Investor Name": "David Toh",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://mirana.xyz/",
+  "Title": "Partner",
+  "Country": "Singapore",
+  "Gender": "Male",
+  "Entity Name": "Mirana",
+  "Linkedin URL": "https://www.linkedin.com/in/davidtyh/?originalSubdomain=sg"
+}
+
+#66
+ID: recFcVlYpBKy7sA2p
+{
+  "Investor Name": "Jamie (Dranoff) Rhode",
+  "Investor Type": "Fund of Funds",
+  "Website": "verdisinvestment.com",
+  "Title": "Principal",
+  "City": "Philadelphia, Pennsylvania",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Verdis Investment Management",
+  "Linkedin URL": "https://www.linkedin.com/in/jerrcfa/"
+}
+
+#67
+ID: recFdd3ydltt2DIl0
+{
+  "Investor Name": "Meggie Ramirez",
+  "City": "San Jose, California",
+  "Country": "United States",
+  "Gender": "Female",
+  "Linkedin URL": "https://www.linkedin.com/in/meggie-ramirez/"
+}
+
+#68
+ID: recG7TlonHdJqrOLo
+{
+  "Investor Name": "Shawn Shi",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.oakgrove.vc/",
+  "Title": "Managing Partner",
+  "Country": "Singapore",
+  "Gender": "Male",
+  "Entity Name": "Oak Grove VC",
+  "Linkedin URL": "https://www.linkedin.com/in/shawn-shi-b6b16aa7/?originalSubdomain=sg"
+}
+
+#69
+ID: recGOC4UKOkdomMwj
+{
+  "Investor Name": "Lucas Fernandez",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#impact"
+  ],
+  "Website": "twelvehundred.vc",
+  "Title": "Investor",
+  "City": "San Diego, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "1200 VC",
+  "Linkedin URL": "https://www.linkedin.com/in/fernandezlucas/"
+}
+
+#70
+ID: recGgTr8nG61TAmAN
+{
+  "Investor Name": "Beezer Clarkson",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Anchor LP",
+    "SMA",
+    "Emerging Managers"
+  ],
+  "Website": "https://sapphireventures.com/sapphire-partners/",
+  "Title": "Partner",
+  "City": "Austin",
+  "Country": "USA",
+  "Gender": "Female",
+  "Entity Name": "Sapphire Partners",
+  "Linkedin URL": "https://www.linkedin.com/in/elizabethclarkson/",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Beezer Clarkson leads Sapphire Partners‘ investments in venture funds domestically and internationally. Beezer began her career in financial services over 20 years ago at Morgan Stanley in its global infrastructure group. Since, she has held various direct and indirect venture investment roles, as well as operational roles in software business development at Hewlett Packard. Prior to joining Sapphire in 2012, Beezer managed the day-to-day operations of the Draper Fisher Jurvetson Global Network, which then had $7 billion under management across 16 venture funds worldwide.\n\nIn 2016, Beezer led the launch of OpenLP, an effort to help foster greater understanding in the entrepreneur-to-LP tech ecosystem. Beezer earned a bachelor’s in government from Wesleyan University, where she served on the board of trustees and currently serves as an advisor to the Wesleyan Endowment Investment Committee. She is currently serving on the board of the NVCA and holds an MBA from Harvard Business School."
+}
+
+#71
+ID: recGrbARRSTV5IJRT
+{
+  "Investor Name": "Steve Kim",
+  "Investor Type": "Fund of Funds",
+  "Website": "verdisinvestment.com",
+  "Title": "Partner, Investment Strategy and Risk",
+  "City": "Villanova, Pennsylvania,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Verdis Investment Management",
+  "Linkedin URL": "https://www.linkedin.com/in/stevenrkim/"
+}
+
+#72
+ID: recHICJmD3eV6ckiF
+{
+  "Investor Name": "Peter Lacaillade",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.scsfinancial.com/",
+  "Title": "Head of Investments ",
+  "Gender": "Male",
+  "Entity Name": "SCS Financial"
+}
+
+#73
+ID: recHfSBSVf0mecLNo
+{
+  "Investor Name": "Sir Ronald  Cohen",
+  "LP Keywords": [
+    "#israel #Youngrok"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Dynamic Loop Capital"
+}
+
+#74
+ID: recHkS2IPSSzKlSkj
+{
+  "Investor Name": "Eric Sippel",
+  "Investor Type": "Family Office",
+  "Gender": "Male",
+  "Entity Name": "Sippel Farb Family Office",
+  "Linkedin URL": "https://www.linkedin.com/in/eric-sippel-976770/"
+}
+
+#75
+ID: recHqO4OWAEoqtwBU
+{
+  "Investor Name": "Winter Mead",
+  "Investor Type": "Platform",
+  "LP Keywords": [
+    "accelerator",
+    "Emerging Managers"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Coolwater",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Winter Mead is the Founder and Managing Member of the investment firm Coolwater Capital, which exclusively focuses on emerging managers and technology investments. Coolwater is an academy for training, building and scaling emerging managers, a curated community of VC investors and early-stage investment specialists, and an investment firm. Coolwater has helped launch over 175 emerging managers, establishing strong ties and trust with these managers, who form the foundation of the Coolwater community. Winter is also the author of “How To Raise A Venture Capital Fund”.\n\nPrior to Coolwater, he played a key role in an evergreen investment fund at SAP, co-founded the LP transparency movement called #OpenLP, and served on the committee for the Institutional Limited Partners Association (ILPA), which sets the standards for the private equity industry. Winter’s extensive experience includes private equity and venture capital roles in San Francisco, institutional fund investments, direct technology investments, and angel investing.\n\nHe also served as junior faculty at Stanford Graduate School of Business, holding degrees from the University of Oxford and Harvard University, and now resides in Utah with his family, passionately solving business challenges."
+}
+
+#76
+ID: recId7SjPsnC7gl1l
+{
+  "Investor Name": "Conrad Shang",
+  "Investor Type": "HNWI",
+  "Website": "https://www.utimco.org/",
+  "Title": "Director, Venture Capital & Private Equity",
+  "City": "Austin, Texas",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "UTIMCO (The University of Texas)",
+  "Linkedin URL": "https://www.linkedin.com/in/conradshang/"
+}
+
+#77
+ID: recIePLPjpDYDLscX
+{
+  "Investor Name": "Nikhil Gopalani",
+  "Investor Type": "HNWI",
+  "Website": "rtfkt.com",
+  "Title": "COO",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "RTFKT Studios",
+  "Linkedin URL": "https://www.linkedin.com/in/nickgopalani/"
+}
+
+#78
+ID: recJ16KMRoFFGHjQ5
+{
+  "Investor Name": "Jai Juneja",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#climate #crypto"
+  ],
+  "Website": "https://www.seekventures.com/",
+  "Title": "Co-Founder & General Partner",
+  "City": "London, England,",
+  "Country": "United Kingdom",
+  "Gender": "Male",
+  "Entity Name": "Seek Ventures (Simon Nixon)",
+  "Linkedin URL": "https://www.linkedin.com/in/jaijuneja/"
+}
+
+#79
+ID: recJ6pbTJMitSppTa
+{
+  "Investor Name": "Thorsten Claus",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.nif.fund/team/",
+  "Gender": "Male",
+  "Entity Name": "NATO Innovation Fund",
+  "Linkedin URL": "https://www.linkedin.com/in/thorstenclaus/"
+}
+
+#80
+ID: recJ9RMUCKVlTuNtB
+{
+  "Investor Name": "Asher Siddiqui",
+  "Investor Type": "HNWI",
+  "Gender": "Male",
+  "Entity Name": "Asilica",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Asher Siddiqui is a global tech investor, M&A dealmaker, and venture fund builder with over 25 years of hands-on experience across venture capital, entrepreneurship, and more than $15B in executed M&A transactions.\n\nHe began his career as a software engineer and entrepreneur in the US and UK before spending a decade leading M&A and corporate venture at Etisalat Group (now e& Group), one of the world’s largest listed TMT investment groups. There, he led acquisitions, exits, and strategic transactions across multiple continents.\n\nIn 2016, Asher joined the global leadership team at 500 Startups in San Francisco, helping scale the platform to $2B+ AUM, with a portfolio that includes 35+ unicorns and 160+ centaurs.\n\nSince then, he has helped launch and scale several institutional VC firms—including Race Capital, Lumikai, Sukna Ventures, Zayn VC, and Humanrace Capital—and serves on the advisory boards of funds such as FootPrint Coalition Ventures, Merus Capital, and The Treasury.\n\nTo date, Asher has made 100+ venture investments (both direct and LP), raised hundreds of millions in LP commitments, mentored hundreds of emerging VC managers globally, and advised countless founders.\n\n"
+}
+
+#81
+ID: recJVcuaUo8xc8aNi
+{
+  "Investor Name": "Nattaphol Vimochalao",
+  "Investor Type": "CVC",
+  "LP Keywords": [
+    "#revere #blockchain"
+  ],
+  "Website": "https://dxed.io/",
+  "Gender": "Male",
+  "Entity Name": "Siamrajthanee"
+}
+
+#82
+ID: recJWYPrEK0VqtfCj
+{
+  "Investor Name": "Catherine Shiang",
+  "Investor Type": "Family Office",
+  "Title": "Managing Director",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Asia Capital Advisors (SFO)",
+  "Linkedin URL": "https://www.linkedin.com/in/cshiang/"
+}
+
+#83
+ID: recK90ok3h73nbBOH
+{
+  "Investor Name": "Paul Gompers",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#India #mumbai"
+  ],
+  "Website": "https://www.spurcapital.com/",
+  "Title": "Co-Founder and Non-Executive Director",
+  "City": "Boston, Massachusetts,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Spur Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/paul-gompers-09203197/"
+}
+
+#84
+ID: recKElC9k3mMKm5nx
+{
+  "Investor Name": "Felix Staeritz",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#europe"
+  ],
+  "Website": "https://www.allocator.one",
+  "Title": "Founding Partner",
+  "City": "Vienna, Vienna",
+  "Country": "Austria",
+  "Gender": "Male",
+  "Entity Name": "Allocator One",
+  "Linkedin URL": "https://www.linkedin.com/in/felixstaeritz/"
+}
+
+#85
+ID: recKIqjjuH3Zgxexu
+{
+  "Investor Name": "Maxim Nazarov",
+  "Investor Type": "HNWI",
+  "LP Keywords": [
+    "#VC"
+  ],
+  "Website": "https://www.finsightvc.com/",
+  "Title": "Investment Director",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "FinSight Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/nazarovmaxim/"
+}
+
+#86
+ID: recKZCYtubouUh951
+{
+  "Investor Name": "Jai Juneja",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.seekventures.com/",
+  "Title": "Co-Founder & General Partner",
+  "City": "London, England,",
+  "Country": "United Kingdom",
+  "Gender": "Male",
+  "Entity Name": "Seek Ventures (Simon Nixon FO)",
+  "Linkedin URL": "https://www.linkedin.com/in/jaijuneja/"
+}
+
+#87
+ID: recKoXVrxTJVAf6ws
+{
+  "Investor Name": "Balaji Srinivasan",
+  "Investor Type": "HNWI",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "City": "Singapore, Singapore",
+  "Country": "Singapore",
+  "Gender": "Male",
+  "Entity Name": "Family Office/Self",
+  "Linkedin URL": "https://www.linkedin.com/in/balajissrinivasan/"
+}
+
+#88
+ID: recLPMymzUbUa0dJi
+{
+  "Investor Type": "Soverign Wealth",
+  "LP Keywords": [
+    "#UAE"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Abu Dhabi Investment Authority"
+}
+
+#89
+ID: recM7XbGrHWMAIW1g
+{
+  "Investor Name": "Benedikt Langer",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#SFO"
+  ],
+  "Gender": "Male",
+  "Entity Name": "The Sutton Firm",
+  "Linkedin URL": "https://www.linkedin.com/in/benedikt-langer/"
+}
+
+#90
+ID: recMKOwAIn0iqBCD3
+{
+  "Investor Name": "Dermot McGrath",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://ryzelabs.io/home",
+  "Title": "Co-Founder & Chief of Staff",
+  "Country": "Ireland",
+  "Gender": "Male",
+  "Entity Name": "Ryze Labs (formerly Sino Global)",
+  "Linkedin URL": "https://www.linkedin.com/in/dermotmcgrath/"
+}
+
+#91
+ID: recN8FbhLI1n7WCRK
+{
+  "Investor Type": "Soverign Wealth",
+  "LP Keywords": [
+    "#UAE #AI"
+  ],
+  "Gender": "Male",
+  "Entity Name": "MGX"
+}
+
+#92
+ID: recNcfsguQr1TxQZk
+{
+  "Investor Name": "John Felix",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#Smallfunds"
+  ],
+  "Website": "https://www.patternventures.com/",
+  "Title": "GP",
+  "City": "Los Angeles",
+  "Country": "USA",
+  "Gender": "Male",
+  "Entity Name": "Pattern Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/johnfelix12/"
+}
+
+#93
+ID: recNrG718CRjNRix5
+{
+  "Investor Name": "Stella Garber",
+  "Investor Type": "HNWI",
+  "Website": "https://hoop.photo/",
+  "Title": "Co-Founder / CEO",
+  "City": "Greater Chicago Area",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Hoop",
+  "Linkedin URL": "https://www.linkedin.com/in/stellagarber/"
+}
+
+#94
+ID: recNx0tPgHh2MLIBr
+{
+  "Investor Name": "Sam Ettelaie",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#Europe #EmergingManagers"
+  ],
+  "Website": "https://www.thema.vc/",
+  "Gender": "Male",
+  "Entity Name": "Thema",
+  "Linkedin URL": "https://www.linkedin.com/in/samettelaie"
+}
+
+#95
+ID: recO6A5P0QUUkgi0P
+{
+  "Investor Name": "Scott Army",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://funds.galaxy.com/venture-fof",
+  "Title": "Managing Director, CIO of Galaxy Vision Hill",
+  "City": "New York, New York,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Galaxy (Formerly Vision Hill)",
+  "Linkedin URL": "https://www.linkedin.com/in/scott-army/"
+}
+
+#96
+ID: recOHjOmDpyzAvAxt
+{
+  "Investor Name": "Aakar \n  Vachhani",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#Superclusters"
+  ],
+  "Website": "https://www.fairviewcapital.com/",
+  "Gender": "Male",
+  "Entity Name": "Fairview Capital",
+  "Linkedin URL": "Also JoAnn Price"
+}
+
+#97
+ID: recON1ZDo50FmRjzA
+{
+  "Investor Name": "Brian Reale",
+  "Investor Type": "HNWI",
+  "Website": "processmaker.com",
+  "Title": "Founder",
+  "City": "Durham, North Carolina,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "ProcessMaker",
+  "Linkedin URL": "https://www.linkedin.com/in/brianreale/"
+}
+
+#98
+ID: recOeUUPBVOHVqI7W
+{
+  "Investor Name": "Peter Teneriello",
+  "Investor Type": "Fund of Funds",
+  "Gender": "Male",
+  "Entity Name": "Pomifer Capital",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Peter Teneriello has been a career-long investor in the private markets. He has experience as an allocator across a range of institutional types, from wealth management firms to pensions and endowments, and helped launch the venture capital program for the Texas Municipal Retirement System. Other past experiences of his have included leading finance/operations for a venture-backed startup, in addition to vetting investments for a family office and working with their portfolio companies. Over the years he has also written about his investing experience on Medium and Substack.\n\nHe is a graduate of the University of Notre Dame as well as the Kauffman Fellows Program, an executive education program focused on venture capital and innovation leadership. He wears many hats."
+}
+
+#99
+ID: recOovWnfTFg4jeDT
+{
+  "Investor Name": "Semin Valani",
+  "Investor Type": "HNWI",
+  "Title": "CEO",
+  "City": "Palo Alto, California",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Sparq-Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/semin-valani-b67428200/"
+}
+
+#100
+ID: recPWFRjV2P7UyLJS
+{
+  "Investor Name": "Julien Etaix",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#france"
+  ],
+  "Website": "upfront.com",
+  "Title": "Chief Investment Officer",
+  "City": "Greater Paris Metropolitan Region",
+  "Country": "France",
+  "Gender": "Male",
+  "Entity Name": "Upfront Ventures | Family Office",
+  "Linkedin URL": "https://www.linkedin.com/in/julienetaix/?originalSubdomain=fr"
+}
+
+#101
+ID: recPawDG4DlO5Cbz5
+{
+  "Investor Name": "Aram Verdiyan",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "crypto",
+    "Emerging Managers"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Accolade Partners",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Aram Verdiyan is a Partner at Accolade. Previously, he worked on the investment team at Andreessen Horowitz. Before that, Aram worked in BD, sales and marketing at Aviatrix, a cloud native enterprise software company. Aram worked at Accolade from 2012 to 2015 as a Senior Investment Associate and at Deloitte Consulting LLP. He holds an M.B.A from the Stanford Graduate School of Business (GSB) and a B.S. from the George Washington University."
+}
+
+#102
+ID: recQ5x95yt9ReENXX
+{
+  "Investor Name": "Courtney McCrea",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "accelerator",
+    "#diversity",
+    "Emerging Managers"
+  ],
+  "Website": "https://www.linkedin.com/in/courtneymccrea/",
+  "Gender": "Female",
+  "Entity Name": "Recast Capital",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Courtney Russell McCrea enjoys over 30 years of venture capital and private equity investment experience including 13 years of fund investing and 18 years of direct principal investing.\n\nCourtney is Co-Founder and Managing Partner of Recast Capital, a 100% women-owned platform investing in and supporting emerging managers in venture, with a focus on diverse partnerships.\n\nPrior to co-founding Recast, Courtney was a Managing Director of Weathergage Capital, a boutique fund of funds that provided its clients with access to premier venture capital, growth equity and micro-VC partnerships. Venture fund commitments included both brand name funds and emerging managers. In addition to fund investment responsibilities, Courtney led the direct co investing program at Weathergage. During her 10 year tenure at Weathergage, Courtney made commitments to 100 funds and seven direct co-investments.\n\nPrior to Weathergage, Courtney was a General Partner with Weston Presidio, a leading diversified private equity firm based in San Francisco. After 7 years at Weston Presidio, she left in 2004 and founded Silver Partners, a private equity advisory firm where she evaluated secondary and co-investment opportunities and advised consumer growth businesses. Courtney was also a Director at Sterling Stamos, where she managed investments in buyout funds, venture capital funds and hedge funds.\n\nEarlier in her career, Courtney made equity co-investments as an Assistant Vice President at PPM America. She also spent 5 years at GE Capital where she worked on private equity, senior and subordinated debt investing.\n\nCourtney has an M.B.A., with honors, from the Kellogg Graduate School of Management and a B.A. in Economics from the University of Illinois, Champaign-Urbana. She is a member of the Kauffman Fellows Class 3.\n\nCourtney is a member of the NVCA Forward Board of Directors and the Alzheimer’s Association Northern California and Nevada Board of Directors.\n\n"
+}
+
+#103
+ID: recQH2EKoI2oehzd9
+{
+  "Investor Name": "Katie Burton",
+  "Investor Type": "Fund of Funds",
+  "Website": "evanjsegal.com",
+  "Title": "Managing Director,",
+  "City": "Pittsburgh, Pennsylvania,",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Segall Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/katie-burton1/"
+}
+
+#104
+ID: recQdO4qDuHFkWIOW
+{
+  "Investor Name": "Melissa Lucas",
+  "Investor Type": "Family Office",
+  "Website": "https://www.yourocio.com/",
+  "Title": "Founder and Chief Investment Officer",
+  "City": "Los Angeles, California,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Your OCIO",
+  "Linkedin URL": "https://www.linkedin.com/in/melissafriedmanlucas/"
+}
+
+#105
+ID: recQhIDHuccn8AfGK
+{
+  "Investor Name": "Chris Douvos",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Anchor LP",
+    "Emerging Managers"
+  ],
+  "Website": "https://www.ahoycap.com/",
+  "Title": "Founder",
+  "City": "Palo Alto",
+  "Country": "USA",
+  "Gender": "Male",
+  "Entity Name": "Ahoy Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/chrisdouvos/",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Chris Douvos founded Ahoy Capital in 2018 to build an intentionally right-sized firm that could pursue investment excellence while prizing a spirit of partnership with all of its constituencies. A pioneering investor in the micro-VC movement, Chris has been a fixture in venture capital for nearly two decades. In addition to successfully identifying and catalyzing nascent funds, he bridges a gap between the providers of capital and the consumers of capital by creating platforms for transparent dialogue. Chris authors the blog SuperLP in which he chronicles his adventures investing in venture capital and private equity; and his brick oven pizza parties, small gatherings of LPs, GPs, and entrepreneurs, are well-known in the Valley. He is sought after not only for investment capital, but also for his advice, and serves on numerous managers’ advisory boards.\n\nPrior to Ahoy Capital, Chris spearheaded investment efforts at Venture Investment Associates, and The Investment Fund for Foundations. He learned the craft of illiquid investing at Princeton University’s endowment. He started his business career as a strategy consultant at Monitor Company. Chris regularly speaks at industry conferences and business schools and is a frequent resource for tech and business media. He earned his B.A. with Distinction in history from Yale College in 1994 and an M.B.A. from Yale School of Management in 2001. He was awarded the CFA Charter in 2004."
+}
+
+#106
+ID: recQnauGJRxpxbsC4
+{
+  "Investor Name": "Jon Staenberg",
+  "Investor Type": "Family Office",
+  "City": "Greater Seattle Area",
+  "Country": "United States",
+  "Gender": "Male",
+  "Linkedin URL": "https://www.linkedin.com/in/jonstaenberg/"
+}
+
+#107
+ID: recRCyGWsW0vvBeIU
+{
+  "Investor Name": "Manas Punhani",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.woven.vc/portfolio",
+  "Gender": "Male",
+  "Entity Name": "Woven Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/sdi-academy-manas-punhani/"
+}
+
+#108
+ID: recRD6XO7lUjZG2mr
+{
+  "Investor Name": "Charissa Lai",
+  "Investor Type": "HNWI",
+  "Gender": "Female",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Charissa has experience in Investing, Strategy and Relationship Management across Private Equity and Investment Banking. She’s gained global perspective from having worked and lived in South Africa, England, Canada, China and the USA. Her expertise includes selecting fund managers and co-investments, developing alternatives strategies and building relationships. She’s a recipient of 2016 Women in Capital Markets Emerging Leaders Award with CPPIB. She serves as a Board Director at the Toronto Humane Society.\n\nCharissa holds an MBA from Northwestern University and an HBSc. from University of Toronto."
+}
+
+#109
+ID: recRedC66hzv7BjNC
+{
+  "Investor Type": "Soverign Wealth",
+  "LP Keywords": [
+    "#UAE"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Gulf Corporation Council (GCC)"
+}
+
+#110
+ID: recSRFhbs2IHJglJD
+{
+  "Investor Name": "Matthew Malone",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#JoeLonsdale #8vc"
+  ],
+  "Website": "https://www.optoinvest.com/",
+  "Title": "co-founder",
+  "City": "Washington, DC",
+  "Gender": "Male",
+  "Entity Name": "Opto Investments",
+  "Linkedin URL": "https://www.linkedin.com/in/finance-investment-cfa/"
+}
+
+#111
+ID: recSSRMk4ONshmduQ
+{
+  "Investor Name": "Wee Ping Goh",
+  "Investor Type": "Fund of Funds",
+  "Website": "nextgencap.com",
+  "Title": "General Partner",
+  "Country": "Singapore",
+  "Gender": "Male",
+  "Entity Name": "NxtGen Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/weeps/?originalSubdomain=sg"
+}
+
+#112
+ID: recScWbrIOvPR8pQu
+{
+  "Investor Name": "Hunter Somerville",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.stepstone.de/en/",
+  "Title": "Partner",
+  "City": "Baltimore",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Stepstone",
+  "Linkedin URL": "https://www.linkedin.com/in/hunter-somerville-2a24117/"
+}
+
+#113
+ID: recSmTTXGJmJshqZq
+{
+  "Investor Name": "Steward Redqueen",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#southamerica"
+  ],
+  "Website": "https://english.dggf.nl/",
+  "Gender": "Male",
+  "Entity Name": "Dutch Good Growth Fund"
+}
+
+#114
+ID: recTJEGzoD88tymUP
+{
+  "Investor Name": "Jordan Nel",
+  "Investor Type": "Fund of Funds",
+  "Website": "nomads.vc",
+  "Gender": "Male",
+  "Entity Name": "Nomads VC"
+}
+
+#115
+ID: recTWm6sX8qLWVhad
+{
+  "Investor Name": "Jonathan Hsu",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://tribecap.co/",
+  "Title": "Co-Founder",
+  "City": "San Francisco",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Tribe Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/jonathanphsu/"
+}
+
+#116
+ID: recURtRUBAwWnPLmu
+{
+  "Investor Name": "Evan MacQueen",
+  "Investor Type": "Fund of Funds",
+  "Website": "ninjacapital.com",
+  "Gender": "Male",
+  "Entity Name": "Ninja Capital",
+  "Linkedin URL": "https://linkedin.com/in/evanmacqueen"
+}
+
+#117
+ID: recUTBnirdvNrtTS7
+{
+  "Investor Name": "Lisa Cawley",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#diversity"
+  ],
+  "Website": "https://www.screendoorpartners.com/",
+  "Title": "Managing Director",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Screendoor Partners"
+}
+
+#118
+ID: recUY73hBATJk6jC0
+{
+  "Investor Name": "Brooke Pollack",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.huttcapital.com/",
+  "Title": "Founder & Managing Partner",
+  "City": "Portland, Oregon Metropolitan Area",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Hutt Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/brookepollack/"
+}
+
+#119
+ID: recV1ayvh9d0heW52
+{
+  "Investor Name": "Lindsay Larsen",
+  "Investor Type": "HNWI",
+  "Website": "https://uvimco.org/",
+  "Title": "Managing Director",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "UVIMCO (UVA)",
+  "Linkedin URL": "https://www.linkedin.com/in/lindsay-larsen-cfa-93966a/"
+}
+
+#120
+ID: recVYvvtCzmXDsTPU
+{
+  "Investor Name": "David He",
+  "LP Keywords": [
+    "#Youngrok"
+  ],
+  "Gender": "Male",
+  "Entity Name": "922 Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/uclazhiyu/"
+}
+
+#121
+ID: recVhDela0dTQZ7fr
+{
+  "Investor Name": "Jerome Ternynck",
+  "Investor Type": "HNWI",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Family Office",
+  "Linkedin URL": "https://www.linkedin.com/in/jerometernynck/"
+}
+
+#122
+ID: recWHxRYpdIi381Ku
+{
+  "Investor Name": "Eran Steinberg",
+  "Investor Type": "HNWI",
+  "Website": "theranova.com",
+  "Title": "Chief Strategy Officer (CSO)",
+  "City": "San Francisco Bay Area",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Theranova",
+  "Linkedin URL": "https://www.linkedin.com/in/eranst/"
+}
+
+#123
+ID: recWOAIKSQh0gBeGm
+{
+  "Investor Name": "Abe Finkelstein",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Secondaries",
+    "Growth",
+    "#israel"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Vintage Investment Partners",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Abe Finkelstein, Managing Partner at Vintage, has been leading fund, secondary, and growth stage investments focused on fintech, gaming, and SMB software, among others, leading growth stage and secondary investments for Vintage in companies like Monday.com, Minute Media, Payoneer, MoonActive and Honeybook.\n\nPrior to joining Vintage in 2003, Abe was an equity analyst with Goldman Sachs, covering Israel-based technology companies in a wide variety of sectors, including software, telecom equipment, networking, semiconductors, and satellite communications. While at Goldman Sachs, Abe, and the Israel team were highly ranked by both Thomson Extel and Institutional Investor.\n\nPrior to Goldman Sachs, Abe was Vice-President at U.S. Bancorp Piper Jaffray, where he helped launch and led the firm’s Israel technology shares institutional sales effort. Before joining Piper, he was an Associate at Brown Brothers Harriman, covering the enterprise software and internet sectors. Abe began his career at Josephthal, Lyon, and Ross, joining one of the first research teams focused exclusively on Israel-based companies.\n\nAbe graduated Magna Cum Laude from the Wharton School at the University of Pennsylvania with a BS in Economics and a concentration in Finance.\n\nVintage Investment Partners is a global venture platform managing ~$4 billion across venture Fund of Funds, Secondary Funds, and Growth-Stage Funds focused on venture in the U.S., Europe, Israel, and Canada. Vintage is invested in many of the world’;s leading venture funds and growth-stage tech startups striving to make a lasting impact on the world and has exposure directly and indirectly to over 6,000 technology companies."
+}
+
+#124
+ID: recWQ2UaY7qdR2Khe
+{
+  "Investor Name": "David Gan",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.inception.capital/",
+  "Title": "Founder and General Partner",
+  "City": "New York, New York,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Inception Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/davidgancheng/"
+}
+
+#125
+ID: recWVsMSquOUkl1FN
+{
+  "Investor Name": "Joshua Porter",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.firstlookpartners.com/",
+  "Gender": "Male",
+  "Entity Name": "First Look Partners"
+}
+
+#126
+ID: recX2mN7PubMY0pKL
+{
+  "Investor Name": "Ben Choi",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "non profit/charity"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Next Legacy",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Ben Choi manages over $3B investments with many of the world’s premier venture capital firms as well as directly in early stage startups. He brings to Next Legacy a distinguished track record spanning over two decades founding and investing in early-stage technology businesses. Ben’s love for technology products formed the basis for his successful venture track record, including early stage investments in Marketo (acquired for $4.75B) and CourseHero (last valued at $3.6B). He previously ran product for Adobe’s Creative Cloud offerings and founded CoffeeTable, where he raised venture capital financing, built a team, and ultimately sold the company.\n\nBen is an engaged member of the Society of Kauffman Fellows and has been named to the Board of Directors for the San Francisco Chinese Culture Center and Children’s Health Council. Ben studied Computer Science at Harvard University before Mark Zuckerberg made it cool and received his MBA from Columbia Business School. Born in Peoria, raised in San Francisco, and educated in Cambridge, Ben now lives in Palo Alto with his wife, Lydia, and three very active sons."
+}
+
+#127
+ID: recXLkIVakHTTN3c8
+{
+  "Investor Name": "Alexis Ohanian",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#"
+  ],
+  "Website": "https://www.forbes.com/sites/rebeccaszkutak/2022/03/10/seven-seven-six-seeds-a-cohort-of-new-micro-funds/",
+  "Gender": "Male",
+  "Entity Name": "776 Titan Fund"
+}
+
+#128
+ID: recXQFoLacN2sj7bL
+{
+  "Investor Name": "Matt Auxier",
+  "Investor Type": "Endowment/Pension",
+  "Website": "https://www.uchicago.edu/",
+  "Title": "Sr. Portfolio Manager",
+  "City": "Chicago",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "The University of Chicago",
+  "Linkedin URL": "https://www.linkedin.com/in/matt-auxier-cfa-2519baa/"
+}
+
+#129
+ID: recY3oDIzpSC5SIo3
+{
+  "Investor Name": "Ertan Can",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Emerging Managers",
+    "#europe"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Multiple Capital",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Ertan Can is the Founder of Multiple Capital, a fund of funds focused on investing in micro VC funds in Europe and has been a limited partner in top funds you’ve heard of including Entrepreneur First and Angular Ventures, just to name a few. He’s done his tour of duty in the asset management world at JP Morgan to covering investor relations topics at Thomson Reuters to investing in startups at a family office. Ertan is also a founding member of 2hearts, a community dedicated to building tomorrow’s tech society with cultural diversity.\n\nHe is also a proud MBA graduate from the ESCP Business School and a long time student of finance and law catalyzed by his time at Frankfurt and London."
+}
+
+#130
+ID: recYADN72WXOFLt0U
+{
+  "Investor Name": "Dario Vilenna",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#LPInst #Spain"
+  ],
+  "Website": "https://kapita.io/",
+  "Gender": "Male",
+  "Entity Name": "Kapita (FO of Dimas Gimeno)",
+  "Linkedin URL": "https://www.linkedin.com/in/dariotvillena/"
+}
+
+#131
+ID: recYAUJrJ7vXhlNQ8
+{
+  "Investor Name": "Seungha Ku",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.nexusbaycap.com/home",
+  "Gender": "Male",
+  "Entity Name": "Nexus Bay",
+  "Linkedin URL": "https://linkedin.com/in/seungha-ku-84763612"
+}
+
+#132
+ID: recYSquSiUAZOgbwX
+{
+  "Investor Name": "Jason \n  Demant",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#SFO #GREELP #Youngrok"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Foundation Capital"
+}
+
+#133
+ID: recYe21xKtUWfWRL6
+{
+  "Investor Name": "Lisa Edgar",
+  "Investor Type": "Fund of Funds",
+  "Website": "http://www.ttcp.com/",
+  "Title": "Partner Emeritus",
+  "City": "Chicago",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Top Tier Capital Partners",
+  "Linkedin URL": "https://www.linkedin.com/in/lisa-edgar-928b001/"
+}
+
+#134
+ID: recZFNEZmYwrd8m8q
+{
+  "Investor Name": "Anne Martin",
+  "Investor Type": "Endowment/Pension",
+  "Website": "https://www.wesleyan.edu/",
+  "Title": "Chief Investment Officer",
+  "City": "New Haven",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Wesleyan University",
+  "Linkedin URL": "https://www.linkedin.com/in/anne-martin-3a177b/"
+}
+
+#135
+ID: recZSes06hSaWsqCq
+{
+  "Investor Name": "Gary Gitelson",
+  "City": "San Jose, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Linkedin URL": "https://www.linkedin.com/in/garygitelson/"
+}
+
+#136
+ID: recZuW7hDfbDFjyMX
+{
+  "Investor Name": "Raja Doddala",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.churchillam.com/",
+  "Title": "MD/Head of Venture Capital & Growth Equity",
+  "City": "Dallas-Fort Worth Metroplex",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Churchill VC",
+  "Linkedin URL": "https://www.linkedin.com/in/rajadoddala/"
+}
+
+#137
+ID: reca6m8HfQEgNCYdb
+{
+  "Investor Name": "Felipe \n  Valencia",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#LATAM"
+  ],
+  "Website": "https://veronorte.com/",
+  "Gender": "Male",
+  "Entity Name": "Veronorte",
+  "Linkedin URL": "https://www.linkedin.com/in/felipevalencia/"
+}
+
+#138
+ID: recaXsSp4RWoJQr3Q
+{
+  "Investor Name": "Atul Rustgi",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.accoladepartners.com/",
+  "Title": "Managing Partner",
+  "City": "Washington DC",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Accolade Partners",
+  "Linkedin URL": "https://www.linkedin.com/in/atul-rustgi-14624b/"
+}
+
+#139
+ID: recacHBg0YTi48tMV
+{
+  "Investor Name": "Charlotte Zhang",
+  "Investor Type": "Foundation",
+  "Gender": "Female",
+  "Entity Name": "Inatai Foundation",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "As the director of investments, Charlotte Zhang oversees the selection of external investment managers at Inatai Foundation, conducts portfolio research, and helps to institutionalize processes, tools, and resources. Experienced in impact investing, she previously served as a senior associate at ICONIQ Capital and, before that, Medley Partners. Investing on behalf of foundations affiliated with family offices, her investments supported a variety of nonprofit work, from early childhood education to autism research. Charlotte was a founding partner of Seed Consulting Group, a California-based nonprofit that provides pro bono strategy consulting to environmental and public health organizations, and currently serves on the Women’s Association of Venture and Equity’s west coast steering committee and as a Project Pinklight panelist for Private Equity Women Investor Network. She is also on the advisory boards of MoDa Partners, a family office whose mission is to advance the economic and educational equity of women and girls, and 8090 Partners, a multifamily office consisting of families and entrepreneurs across diverse industries that is currently deploying an impact investment fund.\n\nCharlotte earned a BS with honors in business administration from the University of California, Berkley. When not working, you can find her globetrotting (18 countries and counting), writing a Yelp review about the best bite in town, or cuddling up with a book and her two adorable cats.\n\n"
+}
+
+#140
+ID: recalhLsGna6u4jYf
+{
+  "Investor Name": "Ben Ehrlich",
+  "Investor Type": "Fund of Funds",
+  "Gender": "Male",
+  "Entity Name": "First Momentum Capital",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Ben Ehrlich is the founder and General Partner of First Momentum Capital, where he helps seed a new generation of venture capital firms. He is also the Director of Strategy at the Long Term Stock Exhange. Previously Ben worked across the venture ecosystem supporting companies in the Canadian Technology Accelerator, OutCast Communications and Cribspot (YC 15). In his free time Ben takes his Irish setter doodle hiking and enjoys watching the University of Michigan football team (mostly) win."
+}
+
+#141
+ID: recaz4Ui1VtCtQQYV
+{
+  "Investor Name": "Rahul Mehta",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#Dubai"
+  ],
+  "Website": "http://dstadvisors.com",
+  "Gender": "Male",
+  "Entity Name": "DST",
+  "Linkedin URL": "https://linkedin.com/in/rahul-mehta-7b80182"
+}
+
+#142
+ID: recb30KkiewPHSgqR
+{
+  "Investor Name": "Stephen Bluestein",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.packard.org/",
+  "Title": "Managing Director, Investments",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "The David and Lucile Packard Foundation",
+  "Linkedin URL": "https://www.linkedin.com/in/stephenbluestein/"
+}
+
+#143
+ID: recbLNpjzLLIYBCC4
+{
+  "Investor Type": "Endowment/Pension",
+  "LP Keywords": [
+    "#DonHo"
+  ],
+  "Website": "https://www.sic.state.nm.us/about-the-sic/",
+  "Gender": "Male",
+  "Entity Name": "State of New Mexico Investment Council\n  (SIC)"
+}
+
+#144
+ID: recbcqWwbDricec0j
+{
+  "Investor Name": "Daniel Friedland",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.goldcrest.com/",
+  "Title": "Co-Founder and Managing Director",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Goldcrest Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/daniel-friedland-7237137/"
+}
+
+#145
+ID: recbqHxGOfI52RKQg
+{
+  "Investor Name": "Eric Ries",
+  "Investor Type": "Fund of Funds",
+  "Website": "firstmomentum.vc",
+  "City": "San Francisco, California,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "First Momentum Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/eries/"
+}
+
+#146
+ID: reccXLEAF9V9W5aby
+{
+  "Investor Type": "Other",
+  "LP Keywords": [
+    "#Downing"
+  ],
+  "Website": "https://www.baupost.com/",
+  "Gender": "Male",
+  "Entity Name": "Bauposte Group"
+}
+
+#147
+ID: recccOG1zDDU4tF5x
+{
+  "Investor Name": "Lisa Cawley",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Emerging Managers",
+    "Anchor LP"
+  ],
+  "Gender": "Female",
+  "Entity Name": "Screendoor",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Lisa Cawley is the Managing Director of Screendoor, a highly respected LP of GPs, investing in firm-builders by firm-builders, with a unique model for partnering with allocators to access the emerging manager ecosystem. She’s been covering venture capital for more than a dozen years, since 2010 at Ernst and Young, a private investment firm, and now to Screendoor.\n\nLisa is a proud graduate of Loyola University Maryland where she’s earned her MBA and MS in Finance, as well as her BBA in Accounting, with a double minor in Information Systems and Spanish. Lisa is a CFA Charterholder and holds a CPA from the State of Maryland. In addition, she’s also a member of Class 29 of the Kauffman Fellows.\n\n"
+}
+
+#148
+ID: recch4smjtTQa3iXk
+{
+  "Investor Name": "Ed \n  Zimmerman",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#DEI #Diversity"
+  ],
+  "Website": "https://firstclosepartners.com/",
+  "Gender": "Male",
+  "Entity Name": "First Close Partners",
+  "Linkedin URL": "https://www.linkedin.com/in/edgrapenutzimmerman/"
+}
+
+#149
+ID: recctZ5Z9HLvPVRtG
+{
+  "Investor Name": "Jason Pritzker",
+  "Investor Type": "Family Office",
+  "Website": "https://www.53stations.com/",
+  "Title": "Co Founder and Managing Partner",
+  "City": "Greater Chicago Area",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "53 Stations partners (Pritzker Family)",
+  "Linkedin URL": "https://www.linkedin.com/in/jasonpritzker/"
+}
+
+#150
+ID: reccwOW7mb1CZ1Adz
+{
+  "Website": "https://www.aldea.ventures/",
+  "Gender": "Male",
+  "Entity Name": "Aldea Ventures"
+}
+
+#151
+ID: reccwaReaZl33Jy8t
+{
+  "Investor Name": "David Toh",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://mirana.xyz/",
+  "Title": "Partner",
+  "City": "Singapore",
+  "Gender": "Male",
+  "Entity Name": "Mirana.xyz",
+  "Linkedin URL": "https://www.linkedin.com/in/davidtyh/?originalSubdomain=sg"
+}
+
+#152
+ID: recdA6onzFyXMi4ZL
+{
+  "Investor Name": "Alex Edelson",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.slipstreaminvestors.com/",
+  "Title": "Founder / GP",
+  "City": "Washington, District of Columbia",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Slipstream",
+  "Linkedin URL": "https://www.linkedin.com/in/alex-edelson-604767b/"
+}
+
+#153
+ID: recdH80Ede7c45y6d
+{
+  "Investor Name": "Ramzi Samara",
+  "Investor Type": "Family Office",
+  "Website": "https://masic.com.sa/",
+  "Title": "Co-Head of Private Funds",
+  "City": "Riyadh",
+  "Country": "Saudi Arabia",
+  "Gender": "Male",
+  "Entity Name": "MASIC",
+  "Linkedin URL": "https://www.linkedin.com/in/ramzissamara/"
+}
+
+#154
+ID: recdQyUBrajJf8a8m
+{
+  "Investor Name": "Ryan \n  Akkina",
+  "Investor Type": "Endowment/Pension",
+  "Website": "https://mitimco.org/",
+  "Title": "Global Investment Team",
+  "City": "Cambridge, Massachusetts,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "MIT Investment Management Company",
+  "Linkedin URL": "https://www.linkedin.com/in/ryan-akkina-6169851/"
+}
+
+#155
+ID: receGXPfjh1AjmYxs
+{
+  "Investor Name": "Eric \n  Sippel",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#revere"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Sippel Farb Family Office",
+  "Linkedin URL": "https://www.linkedin.com/in/eric-sippel-976770"
+}
+
+#156
+ID: receJnDJVGFJ0ZRw9
+{
+  "Investor Name": "William Gallacher",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#SFO"
+  ],
+  "Website": "https://cannonballgroup.com/",
+  "Title": "Vice President Of Business Development",
+  "City": "Portland, Oregon,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Cannonball Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/william-gallacher-24b38854/"
+}
+
+#157
+ID: recedUCp5BVE2Pih6
+{
+  "Investor Name": "Judith Elsea",
+  "Investor Type": "HNWI",
+  "Website": "https://www.weathergagecapital.com/",
+  "Title": "Managing Director",
+  "City": "Austin, Texas,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Weathergage Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/judithelsea/"
+}
+
+#158
+ID: recekOb0tnnsbHgVv
+{
+  "Investor Name": "Pep Mooren",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#LPInstitute"
+  ],
+  "Website": "https://speldventures.com/",
+  "Title": "Managing Partner",
+  "City": "Rotterdam",
+  "Country": "Netherlands",
+  "Gender": "Male",
+  "Entity Name": "Speld Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/pep-m-6474052b2/"
+}
+
+#159
+ID: recesmeweqUmekfSX
+{
+  "Investor Name": "Will McEvoy",
+  "Investor Type": "Fund of Funds",
+  "Website": "winklevosscapital.com",
+  "Title": "Principal",
+  "City": "New York City Metropolitan Are",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Winklevoss Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/wmcevoy/"
+}
+
+#160
+ID: recfEtmAeyF7GxowH
+{
+  "Investor Name": "Mark Zittman",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#NYC"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Zittman Family Office",
+  "Linkedin URL": "https://www.linkedin.com/in/mark-zittman-ba174613a/"
+}
+
+#161
+ID: recfYCEPJkjdVHfHI
+{
+  "Investor Type": "Soverign Wealth",
+  "LP Keywords": [
+    "#MiddleEast"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Qatar Investment Authority"
+}
+
+#162
+ID: recgaOKTO8Vp9K5iS
+{
+  "Investor Name": "Matt Curtolo",
+  "Investor Type": "HNWI",
+  "Gender": "Male",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Matt Curtolo, CAIA is a seasoned private markets investor and allocator with over two decades of experience at leading financial institutions. Throughout his career, he has been directly responsible for allocating more than $6 billion in commitments to private market investments and maintains relationships with hundreds of general partner relationships across the full spectrum of private capital strategies.\n\nMost recently, as Head of Investments at Allocate, a venture-backed fintech startup. Matt built the investment capability from the ground up, broadening access to top-tier venture capital opportunities for the private wealth market. Prior to this, he served as a senior leader at MetLife, serving on the investment committee, co-managing their global alternatives portfolio and leading the firm’s US Buyout portfolio. Earlier in his career, Matt led all private equity activities as Head of Private Equity at Hirtle Callaghan, a large independent outsourced Chief Investment Officer (oCIO). Matt’s foundational experience was gained at Hamilton Lane during its early growth phase, before it became the world’s preeminent private markets allocator, in research, investment and client-facing roles. Matt currently holds several advisory positions that span start-ups, asset management firms and fund of funds. He also manages his own advice practice, providing GPs with strategic guidance on strategy, fundraising and investor relations."
+}
+
+#163
+ID: rechR6GA5ZBxGHSCQ
+{
+  "Investor Name": "Joo-Lee Lim",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#EM FoF"
+  ],
+  "Website": "wilab.com",
+  "Gender": "Male",
+  "Entity Name": "World Innovation Lab (WiL)",
+  "Linkedin URL": "https://www.linkedin.com/in/jooleelim/"
+}
+
+#164
+ID: rechbLkCHkruEaWOi
+{
+  "Investor Name": "Hana Yang",
+  "Investor Type": "HNWI",
+  "Website": "www.allocate.co",
+  "Title": "Co-Founder & CXO",
+  "City": "Menlo Park, California",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Allocate",
+  "Linkedin URL": "https://www.linkedin.com/in/hanayang/"
+}
+
+#165
+ID: rechuS7ZMJIaxDuWp
+{
+  "Investor Name": "Sean \n  Warrington",
+  "Website": "https://www.greshampartners.com/",
+  "Gender": "Male",
+  "Entity Name": "Gresham Partners"
+}
+
+#166
+ID: reciJ5IyrBuFr5jdu
+{
+  "Investor Name": "Michael Downing",
+  "Investor Type": "Fund of Funds",
+  "Website": "mdsv.vc",
+  "Title": "Founding Partner",
+  "City": "San Francisco, California,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "MDSV Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/michaeldowning/"
+}
+
+#167
+ID: reciJjCyJdWUwkpFB
+{
+  "Investor Name": "David \n  He",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#Gautam"
+  ],
+  "Website": "https://landmarkfo.com/en/",
+  "Gender": "Male",
+  "Entity Name": "Landmark Family Office"
+}
+
+#168
+ID: reciPNOfioVVOlhLJ
+{
+  "Investor Name": "Jaclyn Hester",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://foundry.vc/blog/2016/09/our-newest-fund-foundry-group-next/",
+  "Title": "Partner",
+  "City": "Boulder",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Foundry Group Next",
+  "Linkedin URL": "https://www.linkedin.com/in/jaclyn-freeman-hester-70621126/"
+}
+
+#169
+ID: reciS73StBQUy5xqF
+{
+  "Investor Name": "Louis Liu",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.mimesiscapital.com/",
+  "Title": "Founder and CEO",
+  "Country": "Taiwan",
+  "Gender": "Male",
+  "Entity Name": "Mimesis Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/louishliu/"
+}
+
+#170
+ID: recifhKHwEeH2SHnx
+{
+  "Investor Name": "JT Esquibel",
+  "Investor Type": "Family Office",
+  "Title": "Fund of Funds Manager",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Andreessen/Dixon Family Office",
+  "Linkedin URL": "https://www.linkedin.com/in/jtesquibel/"
+}
+
+#171
+ID: reciiQM9W54Lwrznl
+{
+  "Investor Name": "Dan Stolar",
+  "Investor Type": "SFO",
+  "Gender": "Male",
+  "Entity Name": "Colibri",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Dan Stolar is a Principal at Colibri Equity Ventures, a single family office based in NYC and San Diego. Dan leads the venture capital strategy and also participates in all alternative private investments, including sports investing and private equity. As part of the venture strategy, Dan particularly focuses on investing in emerging venture capital funds. Since launching the strategy in late 2022, the firm has invested in ~15 managers. Dan started his venture capital journey as an intern at Viola Credit, a venture debt fund in Tel Aviv, before spending time in investment banking at Peter J. Solomon Co. (now Solomon Partners) where he focused on consumer and retail mergers & acquisitions. After banking, Dan spent ~5 years at Alpha Partners, a late-stage venture firm that partners with early stage managers helping them follow on in their late stage deals. Dan is still involved with Alpha as a Venture Partner. Dan is a proud New Jersey native, and a graduate of the University of Michigan (Go Blue!).\n\n"
+}
+
+#172
+ID: recisMl7HUeg8wuDN
+{
+  "Investor Name": "Hillary Cook",
+  "Investor Type": "HNWI",
+  "Website": "https://www.nextlegacy.com/",
+  "Title": "Principal",
+  "City": "San Francisco Bay Area",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Next Legacy",
+  "Linkedin URL": "https://www.linkedin.com/in/hillary-cook/"
+}
+
+#173
+ID: reciu2fPl9hapgKNy
+{
+  "Investor Name": "Marell Evans",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#diversity #underrepresentedfounders"
+  ],
+  "Website": "https://amazoncatalyticcapital.com/",
+  "Title": "Founder and Managing Director",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Amazon Catalytic Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/marell-evans/"
+}
+
+#174
+ID: reciuGKgiZjTG3jCB
+{
+  "Investor Name": "Diane Mulcahy",
+  "Investor Type": "Family Office",
+  "Website": "http://cooperfamilyoffice.com",
+  "Title": "Senior Advisor",
+  "Gender": "Female",
+  "Entity Name": "Cooper Family Office"
+}
+
+#175
+ID: recj7qumlaMEB9GsJ
+{
+  "Investor Name": "Michael Zinaman",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Title": "Co-Founder & Managing Partner",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Dual Worlds",
+  "Linkedin URL": "https://www.linkedin.com/in/mzin1"
+}
+
+#176
+ID: recjNV6ZaCm9vzoPr
+{
+  "Investor Name": "Jamie Rhode",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Anchor LP",
+    "Diversified",
+    "Emerging Managers"
+  ],
+  "Website": "https://www.screendoor.co/",
+  "Title": "Partner",
+  "City": "Philadelphia",
+  "Country": "USA",
+  "Gender": "Female",
+  "Entity Name": "Screendoor",
+  "Linkedin URL": "https://www.linkedin.com/in/jerrcfa/",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Jamie Rhode is a partner at Screendoor and former Principal at Verdis Investment Management, focused emerging manager sourcing and due diligence.\n\nShe joined Verdis from Bloomberg, where she held roles in both equity research and credit analysis. There, she created, managed and leveraged an extensive library of statutory and financial and market data for buy and sell-side clients that use Bloomberg to make investment decisions.\n\nA licensed Chartered Financial Analyst, she earned her bachelor’s degree in Finance and Marketing from Drexel University’s College of Business Administration."
+}
+
+#177
+ID: recjOf5721ae0xn4T
+{
+  "Investor Name": "Apurva Mehta",
+  "Investor Type": "Fund of Funds",
+  "Website": "summitpeak.com",
+  "Title": "Managing Partner",
+  "City": "Dallas-Fort Worth Metroplex",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Summit Peak",
+  "Linkedin URL": "https://www.linkedin.com/in/apurvaamehta/"
+}
+
+#178
+ID: recjsz6VDvXMHrh7Y
+{
+  "Investor Name": "Josh Kanter",
+  "Investor Type": "SFO",
+  "Gender": "Male",
+  "Entity Name": "leafplanner",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Josh Kanter is the family office principal at Josh Kanter Wealth Advisory Services. He is also the founder & CEO at leafplanner, a comprehensive solution on planning for the 100-year time horizon for a family office, birthed out of his own need with his own family of creating an everlasting institution.\n\nAfter decades as a lawyer, he went on to focus on his family business where he also currently serves as President of Chicago Financial, Inc., a single family office overseeing a complex organization of trusts, investment and philanthropic entities for a multi-branch and multi-generational family."
+}
+
+#179
+ID: recjvi1e4Q2X7wEKQ
+{
+  "Investor Name": "Paul Griffiths",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://15andchange.org/",
+  "Title": "Managing Director",
+  "City": "Greater Boston",
+  "Gender": "Male",
+  "Entity Name": "https://15andchange.org/",
+  "Linkedin URL": "https://www.linkedin.com/in/paulgriffiths/"
+}
+
+#180
+ID: recjyZba7EyN3T1IH
+{
+  "Investor Name": "Ryan \n  Akkina",
+  "Investor Type": "Endowment/Pension",
+  "Gender": "Male",
+  "Entity Name": "MIT Management Co",
+  "Linkedin URL": "https://www.linkedin.com/in/ryan-akkina-6169851/"
+}
+
+#181
+ID: recjzI0PHI4OlGeiJ
+{
+  "Investor Name": "Albert Wegner",
+  "Investor Type": "HNWI",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.usv.com/",
+  "City": "New York, New York,",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Family Office/Self",
+  "Linkedin URL": "https://www.linkedin.com/in/albertwenger/"
+}
+
+#182
+ID: reck99ZjuOPZsgzwb
+{
+  "Investor Name": "Jaap Vriesendorp",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Emerging Managers",
+    "Established Managers"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Marktlink Capital",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Jaap Vriesendorp is one of the managing partners of Marktlink Capital, an investment manager from the Netherlands investing over $1b into private equity and venture capital funds. Marktlink Capital’s LPs are almost exclusively Dutch (tech) entrepreneurs from companies such as Booking.com, Adyen and Hellofresh. At Marktlink Capital Jaap focusses on selecting venture and growth funds across Europe and the US. Before Marktlink Capital, he spent the majority of his time at McKinsey where he was one of the leaders of McKinsey’s practice for Venture Capital, Unicorns & Startups in Europe. Besides work, Jaap enjoys sports, mountains, technology, comic books, music and art.\n\nHe holds an MBA from INSEAD and is a guest lecturer at the Rotterdam School of Management (Erasmus University). He occasionally shares his views on private market investing on Medium."
+}
+
+#183
+ID: reckQNH0lktk5KsRe
+{
+  "Investor Name": "Michael Downing",
+  "Website": "mdsv.vc",
+  "Title": "Founding Partner",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "MDSV Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/michaeldowning/"
+}
+
+#184
+ID: reckuf1PPdh6nZDHv
+{
+  "Investor Name": "Adrian Garcia",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.viafunds.com/",
+  "Title": "Managing Director",
+  "City": "Sugar Land, Texas",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Venture Investment Associates",
+  "Linkedin URL": "https://www.linkedin.com/in/adrian-garcia-83a24b54/"
+}
+
+#185
+ID: recky1nyNDkI7co0G
+{
+  "Investor Name": "Dan Stolar",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://colibriequity.vc/portfolio",
+  "Gender": "Male",
+  "Entity Name": "Colibri Equity Ventures",
+  "Linkedin URL": "https://linkedin.com/in/danielstolar"
+}
+
+#186
+ID: reckyJBFK2mbeR9eG
+{
+  "Investor Name": "Fernando Saiz",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.azet.capital/",
+  "Title": "co-founder",
+  "Gender": "Male",
+  "Entity Name": "Azet Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/fernando-s-4732544/"
+}
+
+#187
+ID: recl0H1kJjTHKa3Bo
+{
+  "Investor Name": "Adam Marchick",
+  "Investor Type": "Fund of Funds",
+  "Gender": "Male",
+  "Entity Name": "Akkadian Ventures",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Over the past twenty years, Adam Marchick has had unique experiences as a founder, general partner (GP), and limited partner (LP). Most recently, Adam managed the venture capital portfolio at Emory’s endowment, a $2 billion portfolio within the $10 billion endowment. Prior to Emory, Adam spent ten years building two companies, the most recent being Alpine.AI, which was acquired by Headspace. Simultaneously, Adam was a Sequoia Scout and built an angel portfolio of over 25 companies. Adam was a direct investor at Menlo Ventures and Bain Capital Ventures, sourcing and supporting companies including Carbonite (IPO), Rent The Runway (IPO), Rapid7 (IPO), Archer (M&A), and AeroScout (M&A). He started his career in engineering and product roles at Facebook, Oracle, and startups."
+}
+
+#188
+ID: reclLahYA2rJAfZfm
+{
+  "Investor Name": "Fernando Pontaza",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#LATAM"
+  ],
+  "Website": "https://www.invariantes.com/",
+  "Title": "Co-Founder & Managing General Partner",
+  "City": "Guatemala City, Guatemala",
+  "Country": "Guatemala",
+  "Gender": "Male",
+  "Entity Name": "Invariantes Fund",
+  "Linkedin URL": "https://www.linkedin.com/in/fpontaza/"
+}
+
+#189
+ID: reclNVrTzWEVNIKo6
+{
+  "Investor Name": "Kevin McQuillan",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.peakview.capital/",
+  "Title": "Partner",
+  "City": "San Francisco Bay Area",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Peakview Capital (Shengjing Group)",
+  "Linkedin URL": "https://www.linkedin.com/in/kevin-j-mcquillan-49a46/"
+}
+
+#190
+ID: reclNXYAzRJVVExNP
+{
+  "Investor Name": "Anthony Wang",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "http://serafund.co/",
+  "Title": "General Partner",
+  "City": "Vancouver, British Columbia",
+  "Country": "Canada",
+  "Gender": "Male",
+  "Entity Name": "Serafund.co",
+  "Linkedin URL": "https://www.linkedin.com/in/anthony-wang323/"
+}
+
+#191
+ID: reclNf9dggwJPf88U
+{
+  "Investor Name": "John-Austin  Saviano",
+  "Website": "https://www.highcountryadvisors.com/",
+  "Gender": "Male",
+  "Entity Name": "High County Advisors",
+  "Linkedin URL": "https://www.linkedin.com/in/john-austin-saviano-4095b4b/"
+}
+
+#192
+ID: reclOSdeWxEmjRfeq
+{
+  "Investor Name": "Kim Lew",
+  "Investor Type": "Endowment/Pension",
+  "Website": "https://www.columbia.edu/",
+  "Title": "Office of President",
+  "City": "New York",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Columbia University",
+  "Linkedin URL": "https://www.linkedin.com/in/lisa-edgar-928b001/"
+}
+
+#193
+ID: recmCKVGmWkqdi028
+{
+  "Investor Name": "Ryan Nece",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#sports #atheletes"
+  ],
+  "Website": "http://www.nextlegacy.com",
+  "Title": "Managing Partner",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Next Play Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/ryan-nece-abb07b8/"
+}
+
+#194
+ID: recmCkJFXFNtsp1Rg
+{
+  "Investor Name": "Carman Chan",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#SFO #China #AI"
+  ],
+  "Website": "https://www.clickventures.vc/",
+  "Gender": "Male",
+  "Entity Name": "Click Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/carmanchan/"
+}
+
+#195
+ID: recmyjRvQH2AVohAP
+{
+  "Investor Name": "Laura Thompson",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://sapphireventures.com/sapphire-partners/",
+  "Title": "Partner",
+  "City": "San Francisco, California,",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Sapphire Partners (Sapphire Ventures)",
+  "Linkedin URL": "https://www.linkedin.com/in/lauragthompson22/"
+}
+
+#196
+ID: recn2BpK08K2Zi3j6
+{
+  "Investor Name": "Margo Doyle",
+  "Investor Type": "Family Office",
+  "Website": "https://www.scubedcap.com/",
+  "Title": "Chief Investment Officer",
+  "City": "Burlingame, California",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "S-Cubed Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/margodoyle/"
+}
+
+#197
+ID: recnQQ2y6kXvgRyef
+{
+  "Investor Name": "Herrera Richardson",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#peru #public fund #southamerica"
+  ],
+  "Website": "https://www.cofide.com",
+  "Gender": "Male",
+  "Entity Name": "The Peruvian Fund of Funds (FCEI)"
+}
+
+#198
+ID: recnYGCH9RVeWpIV4
+{
+  "Investor Name": "John Felix",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "Sub $50M",
+    "Emerging Managers"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Pattern Ventures",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "John is a partner at Pattern Ventures, a fund o funds focused on sub $50M funds using a quantitative approach. Prior, John was Head of Emerging Managers at Allocate where he leads manager diligence and product innovation within the emerging manager ecosystem. Prior to joining Allocate, John worked at Bowdoin College’s Office of Investments, helping to invest the $2.8 billion endowment across all asset classes, focusing on venture capital. Prior to Bowdoin, John worked at Edgehill Endowment Partners, a $2 billion boutique OCIO. At Edgehill, John was responsible for building out the firm’s venture capital portfolio, sourcing and leading all venture fund commitments. John started his career at Washington University’s Investment Management Company as a member of the small investment team responsible for managing the university’s now $15 billion endowment. John graduated from Washington University in St. Louis with a BSBA in Finance and Entrepreneurship."
+}
+
+#199
+ID: recoCjKXRtd4GsZBa
+{
+  "Investor Name": "Steve Bennet",
+  "City": "Palo Alto, California",
+  "Country": "United States",
+  "Gender": "Male",
+  "Linkedin URL": "https://www.linkedin.com/in/stevebennet/"
+}
+
+#200
+ID: recoIzrSYIwE2voX3
+{
+  "Investor Name": "Jay Rongjie Wang",
+  "Investor Type": "SFO",
+  "Gender": "Female",
+  "Entity Name": "Primitiva Global",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Jay Rongjie Wang is the founding Chief Investment Officer of Primitiva Global, where she runs a family-backed Multi-asset Strategy. She also works extensively with emerging VC managers, and sits on the Selection Committee of Bridge Funding Global.\n\nJay’s background uniquely combines software engineering (at the world’s largest fintech platform) and institutional investing (at top funds including Fidelity and Sequoia), as well as general management (3x executive in tech startups). Jay has lived in 5 different countries across 9 major cities, giving her a global perspective.\n\nJay obtained her B.A and M.Sci in Physics from Cambridge University and M.B.A from INSEAD. In 2023 she was listed as an Entrepreneurial Pioneer Under 35 by Hurun Wealth."
+}
+
+#201
+ID: recoWlW2Mu6bELvST
+{
+  "Website": "https://www.axavp.com/fund-investing/",
+  "Gender": "Male",
+  "Entity Name": "AXA Venture Partners"
+}
+
+#202
+ID: recohXlYEjNnyqih2
+{
+  "Investor Name": "Sophia \n  Liao",
+  "Investor Type": "HNWI",
+  "LP Keywords": [
+    "#VCLab #Singapore #Women"
+  ],
+  "Website": "https://bridgefundingglobal.com/",
+  "Title": "Founding Partner",
+  "City": "Singapore",
+  "Gender": "Female",
+  "Entity Name": "Bridge Funding Global",
+  "Linkedin URL": "https://www.linkedin.com/in/sophie007/"
+}
+
+#203
+ID: recorxsCFtiBLUU5R
+{
+  "Investor Name": "Abe \n  Finkelstein",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.vintage-ip.com/funds-of-funds/",
+  "Gender": "Male",
+  "Entity Name": "Vintage Investment Partners"
+}
+
+#204
+ID: recoysQz39vMYRwtM
+{
+  "Investor Name": "Sean Warrington",
+  "Investor Type": "MFO",
+  "Gender": "Male",
+  "Entity Name": "Gresham Partners",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Sean Warrington leads private market investing at Gresham Partners, a $10 billion multi-family office based in Chicago. Known for being a transparent and user-friendly LP, he and the Gresham team aim to simplify the fundraising process — offering single-check investments, a streamlined diligence process, and prompt, candid feedback to GPs."
+}
+
+#205
+ID: recp9goN4Wrofy8bo
+{
+  "Investor Name": "Wayne Chang",
+  "Investor Type": "HNWI",
+  "Website": "https://chang.com/",
+  "Title": "Founder",
+  "Gender": "Male",
+  "Entity Name": "HNWI",
+  "Linkedin URL": "https://www.linkedin.com/in/waynechang/"
+}
+
+#206
+ID: recpAmX6e7uHSXBXx
+{
+  "Investor Name": "Howard Lindzon",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "hybrid FoF",
+    "Emerging Managers"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Social Leverage",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Howard Lindzon has over 20 years of experience in both public and private market investing. He previously founded and managed the hedge fund Lindzon Capital, and is currently the founder and General Partner of the early-stage venture capital firm Social Leverage. Through Social Leverage, he and his partners have been seed investors in startups like Robinhood, Beehiiv, and Manscaped to name a few. Howard was the founder of Wallstrip (acquired by CBS), and is the the co-founder and Chairman of Stocktwits, the leading social platform for traders and investors. Throughout his career, Howard has strongly advocated for and helped drive the decentralization and democratization of investing. He resides in Phoenix, AZ and Coronado, California."
+}
+
+#207
+ID: recpI2HGfUhlm61es
+{
+  "Investor Name": "David Mazaheri",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://whitehilt.com/",
+  "Title": "Deputy Director",
+  "City": "New York, New York",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "White Hilt Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/davidmazaheri/"
+}
+
+#208
+ID: recqmYEhFa6nrr0fL
+{
+  "Investor Name": "David York",
+  "Investor Type": "Fund of Funds",
+  "Gender": "Male",
+  "Entity Name": "Top Tier Capital Partners",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "David York’s thirty plus years of industry knowledge and networks uniquely equip him to be a liaison and international ambassador not only for Top Tier’s brand, but also the broader venture community. In 2000, David joined Phil Paul to lead the fund of funds team at Paul Capital, which spun out in 2011 to form Top Tier.\n\nDavid has been active in the global venture capital community since the early 1990s. As a founder of Top Tier, he has led the development of the Firm for over twenty years and has been involved in every aspect of it. His involvement in the industry has led him to participate in numerous industry events and conferences, and also the NVCA, where he is an active board member. David led the fund of funds business at Paul Capital Partners, before spinning it out and founding Top Tier. Prior to Paul Capital, David spent seventeen years on Wall Street running various trading desks. In 1999, he was Managing Director at Chase H&Q, where he ran Equity Capital Markets liquidity, and from 1994 to 1999 he ran Venture Services for Hambrecht & Quist, a San Francisco-based, technology-focused investment bank acquired by Chase Bank."
+}
+
+#209
+ID: recqw6Jszpkx3twHo
+{
+  "Investor Name": "Anne Dwane",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.villageglobal.vc/",
+  "Title": "Co-Founder & Partner",
+  "City": "San Francisco, California,",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Village Global",
+  "Linkedin URL": "https://www.linkedin.com/in/dwane/"
+}
+
+#210
+ID: recrCu0iT2Qx6M5Cc
+{
+  "Investor Name": "Gyoung Joo Choe",
+  "Investor Type": "Fund of Funds",
+  "Website": "bidlab.org",
+  "Title": "Senior Investment Officer",
+  "City": "Washington, District of Columbia",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "IDB Lab",
+  "Linkedin URL": "https://www.linkedin.com/in/gyoung-joo-choe/"
+}
+
+#211
+ID: recrL7kpM5W4Pxrs1
+{
+  "Investor Name": "Neil Shah",
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#SFO #MichaelBloomberg"
+  ],
+  "Website": "https://www.willettadvisors.com/",
+  "Gender": "Male",
+  "Entity Name": "Willett Advisors LLC",
+  "Linkedin URL": "https://linkedin.com/in/neil-shah-b552944"
+}
+
+#212
+ID: recrXrlomMw3tfrvK
+{
+  "Investor Name": "Joanna Rupp",
+  "Investor Type": "Endowment/Pension",
+  "Website": "https://www.uchicago.edu/",
+  "Title": "Managing Director",
+  "City": "Chicago",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "The University of Chicago",
+  "Linkedin URL": "https://www.linkedin.com/in/joanna-rupp-cfa-184412a/"
+}
+
+#213
+ID: recrhd7gIPKQHEwHH
+{
+  "Investor Name": "Ashby Monk",
+  "Investor Type": "HNWI",
+  "Gender": "Male",
+  "Entity Name": "Stanford",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Dr. Ashby Monk is currently a Senior Research Engineer, School of Engineering at Stanford University and holds the position of Executive Director of the Stanford Research Initiative on Long-Term Investing.\n\nAshby has more than 20 years of experience studying and advising investment organizations. He has authored multiple books and published 100s of research papers on institutional investing. His latest book, The Technologized Investor, won the 2021 Silver Medal from the Axiom Business Book Awards in the Business Technology category.\n\nOutside of academia, Ashby has co-founded several companies that help investors make better investment decisions, including Real Capital Innovation (acquired by Addepar), FutureProof, GrowthsphereAI, Long Game Savings (acquired by Truist), NetPurpose, D.A.T.A., SheltonAI, and ThirdAct. He is co-founder and managing partner of KDX, a venture capital firm focused on investment technologies.\n\nHe is a member of the CFA Institute’s Future of Finance Advisory Council and was named by CIO Magazine as one of the most influential academics in the institutional investing world. He received his Doctorate in Economic Geography at the University of Oxford, holds a Master’s in International Economics from the Université de Paris I – Pantheon Sorbonne, and has a Bachelor’s in Economics from Princeton University."
+}
+
+#214
+ID: recrsmuDtBllwC73D
+{
+  "Investor Name": "Samir Kaji",
+  "Investor Type": "Platform",
+  "LP Keywords": [
+    "Emerging Managers",
+    "Established Managers"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Allocate",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Samir Kaji is the CEO and Co-Founder of Allocate, a private markets technology company that pairs origination with portfolio management tools to allow investors to efficiently construct and manage their alternatives portfolios. \n\nPrior to Allocate, Samir spent 22 years in venture banking between SVB and First Republic Bank and closely worked with and advised over 700 venture capital and private equity firms. During this time, he completed over $12B in structured debt transactions and has invested personally in over 75 funds and companies, including early-stage investments into Carta (seed), Side (seed), PolicyGenius (Series A), and FanDuel (Series B) as well as Growth investments into Reddit, Alto Pharmacy, and Carbon Health. He has also invested in over 40 funds across various investment types.\n\nSamir completed a finance undergraduate degree at San Jose State University, a finance MBA from Santa Clara University, and completed the prestigious Kauffman Fellows venture program in 2017. Samir is also the host of Venture Unlocked, a top venture capital podcast available on Itunes, Spotify, and Substack.\n\n"
+}
+
+#215
+ID: recruSyQwcU16s6M2
+{
+  "LP Keywords": [
+    "#sustainability #Youngrok"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Pivotal Ventures (Melinda Gates)"
+}
+
+#216
+ID: recryGrHOmyh4VsoY
+{
+  "Investor Name": "Howard \n  Kim",
+  "LP Keywords": [
+    "#Youngrok"
+  ],
+  "Gender": "Male",
+  "Entity Name": "Hanwha Asset Management"
+}
+
+#217
+ID: recsABmSXgvvK2CXG
+{
+  "Investor Name": "Susan Anderson",
+  "Investor Type": "Family Office",
+  "Website": "https://cannonballgroup.com/",
+  "Title": "President & CEO Cannonball",
+  "City": "Calgary, Alberta",
+  "Country": "Canada",
+  "Gender": "Female",
+  "Entity Name": "Cannonball Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/susan-anderson-0067b314a/"
+}
+
+#218
+ID: rect5LX4nXqxTdviD
+{
+  "Investor Name": "Sam Kim",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.bigbrain.holdings/",
+  "Title": "Partner",
+  "City": "Florida",
+  "Gender": "Male",
+  "Entity Name": "Big Brain Holdings",
+  "Linkedin URL": "https://www.linkedin.com/in/ksm-sam-kim/"
+}
+
+#219
+ID: rect78gYH99j95jHm
+{
+  "Investor Name": "Narayan Chowdhury",
+  "Investor Type": "Fund of Funds",
+  "Gender": "Male",
+  "Entity Name": "Franklin Park",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Ritujoy Narayan Chowdhury is the co-founder and Managing Director at Franklin Park, where he focuses on private equity investment opportunities, monitoring clients’ portfolios and conducting industry research. He also plays a key role in the development and implementation of Franklin Park’s technology platform, and regularly interacts with clients on investment and portfolio matters.\n\nPrior to Franklin Park, Narayan worked with Hamilton Lane and Public Financial Management. He is a CFA Charterholder and a member of the CFA Institute. Narayan received a B.A. in Mathematics and Economics from Bucknell University."
+}
+
+#220
+ID: rectFSG28nrp15OX8
+{
+  "Investor Name": "Spencer Powers",
+  "Investor Type": "Family Office",
+  "Website": "https://drw.com/",
+  "Gender": "Male",
+  "Entity Name": "DRW (Donald R. Wilson FO)",
+  "Linkedin URL": "https://www.linkedin.com/in/spencerpowers/"
+}
+
+#221
+ID: rectK2imxC9EbwSvZ
+{
+  "Investor Name": "Anthony Wang",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.serafund.co/",
+  "Title": "Founding Partner",
+  "City": "Vancouver, British Columbia",
+  "Country": "Canada",
+  "Gender": "Male",
+  "Entity Name": "Serafund",
+  "Linkedin URL": "https://www.linkedin.com/in/anthony-wang323/"
+}
+
+#222
+ID: rectOwLS4zecp2Cdc
+{
+  "Investor Name": "Manuel Muntaner",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://blockassetmanagement.com/",
+  "Title": "Founder & CEO",
+  "City": "Douglas, Isle of Man",
+  "Gender": "Male",
+  "Entity Name": "Block Asset Management",
+  "Linkedin URL": "https://www.linkedin.com/in/manueldeluque/"
+}
+
+#223
+ID: rectPwzAeW4Sf6D97
+{
+  "Investor Name": "Nabeel Qadri",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#crypto #blockchain"
+  ],
+  "Website": "https://www.protocolventures.com/",
+  "Title": "Managing Partner",
+  "City": "San Francisco Bay Area",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Protocol Ventures",
+  "Linkedin URL": "https://www.linkedin.com/in/nabeelqadri/"
+}
+
+#224
+ID: recuCGgdxR4AmQhex
+{
+  "Website": "https://www.aqvc.com/",
+  "Gender": "Male",
+  "Entity Name": "AQ VC"
+}
+
+#225
+ID: recuOKyFU5uy6U4o8
+{
+  "Investor Name": "Prem Kalevar",
+  "Investor Type": "Fund of Funds",
+  "Website": "inovia.vc",
+  "Title": "Vice President,",
+  "City": "Toronto, Ontario",
+  "Country": "Canada",
+  "Gender": "Male",
+  "Entity Name": "Inovia",
+  "Linkedin URL": "https://www.linkedin.com/in/premkalevar/"
+}
+
+#226
+ID: recuhcabQVigD6kxY
+{
+  "Investor Name": "Hillary Cook",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.nextlegacy.com/",
+  "Title": "Principal",
+  "City": "San Francisco Bay Area",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Next Legacy Partners",
+  "Linkedin URL": "https://www.linkedin.com/in/hillary-cook/"
+}
+
+#227
+ID: recvGVcD8DDwIi3Mk
+{
+  "Investor Name": "Youngrok Kim",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "CVCs",
+    "Emerging Managers"
+  ],
+  "City": "San Francisco",
+  "Country": "USA",
+  "Gender": "Male",
+  "Entity Name": "GREE LP Fund",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Youngrok Kim is a Partner at GREE LP Fund, a Fund of Funds operating in the US and Japan. Previously, he held the position of SVP at Recruit Strategic Partner, the strategic investment arm of Recruit Holdings, a major internet company in Japan. Youngrok began his career as an engineer at Goldman Sachs before transitioning to a VC career at ARCH Venture Partners in Chicago. He earned an MBA from the University of Chicago and received his degrees in Information Technology from Aoyama Gakuin University in Tokyo."
+}
+
+#228
+ID: recvOmyTWVMUdk9QQ
+{
+  "Investor Name": "Tracy Fong",
+  "Gender": "Male",
+  "Entity Name": "Albourne Partners",
+  "Linkedin URL": "https://www.linkedin.com/in/tracyfong714/"
+}
+
+#229
+ID: recvSYwXx0uAFU9bI
+{
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#revere #SFO"
+  ],
+  "Website": "https://blackkitecapital.com/",
+  "City": "Singapore",
+  "Gender": "Male",
+  "Entity Name": "Black Kite Capital"
+}
+
+#230
+ID: recvTrxijdZQC9zbc
+{
+  "Investor Name": "Alex Chalunkal",
+  "Investor Type": "Family Office",
+  "Website": "familyyoofficee.com",
+  "Title": "Chief Investment Officer",
+  "City": "New York City Metropolitan Area",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Family Office",
+  "Linkedin URL": "https://www.linkedin.com/in/alexchalunkal/"
+}
+
+#231
+ID: recvvXsB90oWUmaEs
+{
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#chicago #SFO"
+  ],
+  "Website": "https://reimaginedventures.com/",
+  "Gender": "Male",
+  "Entity Name": "Reimagined Ventures"
+}
+
+#232
+ID: recw1PhvSSJhwUrwh
+{
+  "Investor Name": "John Burbank",
+  "Investor Type": "HNWI",
+  "Website": "https://www.nimblepartners.vc/",
+  "Gender": "Male",
+  "Entity Name": "Nimble Partners, LLC"
+}
+
+#233
+ID: recwPdP71iIUWhgSz
+{
+  "Investor Name": "Paul Fetsch",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#lifesciences #bio"
+  ],
+  "Website": "https://www.spurcapital.com/",
+  "Title": "MANAGING DIRECTOR, CO-FOUNDER (2001)",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Spur Capital"
+}
+
+#234
+ID: recwZh0W2igT5w5kS
+{
+  "Investor Name": "Ian Park",
+  "Investor Type": "Endowment/Pension",
+  "Website": "kic.kr",
+  "Title": "VC Investor",
+  "City": "San Francisco Bay Area",
+  "Country": "United States",
+  "Gender": "Male",
+  "Entity Name": "Korean Investment Fund",
+  "Linkedin URL": "https://www.linkedin.com/in/ianpark0/"
+}
+
+#235
+ID: recxhO3ooH2BES8da
+{
+  "Investor Name": "Raviv Sapir",
+  "Investor Type": "Fund of Funds",
+  "Gender": "Male",
+  "Entity Name": "Vinthera",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "Raviv Sapir is an early-stage investor at Vinthera, a fund of funds and venture firm with a hybrid strategy that combines VC fund investments with direct startup investments. With a background in tech and finance, an MBA from HEC Paris, and years of experience mentoring startups and supporting LPs, Raviv brings a sharp eye for high-conviction opportunities and a practical approach to venture. He previously held product roles at leading Israeli startups and served in a technological unit within the Israeli Defense Forces. His work across geographies, sectors, and investment stages gives him a uniquely holistic and global perspective on the venture ecosystem."
+}
+
+#236
+ID: recxkRlcQFcCpAgRF
+{
+  "Investor Name": "Neetu Puranikmath",
+  "Investor Type": "Family Office",
+  "Website": "http://cooperfamilyoffice.com",
+  "Title": "Senior Investment Officer",
+  "Gender": "Female",
+  "Entity Name": "Cooper Family Office"
+}
+
+#237
+ID: recy1qj5DvYf03btG
+{
+  "Investor Name": "Michael Str√∂ck",
+  "Investor Type": "Fund of Funds",
+  "LP Keywords": [
+    "#europe"
+  ],
+  "Website": "https://www.allocator.one",
+  "Title": "Co-Founder & CEO",
+  "City": "Vienna, Vienna",
+  "Country": "Austria",
+  "Gender": "Male",
+  "Entity Name": "Allocator One",
+  "Linkedin URL": "https://www.linkedin.com/in/mstroeck/"
+}
+
+#238
+ID: recy5VQPsr8tK8as2
+{
+  "Investor Name": "Ramzi Samara",
+  "Investor Type": "Family Office",
+  "Website": "https://masic.com.sa/",
+  "Gender": "Male",
+  "Entity Name": "MASIC"
+}
+
+#239
+ID: recyBTOuwNrUao9lm
+{
+  "Investor Name": "David Cruz e Silva",
+  "Investor Type": "HNWI",
+  "LP Keywords": [
+    "#europe"
+  ],
+  "Website": "eu.vc",
+  "Title": "Founder",
+  "City": "Lisbon, Lisbon",
+  "Country": "Portugal",
+  "Gender": "Male",
+  "Entity Name": "EUVC",
+  "Linkedin URL": "https://www.linkedin.com/in/david-euvc/"
+}
+
+#240
+ID: reczHAXtNFRAoveJu
+{
+  "Investor Name": "Katie (Knepley) Riester",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.felicis.com/",
+  "Gender": "Female",
+  "Entity Name": "Felicis",
+  "Linkedin URL": "https://www.linkedin.com/in/katie-riester-91793b8/"
+}
+
+#241
+ID: reczT4NHiY0axXbKQ
+{
+  "Investor Name": "Joan Heidorn",
+  "Investor Type": "Fund of Funds",
+  "Website": "https://www.spurcapital.com/",
+  "Title": "Managing Director",
+  "City": "Bartlesville, Oklahoma,",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Spur Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/joan-heidorn-6b12336/"
+}
+
+#242
+ID: reczYv2UMIsb39ypY
+{
+  "Investor Name": "Courtney Russell McCrea",
+  "Investor Type": "Fund of Funds",
+  "Website": "recastcapital.com",
+  "Title": "Co-Founder and Managing Partner",
+  "City": "San Francisco, California",
+  "Country": "United States",
+  "Gender": "Female",
+  "Entity Name": "Recast Capital",
+  "Linkedin URL": "https://www.linkedin.com/in/courtneymccrea/"
+}
+
+#243
+ID: reczlS3UqxWgvtJEb
+{
+  "Investor Name": "Kelli Fontaine",
+  "Investor Type": "Fund of Funds",
+  "Gender": "Female",
+  "Entity Name": "Cendana Capital",
+  "Podcast Name": [
+    "Superclusters"
+  ],
+  "Investor Thesis": "From investing in great fund managers to data to investor relations, Kelli Fontaine is a partner at Cendana Capital, a fund of funds who’s solely focused on the best pre-seed and seed funds with over 2 billion under management and includes the likes of Forerunner, Founder Collective, Lerer Hippeau, Uncork, Susa Ventures and more. Kelli comes from the world of data, and has been a founder, marketing expert, and an advisor to founders since 2010.\n\n"
+}
+
+#244
+ID: recztruwSkQQG55Te
+{
+  "Investor Type": "Family Office",
+  "LP Keywords": [
+    "#sustainability"
+  ],
+  "Website": "http://www.cullomcapital.vc",
+  "Gender": "Male",
+  "Entity Name": "Cullom Capital"
+}

@@ -85,17 +85,49 @@ export class RagieService {
       const formattedResults = chunks.map((chunk: any) => ({
         content: chunk.text || chunk.content || '',
         score: chunk.score || 0,
-        documentId: chunk.document_id || chunk.documentId || '',
+        documentId: chunk.documentId || chunk.document_id || '',
         citation: {
-          source: chunk.document_metadata?.document_name || 
+          source: chunk.documentName || 
+                  chunk.documentMetadata?.title || 
+                  chunk.document_metadata?.document_name || 
                   chunk.document_metadata?.title || 
                   chunk.metadata?.document_name ||
                   chunk.metadata?.title ||
                   'Unknown',
-          page: chunk.document_metadata?.page || chunk.metadata?.page || null,
-          documentType: chunk.document_metadata?.document_type || chunk.metadata?.document_type || null
+          page: chunk.metadata?.start_page || 
+                chunk.metadata?.end_page || 
+                chunk.document_metadata?.page || 
+                chunk.metadata?.page || 
+                null,
+          documentType: chunk.documentMetadata?.document_type || 
+                       chunk.document_metadata?.document_type || 
+                       chunk.metadata?.document_type || 
+                       'PDF',
+          // Enhanced Airtable-specific citation info
+          tableName: chunk.metadata?.table_name || 
+                    chunk.document_metadata?.table_name || 
+                    null,
+          exportType: chunk.metadata?.export_type || 
+                     chunk.document_metadata?.export_type || 
+                     null,
+          recordCount: chunk.metadata?.record_count || 
+                      chunk.document_metadata?.record_count || 
+                      null,
+          lastUpdated: chunk.metadata?.last_updated || 
+                      chunk.document_metadata?.last_updated || 
+                      null,
+          dataSource: chunk.metadata?.source || 
+                     chunk.document_metadata?.source || 
+                     null
         },
-        metadata: chunk.document_metadata || chunk.metadata || {}
+        metadata: {
+          ...chunk.metadata,
+          ...chunk.documentMetadata,
+          ...chunk.document_metadata,
+          chunkId: chunk.id,
+          index: chunk.index,
+          links: chunk.links
+        }
       }));
 
       return {
@@ -123,9 +155,23 @@ export class RagieService {
       // Format chunks into a context string
       const context = (searchResponse as any).results
         .map((result: any, index: number) => {
-          const citation = `[${index + 1}] ${result.citation.source}${
-            result.citation.page ? ` (Page ${result.citation.page})` : ''
-          }`;
+          let citation = `[${index + 1}] ${result.citation.source}`;
+          
+          // Add page info if available
+          if (result.citation.page) {
+            citation += ` (Page ${result.citation.page})`;
+          }
+          
+          // Add Airtable table name if available
+          if (result.citation.tableName) {
+            citation += ` [${result.citation.tableName}]`;
+          }
+          
+          // Add document type
+          if (result.citation.documentType) {
+            citation += ` [${result.citation.documentType}]`;
+          }
+          
           return `${citation}\n${result.content}\n`;
         })
         .join('\n---\n\n');
@@ -244,6 +290,35 @@ export class RagieService {
     } catch (error) {
       console.error('Error uploading document:', error);
       throw new Error(`Failed to upload document: ${(error as any).message || error}`);
+    }
+  }
+
+  /**
+   * Debug method to get raw API response
+   * @param {string} query - The search query
+   * @param {number} topK - Number of results to return
+   * @returns {Promise<object>} Raw API response
+   */
+  async debugSearch(query: string, topK: number = 3) {
+    try {
+      const requestParams = {
+        query,
+        top_k: topK,
+        rerank: true
+      };
+
+      const response = await this.ragie.retrievals.retrieve(requestParams);
+      
+      return {
+        requestParams,
+        rawResponse: response,
+        responseType: typeof response,
+        hasScoreChunks: !!(response as any).scoredChunks,
+        chunkCount: (response as any).scoredChunks?.length || 0
+      };
+    } catch (error) {
+      console.error('Error in debug search:', error);
+      throw new Error(`Failed to debug search: ${(error as any).message || error}`);
     }
   }
 }

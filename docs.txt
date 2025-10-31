@@ -1,1 +1,193 @@
-I’m building a knowledgebase and want customers to be able to chat with the files using MCP. I need help testing and setting up the best multimodal RAG-as-a-service option for my setup. My content includes mostly text interview transcripts, some PDF industry reports, and a directory currently in Airtable. I’m looking at services like Ragie.ai, AgentSet.ai, and Airweave.ai, but open to suggestions. As customers use their own LLM (e.g. ChatGPT), they should be able to query my knowledgebase in natural language and receive page-level citations. Example questions: Show me other funds similar to the fund I’m researching Summarize the recent interview with John Fellows How does this Fund II compare to benchmarks for other Fund IIs? Who are allocators investing in climate funds? Side Letter – MCP Knowledge Base MVP Spec Goal: Enable secure, conversational querying and synthesis across The Side Letter knowledge base — including interview transcripts, PDF reports, and structured fund data (currently in Airtable). Users will access the system through MCP (Model Context Protocol) inside ChatGPT or Claude, with access gated to approved users. Example User Prompts These reflect the real-world queries the system should handle: ● Show me other funds similar to the fund I’m researching ● Summarize the recent interview with Roger Luo ● How does this Fund II compare to benchmarks for other Fund IIs? ● Who are allocators investing in climate funds? (from Airtable) ● What companies were mentioned in the Roger Luo briefing? Each answer should cite source documents or records (page-level when possible). Core Requirements 1. Data Sources ○ Text transcripts (Google Drive / PDFs / Docs) ○ PDF reports or memos ○ Structured fund + allocator data (currently in Airtable) 2. Ingestion & Indexing ○ Use a managed RAG service (e.g., Ragie.ai or equivalent) for: ■ Text extraction + chunking ■ Embedding creation and vector storage ■ Page-level citation metadata ○ Lightweight sync service (cron or webhook) keeps Airtable data current. 3. Retrieval & Chat Layer ○ REST endpoint /search (and optional /ask) ■ Authenticated via per-user API key or JWT ■ Accepts query string → returns top k results + citations ○ Endpoint exposed to ChatGPT/Claude via MCP config JSON 4. Authentication & Access ○ Only authorized users (from Clients table or whitelist) can query. ○ Initial version supports manual onboarding; later, automated token issuance. 5. Performance & Quality ○ Sub-2 second retrieval for typical queries. ○ Accurate citation linking to documents or Airtable records. ○ Works for conversational multi-turn context (basic memory OK). Deliverables 1. Operational prototype with: ○ Indexed sample dataset (≈ 10 PDFs + Airtable tables) ○ /search API returning cited snippets ○ MCP JSON enabling ChatGPT integration 2. Brief developer README documenting: ○ Data-flow diagram ○ Field mappings (Airtable → index) ○ Auth / sync / deployment steps Side Letter – MCP Knowledge Base MVP Spec Goal: Enable secure, conversational querying and synthesis across The Side Letter knowledge base — including interview transcripts, PDF reports, and structured fund data (currently in Airtable). Users will access the system through MCP (Model Context Protocol) inside ChatGPT or Claude, with access gated to approved users. Example User Prompts These reflect the real-world queries the system should handle: Show me other funds similar to the fund I’m researching Summarize the recent interview with Roger Luo How does this Fund II compare to benchmarks for other Fund IIs? Who are allocators investing in climate funds? What companies were mentioned in the Roger Luo briefing? Each answer should cite source documents or records (page-level when possible). Core Requirements Data Sources Text transcripts (Google Drive / PDFs / Docs) PDF reports or memos Structured fund + allocator data (currently in Airtable) Ingestion & Indexing Use a managed RAG service (e.g., Ragie.ai or equivalent) for: Text extraction + chunking Embedding creation and vector storage Page-level citation metadata Lightweight sync service (cron or webhook) keeps Airtable data current. Retrieval & Chat Layer REST endpoint /search (and optional /ask) Authenticated via per-user API key or JWT Accepts query string → returns top k results + citations Endpoint exposed to ChatGPT/Claude via MCP config JSON Authentication & Access Only authorized users (from Clients table or whitelist) can query. Initial version supports manual onboarding; later, automated token issuance. Performance & Quality Sub-2 second retrieval for typical queries. Accurate citation linking to documents or Airtable records. Works for conversational multi-turn context (basic memory OK). Deliverables Operational prototype with: Indexed sample dataset (≈ 10 PDFs + Airtable tables) /search API returning cited snippets MCP JSON enabling ChatGPT integration Brief developer README documenting: Data-flow diagram Field mappings (Airtable → index) Auth / sync / deployment steps Sam Huleatt 12:59 AM (12 minutes ago) to me Ragie.ai: sam.huleatt@gmail.com pwd: PtR5j^8bqJq9NvlyH7 Let me know when you need the upgraded version - just note I can't afford multiple connectors, if they are charging us $250 per connector Airtable: sam@thesideletter.co $Jl1Q$&qSCou@NbgQj pls can you go through the client project and tell me what they want to do and step by step how to start the project
+so in my code i want to create  script that would fetch two different json from fund and allocation  save it in two file and write an hash for each so in my next fetch i would compare if there are not same then i would replace it with the new file.
+
+this is my rough code i wrote 
+// testAirtable.js
+import axios from "axios";
+import dotenv from "dotenv";
+import fs from "fs";
+dotenv.config();
+
+const AIRTABLE_PAT = process.env.AIRTABLE_PAT;
+const BASE_ID = "appMXDULPdtP3RsYT";
+
+// ✅ Tables to export
+const TABLES = [
+  { name: "Funds [Master]", file: "funds" },
+  { name: "Allocators [Master]", file: "allocators" },
+];
+
+async function fetchTable(tableName, fileName) {
+  let allRecords = [];
+  let offset = undefined;
+
+  console.log(`\n⏳ Fetching records from table: ${tableName}...`);
+
+  try {
+    do {
+      const url = ``;
+      const response = await axios.get(url, {
+        headers: {
+          Authorization: `Bearer ${AIRTABLE_PAT}`,
+        },
+        params: { pageSize: 100, offset },
+      });
+
+      allRecords = [...allRecords, ...response.data.records];
+      offset = response.data.offset;
+
+    } while (offset);
+
+    console.log(`✅ Retrieved ${allRecords.length} records from "${tableName}".`);
+
+    // Write JSON
+    fs.writeFileSync(
+      `airtable_${fileName}.json`,
+      JSON.stringify(allRecords, null, 2)
+    );
+
+    // Write readable TXT
+    const readable = allRecords
+      .map((rec, index) => `#${index + 1}\nID: ${rec.id}\n${JSON.stringify(rec.fields, null, 2)}\n`)
+      .join("\n");
+
+    fs.writeFileSync(`airtable_${fileName}.txt`, readable);
+
+    console.log(`📁 Saved -> airtable_${fileName}.json and airtable_${fileName}.txt`);
+
+  } catch (err) {
+    console.error(`❌ Error fetching table "${tableName}":`);
+    console.error(err.response?.data || err.message);
+  }
+}
+
+async function run() {
+  for (const t of TABLES) {
+    await fetchTable(t.name, t.file);
+  }
+  console.log("\n✨ Done exporting Airtable data.");
+}
+
+run();
+
+so i can run the code with either node airtableService or through a tool.
+that means i have to embedd the gotten data to ragie
+Step 2: Load data into Ragie
+This section will teach you how to load data into Ragie using the data ingest APIs
+
+Suggest Edits
+In this section, we will load data into Ragie from a directory that has some files in it. The example files that we are using are available in our ragie-examples GitHub repository. For this example, we will use Ragie's multipart file uploader API, but when you build your application, you ingest data into Ragie using four different methods:
+
+The multipart file uploader API
+Uploading files directly using Ragie's CLI
+The raw content JSON API
+Using a connector to keep data synchronized from a source
+Here is some code to accomplish what we just described. It's similar, but not exactly the same as the code in our GitHub repository. For this example, we've removed error handling and some output so we can focus on only the data ingest logic. For a more robust example, see the tutorial in ragie-examples.
+
+Install the Ragie TypeScript client
+
+Shell
+
+npm install ragie
+TypeScript
+
+import fs from "fs";
+import { readFile } from "node:fs/promises";
+import path from "path";
+import { Ragie } from "ragie";
+
+const apiKey = "<YOUR API KEY>";
+const directory = "path/to/directory";
+
+(async () => {
+  const files = fs.readdirSync(directory);
+  
+  const ragie = new Ragie({
+    auth: apiKey
+  });
+  
+  for (const file of files) {
+    const filePath = path.join(directory, file);
+    const fileContent = await readFile(filePath);
+    const blob = new Blob([fileContent]);
+  
+    const response = await ragie.documents.create({
+      file: blob,
+      name: file,
+      metadata: {
+        title: file,
+        scope: "tutorial"
+      }
+    });
+  }
+})();
+Each document in the directory is loaded into Ragie and then processed. The amount of time it takes to process each document can vary based on the type of document that is passed to Ragie as well as the mode in which the document is processed.
+
+After this runs successfully, we will have added all of our podcasts into Ragie. We can then use this data later in our application to generate content which includes data that the LLM model has not been trained on. This is the beauty of RAG and how Ragie helps you build these types of applications quickly.
+
+Using Metadata
+Notice that in our example above, we added some metadata to our API call. You can attach metadata to any document that you send to Ragie. Metadata can be used later during retrieval to filter results. Typical usages of metadata include attaching an "scope", "environment" or including an "organization_id" to segment your customer data. Metadata may also include more information about the document that you want to reference in your application such as the title of the document or the source url of the document. What you put in metadata is up to you and your application.
+Understanding Mode
+Ragie can process documents in different modes depending on the file type. For text documents, choose between 'hi_res' (extracts text, images, and tables) and 'fast' (text-only, much faster). 'hi_res' works with Word, PDF, Images, and PowerPoint files. For audio files, use true/false to enable/disable processing. For video files, choose 'audio_only', 'video_only', or 'audio_video'. When specifying multiple strategies, use a JSON object with keys: "static" for text, "audio" for audio, and "video" for video files. Omitted keys indicate that document type won't be processed.
+Querying document status
+You may query the document to see if it has been fully processed. When you see a status of ready, the document has been fully processed and is ready to be used in retrieval.
+
+TypeScript
+
+import { Ragie } from "ragie";
+
+const apiKey = "<YOUR API KEY>";
+const id = "21881de1-65f7-4816-b571-3ef69661c375";
+
+const ragie = new Ragie({
+  auth: apiKey
+});
+
+// Retrieve document status
+(async () => {
+  const document = await ragie.documents.get({
+    documentId: id
+  });
+
+  console.log(document);
+})();
+Sample output would looks like this:
+
+JSON
+
+{
+  "id": "21881de1-65f7-4816-b571-3ef69661c375",
+  "created_at": "2024-07-05T22:21:21.099975Z",
+  "updated_at": "2024-07-05T22:21:37.521837Z",
+  "status": "ready",
+  "name": "All In Pod Episode E112.pdf",
+  "metadata": {
+    "title": "All In Pod Episode E112.pdf",
+    "scope": "tutorial"
+  },
+  "chunk_count": 86,
+  "external_id": null
+}
+It is typical to poll for the document status to know when a document is ready. Alternatively, Ragie supports webhooks that can push document status changes to your application.
+
+What did Ragie do?
+Ragie extracted all of the information from your documents. By default, Ragie uses “fast” mode to extract data. “Fast” mode is perfect for text documents, but will miss some information in complex documents that include images, charts, and tables. Ragie has a “hi_res” mode for processing complex documents that uses a combination of models, such as multi-modal LLMs and OCR, to extract non-textual information. This allows your generative ai applications to use the typically inaccessible information embedded in charts, graphs, and other non-textual content. Keep in mind that there is a speed tradeoff when using “fast” vs “hi_res” modes.
+Ragie created optimized chunks from your documents for use in your prompt’s context window (you’ll see an example of this later in the tutorial). Naive approaches to chunking can be fairly simple, but optimal chunking is a complex and rapidly evolving area of research. Ragie stays at the forefront of this research and implements the most promising techniques.
+Ragie indexed the generated chunks for semantic retrieval in a vector search database. This allows your ai applications to perform natural language queries of your data that return the most accurate and relevant information.
+Ragie created summaries of your documents and indexed them in a Summary Index, to improve retrieval results. Learn more about the Summary Index.
+If you’ve created Entity Extraction Instructions, Ragie may have extracted structured data from your documents. Learn more about Entity Extraction.
+Let's recap
+In this section, you learned how to:
+
+Use the mulipart document upload API to load data into Ragie. You learned that this is one of three ways that Ragie can ingest data.
+Use the document API to query for document status.
+Use Ragie for heavy lifting that you would ordinarily need to build yourself. This work is abstracted away from you as a developer so you can focus on building your application.
+Updated 5 months ago
+
+Step 1: Create an API key
+Step 3: Retrieve Chunks
+Did this page help you?
+Table of Contents
+Querying document status
+What did Ragie do?
+
+  
