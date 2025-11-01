@@ -1,0 +1,12 @@
+{
+  "userApiKeys": [
+    "user_key_1234567890",
+    "user_key_abcdefghij",
+    "user_key_9876543210"
+  ],
+  "adminApiKeys": [
+    "admin_super_key_xyz123",
+    "admin_super_key_abc789"
+  ],
+  "lastUpdated": "2024-01-01T00:00:00.000Z"
+}

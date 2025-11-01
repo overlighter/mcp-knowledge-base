@@ -2,24 +2,36 @@
 ID: rec0Hdv4GhXpix7L0
 {
   "Fund Name": "Untapped Capital",
+  "GP Name": "Yohei Nakajima",
+  "GP Linkedin": "https://www.linkedin.com/in/yoheinakajima/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:46.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.untapped.vc/"
 }
 
 #2
 ID: rec1wTvM4VjLHjpse
 {
   "Fund Name": "Conviction",
+  "GP Name": "Sarah Guo",
+  "GP Linkedin": "https://www.linkedin.com/in/sarahxguo/",
   "Fund Number": "I",
   "Submission Date": "2025-10-29T16:07:43.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.conviction.com/"
 }
 
 #3
@@ -47,25 +59,33 @@ ID: rec2PHoj6dhJco8QX
 {
   "Fund Name": "Position Ventures",
   "GP Name": "Jenny He",
+  "GP Linkedin": "https://www.linkedin.com/in/jennyhe/",
   "Fund Number": "II",
   "Why Interesting?": "Focused on helping companies with PR; Helped with the PR around Square's IPO; is really close with Justin Kan; husband was the CoS for Parker Conrad",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://positionventures.com/"
 }
 
 #5
 ID: rec3Tsue4LM1nTtvd
 {
-  "Fund Name": "Remote First Capital",
+  "Fund Name": "Prototype Capital",
+  "GP Name": "Andreas Klinger",
+  "GP Linkedin": "https://www.linkedin.com/in/andreasklinger/?originalSubdomain=de",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.prototypecap.com/"
 }
 
 #6
@@ -73,6 +93,7 @@ ID: rec56WO4rJTtbXsFi
 {
   "Fund Name": "Audacious Ventures",
   "GP Name": "Nakul Mandan + 2",
+  "GP Linkedin": "https://www.linkedin.com/in/nakulmandan",
   "Fund Number": "II",
   "Co-Investors": [
     "Next Legacy"
@@ -82,7 +103,8 @@ ID: rec56WO4rJTtbXsFi
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "http://www.audacious.co/"
 }
 
 #7
@@ -90,24 +112,29 @@ ID: rec5AK3z4elxayxzM
 {
   "Fund Name": "LMNT Ventures",
   "GP Name": "Jeff Miller",
+  "GP Linkedin": "https://www.linkedin.com/in/jeff-miller-a176193",
   "Fund Number": "I",
   "Submission Date": "2025-10-22T13:56:50.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Raising "
+  "Fundraising Status": "Raising ",
+  "Fund Website": "https://www.lmnt.vc/home-in-review"
 }
 
 #8
 ID: rec6ERFteAT2IDaUm
 {
   "Fund Name": "Bungalow Capital",
+  "GP Name": "Dave Ambrose",
+  "GP Linkedin": "https://www.linkedin.com/in/davidjambrose/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.bungalow.vc/"
 }
 
 #9
@@ -115,6 +142,7 @@ ID: rec6hVAmwMdRCGbwZ
 {
   "Fund Name": "Schema Ventures",
   "GP Name": "Aarthi Ramamurthy",
+  "GP Linkedin": "https://www.linkedin.com/in/aarthir/",
   "Fund Number": "I",
   "Co-Investors": [
     "Elad Gil",
@@ -125,43 +153,56 @@ ID: rec6hVAmwMdRCGbwZ
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://schemavc.com/"
 }
 
 #10
 ID: rec6oOpTf8jIKZVw2
 {
   "Fund Name": "Pathlight Ventures",
+  "GP Name": "Mahdi Raza",
+  "GP Linkedin": "http://www.linkedin.com/in/mahdirazany",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T20:17:42.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.pathlight.vc/"
 }
 
 #11
 ID: rec6rABaQtpHFNY4L
 {
   "Fund Name": "Deciens III",
+  "GP Name": "Ishan Sachdev",
+  "GP Linkedin": "http://www.linkedin.com/in/ishansachdev",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://deciens.com/"
 }
 
 #12
 ID: rec7FGaDDnaDyggYd
 {
   "Fund Name": "Inception Studio Capital",
+  "GP Name": "John Whaley",
+  "GP Linkedin": "https://www.linkedin.com/in/joewhaley/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.inceptionstudio.capital/"
 }
 
 #13
@@ -175,124 +216,143 @@ ID: rec7bBCa1MnsYQM48
   "Visibility": [
     "Tracking"
   ],
+  "Keywords": [
+    "Solo GP"
+  ],
   "Fundraising Status": "Closed",
   "Fund Website": "https://www.oncology.ventures/"
 }
 
 #14
-ID: rec7hT6cYehq7zAg0
-{
-  "Fund Name": "Schema Ventures",
-  "Fund Number": "I",
-  "Submission Date": "2025-10-11T00:20:00.000Z",
-  "Visibility": [
-    "Tracking"
-  ],
-  "Fundraising Status": "Closed"
-}
-
-#15
 ID: rec8QUKY5eKtcR8Sz
 {
   "Fund Name": "SF1",
   "GP Name": "Sudarshan Sridharan",
+  "GP Linkedin": "https://www.linkedin.com/in/sudarshan-sridharan/",
   "Fund Number": "I",
   "Submission Date": "2025-09-19T14:20:51.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Raising "
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Raising ",
+  "Fund Website": "https://www.sf1.vc/"
 }
 
-#16
+#15
 ID: rec9f0hmo5LSqXYSE
 {
   "Fund Name": "DayDream Ventures",
+  "GP Name": "Jonathan Chang",
+  "GP Linkedin": "https://www.linkedin.com/in/thejonathanchang/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.daydreamvc.com/"
 }
 
-#17
+#16
 ID: rec9je5w8vK1S53UZ
 {
   "Fund Name": "Rebellion Ventures",
+  "GP Name": "Jukka Alanen",
+  "GP Linkedin": "https://www.linkedin.com/in/jukkaalanen/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://rebellionvc.com/"
 }
 
-#18
+#17
 ID: recC0nCpOQcGukitA
 {
   "Fund Name": "1st Hand Alliance",
+  "GP Name": "Simon Chan",
+  "GP Linkedin": "https://www.linkedin.com/in/simonmhchan/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP",
+    "B2B"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.firsthand.vc/"
 }
 
-#19
+#18
 ID: recDRvzDTUkO5haXD
 {
   "Fund Name": "Stellation Capital",
+  "GP Name": "Peter Boyce II",
+  "GP Linkedin": "https://www.linkedin.com/in/peterboyce2/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.stellation.vc/"
 }
 
-#20
-ID: recDe4WKnpaPAyejL
-{
-  "Fund Name": "Lightspeed",
-  "Fund Number": "I",
-  "Submission Date": "2025-09-18T23:12:49.000Z",
-  "Visibility": [
-    "Tracking"
-  ],
-  "Fundraising Status": "Closed"
-}
-
-#21
+#19
 ID: recEEWjcTdZvbeWQ3
 {
   "Fund Name": "Banana Capital",
+  "GP Name": "Turner Novack",
+  "GP Linkedin": "https://www.linkedin.com/in/turnernovak/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.bananacapital.vc/"
 }
 
-#22
+#20
 ID: recF7PL7iDivW6WI2
 {
   "Fund Name": "Anomaly ",
+  "GP Name": "Patrick Blumenthal",
+  "GP Linkedin": "https://www.linkedin.com/in/patrickblumenthal/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://anomalyvc.com/"
 }
 
-#23
+#21
 ID: recF7wpWITVZgmZbW
 {
   "Fund Name": "Wisdom Ventures",
   "GP Name": "Bradley Horowitz et al",
+  "GP Linkedin": "https://www.linkedin.com/in/bradleyhorowitz/",
   "Fund Number": "II",
   "Co-Investors": [
     "Franklin Park"
@@ -302,51 +362,70 @@ ID: recF7wpWITVZgmZbW
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Raising "
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Raising ",
+  "Fund Website": "https://www.wisdomventuresfund.com/"
 }
 
-#24
+#22
 ID: recF9GWsyDL976aqx
 {
   "Fund Name": "Incisive Ventures",
+  "GP Name": "Martin Tobias",
+  "GP Linkedin": "https://www.linkedin.com/in/martintobias/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://incisive.vc/"
 }
 
-#25
+#23
 ID: recFKqGf7dlvX7Iwc
 {
   "Fund Name": "Orange Fund",
   "GP Name": "Don Ho",
+  "GP Linkedin": "https://www.linkedin.com/in/donhojr/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T20:17:52.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.orange.fund/"
 }
 
-#26
+#24
 ID: recFcuAZweY4dE1gv
 {
   "Fund Name": "Dune Ventures",
+  "GP Name": "David Brillembourg",
+  "GP Linkedin": "http://www.linkedin.com/in/brillembourg",
   "Fund Number": "I",
   "Submission Date": "2025-10-09T20:57:04.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://dune.ventures/"
 }
 
-#27
+#25
 ID: recGgHdFaZawn2cdB
 {
   "Fund Name": "Intuition VC",
   "GP Name": "Etienne Boutan",
+  "GP Linkedin": "https://www.linkedin.com/in/etienneboutan/",
   "Fund Number": "I",
   "Co-Investors": [
     "General Catalyst"
@@ -355,89 +434,123 @@ ID: recGgHdFaZawn2cdB
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.intuition.vc/"
 }
 
-#28
+#26
 ID: recGuhp2YYr6vStav
 {
   "Fund Name": "Steel Atlas",
-  "GP Name": "Cameron Porter",
+  "GP Name": "Talal Attieh",
+  "GP Linkedin": "https://www.linkedin.com/in/cam39porter/",
+  "Add. Partners LinkedIns": "Cameron Porter",
   "Fund Number": "I",
   "Submission Date": "2025-09-19T14:18:41.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.steelatlas.vc/"
 }
 
-#29
+#27
 ID: recIEq3mIo3z3zV2L
 {
   "Fund Name": "Topology Ventures",
+  "GP Name": "Casey Caruso",
+  "GP Linkedin": "https://www.linkedin.com/in/casey-k-caruso/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.topology.vc/"
 }
 
-#30
+#28
 ID: recIqfk5ocGbyI1LL
 {
   "Fund Name": "Spice Capital",
+  "GP Name": "Maya Bakhai",
+  "GP Linkedin": "https://www.linkedin.com/in/mayabakhai/",
   "Fund Number": "I",
   "Submission Date": "2025-10-08T15:46:11.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.spicecapital.xyz/"
 }
 
-#31
+#29
 ID: recJtSrfhmwx0HOxG
 {
   "Fund Name": "Banter Capital",
+  "GP Name": "Heston Berkman",
+  "GP Linkedin": "https://www.linkedin.com/in/hestonberkman/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://bantercap.com/"
 }
 
-#32
+#30
 ID: recKJjmds7UEErK0w
 {
   "Fund Name": "Stellar Ventures",
   "GP Name": "David Anderman",
+  "GP Linkedin": "https://www.linkedin.com/in/davidanderman/",
   "Fund Number": "III",
   "Why Interesting?": "Former COO for SpaceX, former COO and General Counsel for Lucasfilm",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://svc.vc/"
 }
 
-#33
+#31
 ID: recMSwjeJqc05VMAa
 {
   "Fund Name": "Sarah Smith Fund",
+  "GP Name": "Sarah Smith",
+  "GP Linkedin": "https://www.linkedin.com/in/sasmith4/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.sarahsmith.fund/"
 }
 
-#34
+#32
 ID: recMxqkXI5696x0bL
 {
   "Fund Name": "Forward Deployed VC",
   "GP Name": "Mark Scianna",
+  "GP Linkedin": "https://www.linkedin.com/in/markscianna/",
   "Fund Number": "II",
   "Co-Investors": [
     "Bain Capital Ventures",
@@ -448,174 +561,246 @@ ID: recMxqkXI5696x0bL
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.deployed.vc/"
 }
 
-#35
+#33
 ID: recOBtX7Xrn9lfH6q
 {
   "Fund Name": "GreyMatter",
+  "GP Name": "Danish Munir",
+  "GP Linkedin": "http://www.linkedin.com/in/danishmunir",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.greymattercapital.com/"
 }
 
-#36
+#34
 ID: recOsf9ZMqFL4gwTZ
 {
   "Fund Name": "Ubiquity Ventures",
+  "GP Name": "Brian Silverstein",
+  "GP Linkedin": "https://www.linkedin.com/in/brsilverstein/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.ubiquity.vc/"
 }
 
-#37
+#35
 ID: recP3FRFQ6YWUiMUh
 {
   "Fund Name": "Rackhouse Ventures",
   "GP Name": "Kevin Novak",
+  "GP Linkedin": "https://www.linkedin.com/in/novakkm/",
   "Fund Number": "III",
   "Why Interesting?": "Created surge pricing at Uber (has the patent); is a very data-centric person when it comes to AI",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Soon"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Soon",
+  "Fund Website": "https://www.rackhouse.vc/about"
 }
 
-#38
+#36
+ID: recPxVSYFVs01qdWc
+{
+  "Fund Name": "Preston-Werner Ventures",
+  "GP Name": "Tom Preston-Werner",
+  "GP Linkedin": "https://www.linkedin.com/in/mojombo/",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-31T17:30:58.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://pwv.com/"
+}
+
+#37
 ID: recQRLqRIpoB7xTQQ
 {
   "Fund Name": "Hobart Ventures",
+  "GP Name": "TJ Taylor",
+  "GP Linkedin": "https://www.linkedin.com/in/tj-taylor-47b40517/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://hobart.vc/"
 }
 
-#39
+#38
 ID: recQxufJ9GF3UJfE7
 {
   "Fund Name": "Alpine Ventures",
+  "GP Name": "Ed Shuh",
+  "GP Linkedin": "https://www.linkedin.com/in/edsuh/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://alpine.vc/"
 }
 
-#40
+#39
 ID: recR6guCMuT3oPHkK
 {
   "Fund Name": "Seven Stars",
   "GP Name": "Steven Lee",
+  "GP Linkedin": "https://www.linkedin.com/in/stevenlee6/",
   "Fund Number": "I",
   "Submission Date": "2025-10-14T15:11:01.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.sevenstars.vc/"
 }
 
-#41
+#40
 ID: recRbhq1dHjDyDzLk
 {
   "Fund Name": "Buckley Ventures",
+  "GP Name": "Josh Buckley",
+  "GP Linkedin": "https://www.linkedin.com/in/josh-buckley-7612284/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.buckleyventures.com/"
 }
 
-#42
+#41
 ID: recRtnvcecgjImKEU
 {
   "Fund Name": "Leonis Capital",
+  "GP Name": "Jay Zhao",
+  "GP Linkedin": "https://www.linkedin.com/in/jayzhaolinkedin/",
   "Fund Number": "I",
   "Submission Date": "2025-10-03T17:01:01.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.leoniscap.com/"
 }
 
-#43
+#42
 ID: recSrKcYFkPSI2soG
 {
   "Fund Name": "Stepchange",
+  "GP Name": "Ben Eidelson",
+  "GP Linkedin": "https://www.linkedin.com/in/beneidelson/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.stepchange.vc/"
 }
 
-#44
+#43
 ID: recUM3pSIbxFGb3SW
 {
   "Fund Name": "Outcast Ventures",
   "GP Name": "Andy Chen +1",
+  "GP Linkedin": "https://www.linkedin.com/in/andrewchen/",
   "Fund Number": "I",
   "Why Interesting?": "Andy's the former Coatue GP; focused on helping founders with talent and building a fellowship program to help solo founders meet each other",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.outcastventures.com/"
 }
 
-#45
+#44
 ID: recUSmmzOH6iq8Ilh
 {
   "Fund Name": "Basecase",
+  "GP Name": "Alana Goyal",
+  "GP Linkedin": "https://www.linkedin.com/in/alanagoyal/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://basecase.vc/"
 }
 
-#46
+#45
 ID: recUpUhi7rjYpq0ge
 {
   "Fund Name": "Wischoff Ventures",
+  "GP Name": "Nichole Wischoff",
+  "GP Linkedin": "https://www.linkedin.com/in/nicholewischoff/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.wischoff.com/"
 }
 
-#47
+#46
 ID: recW8mGdITI0hHtFQ
 {
   "Fund Name": "Pebbebed",
+  "GP Name": "Pamela Vagata",
+  "GP Linkedin": "https://www.linkedin.com/in/pamela-vagata-8396074/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.pebblebed.com/"
 }
 
-#48
+#47
 ID: recX3O0dpL0AS1owZ
 {
   "Fund Name": "Ravelin",
+  "GP Name": "Lucas Vaz",
+  "GP Linkedin": "https://www.linkedin.com/in/lucasbagnocvaz/",
   "Fund Number": "I",
   "Co-Investors": [
     "Peter Thiel"
@@ -624,49 +809,71 @@ ID: recX3O0dpL0AS1owZ
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.ravelincap.com/"
 }
 
-#49
+#48
 ID: recY9aYDSBZd3E9lE
 {
   "Fund Name": "Swizzle VC",
+  "GP Name": "Jessica Kamada",
+  "GP Linkedin": "https://www.linkedin.com/in/jesskamada/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.swizzle.vc/"
 }
 
-#50
+#49
 ID: recYA2eb3Bw3KloIR
 {
   "Fund Name": "Blockchain Builders",
+  "GP Name": "Gil Rosen",
+  "GP Linkedin": "https://www.linkedin.com/in/rosengil/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.blockchainbuilders.fund/"
 }
 
-#51
+#50
 ID: recYHhTyuicOdZh2X
 {
   "Fund Name": "Humba Ventures",
+  "GP Name": "Leo Polovets",
+  "GP Linkedin": "http://www.linkedin.com/in/lpolovets",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://humbaventures.com/"
 }
 
-#52
+#51
 ID: recYhWnLaViXrOcyl
 {
-  "Fund Name": "Stratus",
+  "Fund Name": "Stratus VC",
   "GP Name": "Benji Stern",
   "GP Linkedin": "https://www.linkedin.com/in/benjaminalanstern/",
   "Fund Number": "I",
@@ -674,14 +881,16 @@ ID: recYhWnLaViXrOcyl
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Raising "
+  "Fundraising Status": "Raising ",
+  "Fund Website": "https://www.stratus-ventures.com/"
 }
 
-#53
+#52
 ID: recYhczKF2ttievKC
 {
   "Fund Name": "SuccessVP",
   "GP Name": "John Gleeson",
+  "GP Linkedin": "https://www.linkedin.com/in/johngleeson10/",
   "Fund Number": "I",
   "Co-Investors": [
     "Community-Driven"
@@ -691,107 +900,141 @@ ID: recYhczKF2ttievKC
   "Visibility": [
     "Briefing"
   ],
+  "Keywords": [
+    "Solo GP"
+  ],
   "Fundraising Status": "Raising ",
   "Briefings": [
     "rec3i4OalGtmEwyTB"
-  ]
+  ],
+  "Fund Website": "https://www.successvp.com/"
 }
 
-#54
+#53
 ID: recYkS2BSpbmDayKC
 {
   "Fund Name": "Premise VC",
   "GP Name": "Vanessa Larco, Mercedes Bent",
+  "GP Linkedin": "https://www.linkedin.com/in/vanessalarco/",
   "Fund Number": "I",
   "Why Interesting?": "Strong track record on consumer, and board members of multiple successful consumer companies, including Robinhood, etc.",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Raising "
+  "Fundraising Status": "Raising ",
+  "Fund Website": "https://premise.vc/"
 }
 
-#55
+#54
 ID: recYl3ld8Buya8uP8
 {
   "Fund Name": "Reasons to Be Optimistic",
+  "GP Name": "Oliver Cameron",
+  "GP Linkedin": "https://www.linkedin.com/in/olivercameron/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://reasonstobeoptimistic.com/"
 }
 
-#56
+#55
 ID: recYpYNQ89JpJ0gII
 {
   "Fund Name": "Looking Glass Capital",
+  "GP Name": "Adam Besvinick",
+  "GP Linkedin": "http://www.linkedin.com/in/besvinick",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://lookingglass.vc/"
 }
 
-#57
+#56
 ID: recZAovRwbxB2KMyw
 {
   "Fund Name": "Comma Capital",
+  "GP Name": "Adarsh Bhatt",
+  "GP Linkedin": "https://www.linkedin.com/in/adbhatt/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://comma.vc/"
 }
 
-#58
+#57
 ID: recZM96WLnDQaS81f
 {
   "Fund Name": "Array Ventures",
+  "GP Name": "Shruti Gandhi",
+  "GP Linkedin": "https://www.linkedin.com/in/shrutigandhi/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.array.vc/"
 }
 
-#59
+#58
 ID: recaiMc9zVbXiCPTS
 {
   "Fund Name": "Mensch Capital Partners",
   "GP Name": "Boaz Shedletsky",
+  "GP Linkedin": "https://www.linkedin.com/in/bshedletsky/?originalSubdomain=il",
   "Fund Number": "III",
   "Submission Date": "2025-10-22T19:35:38.000Z",
   "Visibility": [
     "Review"
   ],
   "Keywords": [
+    "Solo GP",
     "Israel"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.menschvc.com/meet-the-mensches"
 }
 
-#60
+#59
 ID: recao06OqdXVJVo5z
 {
   "Fund Name": "MTF VC",
+  "GP Name": "Amanda (“Robby”) Robson",
+  "GP Linkedin": "https://www.linkedin.com/in/amanda-robson-7227685b/",
   "Fund Number": "I",
   "Submission Date": "2025-10-11T00:22:49.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://moderntechnicalfund.com/"
 }
 
-#61
+#60
 ID: recb2NsNizypj6AD3
 {
   "Fund Name": "Arkane (fmr. RPV)",
   "GP Name": "Arkady Kulik",
+  "GP Linkedin": "https://www.linkedin.com/in/arkady-kulik/",
   "Fund Number": "I",
   "Co-Investors": [
     "Dave McClure",
@@ -802,62 +1045,86 @@ ID: recb2NsNizypj6AD3
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Soon"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Soon",
+  "Fund Website": "https://rpv.global/"
 }
 
-#62
+#61
 ID: recbIAC3wekvn7fYF
 {
   "Fund Name": "Spacecadet",
+  "GP Name": "Wisam “Wiz” Abdulla",
+  "GP Linkedin": "https://www.linkedin.com/in/wizlikewizard/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://spacecadet.ventures/"
 }
 
-#63
+#62
 ID: recbNDsb9vVLsFbhz
 {
   "Fund Name": "Terrain",
+  "GP Name": "Eric Stromberg",
+  "GP Linkedin": "http://www.linkedin.com/in/estromberg",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.terrain.com/letter"
 }
 
-#64
+#63
 ID: recc5Azb1Z4Eb0VMg
 {
   "Fund Name": "Powerset",
+  "GP Name": "Jake Zeller",
+  "GP Linkedin": "https://www.linkedin.com/in/jake-zeller-79923454/",
+  "Add. Partners LinkedIns": "Jonathan Swanson",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://powerset.co/"
 }
 
-#65
+#64
 ID: reccSZnoOXMNBNe9U
 {
   "Fund Name": "Mission Street Capital",
+  "GP Name": "Surabhi Todi",
+  "GP Linkedin": "https://www.linkedin.com/in/surabhi-todi-a2828ba9/",
   "Fund Number": "I",
   "Submission Date": "2025-10-09T21:01:10.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.missionstcapital.com/"
 }
 
-#66
+#65
 ID: recdZ9SH5ljhOdDmg
 {
   "Fund Name": "81 Collection",
   "GP Name": "Vijen Patel",
+  "GP Linkedin": "linkedin.com/in/vijenpatel",
   "Fund Number": "II",
   "Co-Investors": [
     "First Momentum",
@@ -869,29 +1136,37 @@ ID: recdZ9SH5ljhOdDmg
   "Visibility": [
     "Briefing"
   ],
+  "Keywords": [
+    "Solo GP"
+  ],
   "Fundraising Status": "Closed",
   "Briefings": [
     "rec3EppTKNgeaUQoV"
-  ]
+  ],
+  "Fund Website": "https://www.81collection.com/"
 }
 
-#67
+#66
 ID: recdqItYs6c5rmgue
 {
   "Fund Name": "Veridical Ventures",
+  "GP Name": "Greg Stofman",
+  "GP Linkedin": "http://www.linkedin.com/in/gregstofman",
   "Fund Number": "I",
   "Submission Date": "2025-10-09T21:02:02.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.veridical.vc/"
 }
 
-#68
+#67
 ID: receCh5V1IrYj4Bvv
 {
   "Fund Name": "Octave",
   "GP Name": "William Smith",
+  "GP Linkedin": "https://www.linkedin.com/in/willtsmith/",
   "Fund Number": "II",
   "Co-Investors": [
     "Spring Creek"
@@ -901,14 +1176,16 @@ ID: receCh5V1IrYj4Bvv
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://octave-ventures.com/"
 }
 
-#69
+#68
 ID: receLNVlRAbbLJgj1
 {
   "Fund Name": "1517 Fund",
   "GP Name": "Danielle Strachman, Michael Gibson",
+  "GP Linkedin": "https://www.linkedin.com/in/daniellestrachman/",
   "Fund Number": "IV",
   "Co-Investors": [
     "Peter Thiel"
@@ -918,59 +1195,84 @@ ID: receLNVlRAbbLJgj1
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.1517fund.com/"
 }
 
-#70
+#69
 ID: recehbcn0hLnCXtkS
 {
   "Fund Name": "Inuka",
+  "GP Name": "Gautam Shewakramani",
+  "GP Linkedin": "https://www.linkedin.com/in/gshewakr/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.inuka.vc/"
 }
 
-#71
+#70
 ID: recgLhzyfydQgMuXw
 {
   "Fund Name": "Chapter One",
+  "GP Name": "Jamesin Seidel",
+  "GP Linkedin": "http://www.linkedin.com/in/jamesin-seidel-5325b147",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://chapterone.com/"
 }
 
-#72
+#71
 ID: rech9Ra1eLzXDJ7ME
 {
   "Fund Name": "Coughdrop Capital",
   "GP Name": "Stu Smith",
+  "GP Linkedin": "https://www.linkedin.com/in/imstusmith/",
   "Fund Number": "I",
   "Submission Date": "2025-10-22T19:59:43.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://coughdropcapital.com/"
 }
 
-#73
+#72
 ID: reciIr2gzZRWB4oan
 {
   "Fund Name": "Genius Ventures",
+  "GP Name": "Ben Taft",
+  "GP Linkedin": "https://www.linkedin.com/in/ben-taft-46830679/",
+  "Add. Partners LinkedIns": "Adam Gefkovicz",
   "Fund Number": "I",
   "Submission Date": "2025-10-09T20:56:42.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.geniusventures.xyz/"
 }
 
-#74
+#73
 ID: recj4LT3giAecdkNf
 {
   "Fund Name": "Multifaceted Capital",
@@ -990,40 +1292,73 @@ ID: recj4LT3giAecdkNf
   "Fund Website": "https://multifaceted.capital/"
 }
 
+#74
+ID: recj6MyvAGzI1synh
+{
+  "Fund Name": "Embedding VC",
+  "GP Name": "Roger Luo",
+  "GP Linkedin": "https://www.linkedin.com/in/luojie/",
+  "Fund Number": "I",
+  "Submission Date": "2025-10-31T17:10:17.000Z",
+  "Visibility": [
+    "Tracking"
+  ],
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://embedding.vc/"
+}
+
 #75
 ID: recjPyEVQ8RLnnChD
 {
   "Fund Name": "Kearny Jackson",
+  "GP Name": "Sriram Krishnan",
+  "GP Linkedin": "http://www.linkedin.com/in/sriramkrishnan",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.kearnyjackson.com/"
 }
 
 #76
 ID: recjgUpaIf9YAe957
 {
   "Fund Name": "Wave Function",
+  "GP Name": "AI Peters",
+  "GP Linkedin": "https://www.linkedin.com/in/al-peters/",
   "Fund Number": "I",
   "Submission Date": "2025-10-03T17:00:49.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.wavefx.com/"
 }
 
 #77
 ID: recjt0meS2Uq9MBko
 {
   "Fund Name": "Browder Capital",
+  "GP Name": "Josh Browder",
+  "GP Linkedin": "https://www.linkedin.com/in/joshua-browder-b0b573116/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.browdercapital.com/"
 }
 
 #78
@@ -1031,24 +1366,33 @@ ID: reck0lciv5UMZ40jP
 {
   "Fund Name": "Six Point Ventures",
   "GP Name": "Trace Cohen",
+  "GP Linkedin": "https://www.linkedin.com/in/tracecohen/",
   "Fund Number": "I",
   "Submission Date": "2025-09-25T13:54:08.000Z",
   "Visibility": [
     "Review"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.sixpoint.vc/"
 }
 
 #79
 ID: recm4MQxCycURJYsK
 {
-  "Fund Name": "8-Bit II",
-  "Fund Number": "I",
+  "Fund Name": "8-Bit",
+  "GP Name": "Jonathan Abrams",
+  "GP Linkedin": "https://www.linkedin.com/in/jonathanabrams/",
+  "Add. Partners LinkedIns": "Kent Lindstrom",
+  "Fund Number": "II",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://8bitcapital.com/"
 }
 
 #80
@@ -1056,13 +1400,15 @@ ID: recmErFkGh7cJfd21
 {
   "Fund Name": "Theory Ventures",
   "GP Name": "Tomasz Tunguz",
+  "GP Linkedin": "https://www.linkedin.com/in/tomasztunguz/",
   "Fund Number": "II",
   "Why Interesting?": "Formerly GP at Redpoint; writes a blog with a large following and is very data centric",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://theoryvc.com/"
 }
 
 #81
@@ -1076,7 +1422,11 @@ ID: recnpUKp8ETvBKKqo
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://geek.vc/"
 }
 
 #82
@@ -1084,13 +1434,15 @@ ID: recoJjua5hud3AZjp
 {
   "Fund Name": "Novera Ventures",
   "GP Name": "Arvind Gupta",
+  "GP Linkedin": "https://www.linkedin.com/in/arvndgpta",
   "Fund Number": "I",
   "Why Interesting?": "Mayfield affiliate fund; Navin Chaddha is a co-GP; Arvind is also the founder of IndieBio",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://noveravc.com/"
 }
 
 #83
@@ -1114,7 +1466,11 @@ ID: recoOnrpwcC37ZJe9
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://ylemfund.com/"
 }
 
 #84
@@ -1122,13 +1478,18 @@ ID: recqBjX5IgNyNiNRS
 {
   "Fund Name": "Oceans Ventures",
   "GP Name": "Steven Rosenblatt + 4",
+  "GP Linkedin": "https://www.linkedin.com/in/stevenrosenblatt/",
   "Fund Number": "III",
   "Why Interesting?": "Steven = former president of Foursquare, all other 4 GPs are all former big tech execs",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://oceans.ventures/team/"
 }
 
 #85
@@ -1136,6 +1497,7 @@ ID: recrGAPAtK4mOy3kD
 {
   "Fund Name": "Parable Partners",
   "GP Name": "Anne Lee Skates",
+  "GP Linkedin": "https://www.linkedin.com/in/anneleeskates/",
   "Fund Number": "I",
   "Co-Investors": [
     "Mixi"
@@ -1145,7 +1507,11 @@ ID: recrGAPAtK4mOy3kD
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://parablevc.com/"
 }
 
 #86
@@ -1153,37 +1519,52 @@ ID: recrWj35qncFnDedo
 {
   "Fund Name": "Better Tomorrow Ventures",
   "GP Name": "Sheel Mohnot",
+  "GP Linkedin": "https://www.linkedin.com/in/smohnot/",
   "Fund Number": "II",
   "Why Interesting?": "Investing at the earliest stages of fintech and has become the primary voice of fintech in the last few years",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "http://btv.vc/"
 }
 
 #87
 ID: recrqcXjiTp1caPft
 {
   "Fund Name": "Walkabout Ventures",
+  "GP Name": "Josh Diamond",
+  "GP Linkedin": "https://www.linkedin.com/in/josh-diamond-5669b624/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.walkabout.vc/"
 }
 
 #88
 ID: recsGKkbRj1uLEaYY
 {
   "Fund Name": "Argon Ventures II",
+  "GP Name": "Andy Feinberg",
+  "GP Linkedin": "https://www.linkedin.com/in/andy-feinberg-a81a38/",
+  "Add. Partners LinkedIns": "Bob Mason",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.argon.vc/"
 }
 
 #89
@@ -1191,10 +1572,14 @@ ID: recsSGSwdcEEbfm0h
 {
   "Fund Name": "Balaji Fund",
   "GP Name": "Balaji S. Srinivasan",
+  "GP Linkedin": "https://www.linkedin.com/in/balajissrinivasan/",
   "Fund Number": "I",
   "Submission Date": "2025-10-22T13:55:15.000Z",
   "Visibility": [
     "Review"
+  ],
+  "Keywords": [
+    "Solo GP"
   ],
   "Fundraising Status": "Raising ",
   "Fund Website": "https://venture.angellist.com/v/back/balaji-fund"
@@ -1204,12 +1589,18 @@ ID: recsSGSwdcEEbfm0h
 ID: rect2WBFy7ZuaXkNU
 {
   "Fund Name": "Julian Capital",
+  "GP Name": "Julian Shapiro",
+  "GP Linkedin": "https://www.linkedin.com/in/julian-shapiro/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.julian.com/"
 }
 
 #91
@@ -1217,37 +1608,51 @@ ID: rectdRlI0U0UdzN2G
 {
   "Fund Name": "Sandbox Studios",
   "GP Name": "Jackie Fast",
+  "GP Linkedin": "https://www.linkedin.com/in/jackiefast/",
   "Fund Number": "II",
   "Why Interesting?": "Backing celebrity-endorsed/owned brands",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "http://www.sandboxstudios.ventures/"
 }
 
 #92
 ID: rectq54QMcxOD560C
 {
   "Fund Name": "HF0",
+  "GP Name": "Munjal C. Shah",
+  "GP Linkedin": "https://www.linkedin.com/in/munjals/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Team"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.hf0.com/"
 }
 
 #93
 ID: rectrPOz0FOVWvSkd
 {
   "Fund Name": "Park Rangers",
+  "GP Name": "Erica Wenger",
+  "GP Linkedin": "http://www.linkedin.com/in/erica-wenger-ms-811b80132",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.parkrangerscap.com/"
 }
 
 #94
@@ -1255,6 +1660,7 @@ ID: recud7DTNbKDCqi7L
 {
   "Fund Name": "Mythos Ventures",
   "GP Name": "Vishal Maini",
+  "GP Linkedin": "https://www.linkedin.com/in/vishalmaini/",
   "Fund Number": "I",
   "Co-Investors": [
     "Pattern Ventures"
@@ -1263,19 +1669,23 @@ ID: recud7DTNbKDCqi7L
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.mythos.vc/about"
 }
 
 #95
 ID: recvAG7PNqh88mgQC
 {
   "Fund Name": "Garuda Ventures",
+  "GP Name": "Rishi Taparia",
+  "GP Linkedin": "https://www.linkedin.com/in/rktaparia/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.garuda.vc/"
 }
 
 #96
@@ -1283,47 +1693,67 @@ ID: recwTg7UGoBmJs4Q8
 {
   "Fund Name": "Red Glass Ventures",
   "GP Name": "Bilal Zuberi",
+  "GP Linkedin": "https://www.linkedin.com/in/bzuberi/",
   "Fund Number": "I",
   "Why Interesting?": "Former GP at Lux Capital",
   "Submission Date": "2025-09-18T15:17:19.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Fundraising Status": "Closed",
+  "Fund Website": "http://redglass.vc/"
 }
 
 #97
 ID: recwk4shl9e8OWqYz
 {
   "Fund Name": "Cambrian",
+  "GP Name": "Rex Salisbury",
+  "GP Linkedin": "https://www.linkedin.com/in/rexsalisbury/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.cambrian.vc/"
 }
 
 #98
 ID: recxn7iIGAKMdAdAF
 {
   "Fund Name": "Nebular Ventures",
+  "GP Name": "Finn Murphy",
+  "GP Linkedin": "https://www.linkedin.com/in/finn-murphy-16160465/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.nebular.vc/"
 }
 
 #99
 ID: reczZJTGlZH1QkbKh
 {
   "Fund Name": "Asylum VC",
+  "GP Name": "Nick Chirls",
+  "GP Linkedin": "https://www.linkedin.com/in/nchirls/",
   "Fund Number": "I",
   "Submission Date": "2025-09-18T23:12:49.000Z",
   "Visibility": [
     "Tracking"
   ],
-  "Fundraising Status": "Closed"
+  "Keywords": [
+    "Solo GP"
+  ],
+  "Fundraising Status": "Closed",
+  "Fund Website": "https://www.asylum.vc/"
 }

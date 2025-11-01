@@ -1864,6 +1864,12 @@ ID: recYAUJrJ7vXhlNQ8
 }
 
 #132
+ID: recYHT9AA1F9YA5HS
+{
+  "Gender": "Male"
+}
+
+#133
 ID: recYSquSiUAZOgbwX
 {
   "Investor Name": "Jason \n  Demant",
@@ -1875,7 +1881,7 @@ ID: recYSquSiUAZOgbwX
   "Entity Name": "Foundation Capital"
 }
 
-#133
+#134
 ID: recYe21xKtUWfWRL6
 {
   "Investor Name": "Lisa Edgar",
@@ -1889,7 +1895,7 @@ ID: recYe21xKtUWfWRL6
   "Linkedin URL": "https://www.linkedin.com/in/lisa-edgar-928b001/"
 }
 
-#134
+#135
 ID: recZFNEZmYwrd8m8q
 {
   "Investor Name": "Anne Martin",
@@ -1903,7 +1909,7 @@ ID: recZFNEZmYwrd8m8q
   "Linkedin URL": "https://www.linkedin.com/in/anne-martin-3a177b/"
 }
 
-#135
+#136
 ID: recZSes06hSaWsqCq
 {
   "Investor Name": "Gary Gitelson",
@@ -1913,7 +1919,7 @@ ID: recZSes06hSaWsqCq
   "Linkedin URL": "https://www.linkedin.com/in/garygitelson/"
 }
 
-#136
+#137
 ID: recZuW7hDfbDFjyMX
 {
   "Investor Name": "Raja Doddala",
@@ -1927,7 +1933,7 @@ ID: recZuW7hDfbDFjyMX
   "Linkedin URL": "https://www.linkedin.com/in/rajadoddala/"
 }
 
-#137
+#138
 ID: reca6m8HfQEgNCYdb
 {
   "Investor Name": "Felipe \n  Valencia",
@@ -1941,7 +1947,7 @@ ID: reca6m8HfQEgNCYdb
   "Linkedin URL": "https://www.linkedin.com/in/felipevalencia/"
 }
 
-#138
+#139
 ID: recaXsSp4RWoJQr3Q
 {
   "Investor Name": "Atul Rustgi",
@@ -1955,7 +1961,7 @@ ID: recaXsSp4RWoJQr3Q
   "Linkedin URL": "https://www.linkedin.com/in/atul-rustgi-14624b/"
 }
 
-#139
+#140
 ID: recacHBg0YTi48tMV
 {
   "Investor Name": "Charlotte Zhang",
@@ -1968,7 +1974,7 @@ ID: recacHBg0YTi48tMV
   "Investor Thesis": "As the director of investments, Charlotte Zhang oversees the selection of external investment managers at Inatai Foundation, conducts portfolio research, and helps to institutionalize processes, tools, and resources. Experienced in impact investing, she previously served as a senior associate at ICONIQ Capital and, before that, Medley Partners. Investing on behalf of foundations affiliated with family offices, her investments supported a variety of nonprofit work, from early childhood education to autism research. Charlotte was a founding partner of Seed Consulting Group, a California-based nonprofit that provides pro bono strategy consulting to environmental and public health organizations, and currently serves on the Women’s Association of Venture and Equity’s west coast steering committee and as a Project Pinklight panelist for Private Equity Women Investor Network. She is also on the advisory boards of MoDa Partners, a family office whose mission is to advance the economic and educational equity of women and girls, and 8090 Partners, a multifamily office consisting of families and entrepreneurs across diverse industries that is currently deploying an impact investment fund.\n\nCharlotte earned a BS with honors in business administration from the University of California, Berkley. When not working, you can find her globetrotting (18 countries and counting), writing a Yelp review about the best bite in town, or cuddling up with a book and her two adorable cats.\n\n"
 }
 
-#140
+#141
 ID: recalhLsGna6u4jYf
 {
   "Investor Name": "Ben Ehrlich",
@@ -1981,7 +1987,7 @@ ID: recalhLsGna6u4jYf
   "Investor Thesis": "Ben Ehrlich is the founder and General Partner of First Momentum Capital, where he helps seed a new generation of venture capital firms. He is also the Director of Strategy at the Long Term Stock Exhange. Previously Ben worked across the venture ecosystem supporting companies in the Canadian Technology Accelerator, OutCast Communications and Cribspot (YC 15). In his free time Ben takes his Irish setter doodle hiking and enjoys watching the University of Michigan football team (mostly) win."
 }
 
-#141
+#142
 ID: recaz4Ui1VtCtQQYV
 {
   "Investor Name": "Rahul Mehta",
@@ -1995,7 +2001,7 @@ ID: recaz4Ui1VtCtQQYV
   "Linkedin URL": "https://linkedin.com/in/rahul-mehta-7b80182"
 }
 
-#142
+#143
 ID: recb30KkiewPHSgqR
 {
   "Investor Name": "Stephen Bluestein",
@@ -2009,7 +2015,7 @@ ID: recb30KkiewPHSgqR
   "Linkedin URL": "https://www.linkedin.com/in/stephenbluestein/"
 }
 
-#143
+#144
 ID: recbLNpjzLLIYBCC4
 {
   "Investor Type": "Endowment/Pension",
@@ -2021,7 +2027,7 @@ ID: recbLNpjzLLIYBCC4
   "Entity Name": "State of New Mexico Investment Council\n  (SIC)"
 }
 
-#144
+#145
 ID: recbcqWwbDricec0j
 {
   "Investor Name": "Daniel Friedland",
@@ -2034,7 +2040,7 @@ ID: recbcqWwbDricec0j
   "Linkedin URL": "https://www.linkedin.com/in/daniel-friedland-7237137/"
 }
 
-#145
+#146
 ID: recbqHxGOfI52RKQg
 {
   "Investor Name": "Eric Ries",
@@ -2047,7 +2053,7 @@ ID: recbqHxGOfI52RKQg
   "Linkedin URL": "https://www.linkedin.com/in/eries/"
 }
 
-#146
+#147
 ID: reccXLEAF9V9W5aby
 {
   "Investor Type": "Other",
@@ -2059,7 +2065,7 @@ ID: reccXLEAF9V9W5aby
   "Entity Name": "Bauposte Group"
 }
 
-#147
+#148
 ID: recccOG1zDDU4tF5x
 {
   "Investor Name": "Lisa Cawley",
@@ -2076,7 +2082,7 @@ ID: recccOG1zDDU4tF5x
   "Investor Thesis": "Lisa Cawley is the Managing Director of Screendoor, a highly respected LP of GPs, investing in firm-builders by firm-builders, with a unique model for partnering with allocators to access the emerging manager ecosystem. She’s been covering venture capital for more than a dozen years, since 2010 at Ernst and Young, a private investment firm, and now to Screendoor.\n\nLisa is a proud graduate of Loyola University Maryland where she’s earned her MBA and MS in Finance, as well as her BBA in Accounting, with a double minor in Information Systems and Spanish. Lisa is a CFA Charterholder and holds a CPA from the State of Maryland. In addition, she’s also a member of Class 29 of the Kauffman Fellows.\n\n"
 }
 
-#148
+#149
 ID: recch4smjtTQa3iXk
 {
   "Investor Name": "Ed \n  Zimmerman",
@@ -2090,7 +2096,7 @@ ID: recch4smjtTQa3iXk
   "Linkedin URL": "https://www.linkedin.com/in/edgrapenutzimmerman/"
 }
 
-#149
+#150
 ID: recctZ5Z9HLvPVRtG
 {
   "Investor Name": "Jason Pritzker",
@@ -2104,7 +2110,7 @@ ID: recctZ5Z9HLvPVRtG
   "Linkedin URL": "https://www.linkedin.com/in/jasonpritzker/"
 }
 
-#150
+#151
 ID: reccwOW7mb1CZ1Adz
 {
   "Website": "https://www.aldea.ventures/",
@@ -2112,7 +2118,7 @@ ID: reccwOW7mb1CZ1Adz
   "Entity Name": "Aldea Ventures"
 }
 
-#151
+#152
 ID: reccwaReaZl33Jy8t
 {
   "Investor Name": "David Toh",
@@ -2128,7 +2134,7 @@ ID: reccwaReaZl33Jy8t
   "Linkedin URL": "https://www.linkedin.com/in/davidtyh/?originalSubdomain=sg"
 }
 
-#152
+#153
 ID: recdA6onzFyXMi4ZL
 {
   "Investor Name": "Alex Edelson",
@@ -2142,7 +2148,7 @@ ID: recdA6onzFyXMi4ZL
   "Linkedin URL": "https://www.linkedin.com/in/alex-edelson-604767b/"
 }
 
-#153
+#154
 ID: recdH80Ede7c45y6d
 {
   "Investor Name": "Ramzi Samara",
@@ -2156,7 +2162,7 @@ ID: recdH80Ede7c45y6d
   "Linkedin URL": "https://www.linkedin.com/in/ramzissamara/"
 }
 
-#154
+#155
 ID: recdQyUBrajJf8a8m
 {
   "Investor Name": "Ryan \n  Akkina",
@@ -2170,7 +2176,7 @@ ID: recdQyUBrajJf8a8m
   "Linkedin URL": "https://www.linkedin.com/in/ryan-akkina-6169851/"
 }
 
-#155
+#156
 ID: receGXPfjh1AjmYxs
 {
   "Investor Name": "Eric \n  Sippel",
@@ -2183,7 +2189,7 @@ ID: receGXPfjh1AjmYxs
   "Linkedin URL": "https://www.linkedin.com/in/eric-sippel-976770"
 }
 
-#156
+#157
 ID: receJnDJVGFJ0ZRw9
 {
   "Investor Name": "William Gallacher",
@@ -2200,7 +2206,7 @@ ID: receJnDJVGFJ0ZRw9
   "Linkedin URL": "https://www.linkedin.com/in/william-gallacher-24b38854/"
 }
 
-#157
+#158
 ID: recedUCp5BVE2Pih6
 {
   "Investor Name": "Judith Elsea",
@@ -2214,7 +2220,7 @@ ID: recedUCp5BVE2Pih6
   "Linkedin URL": "https://www.linkedin.com/in/judithelsea/"
 }
 
-#158
+#159
 ID: recekOb0tnnsbHgVv
 {
   "Investor Name": "Pep Mooren",
@@ -2231,7 +2237,7 @@ ID: recekOb0tnnsbHgVv
   "Linkedin URL": "https://www.linkedin.com/in/pep-m-6474052b2/"
 }
 
-#159
+#160
 ID: recesmeweqUmekfSX
 {
   "Investor Name": "Will McEvoy",
@@ -2245,7 +2251,7 @@ ID: recesmeweqUmekfSX
   "Linkedin URL": "https://www.linkedin.com/in/wmcevoy/"
 }
 
-#160
+#161
 ID: recfEtmAeyF7GxowH
 {
   "Investor Name": "Mark Zittman",
@@ -2258,7 +2264,7 @@ ID: recfEtmAeyF7GxowH
   "Linkedin URL": "https://www.linkedin.com/in/mark-zittman-ba174613a/"
 }
 
-#161
+#162
 ID: recfYCEPJkjdVHfHI
 {
   "Investor Type": "Soverign Wealth",
@@ -2269,7 +2275,7 @@ ID: recfYCEPJkjdVHfHI
   "Entity Name": "Qatar Investment Authority"
 }
 
-#162
+#163
 ID: recgaOKTO8Vp9K5iS
 {
   "Investor Name": "Matt Curtolo",
@@ -2281,7 +2287,7 @@ ID: recgaOKTO8Vp9K5iS
   "Investor Thesis": "Matt Curtolo, CAIA is a seasoned private markets investor and allocator with over two decades of experience at leading financial institutions. Throughout his career, he has been directly responsible for allocating more than $6 billion in commitments to private market investments and maintains relationships with hundreds of general partner relationships across the full spectrum of private capital strategies.\n\nMost recently, as Head of Investments at Allocate, a venture-backed fintech startup. Matt built the investment capability from the ground up, broadening access to top-tier venture capital opportunities for the private wealth market. Prior to this, he served as a senior leader at MetLife, serving on the investment committee, co-managing their global alternatives portfolio and leading the firm’s US Buyout portfolio. Earlier in his career, Matt led all private equity activities as Head of Private Equity at Hirtle Callaghan, a large independent outsourced Chief Investment Officer (oCIO). Matt’s foundational experience was gained at Hamilton Lane during its early growth phase, before it became the world’s preeminent private markets allocator, in research, investment and client-facing roles. Matt currently holds several advisory positions that span start-ups, asset management firms and fund of funds. He also manages his own advice practice, providing GPs with strategic guidance on strategy, fundraising and investor relations."
 }
 
-#163
+#164
 ID: rechR6GA5ZBxGHSCQ
 {
   "Investor Name": "Joo-Lee Lim",
@@ -2295,7 +2301,7 @@ ID: rechR6GA5ZBxGHSCQ
   "Linkedin URL": "https://www.linkedin.com/in/jooleelim/"
 }
 
-#164
+#165
 ID: rechbLkCHkruEaWOi
 {
   "Investor Name": "Hana Yang",
@@ -2309,7 +2315,7 @@ ID: rechbLkCHkruEaWOi
   "Linkedin URL": "https://www.linkedin.com/in/hanayang/"
 }
 
-#165
+#166
 ID: rechuS7ZMJIaxDuWp
 {
   "Investor Name": "Sean \n  Warrington",
@@ -2318,7 +2324,7 @@ ID: rechuS7ZMJIaxDuWp
   "Entity Name": "Gresham Partners"
 }
 
-#166
+#167
 ID: reciJ5IyrBuFr5jdu
 {
   "Investor Name": "Michael Downing",
@@ -2332,7 +2338,7 @@ ID: reciJ5IyrBuFr5jdu
   "Linkedin URL": "https://www.linkedin.com/in/michaeldowning/"
 }
 
-#167
+#168
 ID: reciJjCyJdWUwkpFB
 {
   "Investor Name": "David \n  He",
@@ -2345,7 +2351,7 @@ ID: reciJjCyJdWUwkpFB
   "Entity Name": "Landmark Family Office"
 }
 
-#168
+#169
 ID: reciPNOfioVVOlhLJ
 {
   "Investor Name": "Jaclyn Hester",
@@ -2359,7 +2365,7 @@ ID: reciPNOfioVVOlhLJ
   "Linkedin URL": "https://www.linkedin.com/in/jaclyn-freeman-hester-70621126/"
 }
 
-#169
+#170
 ID: reciS73StBQUy5xqF
 {
   "Investor Name": "Louis Liu",
@@ -2375,7 +2381,7 @@ ID: reciS73StBQUy5xqF
   "Linkedin URL": "https://www.linkedin.com/in/louishliu/"
 }
 
-#170
+#171
 ID: recifhKHwEeH2SHnx
 {
   "Investor Name": "JT Esquibel",
@@ -2387,7 +2393,7 @@ ID: recifhKHwEeH2SHnx
   "Linkedin URL": "https://www.linkedin.com/in/jtesquibel/"
 }
 
-#171
+#172
 ID: reciiQM9W54Lwrznl
 {
   "Investor Name": "Dan Stolar",
@@ -2400,7 +2406,7 @@ ID: reciiQM9W54Lwrznl
   "Investor Thesis": "Dan Stolar is a Principal at Colibri Equity Ventures, a single family office based in NYC and San Diego. Dan leads the venture capital strategy and also participates in all alternative private investments, including sports investing and private equity. As part of the venture strategy, Dan particularly focuses on investing in emerging venture capital funds. Since launching the strategy in late 2022, the firm has invested in ~15 managers. Dan started his venture capital journey as an intern at Viola Credit, a venture debt fund in Tel Aviv, before spending time in investment banking at Peter J. Solomon Co. (now Solomon Partners) where he focused on consumer and retail mergers & acquisitions. After banking, Dan spent ~5 years at Alpha Partners, a late-stage venture firm that partners with early stage managers helping them follow on in their late stage deals. Dan is still involved with Alpha as a Venture Partner. Dan is a proud New Jersey native, and a graduate of the University of Michigan (Go Blue!).\n\n"
 }
 
-#172
+#173
 ID: recisMl7HUeg8wuDN
 {
   "Investor Name": "Hillary Cook",
@@ -2414,7 +2420,7 @@ ID: recisMl7HUeg8wuDN
   "Linkedin URL": "https://www.linkedin.com/in/hillary-cook/"
 }
 
-#173
+#174
 ID: reciu2fPl9hapgKNy
 {
   "Investor Name": "Marell Evans",
@@ -2431,7 +2437,7 @@ ID: reciu2fPl9hapgKNy
   "Linkedin URL": "https://www.linkedin.com/in/marell-evans/"
 }
 
-#174
+#175
 ID: reciuGKgiZjTG3jCB
 {
   "Investor Name": "Diane Mulcahy",
@@ -2442,7 +2448,7 @@ ID: reciuGKgiZjTG3jCB
   "Entity Name": "Cooper Family Office"
 }
 
-#175
+#176
 ID: recj7qumlaMEB9GsJ
 {
   "Investor Name": "Michael Zinaman",
@@ -2457,7 +2463,7 @@ ID: recj7qumlaMEB9GsJ
   "Linkedin URL": "https://www.linkedin.com/in/mzin1"
 }
 
-#176
+#177
 ID: recjNV6ZaCm9vzoPr
 {
   "Investor Name": "Jamie Rhode",
@@ -2480,7 +2486,7 @@ ID: recjNV6ZaCm9vzoPr
   "Investor Thesis": "Jamie Rhode is a partner at Screendoor and former Principal at Verdis Investment Management, focused emerging manager sourcing and due diligence.\n\nShe joined Verdis from Bloomberg, where she held roles in both equity research and credit analysis. There, she created, managed and leveraged an extensive library of statutory and financial and market data for buy and sell-side clients that use Bloomberg to make investment decisions.\n\nA licensed Chartered Financial Analyst, she earned her bachelor’s degree in Finance and Marketing from Drexel University’s College of Business Administration."
 }
 
-#177
+#178
 ID: recjOf5721ae0xn4T
 {
   "Investor Name": "Apurva Mehta",
@@ -2494,7 +2500,7 @@ ID: recjOf5721ae0xn4T
   "Linkedin URL": "https://www.linkedin.com/in/apurvaamehta/"
 }
 
-#178
+#179
 ID: recjsz6VDvXMHrh7Y
 {
   "Investor Name": "Josh Kanter",
@@ -2507,7 +2513,7 @@ ID: recjsz6VDvXMHrh7Y
   "Investor Thesis": "Josh Kanter is the family office principal at Josh Kanter Wealth Advisory Services. He is also the founder & CEO at leafplanner, a comprehensive solution on planning for the 100-year time horizon for a family office, birthed out of his own need with his own family of creating an everlasting institution.\n\nAfter decades as a lawyer, he went on to focus on his family business where he also currently serves as President of Chicago Financial, Inc., a single family office overseeing a complex organization of trusts, investment and philanthropic entities for a multi-branch and multi-generational family."
 }
 
-#179
+#180
 ID: recjvi1e4Q2X7wEKQ
 {
   "Investor Name": "Paul Griffiths",
@@ -2520,7 +2526,7 @@ ID: recjvi1e4Q2X7wEKQ
   "Linkedin URL": "https://www.linkedin.com/in/paulgriffiths/"
 }
 
-#180
+#181
 ID: recjyZba7EyN3T1IH
 {
   "Investor Name": "Ryan \n  Akkina",
@@ -2530,7 +2536,7 @@ ID: recjyZba7EyN3T1IH
   "Linkedin URL": "https://www.linkedin.com/in/ryan-akkina-6169851/"
 }
 
-#181
+#182
 ID: recjzI0PHI4OlGeiJ
 {
   "Investor Name": "Albert Wegner",
@@ -2546,7 +2552,7 @@ ID: recjzI0PHI4OlGeiJ
   "Linkedin URL": "https://www.linkedin.com/in/albertwenger/"
 }
 
-#182
+#183
 ID: reck99ZjuOPZsgzwb
 {
   "Investor Name": "Jaap Vriesendorp",
@@ -2563,7 +2569,7 @@ ID: reck99ZjuOPZsgzwb
   "Investor Thesis": "Jaap Vriesendorp is one of the managing partners of Marktlink Capital, an investment manager from the Netherlands investing over $1b into private equity and venture capital funds. Marktlink Capital’s LPs are almost exclusively Dutch (tech) entrepreneurs from companies such as Booking.com, Adyen and Hellofresh. At Marktlink Capital Jaap focusses on selecting venture and growth funds across Europe and the US. Before Marktlink Capital, he spent the majority of his time at McKinsey where he was one of the leaders of McKinsey’s practice for Venture Capital, Unicorns & Startups in Europe. Besides work, Jaap enjoys sports, mountains, technology, comic books, music and art.\n\nHe holds an MBA from INSEAD and is a guest lecturer at the Rotterdam School of Management (Erasmus University). He occasionally shares his views on private market investing on Medium."
 }
 
-#183
+#184
 ID: reckQNH0lktk5KsRe
 {
   "Investor Name": "Michael Downing",
@@ -2576,7 +2582,7 @@ ID: reckQNH0lktk5KsRe
   "Linkedin URL": "https://www.linkedin.com/in/michaeldowning/"
 }
 
-#184
+#185
 ID: reckuf1PPdh6nZDHv
 {
   "Investor Name": "Adrian Garcia",
@@ -2590,7 +2596,7 @@ ID: reckuf1PPdh6nZDHv
   "Linkedin URL": "https://www.linkedin.com/in/adrian-garcia-83a24b54/"
 }
 
-#185
+#186
 ID: recky1nyNDkI7co0G
 {
   "Investor Name": "Dan Stolar",
@@ -2601,7 +2607,7 @@ ID: recky1nyNDkI7co0G
   "Linkedin URL": "https://linkedin.com/in/danielstolar"
 }
 
-#186
+#187
 ID: reckyJBFK2mbeR9eG
 {
   "Investor Name": "Fernando Saiz",
@@ -2613,7 +2619,7 @@ ID: reckyJBFK2mbeR9eG
   "Linkedin URL": "https://www.linkedin.com/in/fernando-s-4732544/"
 }
 
-#187
+#188
 ID: recl0H1kJjTHKa3Bo
 {
   "Investor Name": "Adam Marchick",
@@ -2626,7 +2632,7 @@ ID: recl0H1kJjTHKa3Bo
   "Investor Thesis": "Over the past twenty years, Adam Marchick has had unique experiences as a founder, general partner (GP), and limited partner (LP). Most recently, Adam managed the venture capital portfolio at Emory’s endowment, a $2 billion portfolio within the $10 billion endowment. Prior to Emory, Adam spent ten years building two companies, the most recent being Alpine.AI, which was acquired by Headspace. Simultaneously, Adam was a Sequoia Scout and built an angel portfolio of over 25 companies. Adam was a direct investor at Menlo Ventures and Bain Capital Ventures, sourcing and supporting companies including Carbonite (IPO), Rent The Runway (IPO), Rapid7 (IPO), Archer (M&A), and AeroScout (M&A). He started his career in engineering and product roles at Facebook, Oracle, and startups."
 }
 
-#188
+#189
 ID: reclLahYA2rJAfZfm
 {
   "Investor Name": "Fernando Pontaza",
@@ -2643,7 +2649,7 @@ ID: reclLahYA2rJAfZfm
   "Linkedin URL": "https://www.linkedin.com/in/fpontaza/"
 }
 
-#189
+#190
 ID: reclNVrTzWEVNIKo6
 {
   "Investor Name": "Kevin McQuillan",
@@ -2657,7 +2663,7 @@ ID: reclNVrTzWEVNIKo6
   "Linkedin URL": "https://www.linkedin.com/in/kevin-j-mcquillan-49a46/"
 }
 
-#190
+#191
 ID: reclNXYAzRJVVExNP
 {
   "Investor Name": "Anthony Wang",
@@ -2674,7 +2680,7 @@ ID: reclNXYAzRJVVExNP
   "Linkedin URL": "https://www.linkedin.com/in/anthony-wang323/"
 }
 
-#191
+#192
 ID: reclNf9dggwJPf88U
 {
   "Investor Name": "John-Austin  Saviano",
@@ -2684,7 +2690,7 @@ ID: reclNf9dggwJPf88U
   "Linkedin URL": "https://www.linkedin.com/in/john-austin-saviano-4095b4b/"
 }
 
-#192
+#193
 ID: reclOSdeWxEmjRfeq
 {
   "Investor Name": "Kim Lew",
@@ -2698,7 +2704,7 @@ ID: reclOSdeWxEmjRfeq
   "Linkedin URL": "https://www.linkedin.com/in/lisa-edgar-928b001/"
 }
 
-#193
+#194
 ID: recmCKVGmWkqdi028
 {
   "Investor Name": "Ryan Nece",
@@ -2715,7 +2721,7 @@ ID: recmCKVGmWkqdi028
   "Linkedin URL": "https://www.linkedin.com/in/ryan-nece-abb07b8/"
 }
 
-#194
+#195
 ID: recmCkJFXFNtsp1Rg
 {
   "Investor Name": "Carman Chan",
@@ -2729,7 +2735,7 @@ ID: recmCkJFXFNtsp1Rg
   "Linkedin URL": "https://www.linkedin.com/in/carmanchan/"
 }
 
-#195
+#196
 ID: recmyjRvQH2AVohAP
 {
   "Investor Name": "Laura Thompson",
@@ -2743,7 +2749,7 @@ ID: recmyjRvQH2AVohAP
   "Linkedin URL": "https://www.linkedin.com/in/lauragthompson22/"
 }
 
-#196
+#197
 ID: recn2BpK08K2Zi3j6
 {
   "Investor Name": "Margo Doyle",
@@ -2757,7 +2763,7 @@ ID: recn2BpK08K2Zi3j6
   "Linkedin URL": "https://www.linkedin.com/in/margodoyle/"
 }
 
-#197
+#198
 ID: recnQQ2y6kXvgRyef
 {
   "Investor Name": "Herrera Richardson",
@@ -2770,7 +2776,7 @@ ID: recnQQ2y6kXvgRyef
   "Entity Name": "The Peruvian Fund of Funds (FCEI)"
 }
 
-#198
+#199
 ID: recnYGCH9RVeWpIV4
 {
   "Investor Name": "John Felix",
@@ -2787,7 +2793,7 @@ ID: recnYGCH9RVeWpIV4
   "Investor Thesis": "John is a partner at Pattern Ventures, a fund o funds focused on sub $50M funds using a quantitative approach. Prior, John was Head of Emerging Managers at Allocate where he leads manager diligence and product innovation within the emerging manager ecosystem. Prior to joining Allocate, John worked at Bowdoin College’s Office of Investments, helping to invest the $2.8 billion endowment across all asset classes, focusing on venture capital. Prior to Bowdoin, John worked at Edgehill Endowment Partners, a $2 billion boutique OCIO. At Edgehill, John was responsible for building out the firm’s venture capital portfolio, sourcing and leading all venture fund commitments. John started his career at Washington University’s Investment Management Company as a member of the small investment team responsible for managing the university’s now $15 billion endowment. John graduated from Washington University in St. Louis with a BSBA in Finance and Entrepreneurship."
 }
 
-#199
+#200
 ID: recoCjKXRtd4GsZBa
 {
   "Investor Name": "Steve Bennet",
@@ -2797,7 +2803,7 @@ ID: recoCjKXRtd4GsZBa
   "Linkedin URL": "https://www.linkedin.com/in/stevebennet/"
 }
 
-#200
+#201
 ID: recoIzrSYIwE2voX3
 {
   "Investor Name": "Jay Rongjie Wang",
@@ -2810,7 +2816,7 @@ ID: recoIzrSYIwE2voX3
   "Investor Thesis": "Jay Rongjie Wang is the founding Chief Investment Officer of Primitiva Global, where she runs a family-backed Multi-asset Strategy. She also works extensively with emerging VC managers, and sits on the Selection Committee of Bridge Funding Global.\n\nJay’s background uniquely combines software engineering (at the world’s largest fintech platform) and institutional investing (at top funds including Fidelity and Sequoia), as well as general management (3x executive in tech startups). Jay has lived in 5 different countries across 9 major cities, giving her a global perspective.\n\nJay obtained her B.A and M.Sci in Physics from Cambridge University and M.B.A from INSEAD. In 2023 she was listed as an Entrepreneurial Pioneer Under 35 by Hurun Wealth."
 }
 
-#201
+#202
 ID: recoWlW2Mu6bELvST
 {
   "Website": "https://www.axavp.com/fund-investing/",
@@ -2818,7 +2824,7 @@ ID: recoWlW2Mu6bELvST
   "Entity Name": "AXA Venture Partners"
 }
 
-#202
+#203
 ID: recohXlYEjNnyqih2
 {
   "Investor Name": "Sophia \n  Liao",
@@ -2834,7 +2840,7 @@ ID: recohXlYEjNnyqih2
   "Linkedin URL": "https://www.linkedin.com/in/sophie007/"
 }
 
-#203
+#204
 ID: recorxsCFtiBLUU5R
 {
   "Investor Name": "Abe \n  Finkelstein",
@@ -2844,7 +2850,7 @@ ID: recorxsCFtiBLUU5R
   "Entity Name": "Vintage Investment Partners"
 }
 
-#204
+#205
 ID: recoysQz39vMYRwtM
 {
   "Investor Name": "Sean Warrington",
@@ -2857,7 +2863,7 @@ ID: recoysQz39vMYRwtM
   "Investor Thesis": "Sean Warrington leads private market investing at Gresham Partners, a $10 billion multi-family office based in Chicago. Known for being a transparent and user-friendly LP, he and the Gresham team aim to simplify the fundraising process — offering single-check investments, a streamlined diligence process, and prompt, candid feedback to GPs."
 }
 
-#205
+#206
 ID: recp9goN4Wrofy8bo
 {
   "Investor Name": "Wayne Chang",
@@ -2869,7 +2875,7 @@ ID: recp9goN4Wrofy8bo
   "Linkedin URL": "https://www.linkedin.com/in/waynechang/"
 }
 
-#206
+#207
 ID: recpAmX6e7uHSXBXx
 {
   "Investor Name": "Howard Lindzon",
@@ -2886,7 +2892,7 @@ ID: recpAmX6e7uHSXBXx
   "Investor Thesis": "Howard Lindzon has over 20 years of experience in both public and private market investing. He previously founded and managed the hedge fund Lindzon Capital, and is currently the founder and General Partner of the early-stage venture capital firm Social Leverage. Through Social Leverage, he and his partners have been seed investors in startups like Robinhood, Beehiiv, and Manscaped to name a few. Howard was the founder of Wallstrip (acquired by CBS), and is the the co-founder and Chairman of Stocktwits, the leading social platform for traders and investors. Throughout his career, Howard has strongly advocated for and helped drive the decentralization and democratization of investing. He resides in Phoenix, AZ and Coronado, California."
 }
 
-#207
+#208
 ID: recpI2HGfUhlm61es
 {
   "Investor Name": "David Mazaheri",
@@ -2903,7 +2909,7 @@ ID: recpI2HGfUhlm61es
   "Linkedin URL": "https://www.linkedin.com/in/davidmazaheri/"
 }
 
-#208
+#209
 ID: recqmYEhFa6nrr0fL
 {
   "Investor Name": "David York",
@@ -2916,7 +2922,7 @@ ID: recqmYEhFa6nrr0fL
   "Investor Thesis": "David York’s thirty plus years of industry knowledge and networks uniquely equip him to be a liaison and international ambassador not only for Top Tier’s brand, but also the broader venture community. In 2000, David joined Phil Paul to lead the fund of funds team at Paul Capital, which spun out in 2011 to form Top Tier.\n\nDavid has been active in the global venture capital community since the early 1990s. As a founder of Top Tier, he has led the development of the Firm for over twenty years and has been involved in every aspect of it. His involvement in the industry has led him to participate in numerous industry events and conferences, and also the NVCA, where he is an active board member. David led the fund of funds business at Paul Capital Partners, before spinning it out and founding Top Tier. Prior to Paul Capital, David spent seventeen years on Wall Street running various trading desks. In 1999, he was Managing Director at Chase H&Q, where he ran Equity Capital Markets liquidity, and from 1994 to 1999 he ran Venture Services for Hambrecht & Quist, a San Francisco-based, technology-focused investment bank acquired by Chase Bank."
 }
 
-#209
+#210
 ID: recqw6Jszpkx3twHo
 {
   "Investor Name": "Anne Dwane",
@@ -2933,7 +2939,7 @@ ID: recqw6Jszpkx3twHo
   "Linkedin URL": "https://www.linkedin.com/in/dwane/"
 }
 
-#210
+#211
 ID: recrCu0iT2Qx6M5Cc
 {
   "Investor Name": "Gyoung Joo Choe",
@@ -2947,7 +2953,7 @@ ID: recrCu0iT2Qx6M5Cc
   "Linkedin URL": "https://www.linkedin.com/in/gyoung-joo-choe/"
 }
 
-#211
+#212
 ID: recrL7kpM5W4Pxrs1
 {
   "Investor Name": "Neil Shah",
@@ -2961,7 +2967,7 @@ ID: recrL7kpM5W4Pxrs1
   "Linkedin URL": "https://linkedin.com/in/neil-shah-b552944"
 }
 
-#212
+#213
 ID: recrXrlomMw3tfrvK
 {
   "Investor Name": "Joanna Rupp",
@@ -2975,7 +2981,7 @@ ID: recrXrlomMw3tfrvK
   "Linkedin URL": "https://www.linkedin.com/in/joanna-rupp-cfa-184412a/"
 }
 
-#213
+#214
 ID: recrhd7gIPKQHEwHH
 {
   "Investor Name": "Ashby Monk",
@@ -2988,7 +2994,7 @@ ID: recrhd7gIPKQHEwHH
   "Investor Thesis": "Dr. Ashby Monk is currently a Senior Research Engineer, School of Engineering at Stanford University and holds the position of Executive Director of the Stanford Research Initiative on Long-Term Investing.\n\nAshby has more than 20 years of experience studying and advising investment organizations. He has authored multiple books and published 100s of research papers on institutional investing. His latest book, The Technologized Investor, won the 2021 Silver Medal from the Axiom Business Book Awards in the Business Technology category.\n\nOutside of academia, Ashby has co-founded several companies that help investors make better investment decisions, including Real Capital Innovation (acquired by Addepar), FutureProof, GrowthsphereAI, Long Game Savings (acquired by Truist), NetPurpose, D.A.T.A., SheltonAI, and ThirdAct. He is co-founder and managing partner of KDX, a venture capital firm focused on investment technologies.\n\nHe is a member of the CFA Institute’s Future of Finance Advisory Council and was named by CIO Magazine as one of the most influential academics in the institutional investing world. He received his Doctorate in Economic Geography at the University of Oxford, holds a Master’s in International Economics from the Université de Paris I – Pantheon Sorbonne, and has a Bachelor’s in Economics from Princeton University."
 }
 
-#214
+#215
 ID: recrsmuDtBllwC73D
 {
   "Investor Name": "Samir Kaji",
@@ -3005,7 +3011,7 @@ ID: recrsmuDtBllwC73D
   "Investor Thesis": "Samir Kaji is the CEO and Co-Founder of Allocate, a private markets technology company that pairs origination with portfolio management tools to allow investors to efficiently construct and manage their alternatives portfolios. \n\nPrior to Allocate, Samir spent 22 years in venture banking between SVB and First Republic Bank and closely worked with and advised over 700 venture capital and private equity firms. During this time, he completed over $12B in structured debt transactions and has invested personally in over 75 funds and companies, including early-stage investments into Carta (seed), Side (seed), PolicyGenius (Series A), and FanDuel (Series B) as well as Growth investments into Reddit, Alto Pharmacy, and Carbon Health. He has also invested in over 40 funds across various investment types.\n\nSamir completed a finance undergraduate degree at San Jose State University, a finance MBA from Santa Clara University, and completed the prestigious Kauffman Fellows venture program in 2017. Samir is also the host of Venture Unlocked, a top venture capital podcast available on Itunes, Spotify, and Substack.\n\n"
 }
 
-#215
+#216
 ID: recruSyQwcU16s6M2
 {
   "LP Keywords": [
@@ -3015,7 +3021,7 @@ ID: recruSyQwcU16s6M2
   "Entity Name": "Pivotal Ventures (Melinda Gates)"
 }
 
-#216
+#217
 ID: recryGrHOmyh4VsoY
 {
   "Investor Name": "Howard \n  Kim",
@@ -3026,7 +3032,7 @@ ID: recryGrHOmyh4VsoY
   "Entity Name": "Hanwha Asset Management"
 }
 
-#217
+#218
 ID: recsABmSXgvvK2CXG
 {
   "Investor Name": "Susan Anderson",
@@ -3040,7 +3046,7 @@ ID: recsABmSXgvvK2CXG
   "Linkedin URL": "https://www.linkedin.com/in/susan-anderson-0067b314a/"
 }
 
-#218
+#219
 ID: rect5LX4nXqxTdviD
 {
   "Investor Name": "Sam Kim",
@@ -3053,7 +3059,7 @@ ID: rect5LX4nXqxTdviD
   "Linkedin URL": "https://www.linkedin.com/in/ksm-sam-kim/"
 }
 
-#219
+#220
 ID: rect78gYH99j95jHm
 {
   "Investor Name": "Narayan Chowdhury",
@@ -3066,7 +3072,7 @@ ID: rect78gYH99j95jHm
   "Investor Thesis": "Ritujoy Narayan Chowdhury is the co-founder and Managing Director at Franklin Park, where he focuses on private equity investment opportunities, monitoring clients’ portfolios and conducting industry research. He also plays a key role in the development and implementation of Franklin Park’s technology platform, and regularly interacts with clients on investment and portfolio matters.\n\nPrior to Franklin Park, Narayan worked with Hamilton Lane and Public Financial Management. He is a CFA Charterholder and a member of the CFA Institute. Narayan received a B.A. in Mathematics and Economics from Bucknell University."
 }
 
-#220
+#221
 ID: rectFSG28nrp15OX8
 {
   "Investor Name": "Spencer Powers",
@@ -3077,7 +3083,7 @@ ID: rectFSG28nrp15OX8
   "Linkedin URL": "https://www.linkedin.com/in/spencerpowers/"
 }
 
-#221
+#222
 ID: rectK2imxC9EbwSvZ
 {
   "Investor Name": "Anthony Wang",
@@ -3091,7 +3097,7 @@ ID: rectK2imxC9EbwSvZ
   "Linkedin URL": "https://www.linkedin.com/in/anthony-wang323/"
 }
 
-#222
+#223
 ID: rectOwLS4zecp2Cdc
 {
   "Investor Name": "Manuel Muntaner",
@@ -3104,7 +3110,7 @@ ID: rectOwLS4zecp2Cdc
   "Linkedin URL": "https://www.linkedin.com/in/manueldeluque/"
 }
 
-#223
+#224
 ID: rectPwzAeW4Sf6D97
 {
   "Investor Name": "Nabeel Qadri",
@@ -3121,7 +3127,7 @@ ID: rectPwzAeW4Sf6D97
   "Linkedin URL": "https://www.linkedin.com/in/nabeelqadri/"
 }
 
-#224
+#225
 ID: recuCGgdxR4AmQhex
 {
   "Website": "https://www.aqvc.com/",
@@ -3129,7 +3135,7 @@ ID: recuCGgdxR4AmQhex
   "Entity Name": "AQ VC"
 }
 
-#225
+#226
 ID: recuOKyFU5uy6U4o8
 {
   "Investor Name": "Prem Kalevar",
@@ -3143,7 +3149,7 @@ ID: recuOKyFU5uy6U4o8
   "Linkedin URL": "https://www.linkedin.com/in/premkalevar/"
 }
 
-#226
+#227
 ID: recuhcabQVigD6kxY
 {
   "Investor Name": "Hillary Cook",
@@ -3157,7 +3163,7 @@ ID: recuhcabQVigD6kxY
   "Linkedin URL": "https://www.linkedin.com/in/hillary-cook/"
 }
 
-#227
+#228
 ID: recvGVcD8DDwIi3Mk
 {
   "Investor Name": "Youngrok Kim",
@@ -3176,7 +3182,7 @@ ID: recvGVcD8DDwIi3Mk
   "Investor Thesis": "Youngrok Kim is a Partner at GREE LP Fund, a Fund of Funds operating in the US and Japan. Previously, he held the position of SVP at Recruit Strategic Partner, the strategic investment arm of Recruit Holdings, a major internet company in Japan. Youngrok began his career as an engineer at Goldman Sachs before transitioning to a VC career at ARCH Venture Partners in Chicago. He earned an MBA from the University of Chicago and received his degrees in Information Technology from Aoyama Gakuin University in Tokyo."
 }
 
-#228
+#229
 ID: recvOmyTWVMUdk9QQ
 {
   "Investor Name": "Tracy Fong",
@@ -3185,7 +3191,7 @@ ID: recvOmyTWVMUdk9QQ
   "Linkedin URL": "https://www.linkedin.com/in/tracyfong714/"
 }
 
-#229
+#230
 ID: recvSYwXx0uAFU9bI
 {
   "Investor Type": "Family Office",
@@ -3198,7 +3204,7 @@ ID: recvSYwXx0uAFU9bI
   "Entity Name": "Black Kite Capital"
 }
 
-#230
+#231
 ID: recvTrxijdZQC9zbc
 {
   "Investor Name": "Alex Chalunkal",
@@ -3212,7 +3218,7 @@ ID: recvTrxijdZQC9zbc
   "Linkedin URL": "https://www.linkedin.com/in/alexchalunkal/"
 }
 
-#231
+#232
 ID: recvvXsB90oWUmaEs
 {
   "Investor Type": "Family Office",
@@ -3224,7 +3230,7 @@ ID: recvvXsB90oWUmaEs
   "Entity Name": "Reimagined Ventures"
 }
 
-#232
+#233
 ID: recw1PhvSSJhwUrwh
 {
   "Investor Name": "John Burbank",
@@ -3234,7 +3240,7 @@ ID: recw1PhvSSJhwUrwh
   "Entity Name": "Nimble Partners, LLC"
 }
 
-#233
+#234
 ID: recwPdP71iIUWhgSz
 {
   "Investor Name": "Paul Fetsch",
@@ -3249,7 +3255,7 @@ ID: recwPdP71iIUWhgSz
   "Entity Name": "Spur Capital"
 }
 
-#234
+#235
 ID: recwZh0W2igT5w5kS
 {
   "Investor Name": "Ian Park",
@@ -3263,7 +3269,7 @@ ID: recwZh0W2igT5w5kS
   "Linkedin URL": "https://www.linkedin.com/in/ianpark0/"
 }
 
-#235
+#236
 ID: recxhO3ooH2BES8da
 {
   "Investor Name": "Raviv Sapir",
@@ -3276,7 +3282,7 @@ ID: recxhO3ooH2BES8da
   "Investor Thesis": "Raviv Sapir is an early-stage investor at Vinthera, a fund of funds and venture firm with a hybrid strategy that combines VC fund investments with direct startup investments. With a background in tech and finance, an MBA from HEC Paris, and years of experience mentoring startups and supporting LPs, Raviv brings a sharp eye for high-conviction opportunities and a practical approach to venture. He previously held product roles at leading Israeli startups and served in a technological unit within the Israeli Defense Forces. His work across geographies, sectors, and investment stages gives him a uniquely holistic and global perspective on the venture ecosystem."
 }
 
-#236
+#237
 ID: recxkRlcQFcCpAgRF
 {
   "Investor Name": "Neetu Puranikmath",
@@ -3287,7 +3293,7 @@ ID: recxkRlcQFcCpAgRF
   "Entity Name": "Cooper Family Office"
 }
 
-#237
+#238
 ID: recy1qj5DvYf03btG
 {
   "Investor Name": "Michael Str√∂ck",
@@ -3304,7 +3310,7 @@ ID: recy1qj5DvYf03btG
   "Linkedin URL": "https://www.linkedin.com/in/mstroeck/"
 }
 
-#238
+#239
 ID: recy5VQPsr8tK8as2
 {
   "Investor Name": "Ramzi Samara",
@@ -3314,7 +3320,7 @@ ID: recy5VQPsr8tK8as2
   "Entity Name": "MASIC"
 }
 
-#239
+#240
 ID: recyBTOuwNrUao9lm
 {
   "Investor Name": "David Cruz e Silva",
@@ -3331,7 +3337,7 @@ ID: recyBTOuwNrUao9lm
   "Linkedin URL": "https://www.linkedin.com/in/david-euvc/"
 }
 
-#240
+#241
 ID: reczHAXtNFRAoveJu
 {
   "Investor Name": "Katie (Knepley) Riester",
@@ -3342,7 +3348,7 @@ ID: reczHAXtNFRAoveJu
   "Linkedin URL": "https://www.linkedin.com/in/katie-riester-91793b8/"
 }
 
-#241
+#242
 ID: reczT4NHiY0axXbKQ
 {
   "Investor Name": "Joan Heidorn",
@@ -3356,7 +3362,7 @@ ID: reczT4NHiY0axXbKQ
   "Linkedin URL": "https://www.linkedin.com/in/joan-heidorn-6b12336/"
 }
 
-#242
+#243
 ID: reczYv2UMIsb39ypY
 {
   "Investor Name": "Courtney Russell McCrea",
@@ -3370,7 +3376,7 @@ ID: reczYv2UMIsb39ypY
   "Linkedin URL": "https://www.linkedin.com/in/courtneymccrea/"
 }
 
-#243
+#244
 ID: reczlS3UqxWgvtJEb
 {
   "Investor Name": "Kelli Fontaine",
@@ -3383,7 +3389,7 @@ ID: reczlS3UqxWgvtJEb
   "Investor Thesis": "From investing in great fund managers to data to investor relations, Kelli Fontaine is a partner at Cendana Capital, a fund of funds who’s solely focused on the best pre-seed and seed funds with over 2 billion under management and includes the likes of Forerunner, Founder Collective, Lerer Hippeau, Uncork, Susa Ventures and more. Kelli comes from the world of data, and has been a founder, marketing expert, and an advisor to founders since 2010.\n\n"
 }
 
-#244
+#245
 ID: recztruwSkQQG55Te
 {
   "Investor Type": "Family Office",

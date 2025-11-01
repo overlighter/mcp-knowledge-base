@@ -1,46 +1,78 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import {StreamableHTTPServerTransport} from "@modelcontextprotocol/sdk/server/streamableHttp.js"; // <-- ADD THIS
+import {StreamableHTTPServerTransport} from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { z } from "zod";
 import dotenv from 'dotenv';
-import express,{Request,Response} from 'express';
+import express,{Request,Response, NextFunction} from 'express';
 import { ResourceTemplate } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { RagieService } from './ragieService.js';
 import { AirtableService } from './airtableService.js';
+import { ApiKeyService } from './apiKeyService.js'; 
+import crypto from 'crypto';
 import fs from "fs";
 import path from "path";
+
 const app = express()
 app.use(express.json())
-// Load environment variables from the project root, regardless of working directory
+app.use(express.urlencoded({ extended: true }))
+const apiKeyService = new ApiKeyService();
+
+// =============================================================================
+// OAUTH STORAGE AND HELPERS
+// =============================================================================
+interface AuthCodeData {
+  code_challenge: string;
+  code_challenge_method: string;
+  redirect_uri: string;
+  client_id: string;
+  api_key: string;
+  created_at: number;
+}
+
+interface AccessTokenData {
+  api_key: string;
+  created_at: number;
+  expires_at: number;
+}
+
+const authCodes = new Map<string, AuthCodeData>();
+const accessTokens = new Map<string, AccessTokenData>();
+
+setInterval(() => {
+  const now = Date.now();
+  const TEN_MINUTES = 10 * 60 * 1000;
+  for (const [code, data] of authCodes.entries()) {
+    if (now - data.created_at > TEN_MINUTES) authCodes.delete(code);
+  }
+  for (const [token, data] of accessTokens.entries()) {
+    if (now > data.expires_at) accessTokens.delete(token);
+  }
+}, 60000);
+
+function verifyCodeChallenge(codeVerifier: string, codeChallenge: string, method: string): boolean {
+  if (method === 'S256') {
+    const hash = crypto.createHash('sha256').update(codeVerifier).digest('base64url');
+    return hash === codeChallenge;
+  } else if (method === 'plain') {
+    return codeVerifier === codeChallenge;
+  }
+  return false;
+}
+
 const projectRoot = path.resolve(__dirname, '..');
 dotenv.config({ path: path.join(projectRoot, '.env') });
-// Load environment variables
-// dotenv.config();
-// const RAGIE_API_KEY = process.env.RAGIE_API_KEY || '';
-
-// Initialize Ragie service
-// const ragieService = new RagieService(RAGIE_API_KEY);
 const ragieService = new RagieService("tnt_JdgN2vTLRVd_uyxjbRI6iWJYttXGYX9vOsWdSDgOuWloz3MtgcNbvOJ")
-
-// Initialize Airtable service
 const airtableService = new AirtableService();
 
-// Create server instance
 const server = new McpServer({
   name: 'side-letter-knowledge-base',
   version: '1.0.0',
-  
   capabilities: {
-    resources: {
-      subscribe: true,
-      listChanged: true
-    },
+    resources: { subscribe: true, listChanged: true },
     tools: {},
     prompts: {}
   },
 });
-
-
 
 server.tool(
   'search',
@@ -802,31 +834,294 @@ server.resource(
 );
 
 
-// async function main() {
-//   try {
-//     const transport = new StdioServerTransport();
-//     await server.connect(transport);
-    
-//     // Only log to stderr (not stdout, which is used for MCP protocol)
-//     console.error('Side Letter MCP Server running on stdio');
-//     console.error('Available tools: search, ask, sync_airtable, force_refresh_airtable, test_airtable_connections');
-//     console.error('Available prompts: citation_guide');
-//     console.error('Available resources: funds://all, allocators://all, funds://{fundId}/details, allocators://{allocatorId}/details, funds://status/{status}, allocators://type/{type}, funds://name/{fundName}, allocators://name/{investorName}, allocators://country/{country}, data://summary');
-//   } catch (error) {
-//     console.error('Failed to start server:', error);
-//     process.exit(1);
-//   }
-// }
 
-// main().catch((error) => {
-//   console.error('Fatal error:', error);
-//   process.exit(1);
-// });
 async function main() {
   try {
-   
+    // REQUIRED: OAuth Protected Resource Metadata (RFC 9728)
+    // MCP clients discover authorization servers through this endpoint
+    app.get("/.well-known/oauth-protected-resource", (req: Request, res: Response) => {
+      const baseUrl = process.env.NGROK_URL || `http://localhost:3000`;
+      res.json({
+        resource: baseUrl,
+        authorization_servers: [baseUrl],
+        bearer_methods_supported: ["header"],
+        resource_documentation: `${baseUrl}/docs`,
+        scopes_supported: ["mcp:*"]
+      });
+    });
+
+    const oauthConfig = (req: Request, res: Response) => {
+      const baseUrl = process.env.NGROK_URL || `http://localhost:3000`;
+      res.json({
+        issuer: baseUrl,
+        authorization_endpoint: `${baseUrl}/authorize`,
+        token_endpoint: `${baseUrl}/token`,
+        registration_endpoint: `${baseUrl}/register`,
+        response_types_supported: ["code"],
+        grant_types_supported: ["authorization_code"],
+        code_challenge_methods_supported: ["S256", "plain"],
+        scopes_supported: ["openid", "profile", "claudeai", "mcp:*"],
+        subject_types_supported: ["public"],
+        id_token_signing_alg_values_supported: ["RS256"],
+        token_endpoint_auth_methods_supported: ["none"]
+      });
+    };
+
+    app.get("/.well-known/openid-configuration", oauthConfig);
+    app.get("/.well-known/oauth-authorization-server", oauthConfig);
+    app.get("/.well-known/oauth-authorization-server/mcp", oauthConfig);
+
+    // Handle root GET - return server info
+    app.get("/", (req: Request, res: Response) => {
+      res.status(200).json({
+        name: "Side Letter MCP Server",
+        version: "1.0.0",
+        endpoints: {
+          mcp: "/mcp",
+          oauth_discovery: "/.well-known/oauth-protected-resource",
+          authorization: "/authorize",
+          token: "/token"
+        }
+      });
+    });
+
+    app.get("/authorize", (req: Request, res: Response) => {
+      const { client_id, response_type, code_challenge, code_challenge_method, redirect_uri, state, scope } = req.query;
+      
+      if (!code_challenge || !redirect_uri || !state) {
+        return res.status(400).send('Missing required OAuth parameters');
+      }
+
+      res.send(`
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorize Side Letter MCP Server</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 { color: #333; margin-bottom: 10px; font-size: 24px; }
+        .subtitle { color: #666; margin-bottom: 30px; font-size: 14px; }
+        .info-box {
+            background-color: #e7f3ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border-left: 4px solid #2196F3;
+        }
+        .info-box p { color: #004085; font-size: 14px; line-height: 1.6; }
+        label { display: block; margin-bottom: 8px; color: #555; font-weight: 600; font-size: 14px; }
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        input[type="password"]:focus { outline: none; border-color: #667eea; }
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        button:hover { transform: translateY(-2px); }
+        button:active { transform: translateY(0); }
+        .help-text {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Authorize MCP Server</h1>
+        <p class="subtitle">Side Letter Knowledge Base</p>
+        <div class="info-box">
+            <p><strong>Claude is requesting access</strong><br>
+            Please enter your API key to authorize Claude to access your Side Letter knowledge base.</p>
+        </div>
+        <form method="POST" action="/authorize">
+            <input type="hidden" name="client_id" value="${client_id || ''}">
+            <input type="hidden" name="response_type" value="${response_type || ''}">
+            <input type="hidden" name="code_challenge" value="${code_challenge || ''}">
+            <input type="hidden" name="code_challenge_method" value="${code_challenge_method || 'S256'}">
+            <input type="hidden" name="redirect_uri" value="${redirect_uri || ''}">
+            <input type="hidden" name="state" value="${state || ''}">
+            <input type="hidden" name="scope" value="${scope || ''}">
+            <label for="api_key">API Key</label>
+            <input type="password" id="api_key" name="api_key" required placeholder="Enter your API key" autocomplete="off">
+            <button type="submit">Authorize Access</button>
+        </form>
+        <div class="help-text">Your API key will be securely validated and used to authenticate requests.</div>
+    </div>
+</body>
+</html>
+      `);
+    });
+
+    app.post("/authorize", (req: Request, res: Response) => {
+      const { client_id, response_type, code_challenge, code_challenge_method, redirect_uri, state, api_key } = req.body;
+      
+      const validation = apiKeyService.validateApiKey(api_key);
+      
+      if (!validation.isValid) {
+        return res.status(403).send(`
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Authorization Failed</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 500px; margin: 50px auto; padding: 20px; background-color: #f5f5f5; }
+        .error { background-color: #f8d7da; color: #721c24; padding: 30px; border-radius: 8px; border: 1px solid #f5c6cb; }
+        h1 { margin-top: 0; }
+        a { display: inline-block; margin-top: 20px; color: #004085; text-decoration: none; padding: 10px 20px; background-color: #cce5ff; border-radius: 4px; }
+        a:hover { background-color: #b8daff; }
+    </style>
+</head>
+<body>
+    <div class="error">
+        <h1>❌ Authorization Failed</h1>
+        <p>Invalid API key. Please check your API key and try again.</p>
+        <a href="/authorize?client_id=${client_id}&response_type=${response_type}&code_challenge=${code_challenge}&code_challenge_method=${code_challenge_method}&redirect_uri=${encodeURIComponent(redirect_uri)}&state=${state}">← Try Again</a>
+    </div>
+</body>
+</html>
+        `);
+      }
+      
+      console.log('✓ API key validated for:', validation.keyType, 'user');
+      
+      const authCode = 'mcp_auth_code_' + crypto.randomBytes(32).toString('hex');
+      authCodes.set(authCode, {
+        code_challenge: code_challenge as string,
+        code_challenge_method: (code_challenge_method as string) || 'S256',
+        redirect_uri: redirect_uri as string,
+        client_id: client_id as string,
+        api_key: api_key as string,
+        created_at: Date.now()
+      });
+      
+      const redirectUrl = new URL(redirect_uri as string);
+      redirectUrl.searchParams.set('code', authCode);
+      redirectUrl.searchParams.set('state', state as string);
+      res.redirect(redirectUrl.toString());
+    });
+
+    app.post("/token", (req: Request, res: Response) => {
+      const { grant_type, code, redirect_uri, code_verifier } = req.body;
+      
+      if (grant_type !== 'authorization_code') {
+        return res.status(400).json({ error: 'unsupported_grant_type' });
+      }
+
+      const authCodeData = authCodes.get(code);
+      if (!authCodeData) {
+        return res.status(400).json({ error: 'invalid_grant', error_description: 'Invalid authorization code' });
+      }
+
+      if (authCodeData.redirect_uri !== redirect_uri) {
+        return res.status(400).json({ error: 'invalid_grant', error_description: 'Redirect URI mismatch' });
+      }
+
+      if (code_verifier && !verifyCodeChallenge(code_verifier, authCodeData.code_challenge, authCodeData.code_challenge_method)) {
+        return res.status(400).json({ error: 'invalid_grant', error_description: 'PKCE verification failed' });
+      }
+
+      authCodes.delete(code);
+
+      const accessToken = 'mcp_access_token_' + crypto.randomBytes(32).toString('hex');
+      const expiresIn = 3600;
+      accessTokens.set(accessToken, {
+        api_key: authCodeData.api_key,
+        created_at: Date.now(),
+        expires_at: Date.now() + (expiresIn * 1000)
+      });
+
+      console.log('✓ Access token generated');
+      res.json({ access_token: accessToken, token_type: 'Bearer', expires_in: expiresIn, scope: 'claudeai' });
+    });
+
+    // Dynamic Client Registration endpoint (RFC 7591)
+    app.post("/register", (req: Request, res: Response) => {
+      const { client_name, redirect_uris, logo_uri, grant_types } = req.body;
+      
+      // Generate a client_id for this registration
+      const clientId = 'mcp_client_' + crypto.randomBytes(16).toString('hex');
+      
+      console.log('✓ Client registered:', client_name || 'Unnamed Client');
+      
+      // Return client credentials (no client_secret for public clients)
+      res.json({
+        client_id: clientId,
+        client_name: client_name || 'MCP Client',
+        redirect_uris: redirect_uris || [],
+        grant_types: grant_types || ['authorization_code'],
+        token_endpoint_auth_method: 'none',
+        client_id_issued_at: Math.floor(Date.now() / 1000)
+      });
+    });
+
     app.post("/mcp", async (req: Request, res: Response) => {
-      const httpserver = server
+      const authHeader = req.headers['authorization'];
+      const apiKeyHeader = req.headers['x-api-key'];
+      let validatedApiKey: string | null = null;
+
+      if (authHeader) {
+        const token = authHeader.replace(/^Bearer\s+/i, '');
+        const tokenData = accessTokens.get(token);
+        if (tokenData && tokenData.expires_at > Date.now()) {
+          validatedApiKey = tokenData.api_key;
+          console.log('✓ OAuth token validated');
+        }
+      }
+
+      if (!validatedApiKey && apiKeyHeader) {
+        const validation = apiKeyService.validateApiKey(apiKeyHeader as string);
+        if (validation.isValid) {
+          validatedApiKey = apiKeyHeader as string;
+          console.log('✓ Direct API key validated');
+        }
+      }
+
+      if (!validatedApiKey) {
+        const baseUrl = process.env.NGROK_URL || `http://localhost:3000`;
+        res.set('WWW-Authenticate', `Bearer realm="${baseUrl}", resource_metadata="${baseUrl}/.well-known/oauth-protected-resource"`);
+        return res.status(401).json({ error: 'Authentication required' });
+      }
+
+      const httpserver = server;
       const httpTransport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
       res.on('close', () => {
         httpTransport.close();
@@ -834,11 +1129,61 @@ async function main() {
       });
       await httpserver.connect(httpTransport);
       await httpTransport.handleRequest(req, res, req.body);
-    
-        
-    })
+    });
 
-    
+    // Also handle POST at root (/) for clients that use base URL as MCP endpoint
+    app.post("/", async (req: Request, res: Response) => {
+      const authHeader = req.headers['authorization'];
+      const apiKeyHeader = req.headers['x-api-key'];
+      let validatedApiKey: string | null = null;
+
+      if (authHeader) {
+        const token = authHeader.replace(/^Bearer\s+/i, '');
+        const tokenData = accessTokens.get(token);
+        if (tokenData && tokenData.expires_at > Date.now()) {
+          validatedApiKey = tokenData.api_key;
+          console.log('✓ OAuth token validated (root endpoint)');
+        }
+      }
+
+      if (!validatedApiKey && apiKeyHeader) {
+        const validation = apiKeyService.validateApiKey(apiKeyHeader as string);
+        if (validation.isValid) {
+          validatedApiKey = apiKeyHeader as string;
+          console.log('✓ Direct API key validated (root endpoint)');
+        }
+      }
+
+      if (!validatedApiKey) {
+        const baseUrl = process.env.NGROK_URL || `http://localhost:3000`;
+        res.set('WWW-Authenticate', `Bearer realm="${baseUrl}", resource_metadata="${baseUrl}/.well-known/oauth-protected-resource"`);
+        return res.status(401).json({ error: 'Authentication required' });
+      }
+
+      const httpserver = server;
+      const httpTransport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
+      res.on('close', () => {
+        httpTransport.close();
+        httpserver.close();
+      });
+      await httpserver.connect(httpTransport);
+      await httpTransport.handleRequest(req, res, req.body);
+    });
+
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+      console.log(`\n${'='.repeat(60)}`);
+      console.log(`Side Letter MCP Server running`);
+      console.log(`${'='.repeat(60)}`);
+      console.log(`Local: http://localhost:${PORT}`);
+      if (process.env.NGROK_URL) console.log(`Public: ${process.env.NGROK_URL}`);
+      console.log(`\nEndpoints:`);
+      console.log(`  - OAuth Discovery: /.well-known/openid-configuration`);
+      console.log(`  - Authorization: /authorize`);
+      console.log(`  - Token Exchange: /token`);
+      console.log(`  - MCP: /mcp`);
+      console.log(`${'='.repeat(60)}\n`);
+    });
 
   } catch (error) {
     console.error('Failed to start server:', error);
@@ -846,12 +1191,7 @@ async function main() {
   }
 }
 
-
 main().catch((error) => {
-  console.error('Fatal error:', error);
-  process.exit(1);
+  console.error('Fatal error:', error);
+  process.exit(1);
 });
-const PORT = 3000
-app.listen(PORT, () => {
-  console.error(`Side Letter MCP Server running on http://localhost:${PORT}`);
-} )
