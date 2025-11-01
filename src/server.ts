@@ -29,6 +29,7 @@ const airtableService = new AirtableService();
 const server = new McpServer({
   name: 'side-letter-knowledge-base',
   version: '1.0.0',
+  
   capabilities: {
     resources: {
       subscribe: true,
@@ -43,7 +44,7 @@ const server = new McpServer({
 
 server.tool(
   'search',
-  'Search the knowledge base using natural language queries. Returns relevant chunks with citations like all source or title or document name (Page number if available)',
+  'Search the knowledge base using natural language queries. Returns relevant chunks with citations like all source or title or document name (Page number if available).make sure to list all the source, document name, and page number if available in the citations when given back your response from the chunk data.',
   {
     query: z.string().describe('The search query in natural language'),
     top_k: z.number().optional().default(10).describe('Number of results to return (default: 10)'),
@@ -138,58 +139,58 @@ server.tool(
   }
 );
 
-server.tool(
-  'ask',
-  'Ask a question and get relevant context from the knowledge base',
-  {
-    query: z.string().describe('The question to ask'),
-    top_k: z.number().optional().default(5).describe('Number of chunks to retrieve (default: 5)'),
-    filter_by_title: z.string().optional().describe('Optional: Filter by document title'),
-    filter_by_source: z.string().optional().describe('Optional: Filter by source (e.g., Airtable)'),
-    filter_by_table: z.string().optional().describe('Optional: Filter by Airtable table name (e.g., "Funds [Master]", "Allocators [Master]")'),
-  },
-  async ({ query, top_k, filter_by_title, filter_by_source, filter_by_table }) => {
-    try {
-      // Build filter if provided
-      let filter = null;
-      if (filter_by_title || filter_by_source || filter_by_table) {
-        filter = {};
-        if (filter_by_title) {
-          (filter as any).title = { $eq: filter_by_title };
-        }
-        if (filter_by_source) {
-          (filter as any).source = { $eq: filter_by_source };
-        }
-        if (filter_by_table) {
-          (filter as any).table_name = { $eq: filter_by_table };
-        }
-      }
+// server.tool(
+//   'ask',
+//   'Ask a question and get relevant context from the knowledge base',
+//   {
+//     query: z.string().describe('The question to ask'),
+//     top_k: z.number().optional().default(5).describe('Number of chunks to retrieve (default: 5)'),
+//     filter_by_title: z.string().optional().describe('Optional: Filter by document title'),
+//     filter_by_source: z.string().optional().describe('Optional: Filter by source (e.g., Airtable)'),
+//     filter_by_table: z.string().optional().describe('Optional: Filter by Airtable table name (e.g., "Funds [Master]", "Allocators [Master]")'),
+//   },
+//   async ({ query, top_k, filter_by_title, filter_by_source, filter_by_table }) => {
+//     try {
+//       // Build filter if provided
+//       let filter = null;
+//       if (filter_by_title || filter_by_source || filter_by_table) {
+//         filter = {};
+//         if (filter_by_title) {
+//           (filter as any).title = { $eq: filter_by_title };
+//         }
+//         if (filter_by_source) {
+//           (filter as any).source = { $eq: filter_by_source };
+//         }
+//         if (filter_by_table) {
+//           (filter as any).table_name = { $eq: filter_by_table };
+//         }
+//       }
 
-      const context = await ragieService.ask(query, top_k, filter);
+//       const context = await ragieService.ask(query, top_k, filter);
       
-      return {
-        content: [
-          {
-            type: 'text',
-            text: `Context for: "${query}"\n\n${context}`,
-          },
-        ],
-      };
-    } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : String(error);
+//       return {
+//         content: [
+//           {
+//             type: 'text',
+//             text: `Context for: "${query}"\n\n${context}`,
+//           },
+//         ],
+//       };
+//     } catch (error) {
+//       const errorMessage = error instanceof Error ? error.message : String(error);
       
-      return {
-        content: [
-          {
-            type: 'text',
-            text: `Error retrieving context: ${errorMessage}`,
-          },
-        ],
-        isError: true,
-      };
-    }
-  }
-);
+//       return {
+//         content: [
+//           {
+//             type: 'text',
+//             text: `Error retrieving context: ${errorMessage}`,
+//           },
+//         ],
+//         isError: true,
+//       };
+//     }
+//   }
+// );
 
 server.tool(
   'sync_airtable',
