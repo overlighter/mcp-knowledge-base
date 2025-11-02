@@ -1,12 +1,13 @@
 {
   "userApiKeys": [
-    "user_key_1234567890",
-    "user_key_abcdefghij",
-    "user_key_9876543210"
+    {
+      "key": "user_key_1234567890",
+      "email": "user@example.com",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
   ],
   "adminApiKeys": [
-    "admin_super_key_xyz123",
-    "admin_super_key_abc789"
+    "admin_super_key_xyz123"
   ],
-  "lastUpdated": "2024-01-01T00:00:00.000Z"
+  "lastUpdated": "2025-11-01T18:07:20.985Z"
 }

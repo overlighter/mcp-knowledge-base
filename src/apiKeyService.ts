@@ -1,8 +1,15 @@
 import fs from 'fs';
 import path from 'path';
 
+interface UserApiKey {
+  key: string;
+  email: string | null;
+  createdAt: string;
+  lastUsed?: string;
+}
+
 interface ApiKeyStorage {
-  userApiKeys: string[];
+  userApiKeys: UserApiKey[];
   adminApiKeys: string[];
   lastUpdated: string;
 }
@@ -11,17 +18,12 @@ export class ApiKeyService {
   private apiKeysFilePath: string;
 
   constructor() {
-    // Path to the API keys file in the project root
     this.apiKeysFilePath = path.resolve(__dirname, '..', 'api-keys.json');
   }
 
-  /**
-   * Load API keys from the JSON file
-   */
   private loadApiKeys(): ApiKeyStorage {
     try {
       if (!fs.existsSync(this.apiKeysFilePath)) {
-        // Create default file if it doesn't exist
         const defaultKeys: ApiKeyStorage = {
           userApiKeys: [],
           adminApiKeys: [],
@@ -32,16 +34,27 @@ export class ApiKeyService {
       }
 
       const fileContent = fs.readFileSync(this.apiKeysFilePath, 'utf-8');
-      return JSON.parse(fileContent);
+      const data = JSON.parse(fileContent);
+      
+      // Migrate old format to new format if needed
+      if (data.userApiKeys && data.userApiKeys.length > 0) {
+        if (typeof data.userApiKeys[0] === 'string') {
+          data.userApiKeys = data.userApiKeys.map((key: string) => ({
+            key,
+            email: null,
+            createdAt: new Date().toISOString()
+          }));
+          this.saveApiKeys(data);
+        }
+      }
+      
+      return data;
     } catch (error) {
       console.error('Error loading API keys:', error);
       throw new Error('Failed to load API keys');
     }
   }
 
-  /**
-   * Save API keys to the JSON file
-   */
   private saveApiKeys(apiKeys: ApiKeyStorage): void {
     try {
       apiKeys.lastUpdated = new Date().toISOString();
@@ -53,111 +66,166 @@ export class ApiKeyService {
   }
 
   /**
-   * Validate if an API key exists in either user or admin list
+   * Validate API key and optionally bind to email
    */
-  validateApiKey(apiKey: string): { isValid: boolean; isAdmin: boolean; keyType: 'user' | 'admin' | null } {
+  validateApiKey(
+    apiKey: string, 
+    email?: string
+  ): { 
+    isValid: boolean; 
+    isAdmin: boolean; 
+    keyType: 'user' | 'admin' | null;
+    emailRequired?: boolean;
+    emailMismatch?: boolean;
+    boundEmail?: string;
+  } {
     const apiKeys = this.loadApiKeys();
-    
-    // Clean the API key (remove Bearer prefix if present)
     const cleanKey = apiKey.replace(/^Bearer\s+/i, '');
     
-    // Debug logging
-    console.log('=== API Key Validation Debug ===');
-    console.log('Original API Key:', apiKey);
-    console.log('Cleaned API Key:', cleanKey);
-    console.log('Stored Admin Keys:', apiKeys.adminApiKeys);
-    console.log('Stored User Keys:', apiKeys.userApiKeys);
-    console.log('Admin key match:', apiKeys.adminApiKeys.includes(cleanKey));
-    console.log('User key match:', apiKeys.userApiKeys.includes(cleanKey));
-    console.log('================================');
+    console.log('=== API Key Validation ===');
+    console.log('Key:', cleanKey.substring(0, 20) + '...');
+    console.log('Email provided:', email || 'none');
     
-    // Check admin keys first
+    // Check admin keys first (no email binding for admins)
     if (apiKeys.adminApiKeys.includes(cleanKey)) {
+      console.log('✓ Admin key validated');
       return { isValid: true, isAdmin: true, keyType: 'admin' };
     }
     
-    // Check user keys
-    if (apiKeys.userApiKeys.includes(cleanKey)) {
-      return { isValid: true, isAdmin: false, keyType: 'user' };
+    // Check user keys with email binding
+    const userKeyEntry = apiKeys.userApiKeys.find(k => k.key === cleanKey);
+    
+    if (userKeyEntry) {
+      // Key exists - check email binding
+      if (userKeyEntry.email === null) {
+        // Key not yet bound to any email
+        if (email) {
+          // Bind this key to the provided email
+          userKeyEntry.email = email;
+          userKeyEntry.lastUsed = new Date().toISOString();
+          this.saveApiKeys(apiKeys);
+          console.log('✓ User key validated and bound to email:', email);
+          return { isValid: true, isAdmin: false, keyType: 'user', boundEmail: email };
+        } else {
+          // Email is required for first-time use
+          console.log('❌ Email required for first-time key use');
+          return { isValid: false, isAdmin: false, keyType: null, emailRequired: true };
+        }
+      } else {
+        // Key already bound to an email
+        if (email && email.toLowerCase() !== userKeyEntry.email.toLowerCase()) {
+          // Email mismatch - reject
+          console.log('❌ Email mismatch. Key bound to:', userKeyEntry.email);
+          return { 
+            isValid: false, 
+            isAdmin: false, 
+            keyType: null, 
+            emailMismatch: true,
+            boundEmail: userKeyEntry.email
+          };
+        }
+        // Email matches or no email provided (already validated once)
+        userKeyEntry.lastUsed = new Date().toISOString();
+        this.saveApiKeys(apiKeys);
+        console.log('✓ User key validated for email:', userKeyEntry.email);
+        return { isValid: true, isAdmin: false, keyType: 'user', boundEmail: userKeyEntry.email };
+      }
     }
     
+    console.log('❌ Invalid key');
     return { isValid: false, isAdmin: false, keyType: null };
   }
 
   /**
-   * Add a new API key to the specified list
+   * Add a new user API key (admin only)
    */
-  addApiKey(newKey: string, keyType: 'user' | 'admin'): { success: boolean; message: string } {
+  addUserApiKey(newKey: string, email: string | null = null): { success: boolean; message: string } {
     try {
       const apiKeys = this.loadApiKeys();
       
-      // Check if key already exists in either list
-      if (apiKeys.userApiKeys.includes(newKey) || apiKeys.adminApiKeys.includes(newKey)) {
+      // Check if key already exists
+      if (apiKeys.userApiKeys.some(k => k.key === newKey)) {
         return { success: false, message: 'API key already exists' };
       }
       
-      if (keyType === 'admin') {
-        apiKeys.adminApiKeys.push(newKey);
-      } else {
-        apiKeys.userApiKeys.push(newKey);
+      if (apiKeys.adminApiKeys.includes(newKey)) {
+        return { success: false, message: 'This key is already an admin key' };
       }
       
+      apiKeys.userApiKeys.push({
+        key: newKey,
+        email: email,
+        createdAt: new Date().toISOString()
+      });
+      
       this.saveApiKeys(apiKeys);
-      return { success: true, message: `API key added to ${keyType} whitelist successfully` };
+      return { success: true, message: 'User API key added successfully' };
     } catch (error) {
       return { success: false, message: `Failed to add API key: ${error}` };
     }
   }
 
   /**
-   * Remove an API key from the specified list
+   * Remove a user API key (admin only)
    */
-  removeApiKey(keyToRemove: string, keyType: 'user' | 'admin'): { success: boolean; message: string } {
+  removeUserApiKey(keyToRemove: string): { success: boolean; message: string } {
     try {
       const apiKeys = this.loadApiKeys();
+      const index = apiKeys.userApiKeys.findIndex(k => k.key === keyToRemove);
       
-      if (keyType === 'admin') {
-        const index = apiKeys.adminApiKeys.indexOf(keyToRemove);
-        if (index === -1) {
-          return { success: false, message: 'API key not found in admin whitelist' };
-        }
-        apiKeys.adminApiKeys.splice(index, 1);
-      } else {
-        const index = apiKeys.userApiKeys.indexOf(keyToRemove);
-        if (index === -1) {
-          return { success: false, message: 'API key not found in user whitelist' };
-        }
-        apiKeys.userApiKeys.splice(index, 1);
+      if (index === -1) {
+        return { success: false, message: 'API key not found' };
       }
       
+      const removed = apiKeys.userApiKeys.splice(index, 1)[0];
       this.saveApiKeys(apiKeys);
-      return { success: true, message: `API key removed from ${keyType} whitelist successfully` };
+      
+      return { 
+        success: true, 
+        message: `API key removed (was bound to: ${removed.email || 'no email'})` 
+      };
     } catch (error) {
       return { success: false, message: `Failed to remove API key: ${error}` };
     }
   }
 
   /**
-   * List all API keys (for admin use only)
+   * List all user API keys with their details (admin only)
    */
-  listApiKeys(): { userKeys: string[]; adminKeys: string[]; totalCount: number } {
+  listUserApiKeys(): UserApiKey[] {
     const apiKeys = this.loadApiKeys();
-    return {
-      userKeys: apiKeys.userApiKeys,
-      adminKeys: apiKeys.adminApiKeys,
-      totalCount: apiKeys.userApiKeys.length + apiKeys.adminApiKeys.length
-    };
+    return apiKeys.userApiKeys;
   }
 
   /**
    * Get statistics about API keys
    */
-  getStats(): { userCount: number; adminCount: number; lastUpdated: string } {
+  getStats(): { 
+    userCount: number; 
+    adminCount: number; 
+    boundKeys: number;
+    unboundKeys: number;
+    lastUpdated: string;
+  } {
     const apiKeys = this.loadApiKeys();
+    const boundKeys = apiKeys.userApiKeys.filter(k => k.email !== null).length;
+    const unboundKeys = apiKeys.userApiKeys.filter(k => k.email === null).length;
+    
     return {
       userCount: apiKeys.userApiKeys.length,
       adminCount: apiKeys.adminApiKeys.length,
+      boundKeys,
+      unboundKeys,
       lastUpdated: apiKeys.lastUpdated
     };
+  }
+
+  /**
+   * Check if the provided key is an admin key
+   */
+  isAdminKey(apiKey: string): boolean {
+    const apiKeys = this.loadApiKeys();
+    const cleanKey = apiKey.replace(/^Bearer\s+/i, '');
+    return apiKeys.adminApiKeys.includes(cleanKey);
   }
 }

@@ -353,7 +353,215 @@ server.tool(
     }
   }
 );
+server.tool(
+  'admin_list_tokens',
+  'List all user API tokens with their bound emails and usage info. Requires admin API key.',
+  {
+    admin_key: z.string().describe('Your admin API key for authentication')
+  },
+  async ({ admin_key }) => {
+    try {
+      if (!apiKeyService.isAdminKey(admin_key)) {
+        return {
+          content: [{
+            type: 'text',
+            text: '❌ Access denied. Invalid admin API key.',
+          }],
+          isError: true,
+        };
+      }
 
+      const tokens = apiKeyService.listUserApiKeys();
+      const stats = apiKeyService.getStats();
+      
+      const tokenList = tokens.map((token, i) => {
+        return `${i + 1}. Key: ${token.key.substring(0, 20)}...
+   Email: ${token.email || '❌ Not bound yet'}
+   Created: ${new Date(token.createdAt).toLocaleString()}
+   Last Used: ${token.lastUsed ? new Date(token.lastUsed).toLocaleString() : 'Never'}`;
+      }).join('\n\n');
+
+      const summary = `📊 API Key Statistics:
+- Total User Keys: ${stats.userCount}
+- Bound to Email: ${stats.boundKeys}
+- Unbound: ${stats.unboundKeys}
+- Admin Keys: ${stats.adminCount}
+- Last Updated: ${new Date(stats.lastUpdated).toLocaleString()}
+
+📝 User API Keys:
+${tokenList || 'No user keys found'}`;
+
+      return {
+        content: [{
+          type: 'text',
+          text: summary,
+        }],
+      };
+    } catch (error) {
+      return {
+        content: [{
+          type: 'text',
+          text: `Error listing tokens: ${error instanceof Error ? error.message : String(error)}`,
+        }],
+        isError: true,
+      };
+    }
+  }
+);
+
+server.tool(
+  'admin_add_token',
+  'Add a new user API token. Optionally pre-bind to an email address. Requires admin API key.',
+  {
+    admin_key: z.string().describe('Your admin API key for authentication'),
+    new_token: z.string().describe('The new API key to add'),
+    email: z.string().optional().describe('Optional: Pre-bind this key to an email address')
+  },
+  async ({ admin_key, new_token, email }) => {
+    try {
+      if (!apiKeyService.isAdminKey(admin_key)) {
+        return {
+          content: [{
+            type: 'text',
+            text: '❌ Access denied. Invalid admin API key.',
+          }],
+          isError: true,
+        };
+      }
+
+      const result = apiKeyService.addUserApiKey(new_token, email || null);
+      
+      return {
+        content: [{
+          type: 'text',
+          text: result.success 
+            ? `✅ ${result.message}${email ? `\nBound to email: ${email}` : '\n⚠️  Key will be bound to email on first use'}` 
+            : `❌ ${result.message}`,
+        }],
+        isError: !result.success,
+      };
+    } catch (error) {
+      return {
+        content: [{
+          type: 'text',
+          text: `Error adding token: ${error instanceof Error ? error.message : String(error)}`,
+        }],
+        isError: true,
+      };
+    }
+  }
+);
+
+server.tool(
+  'admin_delete_token',
+  'Delete a user API token by key. Can use full key or just first 20 characters. Requires admin API key.',
+  {
+    admin_key: z.string().describe('Your admin API key for authentication'),
+    token_to_delete: z.string().describe('The API key to delete (full key or first 20 characters)')
+  },
+  async ({ admin_key, token_to_delete }) => {
+    try {
+      if (!apiKeyService.isAdminKey(admin_key)) {
+        return {
+          content: [{
+            type: 'text',
+            text: '❌ Access denied. Invalid admin API key.',
+          }],
+          isError: true,
+        };
+      }
+
+      let fullKey = token_to_delete;
+      if (token_to_delete.length < 30) {
+        const tokens = apiKeyService.listUserApiKeys();
+        const found = tokens.find(t => t.key.startsWith(token_to_delete));
+        if (found) {
+          fullKey = found.key;
+        } else {
+          return {
+            content: [{
+              type: 'text',
+              text: `❌ No token found matching: ${token_to_delete}`,
+            }],
+            isError: true,
+          };
+        }
+      }
+
+      const result = apiKeyService.removeUserApiKey(fullKey);
+      
+      return {
+        content: [{
+          type: 'text',
+          text: result.success ? `✅ ${result.message}` : `❌ ${result.message}`,
+        }],
+        isError: !result.success,
+      };
+    } catch (error) {
+      return {
+        content: [{
+          type: 'text',
+          text: `Error deleting token: ${error instanceof Error ? error.message : String(error)}`,
+        }],
+        isError: true,
+      };
+    }
+  }
+);
+
+server.tool(
+  'admin_find_token_by_email',
+  'Find which API token is associated with a specific email address. Requires admin API key.',
+  {
+    admin_key: z.string().describe('Your admin API key for authentication'),
+    email: z.string().describe('The email address to search for')
+  },
+  async ({ admin_key, email }) => {
+    try {
+      if (!apiKeyService.isAdminKey(admin_key)) {
+        return {
+          content: [{
+            type: 'text',
+            text: '❌ Access denied. Invalid admin API key.',
+          }],
+          isError: true,
+        };
+      }
+
+      const tokens = apiKeyService.listUserApiKeys();
+      const found = tokens.find(t => t.email?.toLowerCase() === email.toLowerCase());
+      
+      if (!found) {
+        return {
+          content: [{
+            type: 'text',
+            text: `❌ No token found for email: ${email}`,
+          }],
+        };
+      }
+
+      return {
+        content: [{
+          type: 'text',
+          text: `✅ Token found for ${email}:
+          
+Key: ${found.key.substring(0, 20)}...
+Full Key: ${found.key}
+Created: ${new Date(found.createdAt).toLocaleString()}
+Last Used: ${found.lastUsed ? new Date(found.lastUsed).toLocaleString() : 'Never'}`,
+        }],
+      };
+    } catch (error) {
+      return {
+        content: [{
+          type: 'text',
+          text: `Error searching: ${error instanceof Error ? error.message : String(error)}`,
+        }],
+        isError: true,
+      };
+    }
+  }
+);
 // Add resources for funds and allocators data
 server.resource(
   "funds",
@@ -929,7 +1137,7 @@ async function main() {
         }
         .info-box p { color: #004085; font-size: 14px; line-height: 1.6; }
         label { display: block; margin-bottom: 8px; color: #555; font-weight: 600; font-size: 14px; }
-        input[type="password"] {
+        input[type="email"], input[type="password"] {
             width: 100%;
             padding: 12px;
             margin-bottom: 20px;
@@ -938,7 +1146,7 @@ async function main() {
             font-size: 14px;
             transition: border-color 0.3s;
         }
-        input[type="password"]:focus { outline: none; border-color: #667eea; }
+        input[type="email"]:focus, input[type="password"]:focus { outline: none; border-color: #667eea; }
         button {
             width: 100%;
             padding: 14px;
@@ -969,7 +1177,7 @@ async function main() {
         <p class="subtitle">Side Letter Knowledge Base</p>
         <div class="info-box">
             <p><strong>Claude is requesting access</strong><br>
-            Please enter your API key to authorize Claude to access your Side Letter knowledge base.</p>
+            Please enter your email and API key to authorize Claude to access your Side Letter knowledge base.</p>
         </div>
         <form method="POST" action="/authorize">
             <input type="hidden" name="client_id" value="${client_id || ''}">
@@ -979,11 +1187,18 @@ async function main() {
             <input type="hidden" name="redirect_uri" value="${redirect_uri || ''}">
             <input type="hidden" name="state" value="${state || ''}">
             <input type="hidden" name="scope" value="${scope || ''}">
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email" autocomplete="email">
+            
             <label for="api_key">API Key</label>
             <input type="password" id="api_key" name="api_key" required placeholder="Enter your API key" autocomplete="off">
+            
             <button type="submit">Authorize Access</button>
         </form>
-        <div class="help-text">Your API key will be securely validated and used to authenticate requests.</div>
+        <div class="help-text">
+            Your email will be linked to your API key for security. The same API key cannot be used with different emails.
+        </div>
     </div>
 </body>
 </html>
@@ -991,11 +1206,19 @@ async function main() {
     });
 
     app.post("/authorize", (req: Request, res: Response) => {
-      const { client_id, response_type, code_challenge, code_challenge_method, redirect_uri, state, api_key } = req.body;
+      const { client_id, response_type, code_challenge, code_challenge_method, redirect_uri, state, api_key, email } = req.body;
       
-      const validation = apiKeyService.validateApiKey(api_key);
+      const validation = apiKeyService.validateApiKey(api_key, email);
       
       if (!validation.isValid) {
+        let errorMessage = 'Invalid API key. Please check your API key and try again.';
+        
+        if (validation.emailRequired) {
+          errorMessage = 'This API key requires an email address for first-time use. Please provide your email.';
+        } else if (validation.emailMismatch) {
+          errorMessage = `This API key is already registered to ${validation.boundEmail}. Please use the correct email or contact your administrator.`;
+        }
+        
         return res.status(403).send(`
 <!DOCTYPE html>
 <html>
@@ -1006,6 +1229,7 @@ async function main() {
         body { font-family: Arial, sans-serif; max-width: 500px; margin: 50px auto; padding: 20px; background-color: #f5f5f5; }
         .error { background-color: #f8d7da; color: #721c24; padding: 30px; border-radius: 8px; border: 1px solid #f5c6cb; }
         h1 { margin-top: 0; }
+        p { margin: 15px 0; }
         a { display: inline-block; margin-top: 20px; color: #004085; text-decoration: none; padding: 10px 20px; background-color: #cce5ff; border-radius: 4px; }
         a:hover { background-color: #b8daff; }
     </style>
@@ -1013,7 +1237,7 @@ async function main() {
 <body>
     <div class="error">
         <h1>❌ Authorization Failed</h1>
-        <p>Invalid API key. Please check your API key and try again.</p>
+        <p>${errorMessage}</p>
         <a href="/authorize?client_id=${client_id}&response_type=${response_type}&code_challenge=${code_challenge}&code_challenge_method=${code_challenge_method}&redirect_uri=${encodeURIComponent(redirect_uri)}&state=${state}">← Try Again</a>
     </div>
 </body>
@@ -1021,7 +1245,7 @@ async function main() {
         `);
       }
       
-      console.log('✓ API key validated for:', validation.keyType, 'user');
+      console.log('✓ API key validated for:', validation.keyType, 'user', validation.boundEmail ? `(${validation.boundEmail})` : '');
       
       const authCode = 'mcp_auth_code_' + crypto.randomBytes(32).toString('hex');
       authCodes.set(authCode, {
@@ -1092,7 +1316,544 @@ async function main() {
         client_id_issued_at: Math.floor(Date.now() / 1000)
       });
     });
+// Session storage for admin authentication
+interface AdminSession {
+  adminKey: string;
+  createdAt: number;
+  expiresAt: number;
+}
 
+const adminSessions = new Map<string, AdminSession>();
+
+// Clean up expired sessions every 5 minutes
+setInterval(() => {
+  const now = Date.now();
+  for (const [sessionId, session] of adminSessions.entries()) {
+    if (now > session.expiresAt) {
+      adminSessions.delete(sessionId);
+    }
+  }
+}, 5 * 60 * 1000);
+
+// Admin login endpoint
+app.post("/admin/login", (req: Request, res: Response) => {
+  const { admin_key } = req.body;
+  
+  if (!apiKeyService.isAdminKey(admin_key)) {
+    return res.status(403).json({ success: false, message: 'Invalid admin key' });
+  }
+  
+  // Create session
+  const sessionId = 'admin_session_' + crypto.randomBytes(32).toString('hex');
+  const expiresIn = 60 * 60 * 1000; // 1 hour
+  
+  adminSessions.set(sessionId, {
+    adminKey: admin_key,
+    createdAt: Date.now(),
+    expiresAt: Date.now() + expiresIn
+  });
+  
+  console.log('✓ Admin logged in');
+  
+  res.json({ success: true, sessionId, expiresIn });
+});
+
+// Admin logout endpoint
+app.post("/admin/logout", (req: Request, res: Response) => {
+  const sessionId = req.headers['x-session-id'] as string;
+  
+  if (sessionId && adminSessions.has(sessionId)) {
+    adminSessions.delete(sessionId);
+    console.log('✓ Admin logged out');
+  }
+  
+  res.json({ success: true });
+});
+
+// Middleware to check admin session
+function requireAdminSession(req: Request, res: Response, next: NextFunction) {
+  const sessionId = req.headers['x-session-id'] as string;
+  
+  if (!sessionId) {
+    return res.status(401).json({ success: false, message: 'No session' });
+  }
+  
+  const session = adminSessions.get(sessionId);
+  
+  if (!session || Date.now() > session.expiresAt) {
+    if (session) adminSessions.delete(sessionId);
+    return res.status(401).json({ success: false, message: 'Session expired' });
+  }
+  
+  // Extend session
+  session.expiresAt = Date.now() + (60 * 60 * 1000);
+  next();
+}
+
+// Admin API endpoints
+app.get("/admin/api/tokens", requireAdminSession, (req: Request, res: Response) => {
+  const tokens = apiKeyService.listUserApiKeys();
+  const stats = apiKeyService.getStats();
+  res.json({ success: true, tokens, stats });
+});
+
+app.post("/admin/api/tokens", requireAdminSession, (req: Request, res: Response) => {
+  const { key, email } = req.body;
+  const result = apiKeyService.addUserApiKey(key, email || null);
+  res.json(result);
+});
+
+app.delete("/admin/api/tokens/:key", requireAdminSession, (req: Request, res: Response) => {
+  const keyToDelete = req.params.key;
+  
+  // Find full key if partial provided
+  let fullKey = keyToDelete;
+  if (keyToDelete.length < 30) {
+    const tokens = apiKeyService.listUserApiKeys();
+    const found = tokens.find(t => t.key.startsWith(keyToDelete));
+    if (found) {
+      fullKey = found.key;
+    }
+  }
+  
+  const result = apiKeyService.removeUserApiKey(fullKey);
+  res.json(result);
+});
+
+// Admin dashboard HTML page
+app.get("/admin", (req: Request, res: Response) => {
+  res.send(`
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - API Token Management</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f7fa;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header h1 { margin-bottom: 5px; }
+        .header p { opacity: 0.9; }
+        .login-card {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 400px;
+            margin: 100px auto;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            margin-bottom: 20px;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-box .number { font-size: 32px; font-weight: bold; margin-bottom: 5px; }
+        .stat-box .label { opacity: 0.9; font-size: 14px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #495057;
+        }
+        tr:hover { background: #f8f9fa; }
+        .token-key {
+            font-family: monospace;
+            background: #f8f9fa;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .badge-success { background: #d4edda; color: #155724; }
+        .badge-warning { background: #fff3cd; color: #856404; }
+        input, button {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        button:hover { transform: translateY(-2px); }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .btn-danger {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 8px 16px;
+            border-radius: 6px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .btn-danger:hover { transform: translateY(-2px); }
+        .btn-small {
+            width: auto;
+            padding: 8px 16px;
+            margin: 0;
+            font-size: 13px;
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr auto;
+            gap: 10px;
+            align-items: end;
+        }
+        .error { color: #dc3545; padding: 10px; background: #f8d7da; border-radius: 6px; margin-bottom: 15px; }
+        .success { color: #155724; padding: 10px; background: #d4edda; border-radius: 6px; margin-bottom: 15px; }
+        .hidden { display: none; }
+        .logout-btn {
+            background: rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.5);
+            padding: 8px 20px;
+            width: auto;
+            margin: 0;
+            font-size: 14px;
+        }
+        .logout-btn:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div id="loginPage" class="hidden">
+        <div class="login-card">
+            <h1 style="text-align: center; margin-bottom: 10px; color: #333;">🔐 Admin Login</h1>
+            <p style="text-align: center; color: #666; margin-bottom: 30px;">API Token Management Dashboard</p>
+            <div id="loginError" class="error hidden"></div>
+            <form id="loginForm">
+                <input type="password" id="adminKey" placeholder="Enter Admin API Key" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="dashboardPage" class="hidden">
+        <div class="container">
+            <div class="header">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h1>🔑 API Token Management</h1>
+                        <p>Manage user API tokens and email bindings</p>
+                    </div>
+                    <button class="logout-btn" onclick="logout()">Logout</button>
+                </div>
+            </div>
+
+            <div class="stats" id="stats"></div>
+
+            <div class="card">
+                <h2>➕ Add New Token</h2>
+                <div id="addMessage" class="hidden"></div>
+                <form id="addTokenForm">
+                    <div class="form-row">
+                        <input type="text" id="newToken" placeholder="New API Key" required>
+                        <input type="email" id="newEmail" placeholder="Email (optional)">
+                        <button type="submit" class="btn-small">Add Token</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card">
+                <h2>📋 User API Tokens</h2>
+                <div id="tokensTable"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let sessionId = localStorage.getItem('admin_session');
+        
+        // Check session on load
+        if (sessionId) {
+            loadDashboard();
+        } else {
+            showLogin();
+        }
+
+        function showLogin() {
+            document.getElementById('loginPage').classList.remove('hidden');
+            document.getElementById('dashboardPage').classList.add('hidden');
+        }
+
+        function showDashboard() {
+            document.getElementById('loginPage').classList.add('hidden');
+            document.getElementById('dashboardPage').classList.remove('hidden');
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const adminKey = document.getElementById('adminKey').value;
+            const errorDiv = document.getElementById('loginError');
+            
+            try {
+                const response = await fetch('/admin/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ admin_key: adminKey })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    sessionId = data.sessionId;
+                    localStorage.setItem('admin_session', sessionId);
+                    loadDashboard();
+                } else {
+                    errorDiv.textContent = data.message || 'Invalid admin key';
+                    errorDiv.classList.remove('hidden');
+                }
+            } catch (error) {
+                errorDiv.textContent = 'Login failed: ' + error.message;
+                errorDiv.classList.remove('hidden');
+            }
+        });
+
+        async function loadDashboard() {
+            try {
+                const response = await fetch('/admin/api/tokens', {
+                    headers: { 'X-Session-Id': sessionId }
+                });
+                
+                if (response.status === 401) {
+                    logout();
+                    return;
+                }
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    showDashboard();
+                    renderStats(data.stats);
+                    renderTokens(data.tokens);
+                }
+            } catch (error) {
+                console.error('Failed to load dashboard:', error);
+                logout();
+            }
+        }
+
+        function renderStats(stats) {
+            const statsHtml = \`
+                <div class="stat-box">
+                    <div class="number">\${stats.userCount}</div>
+                    <div class="label">Total Tokens</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">\${stats.boundKeys}</div>
+                    <div class="label">Bound to Email</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">\${stats.unboundKeys}</div>
+                    <div class="label">Unbound</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">\${stats.adminCount}</div>
+                    <div class="label">Admin Keys</div>
+                </div>
+            \`;
+            document.getElementById('stats').innerHTML = statsHtml;
+        }
+
+        function renderTokens(tokens) {
+            const tableDiv = document.getElementById('tokensTable');
+            
+            if (tokens.length === 0) {
+                tableDiv.innerHTML = '<div class="empty-state">No user tokens found. Add one above!</div>';
+                return;
+            }
+            
+            const tableHtml = \`
+                <table>
+                    <thead>
+                        <tr>
+                            <th>API Key</th>
+                            <th>Email</th>
+                            <th>Created</th>
+                            <th>Last Used</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        \${tokens.map(token => \`
+                            <tr>
+                                <td><span class="token-key" title="\${token.key}">\${token.key.substring(0, 20)}...</span></td>
+                                <td>
+                                    \${token.email 
+                                        ? \`<span class="badge badge-success">\${token.email}</span>\`
+                                        : '<span class="badge badge-warning">Not bound</span>'}
+                                </td>
+                                <td>\${new Date(token.createdAt).toLocaleDateString()}</td>
+                                <td>\${token.lastUsed ? new Date(token.lastUsed).toLocaleDateString() : 'Never'}</td>
+                                <td>
+                                    <button class="btn-danger" onclick="deleteToken('\${token.key.substring(0, 20)}')">Delete</button>
+                                </td>
+                            </tr>
+                        \`).join('')}
+                    </tbody>
+                </table>
+            \`;
+            tableDiv.innerHTML = tableHtml;
+        }
+
+        document.getElementById('addTokenForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const messageDiv = document.getElementById('addMessage');
+            const newToken = document.getElementById('newToken').value;
+            const newEmail = document.getElementById('newEmail').value;
+            
+            try {
+                const response = await fetch('/admin/api/tokens', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-Session-Id': sessionId
+                    },
+                    body: JSON.stringify({ key: newToken, email: newEmail || null })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    messageDiv.className = 'success';
+                    messageDiv.textContent = '✅ ' + data.message;
+                    document.getElementById('addTokenForm').reset();
+                    setTimeout(() => loadDashboard(), 1000);
+                } else {
+                    messageDiv.className = 'error';
+                    messageDiv.textContent = '❌ ' + data.message;
+                }
+                messageDiv.classList.remove('hidden');
+                setTimeout(() => messageDiv.classList.add('hidden'), 3000);
+            } catch (error) {
+                messageDiv.className = 'error';
+                messageDiv.textContent = 'Failed to add token: ' + error.message;
+                messageDiv.classList.remove('hidden');
+            }
+        });
+
+        async function deleteToken(partialKey) {
+            if (!confirm('Are you sure you want to delete this token?')) return;
+            
+            try {
+                const response = await fetch(\`/admin/api/tokens/\${partialKey}\`, {
+                    method: 'DELETE',
+                    headers: { 'X-Session-Id': sessionId }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    loadDashboard();
+                } else {
+                    alert('Failed to delete: ' + data.message);
+                }
+            } catch (error) {
+                alert('Failed to delete token: ' + error.message);
+            }
+        }
+
+        async function logout() {
+            try {
+                await fetch('/admin/logout', {
+                    method: 'POST',
+                    headers: { 'X-Session-Id': sessionId }
+                });
+            } catch (error) {
+                console.error('Logout failed:', error);
+            }
+            
+            sessionId = null;
+            localStorage.removeItem('admin_session');
+            showLogin();
+            document.getElementById('loginForm').reset();
+        }
+
+        // Auto-refresh dashboard every 30 seconds
+        setInterval(() => {
+            if (sessionId && !document.getElementById('dashboardPage').classList.contains('hidden')) {
+                loadDashboard();
+            }
+        }, 30000);
+    </script>
+</body>
+</html>
+  `);
+});
     app.post("/mcp", async (req: Request, res: Response) => {
       const authHeader = req.headers['authorization'];
       const apiKeyHeader = req.headers['x-api-key'];
