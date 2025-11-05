@@ -2,12 +2,29 @@
   "userApiKeys": [
     {
       "key": "user_key_1234567890",
-      "email": "user@example.com",
-      "createdAt": "2024-01-01T00:00:00.000Z"
+      "email": "ckai.intel@gmail.com",
+      "createdAt": "2025-11-03T09:15:23.097Z",
+      "lastUsed": "2025-11-04T21:03:29.446Z"
+    },
+    {
+      "key": "user_key_12345678901",
+      "email": "nohfajarbin@gmail.com",
+      "createdAt": "2025-11-03T09:55:41.073Z",
+      "lastUsed": "2025-11-05T00:13:04.237Z",
+      "accessToken": "mcp_access_token_dcd8e0840adcb590572108c1c827844c21c0a77d02cb89017ae04b2cc7856a8b",
+      "refreshToken": "mcp_refresh_token_d7a5f2a6c054ce0884f3ce9d803fe1a69aeadb63a3cb01119dc0412e0da7c4ef",
+      "tokenExpiresAt": "2026-02-03T00:13:04.235Z",
+      "refreshTokenExpiresAt": "2026-05-04T00:13:04.235Z"
+    },
+    {
+      "key": "user_key_123456789012",
+      "email": "sam.huleatt@gmail.com",
+      "createdAt": "2025-11-04T11:56:37.631Z",
+      "lastUsed": "2025-11-04T14:56:43.367Z"
     }
   ],
   "adminApiKeys": [
     "admin_super_key_xyz123"
   ],
-  "lastUpdated": "2025-11-01T18:07:20.985Z"
+  "lastUpdated": "2025-11-05T00:13:04.237Z"
 }

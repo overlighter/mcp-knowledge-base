@@ -3,6 +3,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import {StreamableHTTPServerTransport} from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { z } from "zod";
 import dotenv from 'dotenv';
+
 import express,{Request,Response, NextFunction} from 'express';
 import { ResourceTemplate } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { RagieService } from './ragieService.js';
@@ -489,6 +490,10 @@ server.tool(
       }
 
       const result = apiKeyService.removeUserApiKey(fullKey);
+      if (result.success) {
+        if ((result as any).removedAccessToken) accessTokens.delete((result as any).removedAccessToken);
+        if ((result as any).removedRefreshToken) accessTokens.delete((result as any).removedRefreshToken);
+      }
       
       return {
         content: [{
@@ -1045,6 +1050,8 @@ server.resource(
 
 async function main() {
   try {
+    apiKeyService.rehydrateTokens(accessTokens);
+    console.log('✓ Rehydrated persisted tokens from disk');
     // REQUIRED: OAuth Protected Resource Metadata (RFC 9728)
     // MCP clients discover authorization servers through this endpoint
     app.get("/.well-known/oauth-protected-resource", (req: Request, res: Response) => {
@@ -1286,17 +1293,72 @@ async function main() {
       authCodes.delete(code);
 
       const accessToken = 'mcp_access_token_' + crypto.randomBytes(32).toString('hex');
-      const expiresIn = 3600;
+      const refreshToken = 'mcp_refresh_token_' + crypto.randomBytes(32).toString('hex');
+      const expiresIn = 7776000;  // 90 days
+      const refreshExpiresIn = 15552000;  // 180 days
       accessTokens.set(accessToken, {
         api_key: authCodeData.api_key,
         created_at: Date.now(),
         expires_at: Date.now() + (expiresIn * 1000)
       });
-
+      accessTokens.set(refreshToken, {
+  api_key: authCodeData.api_key,
+  created_at: Date.now(),
+  expires_at: Date.now() + (refreshExpiresIn * 1000)
+});
+      apiKeyService.persistTokensForKey(authCodeData.api_key, {
+        accessToken,
+        refreshToken,
+        tokenExpiresAt: Date.now() + (expiresIn * 1000),
+        refreshTokenExpiresAt: Date.now() + (refreshExpiresIn * 1000)
+      });
       console.log('✓ Access token generated');
-      res.json({ access_token: accessToken, token_type: 'Bearer', expires_in: expiresIn, scope: 'claudeai' });
+      res.json({ access_token: accessToken,
+         refresh_token: refreshToken,
+          token_type: 'Bearer', 
+        expires_in: expiresIn,
+        scope: 'claudeai'
+      });
     });
 
+
+    // Refresh token endpoint
+app.post("/refresh", (req: Request, res: Response) => {
+  const { grant_type, refresh_token } = req.body;
+  
+  if (grant_type !== 'refresh_token') {
+    return res.status(400).json({ error: 'unsupported_grant_type' });
+  }
+
+  const tokenData = accessTokens.get(refresh_token);
+  if (!tokenData) {
+    return res.status(400).json({ error: 'invalid_grant', error_description: 'Invalid refresh token' });
+  }
+
+  if (Date.now() > tokenData.expires_at) {
+    accessTokens.delete(refresh_token);
+    return res.status(400).json({ error: 'invalid_grant', error_description: 'Refresh token expired' });
+  }
+
+  // Generate new access token
+  const newAccessToken = 'mcp_access_token_' + crypto.randomBytes(32).toString('hex');
+  const expiresIn = 7776000;  // 90 days
+  
+  accessTokens.set(newAccessToken, {
+    api_key: tokenData.api_key,
+    created_at: Date.now(),
+    expires_at: Date.now() + (expiresIn * 1000)
+  });
+
+  apiKeyService.updateAccessToken(tokenData.api_key, newAccessToken, Date.now() + (expiresIn * 1000));
+  console.log('✓ Access token refreshed');
+  res.json({ 
+    access_token: newAccessToken, 
+    token_type: 'Bearer', 
+    expires_in: expiresIn, 
+    scope: 'claudeai' 
+  });
+});
     // Dynamic Client Registration endpoint (RFC 7591)
     app.post("/register", (req: Request, res: Response) => {
       const { client_name, redirect_uris, logo_uri, grant_types } = req.body;
@@ -1417,6 +1479,10 @@ app.delete("/admin/api/tokens/:key", requireAdminSession, (req: Request, res: Re
   }
   
   const result = apiKeyService.removeUserApiKey(fullKey);
+  if (result.success) {
+    if ((result as any).removedAccessToken) accessTokens.delete((result as any).removedAccessToken);
+    if ((result as any).removedRefreshToken) accessTokens.delete((result as any).removedRefreshToken);
+  }
   res.json(result);
 });
 

@@ -6,12 +6,20 @@ interface UserApiKey {
   email: string | null;
   createdAt: string;
   lastUsed?: string;
+  accessToken?: string;
+  refreshToken?: string;
+  tokenExpiresAt?: string;
+  refreshTokenExpiresAt?: string;
 }
 
 interface ApiKeyStorage {
   userApiKeys: UserApiKey[];
   adminApiKeys: string[];
   lastUpdated: string;
+  accessToken?: string;
+  refreshToken?: string;
+  tokenExpiresAt?: string;
+  refreshTokenExpiresAt?: string;
 }
 
 export class ApiKeyService {
@@ -168,26 +176,26 @@ export class ApiKeyService {
   /**
    * Remove a user API key (admin only)
    */
-  removeUserApiKey(keyToRemove: string): { success: boolean; message: string } {
-    try {
-      const apiKeys = this.loadApiKeys();
-      const index = apiKeys.userApiKeys.findIndex(k => k.key === keyToRemove);
+  // removeUserApiKey(keyToRemove: string): { success: boolean; message: string } {
+  //   try {
+  //     const apiKeys = this.loadApiKeys();
+  //     const index = apiKeys.userApiKeys.findIndex(k => k.key === keyToRemove);
       
-      if (index === -1) {
-        return { success: false, message: 'API key not found' };
-      }
+  //     if (index === -1) {
+  //       return { success: false, message: 'API key not found' };
+  //     }
       
-      const removed = apiKeys.userApiKeys.splice(index, 1)[0];
-      this.saveApiKeys(apiKeys);
+  //     const removed = apiKeys.userApiKeys.splice(index, 1)[0];
+  //     this.saveApiKeys(apiKeys);
       
-      return { 
-        success: true, 
-        message: `API key removed (was bound to: ${removed.email || 'no email'})` 
-      };
-    } catch (error) {
-      return { success: false, message: `Failed to remove API key: ${error}` };
-    }
-  }
+  //     return { 
+  //       success: true, 
+  //       message: `API key removed (was bound to: ${removed.email || 'no email'})` 
+  //     };
+  //   } catch (error) {
+  //     return { success: false, message: `Failed to remove API key: ${error}` };
+  //   }
+  // }
 
   /**
    * List all user API keys with their details (admin only)
@@ -227,5 +235,129 @@ export class ApiKeyService {
     const apiKeys = this.loadApiKeys();
     const cleanKey = apiKey.replace(/^Bearer\s+/i, '');
     return apiKeys.adminApiKeys.includes(cleanKey);
+  }
+
+  /**
+   * Persist access/refresh tokens with expirations to the user API key entry
+   */
+  persistTokensForKey(
+    apiKey: string,
+    payload: {
+      accessToken: string;
+      refreshToken: string;
+      tokenExpiresAt: number; // ms since epoch
+      refreshTokenExpiresAt: number; // ms since epoch
+    }
+  ): { success: boolean; message: string } {
+    try {
+      const apiKeys = this.loadApiKeys();
+      const cleanKey = apiKey.replace(/^Bearer\s+/i, '');
+      const entry = apiKeys.userApiKeys.find(k => k.key === cleanKey);
+
+      if (!entry) {
+        return { success: false, message: 'User API key not found' };
+      }
+
+      entry.accessToken = payload.accessToken;
+      entry.refreshToken = payload.refreshToken;
+      entry.tokenExpiresAt = new Date(payload.tokenExpiresAt).toISOString();
+      entry.refreshTokenExpiresAt = new Date(payload.refreshTokenExpiresAt).toISOString();
+      entry.lastUsed = new Date().toISOString();
+
+      this.saveApiKeys(apiKeys);
+      return { success: true, message: 'Tokens persisted' };
+    } catch (error) {
+      return { success: false, message: `Failed to persist tokens: ${error}` };
+    }
+  }
+
+  /**
+   * Update only the access token (used during refresh)
+   */
+  updateAccessToken(
+    apiKey: string,
+    newAccessToken: string,
+    tokenExpiresAt: number
+  ): { success: boolean; message: string } {
+    try {
+      const apiKeys = this.loadApiKeys();
+      const cleanKey = apiKey.replace(/^Bearer\s+/i, '');
+      const entry = apiKeys.userApiKeys.find(k => k.key === cleanKey);
+
+      if (!entry) {
+        return { success: false, message: 'User API key not found' };
+      }
+
+      entry.accessToken = newAccessToken;
+      entry.tokenExpiresAt = new Date(tokenExpiresAt).toISOString();
+      entry.lastUsed = new Date().toISOString();
+
+      this.saveApiKeys(apiKeys);
+      return { success: true, message: 'Access token updated' };
+    } catch (error) {
+      return { success: false, message: `Failed to update access token: ${error}` };
+    }
+  }
+
+  /**
+   * Rehydrate persisted tokens into the in-memory map on server startup
+   */
+  rehydrateTokens(map: Map<string, { api_key: string; created_at: number; expires_at: number }>): void {
+    const apiKeys = this.loadApiKeys();
+    const now = Date.now();
+
+    for (const user of apiKeys.userApiKeys) {
+      if (user.accessToken && user.tokenExpiresAt) {
+        const atExpires = Date.parse(user.tokenExpiresAt);
+        if (!Number.isNaN(atExpires) && atExpires > now) {
+          map.set(user.accessToken, {
+            api_key: user.key,
+            created_at: Date.parse(user.createdAt) || now,
+            expires_at: atExpires
+          });
+        }
+      }
+      if (user.refreshToken && user.refreshTokenExpiresAt) {
+        const rtExpires = Date.parse(user.refreshTokenExpiresAt);
+        if (!Number.isNaN(rtExpires) && rtExpires > now) {
+          map.set(user.refreshToken, {
+            api_key: user.key,
+            created_at: Date.parse(user.createdAt) || now,
+            expires_at: rtExpires
+          });
+        }
+      }
+    }
+  }
+
+  /**
+   * Remove a user API key (admin only) and expose removed tokens for cleanup
+   */
+  removeUserApiKey(keyToRemove: string): {
+    success: boolean;
+    message: string;
+    removedAccessToken?: string;
+    removedRefreshToken?: string;
+  } {
+    try {
+      const apiKeys = this.loadApiKeys();
+      const index = apiKeys.userApiKeys.findIndex(k => k.key === keyToRemove);
+
+      if (index === -1) {
+        return { success: false, message: 'API key not found' };
+      }
+
+      const removed = apiKeys.userApiKeys.splice(index, 1)[0];
+      this.saveApiKeys(apiKeys);
+
+      return {
+        success: true,
+        message: `API key removed (was bound to: ${removed.email || 'no email'})`,
+        removedAccessToken: removed.accessToken,
+        removedRefreshToken: removed.refreshToken
+      };
+    } catch (error) {
+      return { success: false, message: `Failed to remove API key: ${error}` };
+    }
   }
 }
