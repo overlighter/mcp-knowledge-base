@@ -21,6 +21,23 @@ const apiKeyService = new ApiKeyService();
 // =============================================================================
 // OAUTH STORAGE AND HELPERS
 // =============================================================================
+
+// Add this near the top of your file, after imports
+function getBaseUrl(): string {
+  // Production: Use Render's external URL
+  if (process.env.RENDER_EXTERNAL_URL) {
+    return process.env.RENDER_EXTERNAL_URL;
+  }
+  
+  // Development: Use ngrok if available
+  if (process.env.NGROK_URL) {
+    return process.env.NGROK_URL;
+  }
+  
+  // Fallback: Local development
+  const port = process.env.PORT || 3000;
+  return `http://localhost:${port}`;
+}
 interface AuthCodeData {
   code_challenge: string;
   code_challenge_method: string;
@@ -1055,7 +1072,7 @@ async function main() {
     // REQUIRED: OAuth Protected Resource Metadata (RFC 9728)
     // MCP clients discover authorization servers through this endpoint
     app.get("/.well-known/oauth-protected-resource", (req: Request, res: Response) => {
-      const baseUrl = process.env.NGROK_URL || `http://localhost:3000`;
+      const baseUrl = getBaseUrl();
       res.json({
         resource: baseUrl,
         authorization_servers: [baseUrl],
@@ -1066,7 +1083,7 @@ async function main() {
     });
 
     const oauthConfig = (req: Request, res: Response) => {
-      const baseUrl = process.env.NGROK_URL || `http://localhost:3000`;
+      const baseUrl = getBaseUrl();
       res.json({
         issuer: baseUrl,
         authorization_endpoint: `${baseUrl}/authorize`,
@@ -1943,7 +1960,7 @@ app.get("/admin", (req: Request, res: Response) => {
       }
 
       if (!validatedApiKey) {
-        const baseUrl = process.env.NGROK_URL || `http://localhost:3000`;
+        const baseUrl = getBaseUrl();
         res.set('WWW-Authenticate', `Bearer realm="${baseUrl}", resource_metadata="${baseUrl}/.well-known/oauth-protected-resource"`);
         return res.status(401).json({ error: 'Authentication required' });
       }
@@ -1982,7 +1999,7 @@ app.get("/admin", (req: Request, res: Response) => {
       }
 
       if (!validatedApiKey) {
-        const baseUrl = process.env.NGROK_URL || `http://localhost:3000`;
+        const baseUrl = getBaseUrl();
         res.set('WWW-Authenticate', `Bearer realm="${baseUrl}", resource_metadata="${baseUrl}/.well-known/oauth-protected-resource"`);
         return res.status(401).json({ error: 'Authentication required' });
       }
@@ -1997,20 +2014,20 @@ app.get("/admin", (req: Request, res: Response) => {
       await httpTransport.handleRequest(req, res, req.body);
     });
 
-    const PORT = process.env.PORT || 3000;
-    app.listen(PORT, () => {
-      console.log(`\n${'='.repeat(60)}`);
-      console.log(`Side Letter MCP Server running`);
-      console.log(`${'='.repeat(60)}`);
-      console.log(`Local: http://localhost:${PORT}`);
-      if (process.env.NGROK_URL) console.log(`Public: ${process.env.NGROK_URL}`);
-      console.log(`\nEndpoints:`);
-      console.log(`  - OAuth Discovery: /.well-known/openid-configuration`);
-      console.log(`  - Authorization: /authorize`);
-      console.log(`  - Token Exchange: /token`);
-      console.log(`  - MCP: /mcp`);
-      console.log(`${'='.repeat(60)}\n`);
-    });
+    const PORT = parseInt(process.env.PORT || '3000', 10);
+app.listen(PORT, () => {
+  console.log(`\n${'='.repeat(60)}`);
+  console.log(`Side Letter MCP Server running`);
+  console.log(`${'='.repeat(60)}`);
+  console.log(`Local: http://localhost:${PORT}`);
+  console.log(`Public: ${getBaseUrl()}`);
+  console.log(`\nEndpoints:`);
+  console.log(`  - OAuth Discovery: /.well-known/openid-configuration`);
+  console.log(`  - Authorization: /authorize`);
+  console.log(`  - Token Exchange: /token`);
+  console.log(`  - MCP: /mcp`);
+  console.log(`${'='.repeat(60)}\n`);
+});
 
   } catch (error) {
     console.error('Failed to start server:', error);
