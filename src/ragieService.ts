@@ -10,7 +10,6 @@ export class RagieService {
     }
     
     this.ragie = new Ragie({
-
       auth: apiKey
     });
   }
@@ -185,23 +184,32 @@ export class RagieService {
 
   /**
    * List all documents in the knowledge base
-   * @param {object} filter - Optional filter in JSON string format
+   * @param {string|null} filter - Optional filter as JSON string
    * @returns {Promise<Array>} List of documents
    */
-  async listDocuments(filter = null) {
+  async listDocuments(filter: string | null = null) {
     try {
-      const requestParams = {};
+      const requestParams: any = {};
       
       if (filter) {
-        // Filter should be a JSON string according to Ragie docs
-        (requestParams as any).filter = typeof filter === 'string' 
-          ? filter 
-          : JSON.stringify(filter);
+        requestParams.filter = filter;
       }
 
-      const response = await (this.ragie as any).documents.list(requestParams);
+      // Use the iterator to get all pages
+      const allDocuments: any[] = [];
       
-      return (response as any).documents || [];
+     // Await the PageIterator before using it with `for await`
+      const iterator = await this.ragie.documents.list(requestParams);
+      for await (const page of iterator) {
+        // Handle both possible shapes from SDK
+        if ((page as any).result?.documents) {
+          allDocuments.push(...(page as any).result.documents);
+        } else if ((page as any).documents) {
+          allDocuments.push(...(page as any).documents);
+        }
+      }
+      
+      return allDocuments;
     } catch (error) {
       console.error('Error listing documents:', error);
       throw new Error(`Failed to list documents: ${(error as any).message || error}`);
@@ -233,13 +241,13 @@ export class RagieService {
   async testConnection() {
     try {
       // Try to list documents as a connection test
-      const response = await (this.ragie as any).documents.list({ limit: 1 });
+      const documents = await this.listDocuments(null);
       
       return {
         success: true,
         message: 'Successfully connected to Ragie API',
         details: {
-          documentsAvailable: response.documents?.length || 0,
+          documentsAvailable: documents.length,
           apiKeyValid: true
         }
       };
@@ -262,8 +270,10 @@ export class RagieService {
    */
   async deleteDocument(documentId: string) {
     try {
-      await (this.ragie as any).documents.delete({
-        documentId
+      await this.ragie.documents.delete({
+        documentId,
+        async: false,
+        partition: "default"
       });
     } catch (error) {
       console.error('Error deleting document:', error);

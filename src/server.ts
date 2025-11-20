@@ -1,14 +1,14 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import {StreamableHTTPServerTransport} from "@modelcontextprotocol/sdk/server/streamableHttp.js";
+import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { z } from "zod";
 import dotenv from 'dotenv';
 
-import express,{Request,Response, NextFunction} from 'express';
+import express, { Request, Response, NextFunction } from 'express';
 import { ResourceTemplate } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { RagieService } from './ragieService.js';
 import { AirtableService } from './airtableService.js';
-import { ApiKeyService } from './apiKeyService.js'; 
+import { ApiKeyService } from './apiKeyService.js';
 import crypto from 'crypto';
 import fs from "fs";
 import path from "path";
@@ -28,12 +28,12 @@ function getBaseUrl(): string {
   if (process.env.RENDER_EXTERNAL_URL) {
     return process.env.RENDER_EXTERNAL_URL;
   }
-  
+
   // Development: Use ngrok if available
   if (process.env.NGROK_URL) {
     return process.env.NGROK_URL;
   }
-  
+
   // Fallback: Local development
   const port = process.env.PORT || 3000;
   return `http://localhost:${port}`;
@@ -129,26 +129,26 @@ server.tool(
       }
 
       const searchResponse = await ragieService.search(query, top_k, filter, rerank);
-      
+
       // Format results with citations
       const formattedResults = searchResponse.results
         .map((r: any, i: number) => {
           let citation = `[${i + 1}] ${r.citation.source}`;
-          
+
           // Add page info if available
           if (r.citation.page) {
             citation += ` (Page ${r.citation.page})`;
           }
-          
+
           // Add Airtable-specific info if available
           if (r.citation.tableName) {
             citation += ` [${r.citation.tableName}]`;
           }
-          
+
           // Add document type
           const docType = r.citation.documentType ? ` [${r.citation.documentType}]` : '';
           citation += docType;
-          
+
           // Add metadata info for Airtable exports
           let metadataInfo = '';
           if (r.citation.dataSource === 'Airtable' && r.citation.recordCount) {
@@ -158,7 +158,7 @@ server.tool(
               metadataInfo += `, last updated: ${updateDate}`;
             }
           }
-          
+
           return `${citation}${metadataInfo}\n${r.content}\nRelevance Score: ${r.score.toFixed(3)}\n`;
         })
         .join('\n---\n\n');
@@ -175,7 +175,7 @@ server.tool(
       };
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : String(error);
-      
+
       return {
         content: [
           {
@@ -189,58 +189,7 @@ server.tool(
   }
 );
 
-// server.tool(
-//   'ask',
-//   'Ask a question and get relevant context from the knowledge base',
-//   {
-//     query: z.string().describe('The question to ask'),
-//     top_k: z.number().optional().default(5).describe('Number of chunks to retrieve (default: 5)'),
-//     filter_by_title: z.string().optional().describe('Optional: Filter by document title'),
-//     filter_by_source: z.string().optional().describe('Optional: Filter by source (e.g., Airtable)'),
-//     filter_by_table: z.string().optional().describe('Optional: Filter by Airtable table name (e.g., "Funds [Master]", "Allocators [Master]")'),
-//   },
-//   async ({ query, top_k, filter_by_title, filter_by_source, filter_by_table }) => {
-//     try {
-//       // Build filter if provided
-//       let filter = null;
-//       if (filter_by_title || filter_by_source || filter_by_table) {
-//         filter = {};
-//         if (filter_by_title) {
-//           (filter as any).title = { $eq: filter_by_title };
-//         }
-//         if (filter_by_source) {
-//           (filter as any).source = { $eq: filter_by_source };
-//         }
-//         if (filter_by_table) {
-//           (filter as any).table_name = { $eq: filter_by_table };
-//         }
-//       }
 
-//       const context = await ragieService.ask(query, top_k, filter);
-      
-//       return {
-//         content: [
-//           {
-//             type: 'text',
-//             text: `Context for: "${query}"\n\n${context}`,
-//           },
-//         ],
-//       };
-//     } catch (error) {
-//       const errorMessage = error instanceof Error ? error.message : String(error);
-      
-//       return {
-//         content: [
-//           {
-//             type: 'text',
-//             text: `Error retrieving context: ${errorMessage}`,
-//           },
-//         ],
-//         isError: true,
-//       };
-//     }
-//   }
-// );
 
 server.tool(
   'sync_airtable',
@@ -249,7 +198,7 @@ server.tool(
   async () => {
     try {
       await airtableService.syncTables();
-      
+
       return {
         content: [
           {
@@ -260,7 +209,7 @@ server.tool(
       };
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : String(error);
-      
+
       return {
         content: [
           {
@@ -285,7 +234,7 @@ server.tool(
   async ({ query, table, top_k }) => {
     try {
       let filter = { source: { $eq: 'Airtable' } };
-      
+
       // Add table-specific filter if not searching both
       if (table !== 'both') {
         const tableName = table === 'funds' ? 'Funds [Master]' : 'Allocators [Master]';
@@ -293,28 +242,28 @@ server.tool(
       }
 
       const searchResponse = await ragieService.search(query, top_k, filter, true);
-      
+
       // Format results with Airtable-specific information
       const formattedResults = searchResponse.results
         .map((r: any, i: number) => {
           let citation = `[${i + 1}] ${r.citation.tableName || 'Airtable Data'}`;
-          
+
           if (r.citation.recordCount) {
             citation += ` (${r.citation.recordCount} total records)`;
           }
-          
+
           let metadataInfo = '';
           if (r.citation.lastUpdated) {
             const updateDate = new Date(r.citation.lastUpdated).toLocaleDateString();
             metadataInfo = `\nLast Updated: ${updateDate}`;
           }
-          
+
           return `${citation}${metadataInfo}\n${r.content}\nRelevance Score: ${r.score.toFixed(3)}\n`;
         })
         .join('\n---\n\n');
 
-      const tableInfo = table === 'both' ? 'both Funds and Allocators tables' : 
-                       table === 'funds' ? 'Funds [Master] table' : 'Allocators [Master] table';
+      const tableInfo = table === 'both' ? 'both Funds and Allocators tables' :
+        table === 'funds' ? 'Funds [Master] table' : 'Allocators [Master] table';
 
       return {
         content: [
@@ -326,7 +275,7 @@ server.tool(
       };
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : String(error);
-      
+
       return {
         content: [
           {
@@ -347,7 +296,7 @@ server.tool(
   async () => {
     try {
       await airtableService.testConnections();
-      
+
       return {
         content: [
           {
@@ -358,7 +307,7 @@ server.tool(
       };
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : String(error);
-      
+
       return {
         content: [
           {
@@ -391,7 +340,7 @@ server.tool(
 
       const tokens = apiKeyService.listUserApiKeys();
       const stats = apiKeyService.getStats();
-      
+
       const tokenList = tokens.map((token, i) => {
         return `${i + 1}. Key: ${token.key.substring(0, 20)}...
    Email: ${token.email || '❌ Not bound yet'}
@@ -448,12 +397,12 @@ server.tool(
       }
 
       const result = apiKeyService.addUserApiKey(new_token, email || null);
-      
+
       return {
         content: [{
           type: 'text',
-          text: result.success 
-            ? `✅ ${result.message}${email ? `\nBound to email: ${email}` : '\n⚠️  Key will be bound to email on first use'}` 
+          text: result.success
+            ? `✅ ${result.message}${email ? `\nBound to email: ${email}` : '\n⚠️  Key will be bound to email on first use'}`
             : `❌ ${result.message}`,
         }],
         isError: !result.success,
@@ -511,7 +460,7 @@ server.tool(
         if ((result as any).removedAccessToken) accessTokens.delete((result as any).removedAccessToken);
         if ((result as any).removedRefreshToken) accessTokens.delete((result as any).removedRefreshToken);
       }
-      
+
       return {
         content: [{
           type: 'text',
@@ -552,7 +501,7 @@ server.tool(
 
       const tokens = apiKeyService.listUserApiKeys();
       const found = tokens.find(t => t.email?.toLowerCase() === email.toLowerCase());
-      
+
       if (!found) {
         return {
           content: [{
@@ -672,7 +621,7 @@ server.resource(
       const funds = await import("../airtable_funds.json", {
         with: { type: "json" },
       }).then(m => m.default);
-      
+
       const fund = funds.find(f => f.id === fundId as string);
 
       if (fund == null) {
@@ -723,7 +672,7 @@ server.resource(
       const allocators = await import("../airtable_allocators.json", {
         with: { type: "json" },
       }).then(m => m.default);
-      
+
       const allocator = allocators.find(a => a.id === allocatorId as string);
 
       if (allocator == null) {
@@ -774,8 +723,8 @@ server.resource(
       const funds = await import("../airtable_funds.json", {
         with: { type: "json" },
       }).then(m => m.default);
-      
-      const filteredFunds = funds.filter(fund => 
+
+      const filteredFunds = funds.filter(fund =>
         fund.fields["Fundraising Status"]?.toLowerCase() === (status as string).toLowerCase()
       );
 
@@ -819,8 +768,8 @@ server.resource(
       const allocators = await import("../airtable_allocators.json", {
         with: { type: "json" },
       }).then(m => m.default);
-      
-      const filteredAllocators = allocators.filter(allocator => 
+
+      const filteredAllocators = allocators.filter(allocator =>
         allocator.fields["Investor Type"]?.toLowerCase().includes((type as string).toLowerCase())
       );
 
@@ -864,7 +813,7 @@ server.resource(
       const funds = await import("../airtable_funds.json", {
         with: { type: "json" },
       }).then(m => m.default);
-      
+
       const searchTerm = (fundName as string).toLowerCase();
       const matchingFunds = funds.filter(fund => {
         const name = fund.fields["Fund Name"]?.toLowerCase() || '';
@@ -911,7 +860,7 @@ server.resource(
       const allocators = await import("../airtable_allocators.json", {
         with: { type: "json" },
       }).then(m => m.default);
-      
+
       const searchTerm = (investorName as string).toLowerCase();
       const matchingAllocators = allocators.filter(allocator => {
         const name = allocator.fields["Investor Name"]?.toLowerCase() || '';
@@ -958,7 +907,7 @@ server.resource(
       const allocators = await import("../airtable_allocators.json", {
         with: { type: "json" },
       }).then(m => m.default);
-      
+
       const searchTerm = (country as string).toLowerCase();
       const filteredAllocators = allocators.filter(allocator => {
         const allocatorCountry = allocator.fields["Country"]?.toLowerCase() || '';
@@ -1063,7 +1012,78 @@ server.resource(
   }
 );
 
+// ============================================================================
+// UNIFIED AUTHENTICATION HELPER - SUPPORTS OAUTH, HEADER, AND URL PARAMS
+// ============================================================================
+function authenticateRequest(
+  req: Request,
+  accessTokens: Map<string, AccessTokenData>,
+  apiKeyService: ApiKeyService
+): {
+  isValid: boolean;
+  apiKey: string | null;
+  method: 'oauth' | 'header' | 'url' | 'none';
+  error?: string;
+} {
+  // Method 1: OAuth Bearer Token
+  const authHeader = req.headers['authorization'];
+  if (authHeader) {
+    const token = authHeader.replace(/^Bearer\s+/i, '');
+    const tokenData = accessTokens.get(token);
+    if (tokenData && tokenData.expires_at > Date.now()) {
+      console.log('✓ OAuth token validated');
+      return { isValid: true, apiKey: tokenData.api_key, method: 'oauth' };
+    }
+  }
 
+  // Method 2: Direct API Key Header
+  const apiKeyHeader = req.headers['x-api-key'] as string;
+  if (apiKeyHeader) {
+    const validation = apiKeyService.validateApiKey(apiKeyHeader);
+    if (validation.isValid) {
+      console.log('✓ Direct API key validated (header)');
+      return { isValid: true, apiKey: apiKeyHeader, method: 'header' };
+    }
+  }
+
+  // Method 3: URL Parameters (email + api_key)
+  const emailParam = req.query.email as string;
+  const apiKeyParam = req.query.api_key as string;
+
+  if (emailParam && apiKeyParam) {
+    console.log('=== URL Parameter Authentication ===');
+    console.log('Email:', emailParam);
+    console.log('API Key:', apiKeyParam.substring(0, 20) + '...');
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(emailParam)) {
+      return {
+        isValid: false,
+        apiKey: null,
+        method: 'url',
+        error: 'Invalid email format'
+      };
+    }
+
+    const validation = apiKeyService.validateApiKey(apiKeyParam, emailParam);
+
+    if (validation.isValid) {
+      console.log('✓ URL parameter authentication successful');
+      return { isValid: true, apiKey: apiKeyParam, method: 'url' };
+    } else {
+      let errorMsg = 'Invalid API key';
+      if (validation.emailRequired) {
+        errorMsg = 'Email required for first-time API key use';
+      } else if (validation.emailMismatch) {
+        errorMsg = `Email mismatch. Key is bound to: ${validation.boundEmail}`;
+      }
+      console.log('✗ URL parameter authentication failed:', errorMsg);
+      return { isValid: false, apiKey: null, method: 'url', error: errorMsg };
+    }
+  }
+
+  return { isValid: false, apiKey: null, method: 'none', error: 'No authentication provided' };
+}
 
 async function main() {
   try {
@@ -1119,7 +1139,7 @@ async function main() {
 
     app.get("/authorize", (req: Request, res: Response) => {
       const { client_id, response_type, code_challenge, code_challenge_method, redirect_uri, state, scope } = req.query;
-      
+
       if (!code_challenge || !redirect_uri || !state) {
         return res.status(400).send('Missing required OAuth parameters');
       }
@@ -1231,18 +1251,18 @@ async function main() {
 
     app.post("/authorize", (req: Request, res: Response) => {
       const { client_id, response_type, code_challenge, code_challenge_method, redirect_uri, state, api_key, email } = req.body;
-      
+
       const validation = apiKeyService.validateApiKey(api_key, email);
-      
+
       if (!validation.isValid) {
         let errorMessage = 'Invalid API key. Please check your API key and try again.';
-        
+
         if (validation.emailRequired) {
           errorMessage = 'This API key requires an email address for first-time use. Please provide your email.';
         } else if (validation.emailMismatch) {
           errorMessage = `This API key is already registered to ${validation.boundEmail}. Please use the correct email or contact your administrator.`;
         }
-        
+
         return res.status(403).send(`
 <!DOCTYPE html>
 <html>
@@ -1268,9 +1288,9 @@ async function main() {
 </html>
         `);
       }
-      
+
       console.log('✓ API key validated for:', validation.keyType, 'user', validation.boundEmail ? `(${validation.boundEmail})` : '');
-      
+
       const authCode = 'mcp_auth_code_' + crypto.randomBytes(32).toString('hex');
       authCodes.set(authCode, {
         code_challenge: code_challenge as string,
@@ -1280,7 +1300,7 @@ async function main() {
         api_key: api_key as string,
         created_at: Date.now()
       });
-      
+
       const redirectUrl = new URL(redirect_uri as string);
       redirectUrl.searchParams.set('code', authCode);
       redirectUrl.searchParams.set('state', state as string);
@@ -1289,7 +1309,7 @@ async function main() {
 
     app.post("/token", (req: Request, res: Response) => {
       const { grant_type, code, redirect_uri, code_verifier } = req.body;
-      
+
       if (grant_type !== 'authorization_code') {
         return res.status(400).json({ error: 'unsupported_grant_type' });
       }
@@ -1319,10 +1339,10 @@ async function main() {
         expires_at: Date.now() + (expiresIn * 1000)
       });
       accessTokens.set(refreshToken, {
-  api_key: authCodeData.api_key,
-  created_at: Date.now(),
-  expires_at: Date.now() + (refreshExpiresIn * 1000)
-});
+        api_key: authCodeData.api_key,
+        created_at: Date.now(),
+        expires_at: Date.now() + (refreshExpiresIn * 1000)
+      });
       apiKeyService.persistTokensForKey(authCodeData.api_key, {
         accessToken,
         refreshToken,
@@ -1330,9 +1350,10 @@ async function main() {
         refreshTokenExpiresAt: Date.now() + (refreshExpiresIn * 1000)
       });
       console.log('✓ Access token generated');
-      res.json({ access_token: accessToken,
-         refresh_token: refreshToken,
-          token_type: 'Bearer', 
+      res.json({
+        access_token: accessToken,
+        refresh_token: refreshToken,
+        token_type: 'Bearer',
         expires_in: expiresIn,
         scope: 'claudeai'
       });
@@ -1340,51 +1361,51 @@ async function main() {
 
 
     // Refresh token endpoint
-app.post("/refresh", (req: Request, res: Response) => {
-  const { grant_type, refresh_token } = req.body;
-  
-  if (grant_type !== 'refresh_token') {
-    return res.status(400).json({ error: 'unsupported_grant_type' });
-  }
+    app.post("/refresh", (req: Request, res: Response) => {
+      const { grant_type, refresh_token } = req.body;
 
-  const tokenData = accessTokens.get(refresh_token);
-  if (!tokenData) {
-    return res.status(400).json({ error: 'invalid_grant', error_description: 'Invalid refresh token' });
-  }
+      if (grant_type !== 'refresh_token') {
+        return res.status(400).json({ error: 'unsupported_grant_type' });
+      }
 
-  if (Date.now() > tokenData.expires_at) {
-    accessTokens.delete(refresh_token);
-    return res.status(400).json({ error: 'invalid_grant', error_description: 'Refresh token expired' });
-  }
+      const tokenData = accessTokens.get(refresh_token);
+      if (!tokenData) {
+        return res.status(400).json({ error: 'invalid_grant', error_description: 'Invalid refresh token' });
+      }
 
-  // Generate new access token
-  const newAccessToken = 'mcp_access_token_' + crypto.randomBytes(32).toString('hex');
-  const expiresIn = 7776000;  // 90 days
-  
-  accessTokens.set(newAccessToken, {
-    api_key: tokenData.api_key,
-    created_at: Date.now(),
-    expires_at: Date.now() + (expiresIn * 1000)
-  });
+      if (Date.now() > tokenData.expires_at) {
+        accessTokens.delete(refresh_token);
+        return res.status(400).json({ error: 'invalid_grant', error_description: 'Refresh token expired' });
+      }
 
-  apiKeyService.updateAccessToken(tokenData.api_key, newAccessToken, Date.now() + (expiresIn * 1000));
-  console.log('✓ Access token refreshed');
-  res.json({ 
-    access_token: newAccessToken, 
-    token_type: 'Bearer', 
-    expires_in: expiresIn, 
-    scope: 'claudeai' 
-  });
-});
+      // Generate new access token
+      const newAccessToken = 'mcp_access_token_' + crypto.randomBytes(32).toString('hex');
+      const expiresIn = 7776000;  // 90 days
+
+      accessTokens.set(newAccessToken, {
+        api_key: tokenData.api_key,
+        created_at: Date.now(),
+        expires_at: Date.now() + (expiresIn * 1000)
+      });
+
+      apiKeyService.updateAccessToken(tokenData.api_key, newAccessToken, Date.now() + (expiresIn * 1000));
+      console.log('✓ Access token refreshed');
+      res.json({
+        access_token: newAccessToken,
+        token_type: 'Bearer',
+        expires_in: expiresIn,
+        scope: 'claudeai'
+      });
+    });
     // Dynamic Client Registration endpoint (RFC 7591)
     app.post("/register", (req: Request, res: Response) => {
       const { client_name, redirect_uris, logo_uri, grant_types } = req.body;
-      
+
       // Generate a client_id for this registration
       const clientId = 'mcp_client_' + crypto.randomBytes(16).toString('hex');
-      
+
       console.log('✓ Client registered:', client_name || 'Unnamed Client');
-      
+
       // Return client credentials (no client_secret for public clients)
       res.json({
         client_id: clientId,
@@ -1395,117 +1416,144 @@ app.post("/refresh", (req: Request, res: Response) => {
         client_id_issued_at: Math.floor(Date.now() / 1000)
       });
     });
-// Session storage for admin authentication
-interface AdminSession {
-  adminKey: string;
-  createdAt: number;
-  expiresAt: number;
-}
-
-const adminSessions = new Map<string, AdminSession>();
-
-// Clean up expired sessions every 5 minutes
-setInterval(() => {
-  const now = Date.now();
-  for (const [sessionId, session] of adminSessions.entries()) {
-    if (now > session.expiresAt) {
-      adminSessions.delete(sessionId);
+    // Session storage for admin authentication
+    interface AdminSession {
+      adminKey: string;
+      createdAt: number;
+      expiresAt: number;
     }
-  }
-}, 5 * 60 * 1000);
 
-// Admin login endpoint
-app.post("/admin/login", (req: Request, res: Response) => {
-  const { admin_key } = req.body;
-  
-  if (!apiKeyService.isAdminKey(admin_key)) {
-    return res.status(403).json({ success: false, message: 'Invalid admin key' });
-  }
-  
-  // Create session
-  const sessionId = 'admin_session_' + crypto.randomBytes(32).toString('hex');
-  const expiresIn = 60 * 60 * 1000; // 1 hour
-  
-  adminSessions.set(sessionId, {
-    adminKey: admin_key,
-    createdAt: Date.now(),
-    expiresAt: Date.now() + expiresIn
-  });
-  
-  console.log('✓ Admin logged in');
-  
-  res.json({ success: true, sessionId, expiresIn });
-});
+    const adminSessions = new Map<string, AdminSession>();
 
-// Admin logout endpoint
-app.post("/admin/logout", (req: Request, res: Response) => {
-  const sessionId = req.headers['x-session-id'] as string;
-  
-  if (sessionId && adminSessions.has(sessionId)) {
-    adminSessions.delete(sessionId);
-    console.log('✓ Admin logged out');
-  }
-  
-  res.json({ success: true });
-});
+    // Clean up expired sessions every 5 minutes
+    setInterval(() => {
+      const now = Date.now();
+      for (const [sessionId, session] of adminSessions.entries()) {
+        if (now > session.expiresAt) {
+          adminSessions.delete(sessionId);
+        }
+      }
+    }, 5 * 60 * 1000);
 
-// Middleware to check admin session
-function requireAdminSession(req: Request, res: Response, next: NextFunction) {
-  const sessionId = req.headers['x-session-id'] as string;
-  
-  if (!sessionId) {
-    return res.status(401).json({ success: false, message: 'No session' });
-  }
-  
-  const session = adminSessions.get(sessionId);
-  
-  if (!session || Date.now() > session.expiresAt) {
-    if (session) adminSessions.delete(sessionId);
-    return res.status(401).json({ success: false, message: 'Session expired' });
-  }
-  
-  // Extend session
-  session.expiresAt = Date.now() + (60 * 60 * 1000);
-  next();
-}
+    // Admin login endpoint
+    app.post("/admin/login", (req: Request, res: Response) => {
+      const { admin_key } = req.body;
 
-// Admin API endpoints
-app.get("/admin/api/tokens", requireAdminSession, (req: Request, res: Response) => {
-  const tokens = apiKeyService.listUserApiKeys();
-  const stats = apiKeyService.getStats();
-  res.json({ success: true, tokens, stats });
-});
+      if (!apiKeyService.isAdminKey(admin_key)) {
+        return res.status(403).json({ success: false, message: 'Invalid admin key' });
+      }
 
-app.post("/admin/api/tokens", requireAdminSession, (req: Request, res: Response) => {
-  const { key, email } = req.body;
-  const result = apiKeyService.addUserApiKey(key, email || null);
-  res.json(result);
-});
+      // Create session
+      const sessionId = 'admin_session_' + crypto.randomBytes(32).toString('hex');
+      const expiresIn = 60 * 60 * 1000; // 1 hour
 
-app.delete("/admin/api/tokens/:key", requireAdminSession, (req: Request, res: Response) => {
-  const keyToDelete = req.params.key;
-  
-  // Find full key if partial provided
-  let fullKey = keyToDelete;
-  if (keyToDelete.length < 30) {
-    const tokens = apiKeyService.listUserApiKeys();
-    const found = tokens.find(t => t.key.startsWith(keyToDelete));
-    if (found) {
-      fullKey = found.key;
+      adminSessions.set(sessionId, {
+        adminKey: admin_key,
+        createdAt: Date.now(),
+        expiresAt: Date.now() + expiresIn
+      });
+
+      console.log('✓ Admin logged in');
+
+      res.json({ success: true, sessionId, expiresIn });
+    });
+
+    // Admin logout endpoint
+    app.post("/admin/logout", (req: Request, res: Response) => {
+      const sessionId = req.headers['x-session-id'] as string;
+
+      if (sessionId && adminSessions.has(sessionId)) {
+        adminSessions.delete(sessionId);
+        console.log('✓ Admin logged out');
+      }
+
+      res.json({ success: true });
+    });
+
+    // Middleware to check admin session
+    function requireAdminSession(req: Request, res: Response, next: NextFunction) {
+      const sessionId = req.headers['x-session-id'] as string;
+
+      if (!sessionId) {
+        return res.status(401).json({ success: false, message: 'No session' });
+      }
+
+      const session = adminSessions.get(sessionId);
+
+      if (!session || Date.now() > session.expiresAt) {
+        if (session) adminSessions.delete(sessionId);
+        return res.status(401).json({ success: false, message: 'Session expired' });
+      }
+
+      // Extend session
+      session.expiresAt = Date.now() + (60 * 60 * 1000);
+      next();
     }
-  }
-  
-  const result = apiKeyService.removeUserApiKey(fullKey);
-  if (result.success) {
-    if ((result as any).removedAccessToken) accessTokens.delete((result as any).removedAccessToken);
-    if ((result as any).removedRefreshToken) accessTokens.delete((result as any).removedRefreshToken);
-  }
-  res.json(result);
-});
 
-// Admin dashboard HTML page
-app.get("/admin", (req: Request, res: Response) => {
-  res.send(`
+    // Admin API endpoints
+    app.get("/admin/api/tokens", requireAdminSession, (req: Request, res: Response) => {
+      const tokens = apiKeyService.listUserApiKeys();
+      const stats = apiKeyService.getStats();
+      res.json({ success: true, tokens, stats });
+    });
+
+    app.post("/admin/api/tokens", requireAdminSession, (req: Request, res: Response) => {
+      const { email } = req.body as { email?: string };
+
+      // Require email
+      if (!email) {
+        return res.status(400).json({
+          success: false,
+          message: "Email is required to create a token",
+        });
+      }
+
+      // Auto-generate a unique API key
+      const generatedKey = "user_" + crypto.randomBytes(24).toString("hex"); // 48-char hex
+
+      const result = apiKeyService.addUserApiKey(generatedKey, email);
+
+      if (!result.success) {
+        return res.json(result);
+      }
+
+      // Build the non-OAuth URL for this user
+      // Format: https://your-server.com/mcp?email=user@example.com&api_key=user_xxxxx
+      const baseUrl = getBaseUrl();
+      const nonOAuthUrl = `${baseUrl}/mcp?email=${encodeURIComponent(email)}&api_key=${encodeURIComponent(generatedKey)}`;
+
+      return res.json({
+        success: true,
+        message: `Token generated successfully for ${email}`,
+        apiKey: generatedKey,
+        nonOAuthUrl: nonOAuthUrl,
+      });
+    });
+
+    app.delete("/admin/api/tokens/:key", requireAdminSession, (req: Request, res: Response) => {
+      const keyToDelete = req.params.key;
+
+      // Find full key if partial provided
+      let fullKey = keyToDelete;
+      if (keyToDelete.length < 30) {
+        const tokens = apiKeyService.listUserApiKeys();
+        const found = tokens.find(t => t.key.startsWith(keyToDelete));
+        if (found) {
+          fullKey = found.key;
+        }
+      }
+
+      const result = apiKeyService.removeUserApiKey(fullKey);
+      if (result.success) {
+        if ((result as any).removedAccessToken) accessTokens.delete((result as any).removedAccessToken);
+        if ((result as any).removedRefreshToken) accessTokens.delete((result as any).removedRefreshToken);
+      }
+      res.json(result);
+    });
+
+    // Admin dashboard HTML page
+    app.get("/admin", (req: Request, res: Response) => {
+      res.send(`
 <!DOCTYPE html>
 <html>
 <head>
@@ -1513,170 +1561,375 @@ app.get("/admin", (req: Request, res: Response) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard - API Token Management</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #f5f7fa;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .header h1 { margin-bottom: 5px; }
-        .header p { opacity: 0.9; }
-        .login-card {
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            max-width: 400px;
-            margin: 100px auto;
-        }
-        .card {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
-        .card h2 {
-            margin-bottom: 20px;
-            color: #333;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        .stat-box {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
-        }
-        .stat-box .number { font-size: 32px; font-weight: bold; margin-bottom: 5px; }
-        .stat-box .label { opacity: 0.9; font-size: 14px; }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        th {
-            background: #f8f9fa;
-            font-weight: 600;
-            color: #495057;
-        }
-        tr:hover { background: #f8f9fa; }
-        .token-key {
-            font-family: monospace;
-            background: #f8f9fa;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 13px;
-        }
-        .badge {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-        }
-        .badge-success { background: #d4edda; color: #155724; }
-        .badge-warning { background: #fff3cd; color: #856404; }
-        input, button {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            font-size: 14px;
-            margin-bottom: 15px;
-        }
-        input:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-        button {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-weight: 600;
-            transition: transform 0.2s;
-        }
-        button:hover { transform: translateY(-2px); }
-        button:disabled {
-            background: #ccc;
-            cursor: not-allowed;
-            transform: none;
-        }
-        .btn-danger {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            padding: 8px 16px;
-            border-radius: 6px;
-            border: none;
-            color: white;
-            cursor: pointer;
-            font-size: 12px;
-            font-weight: 600;
-        }
-        .btn-danger:hover { transform: translateY(-2px); }
-        .btn-small {
-            width: auto;
-            padding: 8px 16px;
-            margin: 0;
-            font-size: 13px;
-        }
-        .form-row {
-            display: grid;
-            grid-template-columns: 2fr 1fr auto;
-            gap: 10px;
-            align-items: end;
-        }
-        .error { color: #dc3545; padding: 10px; background: #f8d7da; border-radius: 6px; margin-bottom: 15px; }
-        .success { color: #155724; padding: 10px; background: #d4edda; border-radius: 6px; margin-bottom: 15px; }
-        .hidden { display: none; }
-        .logout-btn {
-            background: rgba(255,255,255,0.2);
-            border: 2px solid rgba(255,255,255,0.5);
-            padding: 8px 20px;
-            width: auto;
-            margin: 0;
-            font-size: 14px;
-        }
-        .logout-btn:hover {
-            background: rgba(255,255,255,0.3);
-        }
-        .empty-state {
-            text-align: center;
-            padding: 40px;
-            color: #6c757d;
-        }
-    </style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: #f8f9fa;
+    min-height: 100vh;
+    color: #212529;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+.header {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    color: white;
+    padding: 24px 32px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.header h1 { 
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.header p { 
+    opacity: 0.9;
+    font-size: 14px;
+}
+.login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    max-width: 420px;
+    margin: 80px auto;
+    border: 1px solid #e5e7eb;
+}
+.login-card h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #111827;
+    text-align: center;
+}
+.login-card > p {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.card {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 24px;
+    border: 1px solid #e5e7eb;
+}
+.card h2 {
+    margin-bottom: 20px;
+    color: #111827;
+    font-size: 18px;
+    font-weight: 600;
+}
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.stat-box {
+    background: white;
+    border: 1px solid #e5e7eb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+.stat-box .number { 
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #4f46e5;
+}
+.stat-box .label { 
+    font-size: 13px;
+    color: #6b7280;
+    font-weight: 500;
+}
+.table-container {
+    overflow-x: auto;
+    margin: 0 -24px;
+    padding: 0 24px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+th {
+    background: #f9fafb;
+    font-weight: 600;
+    color: #374151;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+tbody tr:hover { 
+    background: #f9fafb;
+}
+.token-key {
+    font-family: 'SF Mono', 'Monaco', 'Consolas', monospace;
+    background: #f3f4f6;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #1f2937;
+}
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.badge-success { 
+    background: #d1fae5;
+    color: #065f46;
+}
+.badge-warning { 
+    background: #fef3c7;
+    color: #92400e;
+}
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+input:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+button {
+    width: 100%;
+    padding: 10px 16px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    transition: background 0.15s;
+    margin-bottom: 0;
+}
+button:hover { 
+    background: #4338ca;
+}
+button:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+}
+.btn-danger {
+    background: #ef4444;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    width: auto;
+    margin: 0;
+}
+.btn-danger:hover { 
+    background: #dc2626;
+}
+.btn-small {
+    width: auto;
+    padding: 10px 16px;
+    margin: 0;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.form-row {
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+}
+.form-row input {
+    flex: 1;
+    margin-bottom: 0;
+}
+.error { 
+    color: #991b1b;
+    padding: 12px;
+    background: #fee2e2;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    border: 1px solid #fecaca;
+}
+.success { 
+    color: #065f46;
+    padding: 12px;
+    background: #d1fae5;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    border: 1px solid #a7f3d0;
+}
+.hidden { display: none; }
+.logout-btn {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 8px 16px;
+    width: auto;
+    margin: 0;
+    font-size: 14px;
+    backdrop-filter: blur(10px);
+}
+.logout-btn:hover {
+    background: rgba(255,255,255,0.25);
+}
+.empty-state {
+    text-align: center;
+    padding: 48px 24px;
+    color: #6b7280;
+}
+.generated-credentials {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f0fdf4;
+    border-radius: 8px;
+    border: 1px solid #bbf7d0;
+}
+.generated-credentials h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #166534;
+    font-size: 16px;
+    font-weight: 600;
+}
+.credential-item {
+    margin-bottom: 16px;
+}
+.credential-item:last-child {
+    margin-bottom: 0;
+}
+.credential-label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #374151;
+}
+.credential-input-group {
+    display: flex;
+    gap: 8px;
+}
+.credential-input-group input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-family: 'SF Mono', 'Monaco', 'Consolas', monospace;
+    font-size: 13px;
+    background: white;
+    margin-bottom: 0;
+}
+.credential-input-group button {
+    width: auto;
+    padding: 10px 16px;
+    white-space: nowrap;
+    font-size: 13px;
+}
+.usage-note {
+    margin-top: 12px;
+    padding: 12px;
+    background: white;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #4b5563;
+    line-height: 1.6;
+    border: 1px solid #e5e7eb;
+}
+.btn-action {
+    background: #6366f1;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    width: auto;
+    margin: 0;
+    white-space: nowrap;
+}
+.btn-action:hover { 
+    background: #4f46e5;
+}
+
+/* Toast animations */
+@keyframes slideIn {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+}
+
+/* Update Actions column header */
+th:last-child {
+    min-width: 180px;
+}
+
+.usage-note strong {
+    color: #111827;
+}
+@media (max-width: 768px) {
+    .container { padding: 16px; }
+    .header { padding: 20px; }
+    .card { padding: 20px; }
+    .form-row { flex-direction: column; }
+    .form-row .btn-small { width: 100%; }
+    .stats { grid-template-columns: 1fr; }
+    table { font-size: 13px; }
+    th, td { padding: 10px 12px; }
+}
+</style>
 </head>
 <body>
     <div id="loginPage" class="hidden">
         <div class="login-card">
-            <h1 style="text-align: center; margin-bottom: 10px; color: #333;">🔐 Admin Login</h1>
-            <p style="text-align: center; color: #666; margin-bottom: 30px;">API Token Management Dashboard</p>
+            <h1>🔐 Admin Login</h1>
+            <p>API Token Management Dashboard</p>
             <div id="loginError" class="error hidden"></div>
             <form id="loginForm">
                 <input type="password" id="adminKey" placeholder="Enter Admin API Key" required>
@@ -1688,7 +1941,7 @@ app.get("/admin", (req: Request, res: Response) => {
     <div id="dashboardPage" class="hidden">
         <div class="container">
             <div class="header">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="header-content">
                     <div>
                         <h1>🔑 API Token Management</h1>
                         <p>Manage user API tokens and email bindings</p>
@@ -1704,11 +1957,30 @@ app.get("/admin", (req: Request, res: Response) => {
                 <div id="addMessage" class="hidden"></div>
                 <form id="addTokenForm">
                     <div class="form-row">
-                        <input type="text" id="newToken" placeholder="New API Key" required>
-                        <input type="email" id="newEmail" placeholder="Email (optional)">
-                        <button type="submit" class="btn-small">Add Token</button>
+                        <input type="email" id="newEmail" placeholder="User email" required>
+                        <button type="submit" class="btn-small">Generate Token & URL</button>
                     </div>
                 </form>
+                <div id="generatedTokenInfo" class="hidden generated-credentials">
+                    <h3>✅ Generated Credentials</h3>
+                    <div class="credential-item">
+                        <label class="credential-label">API Key:</label>
+                        <div class="credential-input-group">
+                            <input type="text" id="generatedKey" readonly>
+                            <button onclick="copyToClipboard('generatedKey')" class="btn-small">📋 Copy</button>
+                        </div>
+                    </div>
+                    <div class="credential-item">
+                        <label class="credential-label">Non-OAuth Connection URL:</label>
+                        <div class="credential-input-group">
+                            <input type="text" id="generatedUrl" readonly>
+                            <button onclick="copyToClipboard('generatedUrl')" class="btn-small">📋 Copy</button>
+                        </div>
+                        <div class="usage-note">
+                            <strong>💡 Usage:</strong> Users can add this URL directly to their MCP client config for clients that don't support OAuth yet.
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="card">
@@ -1820,44 +2092,136 @@ app.get("/admin", (req: Request, res: Response) => {
                 return;
             }
             
+            const baseUrl = window.location.origin;
+            
             const tableHtml = \`
-                <table>
-                    <thead>
-                        <tr>
-                            <th>API Key</th>
-                            <th>Email</th>
-                            <th>Created</th>
-                            <th>Last Used</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        \${tokens.map(token => \`
+                <div class="table-container">
+                    <table>
+                        <thead>
                             <tr>
-                                <td><span class="token-key" title="\${token.key}">\${token.key.substring(0, 20)}...</span></td>
-                                <td>
-                                    \${token.email 
-                                        ? \`<span class="badge badge-success">\${token.email}</span>\`
-                                        : '<span class="badge badge-warning">Not bound</span>'}
-                                </td>
-                                <td>\${new Date(token.createdAt).toLocaleDateString()}</td>
-                                <td>\${token.lastUsed ? new Date(token.lastUsed).toLocaleDateString() : 'Never'}</td>
-                                <td>
-                                    <button class="btn-danger" onclick="deleteToken('\${token.key.substring(0, 20)}')">Delete</button>
-                                </td>
+                                <th>API Key</th>
+                                <th>Email</th>
+                                <th>Created</th>
+                                <th>Last Used</th>
+                                <th>Actions</th>
                             </tr>
-                        \`).join('')}
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            \${tokens.map(token => {
+                                const fullUrl = token.email 
+                                    ? \`\${baseUrl}/mcp?email=\${encodeURIComponent(token.email)}&api_key=\${token.key}\`
+                                    : '';
+                                return \`
+                                <tr>
+                                    <td><span class="token-key" title="\${token.key}">\${token.key.substring(0, 20)}...</span></td>
+                                    <td>
+                                        \${token.email 
+                                            ? \`<span class="badge badge-success">\${token.email}</span>\`
+                                            : '<span class="badge badge-warning">Not bound</span>'}
+                                    </td>
+                                    <td>\${new Date(token.createdAt).toLocaleDateString()}</td>
+                                    <td>\${token.lastUsed ? new Date(token.lastUsed).toLocaleDateString() : 'Never'}</td>
+                                    <td>
+                                        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+                                            <button class="btn-action" onclick="copyApiKey('\${token.key}')" title="Copy API Key">
+                                                📋 Key
+                                            </button>
+                                            \${token.email ? \`
+                                                <button class="btn-action" onclick="copyUrl('\${token.email}', '\${token.key}')" title="Copy Connection URL">
+                                                    🔗 URL
+                                                </button>
+                                            \` : ''}
+                                            <button class="btn-danger" onclick="deleteToken('\${token.key.substring(0, 20)}')">
+                                                🗑️
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            \`;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
             \`;
             tableDiv.innerHTML = tableHtml;
+        }
+
+        function copyApiKey(apiKey) {
+            navigator.clipboard.writeText(apiKey).then(() => {
+                showToast('✅ API Key copied to clipboard!');
+            }).catch(err => {
+                // Fallback for older browsers
+                const textarea = document.createElement('textarea');
+                textarea.value = apiKey;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                showToast('✅ API Key copied to clipboard!');
+            });
+        }
+
+        function copyUrl(email, apiKey) {
+            const baseUrl = window.location.origin;
+            const fullUrl = \`\${baseUrl}/mcp?email=\${encodeURIComponent(email)}&api_key=\${apiKey}\`;
+            
+            navigator.clipboard.writeText(fullUrl).then(() => {
+                showToast('✅ Connection URL copied to clipboard!');
+            }).catch(err => {
+                // Fallback for older browsers
+                const textarea = document.createElement('textarea');
+                textarea.value = fullUrl;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                showToast('✅ Connection URL copied to clipboard!');
+            });
+        }
+
+        function showToast(message) {
+            // Remove existing toast if any
+            const existingToast = document.getElementById('toast');
+            if (existingToast) {
+                existingToast.remove();
+            }
+
+            // Create toast
+            const toast = document.createElement('div');
+            toast.id = 'toast';
+            toast.textContent = message;
+            toast.style.cssText = \`
+                position: fixed;
+                bottom: 24px;
+                right: 24px;
+                background: #111827;
+                color: white;
+                padding: 12px 20px;
+                border-radius: 8px;
+                font-size: 14px;
+                font-weight: 500;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                z-index: 10000;
+                animation: slideIn 0.3s ease;
+            \`;
+            
+            document.body.appendChild(toast);
+            
+            // Remove after 3 seconds
+            setTimeout(() => {
+                toast.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
         }
 
         document.getElementById('addTokenForm').addEventListener('submit', async (e) => {
             e.preventDefault();
             const messageDiv = document.getElementById('addMessage');
-            const newToken = document.getElementById('newToken').value;
+            const generatedInfoDiv = document.getElementById('generatedTokenInfo');
             const newEmail = document.getElementById('newEmail').value;
+            
+            // Hide previous generated info
+            generatedInfoDiv.classList.add('hidden');
             
             try {
                 const response = await fetch('/admin/api/tokens', {
@@ -1866,7 +2230,7 @@ app.get("/admin", (req: Request, res: Response) => {
                         'Content-Type': 'application/json',
                         'X-Session-Id': sessionId
                     },
-                    body: JSON.stringify({ key: newToken, email: newEmail || null })
+                    body: JSON.stringify({ email: newEmail })
                 });
                 
                 const data = await response.json();
@@ -1874,20 +2238,40 @@ app.get("/admin", (req: Request, res: Response) => {
                 if (data.success) {
                     messageDiv.className = 'success';
                     messageDiv.textContent = '✅ ' + data.message;
+                    
+                    // Display the generated credentials
+                    document.getElementById('generatedKey').value = data.apiKey;
+                    document.getElementById('generatedUrl').value = data.nonOAuthUrl;
+                    generatedInfoDiv.classList.remove('hidden');
+                    
                     document.getElementById('addTokenForm').reset();
-                    setTimeout(() => loadDashboard(), 1000);
+                    setTimeout(() => loadDashboard(), 2000);
                 } else {
                     messageDiv.className = 'error';
                     messageDiv.textContent = '❌ ' + data.message;
                 }
                 messageDiv.classList.remove('hidden');
-                setTimeout(() => messageDiv.classList.add('hidden'), 3000);
+                setTimeout(() => messageDiv.classList.add('hidden'), 5000);
             } catch (error) {
                 messageDiv.className = 'error';
                 messageDiv.textContent = 'Failed to add token: ' + error.message;
                 messageDiv.classList.remove('hidden');
             }
         });
+
+        function copyToClipboard(elementId) {
+            const input = document.getElementById(elementId);
+            input.select();
+            document.execCommand('copy');
+            
+            // Visual feedback
+            const button = event.target;
+            const originalText = button.textContent;
+            button.textContent = '✅ Copied!';
+            setTimeout(() => {
+                button.textContent = originalText;
+            }, 2000);
+        }
 
         async function deleteToken(partialKey) {
             if (!confirm('Are you sure you want to delete this token?')) return;
@@ -1935,104 +2319,81 @@ app.get("/admin", (req: Request, res: Response) => {
     </script>
 </body>
 </html>
+
+
+
+
+
   `);
-});
-    app.post("/mcp", async (req: Request, res: Response) => {
-      const authHeader = req.headers['authorization'];
-      const apiKeyHeader = req.headers['x-api-key'];
-      let validatedApiKey: string | null = null;
+  });
+  app.post("/mcp", async (req: Request, res: Response) => {
+    const auth = authenticateRequest(req, accessTokens, apiKeyService);
 
-      if (authHeader) {
-        const token = authHeader.replace(/^Bearer\s+/i, '');
-        const tokenData = accessTokens.get(token);
-        if (tokenData && tokenData.expires_at > Date.now()) {
-          validatedApiKey = tokenData.api_key;
-          console.log('✓ OAuth token validated');
-        }
-      }
-
-      if (!validatedApiKey && apiKeyHeader) {
-        const validation = apiKeyService.validateApiKey(apiKeyHeader as string);
-        if (validation.isValid) {
-          validatedApiKey = apiKeyHeader as string;
-          console.log('✓ Direct API key validated');
-        }
-      }
-
-      if (!validatedApiKey) {
-        const baseUrl = getBaseUrl();
-        res.set('WWW-Authenticate', `Bearer realm="${baseUrl}", resource_metadata="${baseUrl}/.well-known/oauth-protected-resource"`);
-        return res.status(401).json({ error: 'Authentication required' });
-      }
-
-      const httpserver = server;
-      const httpTransport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
-      res.on('close', () => {
-        httpTransport.close();
-        httpserver.close();
+    if (!auth.isValid) {
+      const baseUrl = getBaseUrl();
+      res.set('WWW-Authenticate', `Bearer realm="${baseUrl}", resource_metadata="${baseUrl}/.well-known/oauth-protected-resource"`);
+      return res.status(401).json({
+        error: 'Authentication required',
+        details: auth.error,
+        method: auth.method
       });
-      await httpserver.connect(httpTransport);
-      await httpTransport.handleRequest(req, res, req.body);
+    }
+
+    const httpserver = server;
+    const httpTransport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
+    res.on('close', () => {
+      httpTransport.close();
+      httpserver.close();
     });
+    await httpserver.connect(httpTransport);
+    await httpTransport.handleRequest(req, res, req.body);
+  });
 
-    // Also handle POST at root (/) for clients that use base URL as MCP endpoint
-    app.post("/", async (req: Request, res: Response) => {
-      const authHeader = req.headers['authorization'];
-      const apiKeyHeader = req.headers['x-api-key'];
-      let validatedApiKey: string | null = null;
+  // Also handle POST at root (/) for clients that use base URL as MCP endpoint
+  app.post("/", async (req: Request, res: Response) => {
+    const auth = authenticateRequest(req, accessTokens, apiKeyService);
 
-      if (authHeader) {
-        const token = authHeader.replace(/^Bearer\s+/i, '');
-        const tokenData = accessTokens.get(token);
-        if (tokenData && tokenData.expires_at > Date.now()) {
-          validatedApiKey = tokenData.api_key;
-          console.log('✓ OAuth token validated (root endpoint)');
-        }
-      }
-
-      if (!validatedApiKey && apiKeyHeader) {
-        const validation = apiKeyService.validateApiKey(apiKeyHeader as string);
-        if (validation.isValid) {
-          validatedApiKey = apiKeyHeader as string;
-          console.log('✓ Direct API key validated (root endpoint)');
-        }
-      }
-
-      if (!validatedApiKey) {
-        const baseUrl = getBaseUrl();
-        res.set('WWW-Authenticate', `Bearer realm="${baseUrl}", resource_metadata="${baseUrl}/.well-known/oauth-protected-resource"`);
-        return res.status(401).json({ error: 'Authentication required' });
-      }
-
-      const httpserver = server;
-      const httpTransport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
-      res.on('close', () => {
-        httpTransport.close();
-        httpserver.close();
+    if (!auth.isValid) {
+      const baseUrl = getBaseUrl();
+      res.set('WWW-Authenticate', `Bearer realm="${baseUrl}", resource_metadata="${baseUrl}/.well-known/oauth-protected-resource"`);
+      return res.status(401).json({
+        error: 'Authentication required',
+        details: auth.error,
+        method: auth.method
       });
-      await httpserver.connect(httpTransport);
-      await httpTransport.handleRequest(req, res, req.body);
+    }
+
+    console.log('✓ Authentication successful at root endpoint via', auth.method);
+
+    const httpserver = server;
+    const httpTransport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
+    res.on('close', () => {
+      httpTransport.close();
+      httpserver.close();
     });
+    await httpserver.connect(httpTransport);
+    await httpTransport.handleRequest(req, res, req.body);
+  });
 
-    const PORT = parseInt(process.env.PORT || '3000', 10);
-app.listen(PORT, () => {
-  console.log(`\n${'='.repeat(60)}`);
-  console.log(`Side Letter MCP Server running`);
-  console.log(`${'='.repeat(60)}`);
-  console.log(`Local: http://localhost:${PORT}`);
-  console.log(`Public: ${getBaseUrl()}`);
-  console.log(`\nEndpoints:`);
-  console.log(`  - OAuth Discovery: /.well-known/openid-configuration`);
-  console.log(`  - Authorization: /authorize`);
-  console.log(`  - Token Exchange: /token`);
-  console.log(`  - MCP: /mcp`);
-  console.log(`${'='.repeat(60)}\n`);
-});
+  const PORT = parseInt(process.env.PORT || '3000', 10);
+  app.listen(PORT, () => {
+    console.log(`\n${'='.repeat(60)}`);
+    console.log(`Side Letter MCP Server running`);
+    console.log(`${'='.repeat(60)}`);
+    console.log(`Local: http://localhost:${PORT}`);
+    console.log(`Public: ${getBaseUrl()}`);
+    console.log(`\nEndpoints:`);
+    console.log(`  - OAuth Discovery: /.well-known/openid-configuration`);
+    console.log(`  - Authorization: /authorize`);
+    console.log(`  - Token Exchange: /token`);
+    console.log(`  - MCP: /mcp`);
+    console.log(`${'='.repeat(60)}\n`);
+  });
 
-  } catch (error) {
-    console.error('Failed to start server:', error);
-    process.exit(1);
-  }
+} catch (error) {
+  console.error('Failed to start server:', error);
+  process.exit(1);
+}
 }
 
 main().catch((error) => {

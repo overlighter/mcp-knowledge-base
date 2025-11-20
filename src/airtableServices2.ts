@@ -149,33 +149,11 @@ class AirtableService {
     try {
       console.error(`🔍 Checking for existing documents for ${tableName}...`);
       
-      // Try multiple filter strategies to find documents
+      // Use the filter format that works (simple metadata filter)
+      const filter = JSON.stringify({ "table_name": tableName });
+      console.error(`   Filter: ${filter}`);
       
-      // Strategy 1: Filter by table_name only
-      const filter1 = JSON.stringify({ "table_name": { "$eq": tableName } });
-      console.error(`   Trying filter 1: ${filter1}`);
-      let documents = await this.ragieService.listDocuments(filter1 as any);
-      
-      if (documents.length === 0) {
-        // Strategy 2: Filter by source only
-        const filter2 = JSON.stringify({ "source": { "$eq": "Airtable" } });
-        console.error(`   Trying filter 2: ${filter2}`);
-        const allAirtableDocs = await this.ragieService.listDocuments(filter2 as any);
-        
-        // Manually filter for this specific table
-        documents = allAirtableDocs.filter((doc: any) => 
-          doc.metadata?.table_name === tableName ||
-          doc.table_name === tableName
-        );
-        
-        if (documents.length === 0) {
-          // Strategy 3: Get all documents and filter by name
-          console.error(`   Trying filter 3: by document name`);
-          const allDocs = await this.ragieService.listDocuments(null);
-          const fileName = `airtable_${tableName === 'Funds [Master]' ? 'funds' : 'allocators'}.txt`;
-          documents = allDocs.filter((doc: any) => doc.name === fileName);
-        }
-      }
+      const documents = await this.ragieService.listDocuments(filter as any);
       
       if (documents.length === 0) {
         console.error(`✅ No existing documents found for ${tableName}`);
@@ -272,7 +250,7 @@ class AirtableService {
         // Save to files
         this.saveDataToFiles(data, tableConfig.file);
         
-        // Upload to Ragie (this will now delete old documents first)
+        // Upload to Ragie (this will delete old documents first)
         await this.uploadToRagie(data, tableConfig.file, tableConfig.name);
         
         return {
@@ -410,14 +388,8 @@ class AirtableService {
       for (const table of TABLES) {
         console.error(`\n📋 Checking ${table.name} for duplicates...`);
         
-        // Build filter as JSON string
-        const filter = JSON.stringify({
-          "$and": [
-            { "table_name": { "$eq": table.name } },
-            { "source": { "$eq": "Airtable" } },
-            { "export_type": { "$eq": "Airtable Export" } }
-          ]
-        });
+        // Use simple filter that works
+        const filter = JSON.stringify({ "table_name": table.name });
         
         const documents = await this.ragieService.listDocuments(filter as any);
         
@@ -434,15 +406,20 @@ class AirtableService {
         console.error(`   🗑️  Found ${documents.length} documents for ${table.name}, keeping newest...`);
         
         // Sort by upload date and keep the newest
-        const sorted = documents.sort((a:any, b:any) => b.document_uploaded_at - a.document_uploaded_at);
+        const sorted = documents.sort((a: any, b: any) => {
+          const dateA = new Date(a.updatedAt || a.createdAt).getTime();
+          const dateB = new Date(b.updatedAt || b.createdAt).getTime();
+          return dateB - dateA; // Newest first
+        });
+        
         const toKeep = sorted[0];
         const toDelete = sorted.slice(1);
         
-        console.error(`   ✓ Keeping: ${toKeep.id} (uploaded: ${new Date(toKeep.document_uploaded_at * 1000).toISOString()})`);
+        console.error(`   ✓ Keeping: ${toKeep.id} (updated: ${toKeep.updatedAt || toKeep.createdAt})`);
         
         for (const doc of toDelete) {
           await this.ragieService.deleteDocument(doc.id);
-          console.error(`   ✓ Deleted: ${doc.id} (uploaded: ${new Date(doc.document_uploaded_at * 1000).toISOString()})`);
+          console.error(`   ✓ Deleted: ${doc.id} (updated: ${doc.updatedAt || doc.createdAt})`);
         }
         
         console.error(`   ✅ Deleted ${toDelete.length} duplicate(s) for ${table.name}`);

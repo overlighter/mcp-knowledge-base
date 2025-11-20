@@ -1,0 +1,22 @@
+{
+  "userTokens": [
+    {
+      "token": "9913e21414a95c466f54479c8abe4b2955e4b01b0d320101016c2e7311a89aea",
+      "email": "jacktarinimi@gmail.com",
+      "createdAt": "2025-11-10T15:34:23.074Z",
+      "lastUsed": "2025-11-10T22:42:37.144Z",
+      "isActive": true
+    },
+    {
+      "token": "0b66846557f937ea43491ce3b46f982935765034426ad63ecfb030d58501366c",
+      "email": "amachreeasiyemiea@gmail.com",
+      "createdAt": "2025-11-10T15:40:23.438Z",
+      "lastUsed": "2025-11-10T15:40:23.438Z",
+      "isActive": true
+    }
+  ],
+  "adminApiKeys": [
+    "admin_super_key_xyz123"
+  ],
+  "lastUpdated": "2025-11-10T22:42:37.144Z"
+}

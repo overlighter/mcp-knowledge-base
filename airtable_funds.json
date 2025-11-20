@@ -7,6 +7,7 @@
       "GP Name": "Yohei Nakajima",
       "GP Linkedin": "https://www.linkedin.com/in/yoheinakajima/",
       "Fund Number": "I",
+      "Why Interesting?": "Untapped Capital is led by Yohei Nakajima, General Partner, who has spent over 15 years supporting early-stage startups and builds publicly with the latest technologies (including his open-source autonomous agent project “BabyAGI”). Before founding Untapped, he led startup sourcing at Techstars (including the Disney Accelerator) and served on the investment team at Scrum Ventures, working with corporations like Nintendo and Panasonic. Untapped backs pre-seed and seed companies—writing checks of around $100 K-$500 K—focused on founders who are under-networked by the traditional VC ecosystem. Nakajima’s edge lies in his build-in-public mindset, deep outbound sourcing engine, and the ability to surface and back breakthrough teams that fly under most radars.",
       "Submission Date": "2025-09-18T23:12:46.000Z",
       "Visibility": [
         "Tracking"
@@ -26,6 +27,7 @@
       "GP Name": "Sarah Guo",
       "GP Linkedin": "https://www.linkedin.com/in/sarahxguo/",
       "Fund Number": "I",
+      "Why Interesting?": "Conviction Partners is led by Sarah Guo, a former partner at Greylock Partners who launched the fund in 2022 to back “Software 3.0” companies built on foundation models and AI infrastructure. The firm writes early-stage checks (often $1M-$10M) into startups that combine strong technical teams with rapid product velocity. Their edge comes from Guo’s deep AI-network, the fund’s dedicated programs (like their founder-community initiative \"Embed\"), and the practical product-builder mindset applied to frontier software opportunities.",
       "Submission Date": "2025-10-29T16:07:43.000Z",
       "Visibility": [
         "Tracking"
@@ -46,7 +48,7 @@
       "GP Linkedin": "https://www.linkedin.com/in/maheshlnarayanan/",
       "Fund Number": "I",
       "Fund Size": 5000000,
-      "Why Interesting?": "Impact investment fund investing in ideas, research, and early-stage companies in Brain Health",
+      "Why Interesting?": "Neuvation Fund is led by Mahesh Narayanan and is singularly focused on advancing brain health through venture investment. The fund backs research, ideas, and early-stage companies developing breakthroughs in neuroscience, neurotechnology, diagnostics, and cognitive therapeutics. Narayanan’s edge comes from his deep expertise at the intersection of neuroscience and technology and his network of scientists, clinicians, and operators driving innovation in the space. Neuvation’s focus on brain health as its first and only priority allows it to identify and support founders tackling the most complex and consequential challenges in human cognition and neurological care.",
       "Submission Date": "2025-09-24T17:22:37.000Z",
       "Visibility": [
         "Review"
@@ -66,23 +68,39 @@
       "GP Name": "Jenny He",
       "GP Linkedin": "https://www.linkedin.com/in/jennyhe/",
       "Fund Number": "II",
-      "Why Interesting?": "Focused on helping companies with PR; Helped with the PR around Square's IPO; is really close with Justin Kan; husband was the CoS for Parker Conrad",
+      "Why Interesting?": "Position Ventures is led by Jenny He, founder and general partner, who built her career at the intersection of technology, media, and venture. Before founding the firm, she helped lead PR strategy for Square’s IPO, advised high-growth startups on communications and narrative, and worked closely with top founders including Justin Kan. The fund backs early-stage technology companies and provides hands-on support in storytelling, brand positioning, and strategic communications. He’s edge comes from her deep experience shaping public perception for breakout startups and her operator network—bolstered by ties to companies like Rippling, where her husband served as Chief of Staff to founder Parker Conrad—giving Position Ventures a rare combination of narrative expertise and founder empathy.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://positionventures.com/"
     }
   },
   {
+    "id": "rec38y6lex8WLBm2e",
+    "createdTime": "2025-11-12T19:57:17.000Z",
+    "fields": {
+      "Fund Name": "RUYA Ventures Fund I",
+      "Fund Number": "I",
+      "Referred By?": "Dizzy, use Pword: RUYA\nUse below email to log in: dav.j.zhou@gmail.com",
+      "Submission Date": "2025-11-12T19:57:17.000Z",
+      "Fundraising Status": "Raising ",
+      "Deck Link": "https://pitch.com/v/ruya-ventures-teaser---david-gwz2y6"
+    }
+  },
+  {
     "id": "rec3Tsue4LM1nTtvd",
     "createdTime": "2025-09-18T23:12:49.000Z",
     "fields": {
-      "Fund Name": "Prototype Capital",
+      "Fund Name": "Prototype Capital (fmr. Remote First Capital)",
       "GP Name": "Andreas Klinger",
       "GP Linkedin": "https://www.linkedin.com/in/andreasklinger/?originalSubdomain=de",
       "Fund Number": "I",
+      "Why Interesting?": "Prototype Capital is led by Andreas Klinger, formerly Head of Remote at AngelList, founding CTO of On Deck, and an early engineering leader at Product Hunt and CoinList. Previously known as Remote First Capital, the fund invests at the pre-seed and seed stages in founders building the infrastructure for the future of work, developer tools, AI, and productivity software. Klinger’s edge comes from his deep technical and product background, his early advocacy for remote and distributed teams, and his global network of builders and operators formed through On Deck and AngelList. Prototype Capital combines product intuition, technical rigor, and community-driven access to back founders building the next generation of remote-native and AI-enabled software companies.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -95,20 +113,45 @@
     }
   },
   {
+    "id": "rec4GC1Srpdplyb9M",
+    "createdTime": "2025-11-05T22:19:44.000Z",
+    "fields": {
+      "Fund Name": "Autopilot Fund",
+      "GP Name": "Hari Raghavan",
+      "GP Linkedin": "https://www.linkedin.com/in/hraghavan/",
+      "Add. Partners LinkedIns": "Adam Spector",
+      "Fund Number": "I",
+      "Why Interesting?": "Autopilot Fund is led by GPs Hari Raghavan and Adam Spector. Hari served as COO at Forge Global where he helped scale the business and manage billions in secondary transactions, then co-founded AbstractOps, and has backed early winners like Notion, Rippling and Mercury. Adam was formerly Sr. PM at Twitter, co-founded and served as CXO at multiple startups (with exits), and then was COO/co-founder at AbstractOps before moving on. The fund invests seed to early-stage enterprise SaaS and infrastructure companies — with a thesis around “system of record” products, workflow automation, and APIs underpinning enterprise productivity. Their edge comes from operator-investor experience: as former founders & executives they bring real build-infrastructure, growth and operations perspectives; they also claim a strong network and firsthand access to dealflow in the back-office automation and enterprise data platform space.",
+      "Submission Date": "2025-11-05T22:19:44.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Team"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://autopilot.fund/"
+    }
+  },
+  {
     "id": "rec56WO4rJTtbXsFi",
     "createdTime": "2025-09-18T15:17:19.000Z",
     "fields": {
       "Fund Name": "Audacious Ventures",
-      "GP Name": "Nakul Mandan + 2",
+      "GP Name": "Nakul Mandan",
       "GP Linkedin": "https://www.linkedin.com/in/nakulmandan",
+      "Add. Partners LinkedIns": "Muzzammil Zaveri",
       "Fund Number": "II",
       "Co-Investors": [
         "Next Legacy"
       ],
-      "Why Interesting?": "Former GP at Lightspeed, focused on helping founders recruit the best talent and has an in-house recruiting team to help them",
+      "Why Interesting?": "Audacious Ventures is led by Nakul Mandan and Muzzammil Zaveri, both seasoned investors with deep roots in early-stage software and infrastructure. Mandan was previously a partner at Lightspeed Venture Partners, where he focused on enterprise software and developer platforms, while Zaveri was a partner at Gradient Ventures, Google’s AI-focused fund, where he led investments across applied AI and automation. Audacious backs seed-stage founders building the next generation of enterprise and AI infrastructure companies. The firm’s edge comes from its in-house recruiting platform, which helps portfolio companies hire top technical and go-to-market talent, combined with the partners’ operational and investing experience scaling software companies from early traction to category leadership.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "http://www.audacious.co/"
@@ -122,12 +165,63 @@
       "GP Name": "Jeff Miller",
       "GP Linkedin": "https://www.linkedin.com/in/jeff-miller-a176193",
       "Fund Number": "I",
+      "Why Interesting?": "LMNT Ventures is led by Jeff Miller, founder and Managing Partner, with deep operating experience in mobility, robotics and climate tech—he was on the founding leadership team of Uber ATG and previously founded a peer-to-peer car-sharing startup and built EV infrastructure at Better Place. The fund backs early-stage companies focused on robotics & automation, industrial tech, and decarbonization/climate infrastructure, investing in themes where trillion-dollar legacy industries are ripe for tech-driven transformation. LMNT’s edge lies in Jeff’s operator credibility in hard sectors, his deep domain network of robotics and climate founders, and the fund’s disciplined thematic lens that guides early sourcing and value-creation in high-capital, high-impact technology markets.",
       "Submission Date": "2025-10-22T13:56:50.000Z",
       "Visibility": [
         "Review"
       ],
+      "Keywords": [
+        "Solo GP",
+        "Robotics",
+        "Climate"
+      ],
       "Fundraising Status": "Raising ",
       "Fund Website": "https://www.lmnt.vc/home-in-review"
+    }
+  },
+  {
+    "id": "rec5cI7kDzrkQpltP",
+    "createdTime": "2025-11-08T18:20:01.000Z",
+    "fields": {
+      "Fund Name": "Supercharge VC",
+      "GP Name": "Vivek Sodera",
+      "GP Linkedin": "https://www.linkedin.com/in/vsodera/",
+      "Fund Number": "I",
+      "Why Interesting?": "Supercharge.vc is led by Vivek Sodera, a founder-turned-investor who co-founded Superhuman (email productivity) and earlier helped build LiveRamp (now public) — giving him deep operating and scaling experience. The fund focuses on pre-seed / first-check stage investments in enterprise AI, developer tools and productivity platforms. Its edge lies in Vivek’s product-centric operating lens, his experience building from zero to one, plus his founder network and direct access to technical teams building the next wave of tooling.",
+      "Submission Date": "2025-11-08T18:20:01.000Z",
+      "Visibility": [
+        "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://x.com/vsodera"
+    }
+  },
+  {
+    "id": "rec5r3ksWXt28rlhw",
+    "createdTime": "2025-11-03T16:47:36.000Z",
+    "fields": {
+      "Fund Name": "Opal Ventures",
+      "GP Name": "Owen Willis",
+      "GP Linkedin": "https://www.linkedin.com/in/johnowenwillis/",
+      "Fund Number": "I",
+      "Co-Investors": [
+        "Primary Venture Partners"
+      ],
+      "Why Interesting?": "Opal Ventures is a solo GP fund led by Owen Willis, a Brooklyn-based operator turned investor who previously ran On Deck Health, helped build the broader On Deck founder ecosystem,. He also participated in Coolwater Capital’s emerging manager program and has served as a Venture Partner at Primary Venture Partners. Opal focuses exclusively on pre-seed health tech, backing repeat founders and early operators at the friends-and-family stage with $200K–$300K checks. Willis’ edge comes from years spent cultivating pre-founder relationships across the healthcare and digital health landscape, giving him proprietary access to founders before company formation. With a growing portfolio already showing strong markups and support from institutional LPs, Opal Ventures is purpose-built to find and back the next generation of healthcare builders from their very first experiments.",
+      "Submission Date": "2025-11-03T16:47:36.000Z",
+      "Visibility": [
+        "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Health Tech",
+        "Specialist"
+      ],
+      "Fundraising Status": "Raising ",
+      "Fund Website": "https://www.opalventures.com/"
     }
   },
   {
@@ -137,10 +231,16 @@
       "Fund Name": "Bungalow Capital",
       "GP Name": "Dave Ambrose",
       "GP Linkedin": "https://www.linkedin.com/in/davidjambrose/",
+      "Add. Partners LinkedIns": "Matthew Ziskie",
       "Fund Number": "I",
+      "Why Interesting?": "Bungalow Capital is led by general partners David Ambrose and Matthew Ziskie. Ambrose previously co-founded Scoop St., worked in mobile/social at Travelzoo, and has a history of founding and investing in tech-driven consumer businesses. Ziskie brings complementary experience in early stage tech investing and network building in both New York and Los Angeles. The fund backs pre-seed to seed software companies with an emphasis on bold founder visions rather than polished decks. Its edge lies in working with founders at the very start of idea-phase, leveraging the partners’ operating backgrounds and cross-coastal networks to provide real-world founder support rather than passive capital.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team",
+        "New York"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.bungalow.vc/"
@@ -158,10 +258,13 @@
         "Elad Gil",
         "Marc Andreessen/Chris Dixon"
       ],
-      "Why Interesting?": "Serial operator; Elad Gil is her mentor; runs one of the largest podcasts in tech; her husband is Sriram Krishnan (a16z, now working in the Trump administration)",
+      "Why Interesting?": "Schema VC is led by Aarthi Ramamurthy, founder and general partner, a serial operator and product leader who previously built and scaled products at Facebook, Netflix, and Microsoft. Aarthi is also one of the most recognizable voices in tech as co-host of The Aarthi and Sriram Show, one of the largest podcasts in the industry, where she’s interviewed many of Silicon Valley’s most influential founders and investors. Mentored by Elad Gil, she launched Schema to back early-stage founders building software, AI, and consumer technology companies that define the next wave of the internet. Her edge comes from two decades as a hands-on builder, deep access to the global founder community through her media platform, and a sharp eye for breakout product talent. She is married to Sriram Krishnan, a general partner at a16z and currently serving in the Trump administration.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://schemavc.com/"
@@ -174,10 +277,15 @@
       "Fund Name": "Pathlight Ventures",
       "GP Name": "Mahdi Raza",
       "GP Linkedin": "http://www.linkedin.com/in/mahdirazany",
+      "Add. Partners LinkedIns": "Charley Ma",
       "Fund Number": "I",
+      "Why Interesting?": "Pathlight Ventures is led by Mahdi Raza and Charley Ma, who previously helped build and invest at Exponent Founders Capital before rebranding the firm to reflect a broader vision. Based in New York, Pathlight backs early-stage companies—from inception through Series A—across enterprise software, applied AI, healthcare, fintech, and infrastructure. The partners have been early builders, advisors, and investors behind companies such as Plaid, Ramp, Robinhood, Alloy, and Chronosphere. Their edge comes from deep operating and investing experience in highly technical, regulated markets and a hands-on approach focused on helping founders refine product, win their first customers, and scale within transformational markets. Pathlight is backed primarily by non-profit endowments, hospitals, and more than 50 unicorn founders and operators, aligning the firm with mission-driven capital and an ecosystem of proven builders.",
       "Submission Date": "2025-09-18T20:17:42.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.pathlight.vc/"
@@ -188,12 +296,17 @@
     "createdTime": "2025-09-18T23:12:49.000Z",
     "fields": {
       "Fund Name": "Deciens III",
-      "GP Name": "Ishan Sachdev",
+      "GP Name": "Daniel Kimerling",
       "GP Linkedin": "http://www.linkedin.com/in/ishansachdev",
+      "Add. Partners LinkedIns": "Ishan Sachdev, Vishal Rana",
       "Fund Number": "I",
+      "Why Interesting?": "Deciens Capital is led by Daniel Kimerling (Founder & Managing Partner), who previously held roles in banking and early fintech ventures, and backs pre-seed to seed stage companies focused on financial services transformation—including payments, lending, insurance, and adjacent infrastructure. Their edge lies in a highly concentrated, thesis-driven strategy: they invest as the first meaningful institutional capital into businesses operating in winner-take-all markets, then deploy operator-level support to help de-risk financing, scaling and optionality rather than chasing hype.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://deciens.com/"
@@ -206,13 +319,20 @@
       "Fund Name": "Inception Studio Capital",
       "GP Name": "John Whaley",
       "GP Linkedin": "https://www.linkedin.com/in/joewhaley/",
+      "Add. Partners LinkedIns": "Mike Morris",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Decile Capital"
+      ],
+      "Why Interesting?": "Inception Studio Capital is led by Mike Morris and John Whaley, both repeat founders and AI operators who built Inception Studio—the Bay Area and Utah-based accelerator that helps technical founders build and launch AI startups without taking equity. The fund invests in pre-seed and seed-stage companies coming out of the accelerator, focusing on AI infrastructure, applied AI, and enterprise automation. Morris previously founded Topcoder, one of the world’s largest developer communities, while Whaley was the founder and CTO of UnifyID (acquired by Prove) and a Stanford PhD in computer science. Their edge comes from working side by side with founders for months before investing, giving them deep technical diligence, operational insight, and a uniquely founder-aligned model that surfaces elite AI startups early.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "AI",
+        "Accelerator"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.inceptionstudio.capital/"
@@ -226,12 +346,18 @@
       "GP Name": "Ben Freeberg",
       "GP Linkedin": "https://www.linkedin.com/in/ben-freeberg/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Amkan Ventures"
+      ],
+      "Why Interesting?": "Oncology Ventures is led by Ben Freeberg, founder and managing partner, who launched the firm to back software, data, and AI companies improving cancer care and research. The fund invests in seed and Series A startups building modern infrastructure, analytics, and workflow tools that enhance how oncology is delivered and studied across providers, researchers, and payers. Freeberg’s edge comes from his deep relationships across the oncology ecosystem and his focus on applying advanced software and data systems to a field long underserved by technology, positioning Oncology Ventures as the leading early-stage partner for founders reimagining the future of cancer innovation.",
       "Submission Date": "2025-09-24T20:11:28.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Specialist",
+        "Health Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.oncology.ventures/"
@@ -243,8 +369,9 @@
     "fields": {
       "Fund Name": "SF1",
       "GP Name": "Sudarshan Sridharan",
-      "GP Linkedin": "https://www.linkedin.com/in/sudarshan-sridharan/",
+      "GP Linkedin": "https://www.linkedin.com/in/sudarshan-sridharan",
       "Fund Number": "I",
+      "Why Interesting?": "SF1 Ventures is led by Sudarshan Sridharan, founder and general partner, who previously founded WithPipeline, a platform connecting early-stage startups with investors, and built a large venture and startup followings on X (Twitter). The firm backs pre-seed and seed-stage companies across AI, infrastructure, and defense, focusing on founders tackling technically ambitious problems with outsized potential impact. Sridharan’s edge comes from his position at the center of the early-stage tech ecosystem—leveraging his digital reach, network of founders and investors, and firsthand experience building products—to surface exceptional teams before they appear on traditional venture radar.",
       "Submission Date": "2025-09-19T14:20:51.000Z",
       "Visibility": [
         "Review"
@@ -264,12 +391,15 @@
       "GP Name": "Jonathan Chang",
       "GP Linkedin": "https://www.linkedin.com/in/thejonathanchang/",
       "Fund Number": "I",
+      "Why Interesting?": "Daydream Ventures is a solo GP fund led by Jonathan Chang, former Startup Ambassador at Brex, where he built one of the most active founder and investor communities in tech through hundreds of events and partnerships. The fund invests at the pre-seed stage in fintech, AI, and vertical SaaS companies that use community-led go-to-market growth to accelerate adoption. Chang’s edge comes from his deep network of early-stage operators and founders built through Brex and GenZScouts, giving him unmatched sourcing visibility and hands-on expertise in how community, brand, and distribution intersect to drive modern software growth.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Brex",
+        "Gen Z"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.daydreamvc.com/"
@@ -283,6 +413,10 @@
       "GP Name": "Jukka Alanen",
       "GP Linkedin": "https://www.linkedin.com/in/jukkaalanen/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Decile Capital"
+      ],
+      "Why Interesting?": "Rebellion Ventures is led by Jukka Alanen, founder and managing partner, who brings over 20 years of experience in strategy, venture-backed operating roles, and exits totaling more than $3.5 billion. The fund invests at the seed and pre-seed stages in companies enabling what they call “autonomous operations”—vertically-specialised systems in AI, agentic automation, and infrastructure that aim for 10–100× productivity gains across industries such as healthcare, manufacturing, logistics and finance. Alanen’s edge stems from his dual operating and investing background, a deep network of 70+ unicorn founder/operational LPs, and a thesis centred on “artificial super capability”: AI systems that perceive, decide and act in real-world environments.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -302,6 +436,7 @@
       "GP Name": "Simon Chan",
       "GP Linkedin": "https://www.linkedin.com/in/simonmhchan/",
       "Fund Number": "I",
+      "Why Interesting?": "FirstHand Alliance is led by Simon Chan, a former founder who sold his company to Salesforce and later led AI platform initiatives there, giving him deep credibility in enterprise software and machine-learning infrastructure. The fund backs pre-seed to Series A B2B and autonomous software companies, with a focus on enterprise AI, developer tools, security, and digital transformation. Their edge is a tight network of more than 100 operator-founders and senior executives who have actually built and exited companies, serving as a differentiated sourcing, diligence, and execution network that gives founders practical GTM, hiring, and technical support rather than theoretical exposure.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -315,6 +450,52 @@
     }
   },
   {
+    "id": "recCOHxIZziVVb4ho",
+    "createdTime": "2025-11-04T18:42:27.000Z",
+    "fields": {
+      "Fund Name": "Next Play Ventures",
+      "GP Name": "Jeff Weiner",
+      "GP Linkedin": "https://www.linkedin.com/in/brianrumao/",
+      "Add. Partners LinkedIns": "Brian Rumao",
+      "Fund Number": "III",
+      "Why Interesting?": "Next Play Ventures is led by Jeff Weiner, former CEO of LinkedIn, and Brian Rumao, his longtime chief of staff and strategic advisor. The fund invests in entrepreneurial leaders building purpose-driven companies across enterprise software, fintech, consumer, health, and education. Drawing on Weiner’s leadership philosophy and network from scaling LinkedIn into a global platform, Next Play combines capital with executive coaching to help founders grow as operators and leaders. Its edge lies in this mentorship-driven model and unparalleled access to a network of experienced executives and founders, enabling portfolio companies to build enduring organizations rooted in both performance and purpose.",
+      "Submission Date": "2025-11-04T18:42:27.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Team"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://www.nextplayventures.com/"
+    }
+  },
+  {
+    "id": "recCjmNCRVyQ54nvj",
+    "createdTime": "2025-11-08T18:20:10.000Z",
+    "fields": {
+      "Fund Name": "Red Bike Capital",
+      "GP Name": "Rachel ten Brink",
+      "GP Linkedin": "https://www.linkedin.com/in/rachel-ten-brink-a08151/",
+      "Add. Partners LinkedIns": "Herman Goihman ",
+      "Fund Number": "I",
+      "Co-Investors": [
+        "Bank of America",
+        "Michael Seibel"
+      ],
+      "Why Interesting?": "Red Bike Capital is led by Rachel ten Brink (General Partner & CEO) and Herman Goihman (General Partner). Rachel co-founded Scentbird (a top-YC company) and scaled it from inception to over $100 M revenue while raising ~$29 M in venture funding. She also held senior growth and brand roles at Procter & Gamble, Estée Lauder and L’Oréal. Herman has 20+ years of asset-management and fintech-credit experience, including stints at Bear Stearns, Bank of America and Cygnus, and has managed over $2 B in invested assets. The fund invests in early-stage U.S. companies in vertical/AI, fintech (payments, embedded finance, alternative underwriting), health & wellness and future of commerce. Their edge comes from operator credibility (brand scaling + credit investing), network access in both consumer growth and financial signals, and a focus on capital-efficient founders who combine strong technology with disciplined go-to-market execution.",
+      "Submission Date": "2025-11-08T18:20:10.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Team"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://redbikecapital.com/"
+    }
+  },
+  {
     "id": "recDRvzDTUkO5haXD",
     "createdTime": "2025-09-18T23:12:49.000Z",
     "fields": {
@@ -322,9 +503,13 @@
       "GP Name": "Peter Boyce II",
       "GP Linkedin": "https://www.linkedin.com/in/peterboyce2/",
       "Fund Number": "I",
+      "Why Interesting?": "Stellation Capital is led by Peter Boyce II, founder and general partner, based in Brooklyn. Before launching Stellation, Boyce spent eight years as a partner at General Catalyst, where he invested in early-stage startups across consumer, fintech, and infrastructure, and co-founded Rough Draft Ventures, a student-focused investing program that seeded hundreds of first-time founders. Stellation backs pre-seed and seed-stage companies building products that shape culture and connection in the digital era. Boyce’s edge comes from a decade of early-stage investing experience, a strong founder community cultivated through Rough Draft, and his focus on supporting emerging builders at the intersection of creativity, technology, and entrepreneurship.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.stellation.vc/"
@@ -338,6 +523,7 @@
       "GP Name": "Turner Novack",
       "GP Linkedin": "https://www.linkedin.com/in/turnernovak/",
       "Fund Number": "I",
+      "Why Interesting?": "Banana Capital is led by Turner Novak, who launched the firm in 2021 after stints at Gelt VC and Afore Capital. The fund focuses on pre-seed and seed startups—often writing checks up to around $250k—across a broad range of sectors including consumer, fintech, gaming, dev tools, and deep tech. Novak describes the edge of Banana Capital as speed of decision, strong conviction investing, and a large social-media presence (he loves a good meme) that helps amplify founder narratives and connect them with customers, talent, and co-investors.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -350,6 +536,38 @@
     }
   },
   {
+    "id": "recEx6edv4DY4kuMf",
+    "createdTime": "2025-11-15T06:29:49.000Z",
+    "fields": {
+      "Fund Name": "LongeVC Fund II",
+      "Fund Number": "I",
+      "Referred By?": "Dizzy",
+      "Submission Date": "2025-11-15T06:29:49.000Z",
+      "Image": [
+        {
+          "id": "attkCi4TE7TKob6MP",
+          "url": "https://v5.airtableusercontent.com/v3/u/47/47/1763654400000/F6CUvKCbwZcCoobr8FxRyA/TPf8uusvWbplfRBi-xPUNjF6ekEut1KSNEhRyHuGyAhyDiIv65HXPofwxR_8UUU07PnkzXk1Z9EZ8Tm7RDmvHXkfElBKtqcVwReJw2CEOBDYSYeJe8dRR7dz3zwT8fbhFyfyBNt0aiO47pX7OHAllvKAUeEhv7JzrCBlIFNmrk4flH3LS0t31z-vCp9jxXZ9/VQx8TQx3WnluD07FYn5eJq8towv0VS2AzqTMG2eBgBo",
+          "filename": "LongeVC-II_November 2025.pdf",
+          "size": 2569777,
+          "type": "application/pdf",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v3/u/47/47/1763654400000/bymTPALSphawtlbcHbFerA/y0jfLzM0iWUt2cR2g0qedcMiaVODkpAYgtinPE8VjqqgyW-3AhZXXVxYnfQ8-42TfwMWRsJvnC1bsNvjYG_RsjOsilHHeXkKB4gN3rggpUuIELgxUVO6FXL8lAiB-4jRk8aXhPZQolJ0rxS7fFYBHg/jVX4hr0yb205lYu0Qnk4oPMdxV27n37ef0XZ6KBlWvw",
+              "width": 64,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v3/u/47/47/1763654400000/UE0-syYicpIWlepz_w6gvw/WGxnU-mCQKgcS9APlJq64-qkqC9VL70mDFL2TCH8rv8Qgi9d225rAN5oOanDiGooifQ9LtB_X-HeidHUB3tIiF-p2b1qselZNL3M-ojXQ5apc9xUAtF3wozNA9bqw45Nms3U_XquiRCzo2ulh-b0sQ/2siJDvqq9QqR1hnMz0J0Z_RqUhOlh0MsuHEld34hRLk",
+              "width": 910,
+              "height": 512
+            }
+          }
+        }
+      ],
+      "Fundraising Status": "Closed"
+    }
+  },
+  {
     "id": "recF7PL7iDivW6WI2",
     "createdTime": "2025-09-18T23:12:49.000Z",
     "fields": {
@@ -357,12 +575,14 @@
       "GP Name": "Patrick Blumenthal",
       "GP Linkedin": "https://www.linkedin.com/in/patrickblumenthal/",
       "Fund Number": "I",
+      "Why Interesting?": "Anomaly VC is a $30M frontier technology fund founded by Patrick Blumenthal, Byrne Hobart, and Tobias Huber, combining deep tech investing, media, and strategic networks into a single operating ecosystem. Blumenthal brings experience from Hercules Capital and Village Global—where he backed companies like Enveda, Grow Therapy, and Loyal—and founded New Frontier, a recruiting and media platform serving the frontier tech community. Hobart, a CFA and former Point72 investor, writes The Diff, one of the most influential tech and finance newsletters, and runs a recruiting agency within its 50,000-strong network. Huber co-founded Inflection, a frontier tech syndicate of 300+ LPs, advises family offices, and holds a PhD from ETH Zurich. The trio’s edge lies in combining analytical depth, capital access, and narrative reach to back founders rebuilding the physical world across defense, energy, biotech, and advanced computation—technologies that look like mistakes until they define the next era.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "Defense Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://anomalyvc.com/"
@@ -377,9 +597,12 @@
       "GP Linkedin": "https://www.linkedin.com/in/bradleyhorowitz/",
       "Fund Number": "II",
       "Co-Investors": [
-        "Franklin Park"
+        "Franklin Park",
+        "Reid Hoffman",
+        "Evan Williams",
+        "Esther Dyson"
       ],
-      "Why Interesting?": "He knows everyone and gets to participate in the hottest rounds at ground zero",
+      "Why Interesting?": "Wisdom Ventures is co-led by General Partners Bradley Horowitz, Cecily Mak, and Soren Gordhamer. Horowitz is a seasoned product leader formerly VP of Product at Google who oversaw products such as Google Photos, Docs, and Gmail and holds multiple patents and operational exits. Mak brings startup operator and legal expertise, while Gordhamer is the founder of the Wisdom 2.0 conference and a longtime thought-leader connecting mindfulness and technology. The fund focuses on early-stage companies building technology that enhances human connection, emotional intelligence and well-being rather than conventional venture themes. Their edge comes from deep backgrounds in product, community building, and human-centered tech, enabling them to identify founders creating meaningful social impact alongside strong business models.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
@@ -399,12 +622,14 @@
       "GP Name": "Martin Tobias",
       "GP Linkedin": "https://www.linkedin.com/in/martintobias/",
       "Fund Number": "I",
+      "Why Interesting?": "Incisive Ventures is led by Martin Tobias, a Seattle-based serial founder and investor who has taken two companies public and backed more than 300 startups as an angel before launching the fund. Incisive focuses on pre-seed technology companies that reduce friction at scale, with an emphasis on vertical SaaS, B2B infrastructure, fintech, and modern enterprise systems. Tobias’s edge comes from his decades of operating experience, pattern recognition from hundreds of early investments, and disciplined focus on business models that create measurable efficiency gains. His track record as both founder and public-company CEO gives him rare operational credibility and judgment at the earliest stage.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Seattle"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://incisive.vc/"
@@ -418,12 +643,14 @@
       "GP Name": "Don Ho",
       "GP Linkedin": "https://www.linkedin.com/in/donhojr/",
       "Fund Number": "I",
+      "Why Interesting?": "Orange Fund is led by Ben Huh and Don Ho and serves as the venture arm of Orange DAO, a global network of over 1,500 Y Combinator alumni. Huh is best known as the founder of the iconic internet media company ICanHasCheezburger, while Ho co-founded Quantstamp, one of the earliest and most recognized blockchain security firms. The fund backs early-stage Web3 and crypto startups, often sourcing founders through its Orange Fellows program—a selective initiative that helps emerging builders refine ideas and launch within the DAO community. Their edge comes from combining deep operator and founder experience with the scale and credibility of the YC network, giving Orange Fund rare access to top crypto and Web3 founders and a community-driven platform to accelerate their success.",
       "Submission Date": "2025-09-18T20:17:52.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "Crypto/Blockchain"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.orange.fund/"
@@ -437,9 +664,13 @@
       "GP Name": "David Brillembourg",
       "GP Linkedin": "http://www.linkedin.com/in/brillembourg",
       "Fund Number": "I",
+      "Why Interesting?": "Dune Ventures is led by David Brillembourg, founder and general partner, who left NYU early to join Galaxy Digital and then launched Dune in 2020 to back founders at the intersection of gaming, interactive content, and consumer social. The fund invests from pre-seed through Series A with a product-first lens and a focus on teams building new game experiences, creator platforms, and the infrastructure that powers them. Brillembourg’s edge is a deep, operator-level network across studios, creators, and distribution platforms plus a concentrated, hands-on approach that lets him lead early, move quickly, and help founders navigate the realities of content, community, and monetization.",
       "Submission Date": "2025-10-09T20:57:04.000Z",
       "Visibility": [
         "Review"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://dune.ventures/"
@@ -456,9 +687,13 @@
       "Co-Investors": [
         "General Catalyst"
       ],
+      "Why Interesting?": "Intuition Ventures is led by Etienne Boutan, a former professional basketball player turned founder and investor, who previously co-founded Heex Technologies, an AI data management platform, before building an active angel portfolio that included Sorare, WeTheNew, and other breakout European startups. Based in Paris and investing across Europe and the U.S., Intuition backs pre-seed and seed-stage companies at the intersection of consumer, culture, and AI. Boutan’s edge comes from his unconventional path—bridging sports, entrepreneurship, and early investing—which gives him access to under-the-radar founders and creator networks often missed by traditional VCs. His focus on the convergence of AI and consumer behavior positions Intuition to capture the next generation of culturally resonant software companies.",
       "Submission Date": "2025-10-29T18:58:05.000Z",
       "Visibility": [
         "Review"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.intuition.vc/"
@@ -473,12 +708,17 @@
       "GP Linkedin": "https://www.linkedin.com/in/cam39porter/",
       "Add. Partners LinkedIns": "Cameron Porter",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Marc Andreessen/Chris Dixon"
+      ],
+      "Why Interesting?": "Steel Atlas is led by Talal Attieh and Cameron Porter, who founded the firm to bridge U.S. innovation with Gulf-region industrial and energy ecosystems. Attieh, a Saudi entrepreneur and investor, previously built and advised companies across energy, construction, and industrial sectors in the Middle East, giving him deep operational ties to the region’s public and private markets. Porter, a former professional soccer player turned venture capitalist, was part of the founding investment team at AlleyCorp alongside Kevin Ryan, where he helped back early-stage companies across software, climate, and healthcare. Based in New York and Riyadh, Steel Atlas invests in early-stage companies modernizing industrial technology, energy systems, and infrastructure. Their edge comes from a cross-border model that combines U.S. deep-tech innovation with Saudi and Gulf institutional support, positioning the firm at the center of a growing alignment between the two ecosystems.",
       "Submission Date": "2025-09-19T14:18:41.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "Deep Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.steelatlas.vc/"
@@ -492,12 +732,14 @@
       "GP Name": "Casey Caruso",
       "GP Linkedin": "https://www.linkedin.com/in/casey-k-caruso/",
       "Fund Number": "I",
+      "Why Interesting?": "Topology Ventures is a solo female–led fund founded by Casey Caruso, who launched the firm after years of investing at top-tier venture and crypto firms, including a role as an investor at Paradigm and earlier experience at Google. Based in New York, Topology backs pre-seed and seed-stage founders building in AI, decentralized infrastructure, and neurotech. Caruso’s edge comes from her deep technical background in computer science, her experience evaluating cutting-edge technologies at Paradigm, and her strong network across engineering and research communities. Topology represents a technically rigorous, founder-first approach to early-stage investing, focused on frontier tech teams pushing the boundaries of what’s computationally and commercially possible.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Deep Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.topology.vc/"
@@ -511,6 +753,7 @@
       "GP Name": "Maya Bakhai",
       "GP Linkedin": "https://www.linkedin.com/in/mayabakhai/",
       "Fund Number": "I",
+      "Why Interesting?": "Spice Capital is a solo female–led fund founded by Maya Bakhai, who launched the firm after stints at PwC and Kevin Durant’s Thirty Five Ventures, where she developed her investing and operating experience. The firm backs pre-seed and seed-stage companies before they become part of the zeitgeist, writing $250K–$500K checks into emerging categories primed for rapid change. Current focus areas include blockchain and fintech, the creator economy, vertical software, and applied AI. Bakhai’s edge comes from her sharp instinct for undiscovered founders, her willingness to take contrarian early bets, and her ability to identify cultural and technological inflection points before they become obvious to the rest of the market.",
       "Submission Date": "2025-10-08T15:46:11.000Z",
       "Visibility": [
         "Tracking"
@@ -530,6 +773,7 @@
       "GP Name": "Heston Berkman",
       "GP Linkedin": "https://www.linkedin.com/in/hestonberkman/",
       "Fund Number": "I",
+      "Why Interesting?": "Banter Capital is led by Heston Berkman, a University of Pennsylvania graduate who began his career interning at First Round Capital before working with Dorm Room Fund and as an early-stage investor at Box Group and SignalFire. The fund backs seed and pre-seed companies with a focus on consumer, marketplaces, and frontier internet businesses that often start outside traditional venture circles. Berkman’s edge comes from his grounding in first-principles venture training and his independent sourcing network, which surfaces emerging founders and products before they reach mainstream investor attention.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -548,14 +792,51 @@
       "Fund Name": "Stellar Ventures",
       "GP Name": "David Anderman",
       "GP Linkedin": "https://www.linkedin.com/in/davidanderman/",
+      "Add. Partners LinkedIns": "Celeste Ford",
       "Fund Number": "III",
-      "Why Interesting?": "Former COO for SpaceX, former COO and General Counsel for Lucasfilm",
+      "Why Interesting?": "Stellar Ventures is co-led by David Anderman and Celeste Ford. Anderman previously served as Chief Operating Officer and General Counsel at Lucasfilm and later as General Counsel at SpaceX, where he oversaw global legal, regulatory, and commercial operations during the company’s rapid expansion. Ford is the founder and former CEO of Stellar Solutions, a leading aerospace engineering firm serving government and commercial clients worldwide. Together, they launched Stellar Ventures to back early-stage space and deep tech companies developing the next generation of space infrastructure, communications, and defense technologies. Their edge comes from decades of operating experience across aerospace, law, and engineering, and a deep network spanning Silicon Valley, NASA, the DoD, and the private space ecosystem—giving founders both credibility and access in a capital-intensive sector",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
       ],
+      "Keywords": [
+        "Team",
+        "Space"
+      ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://svc.vc/"
+    }
+  },
+  {
+    "id": "recLUKhblVE1egvuK",
+    "createdTime": "2025-11-19T09:37:24.000Z",
+    "fields": {
+      "Fund Name": "Frontier Ventures AI Fund I",
+      "Fund Number": "I",
+      "Referred By?": "Dizzy",
+      "Submission Date": "2025-11-19T09:37:24.000Z",
+      "Image": [
+        {
+          "id": "att7oo1MY4pCGhMQN",
+          "url": "https://v5.airtableusercontent.com/v3/u/47/47/1763654400000/QNCKxRMpSAD8MDJ3IXc9dA/aAz8LpjjIS3VaN_IwI1GJOtUXWsiFTy5OtKrzDrnahFowrQMucAeQw1hKMK5ON3uE7HTzPfeA3eK0yTqTsM__2StOOMMkvgseuOWQEubLjvtG9eK8HkYu_gBMVcrcnoSEgHYc_tMJstmfRUR3FT_Q0dLspjDZitZGbaPUIjpyFmiLHGtQGmXo1eThzBdKuMn/gg4dZZVh5zgO95jM1ieVurJ4zw4L6adbbEKO7G_DOY8",
+          "filename": "Frontier Ventures AI Fund I 11.19.2025.pdf",
+          "size": 6154119,
+          "type": "application/pdf",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v3/u/47/47/1763654400000/bA4f2GR8gpyXWdDcNILYsg/pXsRSW_8ywhvomzSScYb1SJRQBLhM2Du0MVNS27OabvepfkwgCG3xf0W0LaIyP4BKTrqDKs-BmzaM8fo6ICmnE_YGxucRSzK4f5hkIOauEuWnaIZ2pngy-Y9w0IxkX70yKPi8eI5EQO5bkbwvvjJDg/DIuBD4uOSrNC7WNyCUk3wtdyC5Tqb-y6PyoaWWJ822o",
+              "width": 64,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v3/u/47/47/1763654400000/t0NKAodtjiCAalZYkKv_Ew/Ee7j3I9JcJSw_dsoG8POK7HudLxdVeGHsZwFkUL5gyqj_HXSAOZAYJsP-OwDv4yAmdGJP9Iqp5G6XKamiDCNocFdsqDE-38lLIvXaOC4TyUQj19egih0Kaa44-p-wCO68WYx5c7jiTq429c7jd3rJg/ilwzt_-PITSbHQ7I0zLy57nyBPxTCqxA70mWhXbt-F4",
+              "width": 910,
+              "height": 512
+            }
+          }
+        }
+      ],
+      "Fundraising Status": "Closed"
     }
   },
   {
@@ -566,12 +847,17 @@
       "GP Name": "Sarah Smith",
       "GP Linkedin": "https://www.linkedin.com/in/sasmith4/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Bain Capital"
+      ],
+      "Why Interesting?": "Sarah Smith Fund is led by Sarah Smith, founder and solo general partner, who previously served as a partner at Bain Capital Ventures and held early product leadership roles at Facebook and Quora. The fund backs pre-seed and seed-stage startups across software, AI, and consumer technology, focusing on products that reshape how people work, connect, and create. Smith’s edge comes from her combination of operating and investing experience and her signature “Founder 360” program—a structured feedback and coaching process she developed to help founders build self-awareness and leadership maturity as their companies scale. Her approach blends rigorous product thinking with founder development, making Sarah Smith Fund a uniquely supportive early partner for ambitious, growth-minded entrepreneurs.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Bain"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.sarahsmith.fund/"
@@ -589,16 +875,41 @@
         "Bain Capital Ventures",
         "GREE LP Fund"
       ],
-      "Why Interesting?": "Palantir / Anduril mafia",
+      "Why Interesting?": "Forward Deployed Venture Capital is led by Mark Scianna, a former founding member of Palantir Technologies’ defense team who spent 11 years as a forward-deployed engineer, operating with US and allied forces in regions such as Afghanistan and Iraq to build mission-critical software. The fund backs startups in defense, energy, industrials, and artificial intelligence at seed and early stages. Scianna’s edge lies in his unique operator background—he not only built large scale programs at Palantir (including the basis for an $800M Army contract) but also invested in early-stage companies derived from “operator-engineer” backgrounds—giving him differentiated sourcing and founder relationships in the hard-tech, American Dynamsim, and mission systems sectors.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Defense Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.deployed.vc/"
+    }
+  },
+  {
+    "id": "recNX0GwkYD5pBba2",
+    "createdTime": "2025-11-03T18:26:56.000Z",
+    "fields": {
+      "Fund Name": "Dash Fund",
+      "GP Name": "Tom Seo",
+      "GP Linkedin": "https://www.linkedin.com/in/tom-seo-a1938a34/",
+      "Fund Number": "I",
+      "Co-Investors": [
+        "Primary Venture Partners"
+      ],
+      "Why Interesting?": "Dash Fund is an early-stage venture capital firm with offices in San Francisco and Brooklyn, focused on backing the next wave of category-defining fintech companies. The fund was founded around 2020 by Ryan Sells and Tom Seo, and targets pre-seed to seed stage fintech startups, typically investing $100K–$500K initial checks. Their edge lies in a sharp focus on fintech, strong access to founder networks across NYC and the Bay Area, and a willingness to invest very early—often as institutional lead.",
+      "Submission Date": "2025-11-03T18:26:56.000Z",
+      "Visibility": [
+        "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "New York"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://dashfund.co/"
     }
   },
   {
@@ -609,9 +920,14 @@
       "GP Name": "Danish Munir",
       "GP Linkedin": "http://www.linkedin.com/in/danishmunir",
       "Fund Number": "I",
+      "Why Interesting?": "GreyMatter Capital is led by Founding Partner Danish Munir, a former founder of Genoa Telepsychiatry (formerly 1DocWay) which he built into the largest telepsychiatry provider in the U.S. before its acquisition by Optum. Prior to that, Munir began his career in business analytics and optimization at Microsoft, then moved into healthcare entrepreneurship and investing. GreyMatter backs early-stage companies addressing mental health, brain health, and behavioral wellness, and Munir’s edge comes from his operator history in both healthcare delivery and startup investing, deep domain expertise in mental health systems, and a network spanning clinical, payor, and tech sectors.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Health Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.greymattercapital.com/"
@@ -622,12 +938,17 @@
     "createdTime": "2025-09-18T23:12:49.000Z",
     "fields": {
       "Fund Name": "Ubiquity Ventures",
-      "GP Name": "Brian Silverstein",
+      "GP Name": "Sunil Nagaraj ",
       "GP Linkedin": "https://www.linkedin.com/in/brsilverstein/",
+      "Add. Partners LinkedIns": "Brian Silverstein",
       "Fund Number": "I",
+      "Why Interesting?": "Ubiquity Ventures is led by Sunil Nagaraj, founder and general partner, alongside Brian Silverstein, a serial founder and technologist best known as the co-founder and former CTO of Honey (acquired by PayPal). Based in Palo Alto, the firm focuses on early-stage deep tech companies pushing software beyond the screen—particularly in smart hardware, machine intelligence, and embedded systems. Nagaraj brings over a decade of institutional venture experience and a technical background from prior roles at Bessemer Venture Partners and Northrop Grumman, while Silverstein adds hands-on product and scaling expertise from Honey, Google, and Apple. Their edge comes from combining technical depth with founder empathy and access to the Ubiquity Extended Team—over 50 industry experts who support portfolio companies in engineering, go-to-market, and growth.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.ubiquity.vc/"
@@ -641,7 +962,10 @@
       "GP Name": "Kevin Novak",
       "GP Linkedin": "https://www.linkedin.com/in/novakkm/",
       "Fund Number": "III",
-      "Why Interesting?": "Created surge pricing at Uber (has the patent); is a very data-centric person when it comes to AI",
+      "Co-Investors": [
+        "Village Global"
+      ],
+      "Why Interesting?": "Rackhouse Ventures is led by Kevin Novak, founder and general partner, who created Uber’s surge pricing system and holds the patent for its dynamic pricing technology. A data scientist by training, Novak built and led Uber’s data science, analytics, and data engineering teams before moving into venture capital. Rackhouse backs early-stage companies applying data, AI, and machine learning to transform industries such as mobility, logistics, and the built environment. Novak’s edge comes from his rare combination of deep technical expertise and operational experience scaling one of the world’s most data-driven companies. His hands-on, data-centric approach helps founders build smarter systems, leverage AI more effectively, and turn technical insights into durable business advantage.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
@@ -661,9 +985,13 @@
       "GP Name": "Tom Preston-Werner",
       "GP Linkedin": "https://www.linkedin.com/in/mojombo/",
       "Fund Number": "I",
+      "Why Interesting?": "Preston-Werner Ventures is led by Tom Preston-Werner, co-founder and former CEO of GitHub and one of the most influential figures in the open-source community. The fund backs early-stage startups focused on developer tools, open-source infrastructure, AI, and scientific innovation. Preston-Werner’s edge comes from his deep technical expertise, his global credibility among developers, and his long-standing commitment to open-source projects—including creating Jekyll and co-founding GitHub itself. Preston-Werner Ventures partners with founders who share his belief that open, collaborative technology will continue to drive the next wave of software and scientific progress.",
       "Submission Date": "2025-10-31T17:30:58.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://pwv.com/"
@@ -677,9 +1005,14 @@
       "GP Name": "TJ Taylor",
       "GP Linkedin": "https://www.linkedin.com/in/tj-taylor-47b40517/",
       "Fund Number": "I",
+      "Why Interesting?": "Hobart Ventures is led by TJ Taylor, a former executive at Raya and Dispo who founded the firm to back the next wave of consumer and social technology companies often overlooked by traditional venture capital. The fund invests at the pre-seed and seed stages in products that rethink how people connect, create, and consume online. Taylor’s edge comes from deep operating experience inside breakout consumer apps, a strong network of founders and creators, and a willingness to invest in “out-of-favor” categories before they regain cultural momentum.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Consumer"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://hobart.vc/"
@@ -693,6 +1026,7 @@
       "GP Name": "Ed Shuh",
       "GP Linkedin": "https://www.linkedin.com/in/edsuh/",
       "Fund Number": "I",
+      "Why Interesting?": "Alpine is led by Edward Suh, a founder-turned-investor who focuses on backing builders with real product obsession rather than pedigree or geography. The fund invests at pre-seed and seed across consumer, prosumer, and SMB software, with a particular interest in tools for creators, small businesses, and new consumer workflows. Alpine’s edge is a hands-on, operator-driven approach and a sourcing engine built around non-traditional founder communities rather than conventional venture channels, giving them early access to under-the-radar product talent. The model is conviction-based, favoring founders who ship fast, listen to users, and achieve pull through product quality rather than hype.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -712,12 +1046,37 @@
       "GP Name": "Steven Lee",
       "GP Linkedin": "https://www.linkedin.com/in/stevenlee6/",
       "Fund Number": "I",
+      "Why Interesting?": "Seven Stars is led by Steven Lee, founder and managing partner, who previously spent seven years at SV Angel investing in early-stage breakout companies across software, fintech, and AI. The $40 million fund backs pre-seed and seed-stage AI startups building foundational models, infrastructure, and applied intelligence across industries. Lee’s edge comes from his extensive early-stage investing experience at SV Angel, where he built a strong track record identifying generational founders early, and from his deep network across the AI and developer ecosystems. Seven Stars combines disciplined seed investing with a focus on technical excellence, positioning it as a high-conviction partner for founders building in the AI era.",
       "Submission Date": "2025-10-14T15:11:01.000Z",
       "Visibility": [
         "Review"
       ],
+      "Keywords": [
+        "Solo GP"
+      ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.sevenstars.vc/"
+    }
+  },
+  {
+    "id": "recRRJtQzSo003XrG",
+    "createdTime": "2025-11-14T18:51:14.000Z",
+    "fields": {
+      "Fund Name": "Surface Ventures",
+      "GP Name": "Gyan Kapur",
+      "GP Linkedin": "https://www.linkedin.com/in/gyankapur/",
+      "Add. Partners LinkedIns": "Dimitri Boguslavsky",
+      "Fund Number": "II",
+      "Why Interesting?": "Surface Ventures is led by two seasoned investors: Gyan Kapur and Dimitri Boguslavsky. Kapur previously served as Vice President at Activate Venture Partners—an early-stage firm that invested in enterprise infrastructure—and then ran his own fund, Bayes Ventures, focusing on B2B and digital-health startups; he holds an MBA from Wharton School and began his career in FX derivatives at Citigroup. Boguslavsky cut his teeth as an analyst at RTP Ventures (a global early-stage firm) where he helped deploy Fund I and Fund II, and brings distinct sourcing capabilities in B2B SaaS and enterprise software. Together they back pre-seed and seed B2B software companies at pre-money valuations below ~$17 M, writing checks of ~$500 K to $3 M (median ~ $1.2 M). Their edge lies in combining Kapur’s founder/operator insight and health & software focus with Boguslavsky’s deal-flow networks and enterprise deal experience, all built atop their prior fund track record. Surface is also actively backing startups in India.",
+      "Submission Date": "2025-11-14T18:51:14.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Team"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://surface.vc/"
     }
   },
   {
@@ -728,6 +1087,12 @@
       "GP Name": "Josh Buckley",
       "GP Linkedin": "https://www.linkedin.com/in/josh-buckley-7612284/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Industry Ventures",
+        "Cendana",
+        "Truebridge-Kauffman"
+      ],
+      "Why Interesting?": "Buckley Ventures is led by Josh Buckley, formerly CEO of Product Hunt and co-founder of the mobile gaming company Mino Games. The firm focuses on early-stage investments in internet, software, and frontier technology companies at seed and pre-seed stages. The fund’s edge lies in Buckley’s founder/operator background, his long-standing network of top engineers and tech entrepreneurs, and a concentrated portfolio strategy that enables close partnerships with founders in hard-tech and frontier categories.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -746,7 +1111,9 @@
       "Fund Name": "Leonis Capital",
       "GP Name": "Jay Zhao",
       "GP Linkedin": "https://www.linkedin.com/in/jayzhaolinkedin/",
+      "Add. Partners LinkedIns": "Jenny Xiao",
       "Fund Number": "I",
+      "Why Interesting?": "Leonis Capital is led by Jay Zhao and Jenny Xiao, both seasoned investors with deep experience across early-stage technology and AI. Zhao previously worked at Granite Ventures and Walden Venture Capital before founding Leonis, where he has backed multiple unicorns and public companies. Xiao, who began her career in data science and product strategy at McKinsey and Roblox, brings a strong technical and analytical foundation to the team. The firm invests at the pre-seed and seed stages in AI-first software, fintech, and data infrastructure. Leonis’s edge comes from its research-driven investment process, network of technical founders, and hands-on operational support in data and AI adoption, positioning the fund to identify and accelerate companies at the forefront of intelligent software.",
       "Submission Date": "2025-10-03T17:01:01.000Z",
       "Visibility": [
         "Review"
@@ -766,9 +1133,14 @@
       "GP Name": "Ben Eidelson",
       "GP Linkedin": "https://www.linkedin.com/in/beneidelson/",
       "Fund Number": "I",
+      "Why Interesting?": "Stepchange is led by Ben Eidelson, founder and general partner, who previously founded Darkstore (acquired by FastAF) and led product at Google and Dropbox. The firm backs early-stage companies building software and AI solutions to accelerate climate and industrial transformation, focusing on sectors such as energy, materials, manufacturing, and logistics. Eidelson’s edge comes from his experience as a repeat founder who has scaled venture-backed businesses and his conviction that climate progress depends on systems-level innovation, not just incremental sustainability efforts. Stepchange partners with technical founders building the infrastructure for a lower-carbon, more efficient industrial economy.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Climate"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.stepchange.vc/"
@@ -779,13 +1151,17 @@
     "createdTime": "2025-09-18T15:17:19.000Z",
     "fields": {
       "Fund Name": "Outcast Ventures",
-      "GP Name": "Andy Chen +1",
+      "GP Name": "Andy Chen",
       "GP Linkedin": "https://www.linkedin.com/in/andrewchen/",
+      "Add. Partners LinkedIns": "Amy Lin",
       "Fund Number": "I",
-      "Why Interesting?": "Andy's the former Coatue GP; focused on helping founders with talent and building a fellowship program to help solo founders meet each other",
+      "Why Interesting?": "Outcast Ventures is led by Andy Chen, former General Partner at Coatue, and Amy Lin, a seasoned operator and early-stage investor. The fund backs pre-seed and seed-stage founders—particularly solo founders—building in software, AI, and frontier technology. Chen and Lin’s approach centers on community and talent: their Outcast Fellowship helps founders find co-founders, early hires, and peer support before they raise institutional capital. The firm’s edge comes from Chen’s decade of experience scaling companies at Coatue, Lin’s operational depth, and a network designed to give emerging founders both access and acceleration at the earliest stage.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.outcastventures.com/"
@@ -799,9 +1175,13 @@
       "GP Name": "Alana Goyal",
       "GP Linkedin": "https://www.linkedin.com/in/alanagoyal/",
       "Fund Number": "I",
+      "Why Interesting?": "Basecase Capital is led by Alana Goyal, who founded the firm after investing as a Sequoia Scout and interning at Greylock Partners. A former engineer turned investor, Goyal focuses on pre-seed and seed-stage enterprise software founders, often backing technical teams before they’ve reached product-market fit. Her edge comes from a deep understanding of the early founder journey, a sharp technical filter developed through firsthand product experience, and a sourcing network that consistently surfaces breakout founders before they hit the traditional venture radar.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://basecase.vc/"
@@ -815,6 +1195,10 @@
       "GP Name": "Nichole Wischoff",
       "GP Linkedin": "https://www.linkedin.com/in/nicholewischoff/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Cendana"
+      ],
+      "Why Interesting?": "Wischoff Ventures is a solo female GP fund led Nichole Wischoff, founder and solo general partner, who started her career as an operator before moving into venture. Prior to launching the firm, she helped scale fintech companies Blend and digital bank One, leading teams across product, growth, and operations. Based in San Francisco, Wischoff backs pre-seed and seed-stage startups building the “unsexy” infrastructure of the modern economy—financial services, vertical software, and B2B tools that power overlooked but vital industries. Her edge comes from firsthand operating experience in regulated fintech environments, a sharp eye for capital-efficient business models, and the conviction to back pragmatic founders solving real, durable problems rather than chasing hype.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -833,10 +1217,15 @@
       "Fund Name": "Pebbebed",
       "GP Name": "Pamela Vagata",
       "GP Linkedin": "https://www.linkedin.com/in/pamela-vagata-8396074/",
+      "Add. Partners LinkedIns": "Keith Adams",
       "Fund Number": "I",
+      "Why Interesting?": "Pebblebed Ventures is co-founded by Pamela Vagata and Keith Adams. Vagata brings meaningful experience from roles at Stripe and Meta Platforms (formerly Facebook), where she operated at the intersection of product and growth. The fund focuses on seed-stage companies, particularly those in fintech, infrastructure, and enterprise software. Pebblebed’s edge lies in Vagata’s operator background in high-scale tech environments, Adams’s complementary experience, and their combined ability to support founders in growing from early product to substantial go-to-market engines",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.pebblebed.com/"
@@ -853,12 +1242,14 @@
       "Co-Investors": [
         "Peter Thiel"
       ],
+      "Why Interesting?": "Ravelin Capital is led by Lucas Vaz, founder and general partner, who previously worked at Village Global, the early-stage venture firm backed by Bill Gates, Jeff Bezos, and Reid Hoffman. Before founding Ravelin, Vaz managed a series of SPVs under Noveus Capital, investing alongside top-tier funds in infrastructure and frontier technology startups. Ravelin backs pre-seed and seed-stage companies building software for critical infrastructure, industrial modernization, and national resilience. Vaz’s edge comes from his experience bridging venture networks, public-sector insight, and deep-tech operators, allowing him to identify and back founders building technology that reinforces the systems society depends on.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Defense Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.ravelincap.com/"
@@ -872,6 +1263,10 @@
       "GP Name": "Jessica Kamada",
       "GP Linkedin": "https://www.linkedin.com/in/jesskamada/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Decile Capital"
+      ],
+      "Why Interesting?": "Swizzle Ventures is a solo female–led fund founded by Jessica Kamada, who launched the firm to back early-stage companies improving women’s health and wealth. Based in Seattle, the fund invests at the pre-seed and seed stages in startups rethinking financial empowerment, healthcare access, and products designed around women’s real needs rather than retrofitted solutions. Kamada’s edge comes from her deep understanding of female consumer behavior, her community-driven sourcing approach, and her mission to close both the funding and innovation gaps in women’s markets. Swizzle represents a new generation of focused venture firms aligning capital, culture, and product to serve women as primary decision-makers and economic leaders.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -890,13 +1285,16 @@
       "Fund Name": "Blockchain Builders",
       "GP Name": "Gil Rosen",
       "GP Linkedin": "https://www.linkedin.com/in/rosengil/",
+      "Add. Partners LinkedIns": "Kun Peng, Steven Willinger",
       "Fund Number": "I",
+      "Why Interesting?": "Blockchain Builders Fund is led by Gil Rosen, Kun Peng and Steven Willinger. Rosen is a double-Stanford alum who scaled an enterprise infrastructure venture across global markets and has been active in crypto since 2016. Peng, a founding partner, previously co-founded product and analytics efforts in the Web3 infrastructure space and built the Stanford Blockchain Accelerator and related course. Willinger comes from roles at Coinbase Ventures, Blockstream and Google, and taught blockchain entrepreneurship at Stanford. The fund backs pre-seed to seed stage Web3 companies in themes including blockchain infrastructure, DeFi, DePIN, payments, AI + crypto and real-world assets. Its edge comes from deep ties into the Stanford ecosystem—from accelerator, classroom and summit activities—to access high-potential founders early, along with operator-level crypto experience and ability to help founders prepare for follow-on rounds.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "Crypto/Blockchain"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.blockchainbuilders.fund/"
@@ -910,12 +1308,17 @@
       "GP Name": "Leo Polovets",
       "GP Linkedin": "http://www.linkedin.com/in/lpolovets",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Cendana"
+      ],
+      "Why Interesting?": "Humba Ventures is led by Leo Polovets, co-founder and General Partner, who previously held engineering roles at LinkedIn and Google and co-founded Susa Ventures. The fund backs pre-seed and seed companies in deep tech and nationally critical sectors including defense, energy, heavy industry, and robotics. Polovets draws on his engineering background and decades of investing to focus on high-risk, high-impact technology, giving Humba Ventures an edge in sourcing and supporting founders who tackle fundamental systems in society rather than incremental apps.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Deep Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://humbaventures.com/"
@@ -929,9 +1332,13 @@
       "GP Name": "Benji Stern",
       "GP Linkedin": "https://www.linkedin.com/in/benjaminalanstern/",
       "Fund Number": "I",
+      "Why Interesting?": "Stratus Ventures is led by Benji Stern, founder and general partner, who launched the firm after building a strong early-stage investing track record and community through his popular “Friends & Family” Substack, where he’s profiled hundreds of emerging startups and investors. Based in New York, Stratus backs pre-seed and seed-stage companies across AI, infrastructure, marketplaces, and new consumer platforms. Stern’s edge comes from his combination of network depth and visibility—he’s built one of the most connected early-stage ecosystems online—and his disciplined, founder-first approach to investing. Stratus positions itself as an accessible yet conviction-driven partner for the next generation of breakout founders.",
       "Submission Date": "2025-09-24T17:21:55.000Z",
       "Visibility": [
         "Review"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Raising ",
       "Fund Website": "https://www.stratus-ventures.com/"
@@ -945,10 +1352,7 @@
       "GP Name": "John Gleeson",
       "GP Linkedin": "https://www.linkedin.com/in/johngleeson10/",
       "Fund Number": "I",
-      "Co-Investors": [
-        "Community-Driven"
-      ],
-      "Why Interesting?": "Collects office keys; only VC focusing on helping founders with customer success (much needed in the age of AI)",
+      "Why Interesting?": "Success Venture Partners is led by John Gleeson, founder and general partner, who previously served as VP of Customer Success at Motive and helped scale the company through hypergrowth to unicorn status. Drawing on his decade of experience building and leading customer success organizations, Gleeson founded Success VP as the only venture fund focused exclusively on helping early-stage founders master customer success as a core growth function. The firm invests at the pre-seed and seed stages in SaaS and AI-enabled software companies, combining capital with hands-on support in customer engagement, retention, and expansion. Gleeson’s edge comes from his operator background, deep empathy for founders, and unique philosophy of “collecting office keys”—embedding directly with teams to turn early customers into durable revenue and product feedback loops.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Briefing"
@@ -968,13 +1372,17 @@
     "createdTime": "2025-09-18T15:17:19.000Z",
     "fields": {
       "Fund Name": "Premise VC",
-      "GP Name": "Vanessa Larco, Mercedes Bent",
+      "GP Name": "Vanessa Larco",
       "GP Linkedin": "https://www.linkedin.com/in/vanessalarco/",
+      "Add. Partners LinkedIns": "Mercedes Bent",
       "Fund Number": "I",
-      "Why Interesting?": "Strong track record on consumer, and board members of multiple successful consumer companies, including Robinhood, etc.",
+      "Why Interesting?": "Premise Ventures is led by Vanessa Larco and Mercedes Bent, both seasoned investors with deep experience in consumer and fintech. Larco, formerly a partner at NEA, led and supported investments in standout companies including Robinhood, Patreon, and Cleo, while Bent, a former partner at Lightspeed Venture Partners, has backed category-defining startups across fintech, creator economy, and emerging consumer platforms. The firm invests at the early stage in products that reimagine how people connect, create, and transact. Their edge comes from a shared background in product and growth, years of board experience across top consumer companies, and a disciplined focus on helping founders build durable, high-velocity consumer businesses in rapidly evolving markets.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Raising ",
       "Fund Website": "https://premise.vc/"
@@ -988,12 +1396,14 @@
       "GP Name": "Oliver Cameron",
       "GP Linkedin": "https://www.linkedin.com/in/olivercameron/",
       "Fund Number": "I",
+      "Why Interesting?": "Reasons to Be Optimistic is led by Oliver Cameron, a former VP of Product at Cruise Automation and co-founder of Odyssey Labs, the company building next-gen world-model AI systems. The fund backs early-stage companies at the intersection of AI, simulation, and autonomy. Cameron’s edge comes from his deep operating experience building autonomous-system software, his technical product background, and his network among founders who tackle the hardest compute and perception problems today.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Deep Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://reasonstobeoptimistic.com/"
@@ -1007,6 +1417,7 @@
       "GP Name": "Adam Besvinick",
       "GP Linkedin": "http://www.linkedin.com/in/besvinick",
       "Fund Number": "I",
+      "Why Interesting?": "Looking Glass Capital is led by Adam Besvinick, founder and managing partner, who launched the firm in 2019 after investing across stages from pre-seed to Series C. Before founding Looking Glass, Besvinick invested in early-stage startups at Deep Fork Capital and later-stage companies at Anchorage Capital Group, backing teams like Transfix, BigID, One Concern, and Primer. The firm focuses on pre-seed and seed-stage companies across software, fintech, consumer, and infrastructure. Besvinick’s edge comes from a decade of full-stack investing experience—spanning the earliest product experiments through growth rounds—and a reputation for being a deeply engaged, long-term partner who supports founders through every stage of company building.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -1025,13 +1436,19 @@
       "Fund Name": "Comma Capital",
       "GP Name": "Adarsh Bhatt",
       "GP Linkedin": "https://www.linkedin.com/in/adbhatt/",
+      "Add. Partners LinkedIns": "David Ongchoco",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Cendana"
+      ],
+      "Why Interesting?": "Comma Capital is led by David Ongchoco and Adarsh Bhatt, operators-turned-investors who built deep networks across fintech, digital health, SaaS, and education technology. The firm backs pre-seed and seed-stage startups, often writing the first institutional check for early technical and product-driven founders. Ongchoco and Bhatt’s edge comes from their active operator community of more than 400 industry professionals, giving portfolio founders direct access to distribution, hiring, and domain expertise rather than theoretical advice.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "New York"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://comma.vc/"
@@ -1045,12 +1462,60 @@
       "GP Name": "Shruti Gandhi",
       "GP Linkedin": "https://www.linkedin.com/in/shrutigandhi/",
       "Fund Number": "I",
+      "Why Interesting?": "Array Ventures is led by Shruti Gandhi, a solo female General Partner of Indian origin who began her career as an engineer at IBM and holds degrees from Marist College, Columbia University, and the University of Chicago Booth School of Business. The fund invests at the pre-seed and seed stage in enterprise software, AI, and data infrastructure companies built by technical founders solving real operational pain points. Gandhi’s edge comes from her engineering foundation, disciplined solo-GP model, and a network of enterprise operators and buyers that helps founders validate product-market fit and scale revenue from the earliest stages.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
+      "Keywords": [
+        "Solo GP"
+      ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.array.vc/"
+    }
+  },
+  {
+    "id": "recZbTtx4iALLo0oN",
+    "createdTime": "2025-11-05T22:24:08.000Z",
+    "fields": {
+      "Fund Name": "Orange Collective",
+      "GP Name": "Jason Freedman",
+      "GP Linkedin": "https://www.linkedin.com/in/jasonfreedman/",
+      "Add. Partners LinkedIns": "Ryan Bednar, Dave Yen",
+      "Fund Number": "I",
+      "Why Interesting?": "Orange Collective is led by Jason Freedman, Ryan Bednar, and Dave Yen, all repeat founders and YC alumni who have built and exited companies before turning to investing. The fund focuses on backing the top AI startups emerging from Y Combinator, leveraging their deep integration into the YC network to identify breakout founders early. They operate a collective model with more than 100 YC alumni as limited partners and advisors, giving them direct insight and access to each batch’s strongest technical teams. Their edge comes from that founder-led network and insider access to YC deal flow, combined with hands-on operating experience in product, engineering, and scaling AI-first companies.",
+      "Submission Date": "2025-11-05T22:24:08.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Team",
+        "Y-Combinator"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://www.orangecollective.vc/"
+    }
+  },
+  {
+    "id": "recZlDG2pJGZb4soY",
+    "createdTime": "2025-11-08T18:20:17.000Z",
+    "fields": {
+      "Fund Name": "PsyMed Ventures",
+      "GP Name": "Matias Serebrinsky",
+      "GP Linkedin": "https://www.linkedin.com/in/matias-serebrinsky-8b02b5b/",
+      "Add. Partners LinkedIns": "Greg Kubin",
+      "Fund Number": "II",
+      "Why Interesting?": "PsyMed Ventures is co-led by Matias Serebrinsky (formerly led NVIDIA’s Inception accelerator in North America and co-founded food-tech company CookUnity) and Greg Kubin (founder of SaaS sponsorship platform HelloSponsor, ex-Morgan Stanley/Viacom, co-host of the Business Trip podcast). The fund focuses on seed to early stage companies in neurotech, brain & mental health, precision neuroscience, digital therapeutics, psychedelics and related frontier modalities. Its edge lies in the dual operator and investor background of the GPs, deep access into the emerging neuroscience + psychedelics ecosystem, and conviction around modalities that move beyond symptom treatment toward root-cause brain health innovation.",
+      "Submission Date": "2025-11-08T18:20:17.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Team",
+        "Mental Health"
+      ],
+      "Fundraising Status": "Raising ",
+      "Fund Website": "https://psymed.ventures/"
     }
   },
   {
@@ -1061,6 +1526,7 @@
       "GP Name": "Boaz Shedletsky",
       "GP Linkedin": "https://www.linkedin.com/in/bshedletsky/?originalSubdomain=il",
       "Fund Number": "III",
+      "Why Interesting?": "Mensch Capital Partners is led by Boaz Shedletsky, Founder & Managing Partner, a serial entrepreneur-turned-investor with roots in cybersecurity. The fund focuses on global pre-seed and seed investments with a strong Israeli affiliation, backing first checks into founders with differentiated technical or team edges operating in large markets. Mensch’s edge comes from Shedletsky’s founder background, his comfort with high-ambiguity early-stage opportunities (even pre-idea), and his network of veteran founders and VCs (including investment-committee members like leaders from Wiz and Hippo) which provides early access and founder support in complex technical domains.",
       "Submission Date": "2025-10-22T19:35:38.000Z",
       "Visibility": [
         "Review"
@@ -1081,9 +1547,13 @@
       "GP Name": "Amanda (“Robby”) Robson",
       "GP Linkedin": "https://www.linkedin.com/in/amanda-robson-7227685b/",
       "Fund Number": "I",
+      "Why Interesting?": "Modern Technical Fund (MTF) is led by Amanda “Robby” Robson, who founded the firm after years of investing in developer tools, infrastructure, and security at Cowboy Ventures. The fund backs pre-seed and seed-stage technical founders building software for engineers, data scientists, and operators, with a focus on developer productivity, data infrastructure, and applied AI. Robson’s edge comes from her hands-on experience evaluating deeply technical products, her tight network within the engineering and open-source ecosystems, and her reputation for spotting category-defining developer tools early. MTF reflects her belief that the best software companies are built by technical founders solving their own problems—and that investing in those founders early requires both technical fluency and empathy for the builder mindset.",
       "Submission Date": "2025-10-11T00:22:49.000Z",
       "Visibility": [
         "Review"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://moderntechnicalfund.com/"
@@ -1101,13 +1571,14 @@
         "Dave McClure",
         "First Momentum/Ben Ehrlich/Eric Ries"
       ],
-      "Why Interesting?": "Using AI to discover market needs cross-analyzed against TRL levels and commerciable viability of technologies",
+      "Why Interesting?": "Arkane (formerly RPV Global) is led by Arkady Kulik, a repeat founder and investor with a background in turning advanced research into commercially scalable products. The fund applies an AI-driven discovery platform that cross-analyzes global market signals against technology readiness levels and commercial viability to uncover overlooked opportunities in deep tech and applied innovation. Kulik’s edge comes from combining data intelligence with operational experience, enabling Arkane to identify and back technologies with real market pull before they surface in traditional venture pipelines.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Deep Tech"
       ],
       "Fundraising Status": "Soon",
       "Fund Website": "https://rpv.global/"
@@ -1121,9 +1592,14 @@
       "GP Name": "Wisam “Wiz” Abdulla",
       "GP Linkedin": "https://www.linkedin.com/in/wizlikewizard/",
       "Fund Number": "I",
+      "Why Interesting?": "SpaceCadet Ventures is led by Wisam “Wiz” Abdulla, founder and general partner, who previously helped lead marketing and community efforts for a16z’s crypto team and worked closely with Marc Andreessen and Chris Dixon on the firm’s cultural strategy. Before venture, he held senior marketing and brand roles at Shopify, where he helped scale the company’s presence across global creator and developer ecosystems. SpaceCadet backs pre-seed and seed-stage startups across AI, infrastructure, and frontier technology, often working with founders at the intersection of culture, design, and computation. Wiz’s edge comes from his unique blend of technical curiosity and cultural fluency—shaped by years bridging Silicon Valley, creative communities, and early-stage startups—giving SpaceCadet rare visibility into founders building the next generation of culturally resonant technology companies.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Deep Tech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://spacecadet.ventures/"
@@ -1136,10 +1612,15 @@
       "Fund Name": "Terrain",
       "GP Name": "Eric Stromberg",
       "GP Linkedin": "http://www.linkedin.com/in/estromberg",
+      "Add. Partners LinkedIns": "Willem Van Lancker",
       "Fund Number": "I",
+      "Why Interesting?": "Terrain is led by Eric Stromberg and Willem Van Lancker, longtime operators and investors who back founders “authoring their own stories.” Stromberg was previously a partner at Bedrock and earlier founded and sold Oyster, the subscription e-book startup acquired by Google, where he went on to lead product for the Google Play Books team. Van Lancker co-founded Oyster alongside Stromberg and before that was a designer at Google and Apple. Terrain invests in early-stage companies across software, AI, and consumer technology, with a focus on founders pursuing contrarian ideas with conviction. Their edge comes from a combination of deep product and design experience, operational empathy from scaling their own company, and a belief that the most valuable startups are built by independent thinkers who call their shot early and execute relentlessly.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.terrain.com/letter"
@@ -1154,6 +1635,10 @@
       "GP Linkedin": "https://www.linkedin.com/in/jake-zeller-79923454/",
       "Add. Partners LinkedIns": "Jonathan Swanson",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Industry Ventures"
+      ],
+      "Why Interesting?": "Powerset is led by Jake Zeller and Jonathan Swanson, who co-founded the firm as the evolution of Naval Ravikant’s Spearhead program. Zeller, formerly a partner at AngelList, and Swanson, co-founder of Thumbtack and Athena, built Powerset to give exceptional technical founders $1–2 million to invest in their peers while building their own companies. The model lets founders earn carry alongside Powerset, creating aligned incentives and expanding the network’s reach across the earliest stages of company formation. Their edge lies in pairing capital with founder-led deal flow—turning high-caliber builders into investors and giving them access to a proprietary community of top technical founders",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -1166,6 +1651,27 @@
     }
   },
   {
+    "id": "reccG4z2hER1pgSZL",
+    "createdTime": "2025-11-06T20:16:28.000Z",
+    "fields": {
+      "Fund Name": "Yonder VC",
+      "GP Name": "Colin Gardiner",
+      "GP Linkedin": "https://www.linkedin.com/in/colingardiner/",
+      "Fund Number": "I",
+      "Why Interesting?": "Yonder Ventures is led by Colin Gardiner, who previously served as CPO and later CRO at Outdoorsy (which he helped scale to over $3 B in gross revenue) and earlier worked at Ancestry.com, Tripping.com and JustAnswer while raising more than $200 M in funding across his roles. The fund backs pre-seed and seed stage companies in the marketplace sector (especially what he calls “Marketplace+” models — marketplaces embedded with adjacent products or services). Yonder’s edge lies in his deep operational marketplace experience, his content-driven founder network (including his “Take Rate” marketplace newsletter) and proven pattern recognition around marketplace metrics and growth.",
+      "Submission Date": "2025-11-06T20:16:28.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Specialist"
+      ],
+      "Fundraising Status": "Raising ",
+      "Fund Website": "https://www.yonder.vc/"
+    }
+  },
+  {
     "id": "reccSZnoOXMNBNe9U",
     "createdTime": "2025-10-09T21:01:10.000Z",
     "fields": {
@@ -1173,15 +1679,39 @@
       "GP Name": "Surabhi Todi",
       "GP Linkedin": "https://www.linkedin.com/in/surabhi-todi-a2828ba9/",
       "Fund Number": "I",
+      "Why Interesting?": "Mission Street Capital is led by three young female general partners who started the firm out of a hacker house in San Francisco with a shared belief that the next generation of venture should look more like the founders it backs. The fund invests at the pre-seed and seed stages across software, AI, and emerging consumer technology. Their edge comes from being deeply embedded in the early-stage Bay Area founder community, combining technical fluency with fresh operator perspectives, and backing ambitious builders long before traditional funds pay attention.",
       "Submission Date": "2025-10-09T21:01:10.000Z",
       "Visibility": [
         "Review"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "Accelerator"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.missionstcapital.com/"
+    }
+  },
+  {
+    "id": "reccmi4HXWZjOfdi7",
+    "createdTime": "2025-11-14T14:44:48.000Z",
+    "fields": {
+      "Fund Name": "Vine Ventures",
+      "GP Name": "Eric Reiner",
+      "GP Linkedin": "https://www.linkedin.com/in/eric-reiner/",
+      "Add. Partners LinkedIns": "Dan Povitsky, Barak Kaufman",
+      "Fund Number": "III",
+      "Why Interesting?": "Vine Ventures is led by Eric Reiner and Dan Povitsky, joined by Partner and Head of Israel Barak Kauffman, who strengthens the firm’s on the ground sourcing and founder ties across the region as Vine raises its third early stage fund, a $200M vehicle that has completed a first close. The team now includes Adam Valkin, who spent fifteen years at Accel and General Catalyst, and venture partner Idan Tendler, a repeat founder who sold Bridgecrew to Palo Alto Networks and ran its Code and Cloud Security group, supported by senior advisors Gary Reiner and Michael Lynton who add direct access to enterprise and consumer buyers. Vine invests at seed and select Series A and B across software and applied tech in Israel and the US, backed by a track record with Fund I at 1.3x net TVPI, Fund II above 2x net TVPI, and more than 24 percent of capital returned. Its edge comes from a dense Israeli founder network, operators who have built and exited companies, and a curated group of enterprise and late stage partners that shortens sales cycles, improves product decisions, and accelerates market entry for founders.",
+      "Submission Date": "2025-11-14T14:44:48.000Z",
+      "Visibility": [
+        "Tracking"
+      ],
+      "Keywords": [
+        "Team",
+        "Israel"
+      ],
+      "Fundraising Status": "Raising ",
+      "Fund Website": "https://vineventures.com/"
     }
   },
   {
@@ -1197,13 +1727,14 @@
         "NVNG",
         "Northern Trust"
       ],
-      "Why Interesting?": "Founder of Tide Cleaners (sold to P&G); is deeply well versed and networked in unsexy industries; brings a PE mindset to VC; Scott Malpass (Notre Dame CIO) is his mentor/advisor/LP",
+      "Why Interesting?": "81 Collection is led by Vijen Patel, founder of Tide Cleaners, which he scaled nationally and sold to Procter & Gamble, giving him firsthand operating and exit experience in complex, unglamorous service industries. The fund brings a private-equity mindset to early-stage investing, targeting industrial, services, and real-economy software where disciplined underwriting and operational improvement can create compounding value. The edge is deep domain expertise and networks in durable, overlooked sectors combined with a pragmatic operator’s approach to building profitable, defensible businesses. Scott Malpass, longtime CIO of Notre Dame, is a mentor and LP, reinforcing a long-term, fundamentals-driven investing philosophy.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Briefing"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Chicago"
       ],
       "Fundraising Status": "Closed",
       "Briefings": [
@@ -1220,9 +1751,13 @@
       "GP Name": "Greg Stofman",
       "GP Linkedin": "http://www.linkedin.com/in/gregstofman",
       "Fund Number": "I",
+      "Why Interesting?": "Veridical Ventures is led by Greg Stofman, founder and general partner based in Los Angeles. Prior to launching Veridical, Stofman was a principal and deals lead at Struck Capital, where he led early-stage investments in B2B software and infrastructure companies. Veridical backs pre-seed and seed-stage startups across the U.S. and Canada, with a focus on B2B software that scales within enterprise markets. Stofman’s edge comes from his deep venture experience, pattern recognition across dozens of early investments, and his transition to running his own fund that aims to offer founder-friendly, entrepreneur-aligned capital with the insights of someone who has invested through multiple cycles.",
       "Submission Date": "2025-10-09T21:02:02.000Z",
       "Visibility": [
         "Review"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.veridical.vc/"
@@ -1232,20 +1767,23 @@
     "id": "receCh5V1IrYj4Bvv",
     "createdTime": "2025-09-18T15:17:19.000Z",
     "fields": {
-      "Fund Name": "Octave",
+      "Fund Name": "Octave Fund",
       "GP Name": "William Smith",
       "GP Linkedin": "https://www.linkedin.com/in/willtsmith/",
       "Fund Number": "II",
       "Co-Investors": [
         "Spring Creek"
       ],
-      "Why Interesting?": "Spring Creek backed both Fund I and II",
+      "Why Interesting?": "Octave is led by Will Smith, founder of Euclid, a machine learning and data infrastructure company acquired by WeWork, and former Venture Partner at Next47. A Stanford graduate, Smith brings deep experience in scaling large data systems and navigating complex privacy challenges. Octave invests $300K–$750K in early-stage companies focused on enterprise data, AI, and privacy. The fund’s edge comes from Smith’s hands-on founder experience and his track record backing product-first teams like Notion, Weights & Biases, Haus Analytics, Datavant, and Metronome, giving him a refined intuition for identifying strong technical founders early.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
       ],
+      "Keywords": [
+        "Solo GP"
+      ],
       "Fundraising Status": "Closed",
-      "Fund Website": "https://octave-ventures.com/"
+      "Fund Website": "https://www.octave.fund/"
     }
   },
   {
@@ -1253,13 +1791,14 @@
     "createdTime": "2025-09-18T15:17:19.000Z",
     "fields": {
       "Fund Name": "1517 Fund",
-      "GP Name": "Danielle Strachman, Michael Gibson",
+      "GP Name": "Danielle Strachman",
       "GP Linkedin": "https://www.linkedin.com/in/daniellestrachman/",
+      "Add. Partners LinkedIns": "Michael Gibson",
       "Fund Number": "IV",
       "Co-Investors": [
         "Peter Thiel"
       ],
-      "Why Interesting?": "Co-founded the Thiel fellowship, backs dropouts including Dylan Field (Figma) and Vitalik @ Ethereum",
+      "Why Interesting?": "1517 Fund is led by Danielle Strachman and Michael Gibson, who helped launch the Thiel Fellowship and built a track record backing exceptional young founders outside traditional academic and corporate paths (example Thiel-Fellowship founders include Dylan Field of Figma and Vitalik of Ethereum). The firm specializes in ambitious technical builders often in their teens or early twenties, emerging from labs, online communities, maker spaces, and hacker houses rather than universities or big tech. Their edge is sourcing and underwriting talent before it is institutionally recognized, using non-credential signals and a deep belief in self-directed learning and bias toward building. The fund backs frontier software, biology, and engineering ideas at the earliest stages and supports founders as they scale without forcing them into conventional molds.dropouts including ",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
@@ -1278,16 +1817,40 @@
       "Fund Name": "Inuka",
       "GP Name": "Gautam Shewakramani",
       "GP Linkedin": "https://www.linkedin.com/in/gshewakr/",
+      "Add. Partners LinkedIns": "Raj Sheth",
       "Fund Number": "I",
+      "Why Interesting?": "Inuka Capital is led by co-founders Gautam Shewakramani and Raj Sheth. The fund focuses on pre-seed and seed-stage companies in India, backing founders who are transforming under-digitised sectors with software and product innovation. Shewakramani brings prior experience scaling growth and product at companies like Quora and Skillshare, while Sheth has a founder-operator background in bootstrapping and exiting startups. Their edge lies in early access in India’s ecosystem, an operator-led mindset, and hands-on support that aligns closely with founders navigating India’s unique market dynamics.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "India"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.inuka.vc/"
+    }
+  },
+  {
+    "id": "recg5EMTARjzN1B8u",
+    "createdTime": "2025-11-05T22:21:48.000Z",
+    "fields": {
+      "Fund Name": "Lobster Capital",
+      "GP Name": "Gabriel Jarrosson",
+      "GP Linkedin": "https://www.linkedin.com/in/gabrieljarrosson/",
+      "Fund Number": "I",
+      "Why Interesting?": "Lobster Capital is led by Gabriel Jarrosson, a former founder and operator based in France with deep access to the US startup ecosystem. Before launching the fund, he built one of Europe’s largest angel investing communities and developed a broad following through his YouTube channel focused on startup investing. The fund backs Y Combinator startups at the pre-seed and early stages, leveraging Gabriel’s cross-border network to connect European and US founders. Lobster Capital’s edge is early visibility into top YC deal flow combined with Gabriel’s operator credibility and active founder community that drives sourcing and support.",
+      "Submission Date": "2025-11-05T22:21:48.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Y-Combinator"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://www.lobstercap.com/"
     }
   },
   {
@@ -1298,12 +1861,17 @@
       "GP Name": "Jamesin Seidel",
       "GP Linkedin": "http://www.linkedin.com/in/jamesin-seidel-5325b147",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Cendana"
+      ],
+      "Why Interesting?": "Chapter One is a venture fund led by Jeff Morris Jr. (former VP of Product & Revenue at Tinder) and investing partner Jamesin Seidel (former Lead Data Scientist at Twitter). The firm backs pre-seed to seed companies in sectors including AI/ML, developer tools, SaaS, consumer, fintech, and blockchain. Their edge lies in their backgrounds as operators and product-builders at highly scaled firms, a product-first mindset, and a network borne from both design/data/engineering teams and crypto/web3 ecosystems. They publicly publish writing on tech trends and founder insights, and actively source via social and community channels to identify early-stage founders.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Crypto/Blockchain"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://chapterone.com/"
@@ -1316,7 +1884,9 @@
       "Fund Name": "Coughdrop Capital",
       "GP Name": "Stu Smith",
       "GP Linkedin": "https://www.linkedin.com/in/imstusmith/",
+      "Add. Partners LinkedIns": "Austin Petersmith",
       "Fund Number": "I",
+      "Why Interesting?": "Coughdrop Capital is led by brothers Austin Petersmith and Stu Smith, both former founders and early investors who built operating backgrounds in growth, sales and product at scale-oriented startups. The fund backs pre-seed and seed B2B software companies across enterprise, fintech, SaaS and consumer services, typically writing $25K-$100K initial checks. Their edge comes from being founders themselves, deploying quickly, having been early users or investors in notable companies, and offering hands-on support from Day One rather than passive capital.",
       "Submission Date": "2025-10-22T19:59:43.000Z",
       "Visibility": [
         "Tracking"
@@ -1337,9 +1907,13 @@
       "GP Linkedin": "https://www.linkedin.com/in/ben-taft-46830679/",
       "Add. Partners LinkedIns": "Adam Gefkovicz",
       "Fund Number": "I",
+      "Why Interesting?": "Genius Ventures is led by Ben Taft and Adam Gefkovicz, longtime operators and investors who partner with founders at the idea stage. Taft began his entrepreneurial career at the Jimmy Iovine and Dr. Dre Academy for Innovation at USC, where he founded Mira, the world’s leading AR lens company, which raised $20 million from Sequoia and Founders Fund before being acquired by Apple. After four years investing with Sequoia’s Scout Program, he launched Genius Ventures to back pre-seed founders building in technology, consumer, and software. Gefkovicz previously co-founded SoStereo, a venture-backed music licensing platform used by major brands, and brings deep experience in product, sales, and go-to-market strategy. The firm’s edge comes from the partners’ combined backgrounds as founders who have built and exited companies, giving them practical insight, sourcing access, and empathy for the earliest-stage builders.",
       "Submission Date": "2025-10-09T20:56:42.000Z",
       "Visibility": [
         "Review"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.geniusventures.xyz/"
@@ -1374,12 +1948,19 @@
       "GP Name": "Roger Luo",
       "GP Linkedin": "https://www.linkedin.com/in/luojie/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Decile Capital"
+      ],
+      "Why Interesting?": "Embedding VC is led by Roger (Jie) Luo, a former AI researcher and technical operator based in Menlo Park. Luo was previously co-founder of Eve Legal, Senior Engineering Manager at Snap, Head of Machine Learning at Niantic, and a Sequoia Scout. The fund invests at the pre-seed and seed stage in next-generation AI systems and research-driven teams building foundational and infrastructure-level innovations rather than surface applications. Its edge comes from Luo’s hands-on AI engineering background, refined eye for technical talent, and a builder-led team with the network and experience to identify and support frontier AI founders at inception.",
       "Submission Date": "2025-10-31T17:10:17.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "AI",
+        "On Deck",
+        "VC Lab"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://embedding.vc/"
@@ -1392,7 +1973,12 @@
       "Fund Name": "Kearny Jackson",
       "GP Name": "Sriram Krishnan",
       "GP Linkedin": "http://www.linkedin.com/in/sriramkrishnan",
+      "Add. Partners LinkedIns": "Sunil Chhaya",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Marc Andreessen/Chris Dixon"
+      ],
+      "Why Interesting?": "Kearny Jackson is led by Sriram Krishnan and Sunil Chhaya, experienced early-stage investors and operators who partner closely with founders from day one. Krishnan previously led investments at Andreessen Horowitz and worked in product and growth roles at Spotify and Tinder, while Chhaya has deep experience across venture and operations. The fund backs pre-seed and seed-stage B2B software, fintech, and infrastructure startups. Their edge comes from combining institutional investing rigor with hands-on founder support and a reputation for spotting breakout companies early, reinforced by relationships with top-tier investors like Marc Andreessen and the a16z network.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -1409,12 +1995,16 @@
     "createdTime": "2025-10-03T17:00:49.000Z",
     "fields": {
       "Fund Name": "Wave Function",
-      "GP Name": "AI Peters",
+      "GP Name": "Jamie Gull",
       "GP Linkedin": "https://www.linkedin.com/in/al-peters/",
       "Fund Number": "I",
+      "Why Interesting?": "Wave Function Ventures is led by Jamie Gull, founder and solo general partner, who began his career as an aerospace engineer at SpaceX working on the Falcon 9 and Dragon programs before founding and exiting his own deep-tech startup. An active angel investor prior to launching the fund, Gull was an early backer of Boom Supersonic and several frontier hardware companies. Wave Function invests at the pre-seed and seed stages in deep-tech startups building across aerospace, robotics, materials, and advanced manufacturing. Gull’s edge comes from his hands-on engineering background, founder experience, and deep conviction in the next generation of physical-world innovation, positioning Wave Function as a high-conviction early partner for technical teams building ambitious hardware breakthroughs.",
       "Submission Date": "2025-10-03T17:00:49.000Z",
       "Visibility": [
         "Review"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.wavefx.com/"
@@ -1428,6 +2018,16 @@
       "GP Name": "Josh Browder",
       "GP Linkedin": "https://www.linkedin.com/in/joshua-browder-b0b573116/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Cendana",
+        "Sequoia",
+        "AngelList",
+        "General Endowment Management",
+        "Hummingbird",
+        "Walter Kortschak",
+        "Arthur Patterson"
+      ],
+      "Why Interesting?": "Browder Capital is led by Joshua Browder, founder of DoNotPay and a Stanford-educated engineer who built the first consumer legal automation platform before turning to early-stage investing. The fund backs pre-seed and seed startups in AI, SaaS, and automation, focusing on technical founders building real products. Joshua’s edge comes from his operating experience scaling DoNotPay and his close access to high-caliber engineering and founder networks in Silicon Valley. He is also the son of Bill Browder, founder of Hermitage Capital and author of Red Notice, whose global investing background and network add further credibility and perspective to the fund’s disciplined approach to company building.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -1446,13 +2046,43 @@
       "Fund Name": "Six Point Ventures",
       "GP Name": "Trace Cohen",
       "GP Linkedin": "https://www.linkedin.com/in/tracecohen/",
+      "Add. Partners LinkedIns": "Brian Cohen, Zach Firestone",
       "Fund Number": "I",
+      "Why Interesting?": "Six Point Ventures is led by Trace Cohen, Zach Firestone, and Brian Cohen, all serving as general partners. Trace Cohen is a serial entrepreneur and active angel investor whose first startup was acquired by a fintech unicorn; he has since invested in over 30 startups and built one of the largest social media audiences in venture, generating millions of views and engagement across platforms. Firestone was a founding team member at Tiferes Ventures, an early employee at Shadow Ventures, and has raised more than $100 million for funds and startups across multiple sectors. Brian Cohen, the first investor in Pinterest and longtime Chairman of New York Angels (and Trace's father) brings decades of experience building and mentoring early-stage companies. Six Point backs visionary founders across the U.S. and Israel who are reshaping industries through technology. The firm’s edge comes from the partners’ combined operator, investor, and community-building experience, giving them deep access to emerging founders and strong visibility into early, high-potential opportunities.",
       "Submission Date": "2025-09-25T13:54:08.000Z",
       "Visibility": [
         "Review"
       ],
+      "Keywords": [
+        "Team"
+      ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.sixpoint.vc/"
+    }
+  },
+  {
+    "id": "recloukVzpJPtTn1i",
+    "createdTime": "2025-11-05T22:28:27.000Z",
+    "fields": {
+      "Fund Name": "SuperAngel Fund",
+      "GP Name": "Ben Zises",
+      "GP Linkedin": "https://www.linkedin.com/in/bzises/",
+      "Fund Number": "I",
+      "Co-Investors": [
+        "AngelList"
+      ],
+      "Why Interesting?": "SuperAngel.Fund is led by Ben Zises, a former founder and operator based in New York who has built and exited startups before becoming a full-time investor. The fund invests at the pre-seed and seed stages in consumer, proptech, and future-of-work companies, with a focus on capital-efficient businesses showing early traction. Ben also runs frequent SPVs alongside the fund to increase exposure to high-conviction portfolio companies. His edge comes from a decade of early-stage investing, a strong operator network across commerce and real estate technology, and an engaged LP community that contributes to sourcing and diligence.",
+      "Submission Date": "2025-11-05T22:28:27.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Consumer",
+        "e-Commerce"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://www.superangel.vc/"
     }
   },
   {
@@ -1464,12 +2094,23 @@
       "GP Linkedin": "https://www.linkedin.com/in/jonathanabrams/",
       "Add. Partners LinkedIns": "Kent Lindstrom",
       "Fund Number": "II",
+      "Co-Investors": [
+        "Cathay InnoSquare",
+        "BMO",
+        "Paul Sethi",
+        "Marc Andreessen/Chris Dixon",
+        "David Sacks",
+        "Brian Singerman",
+        "Roger Ehrenberg"
+      ],
+      "Why Interesting?": "8-Bit Capital is led by Jonathan Abrams, founder of Friendster and Nuzzel, alongside longtime operator Kent Lindstrom. The firm focuses on pre-seed and seed software companies across AI, enterprise, cybersecurity, cloud, and social infrastructure. Their edge comes from deep founder-community roots and decades of early-stage company building, including founding Founders Den and being early angel supporters of breakout startups. The model pairs capital with hands-on strategic support, founder-to-founder guidance, and strong network access from operators who have built and scaled products in multiple cycles.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "B2B"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://8bitcapital.com/"
@@ -1483,13 +2124,67 @@
       "GP Name": "Tomasz Tunguz",
       "GP Linkedin": "https://www.linkedin.com/in/tomasztunguz/",
       "Fund Number": "II",
-      "Why Interesting?": "Formerly GP at Redpoint; writes a blog with a large following and is very data centric",
+      "Why Interesting?": "Theory Ventures is led by Tomasz Tunguz, founder and general partner, who previously spent 14 years as a managing partner at Redpoint Ventures, where he backed companies such as Looker, Dremio, and Monte Carlo. Known for his influential data-driven writing on SaaS metrics and startup growth, Tunguz launched Theory to back early-stage companies building in data, infrastructure, and AI. The firm focuses on seed and Series A investments, applying a rigorous analytical approach to evaluate product-market fit and long-term defensibility. Tunguz’s edge comes from his deep quantitative expertise, extensive operator network, and two decades of pattern recognition in enterprise software, giving Theory a disciplined yet founder-centric approach to early-stage investing.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
       ],
+      "Keywords": [
+        "Solo GP"
+      ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://theoryvc.com/"
+    }
+  },
+  {
+    "id": "recnaf3lfmwWJdGsN",
+    "createdTime": "2025-11-08T18:21:44.000Z",
+    "fields": {
+      "Fund Name": "Earthling VC",
+      "GP Name": "Arian Ghashghai",
+      "GP Linkedin": "https://www.linkedin.com/in/arian-ghashghai-73ba4681/",
+      "Fund Number": "I",
+      "Co-Investors": [
+        "Marc Andreessen/Chris Dixon",
+        "Adam Draper"
+      ],
+      "Why Interesting?": "Earthling VC is led by Arian Ghashghai, a former senior machine-learning engineer at Meta Reality Labs where he worked on spatial AI and new compute modalities. He built and exited a startup before turning to angel investing, giving him direct operator experience plus early-stage deal exposure. The fund backs pre-seed companies in spatial computing, robotics, and applied AI. Its edge comes from Arian’s technical fluency, his ability to stress-test complex system-level visions, and the deep engineering network he brings to technical founders navigating frontier tech.",
+      "Submission Date": "2025-11-08T18:21:44.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Meta",
+        "Deep Tech",
+        "Spatial"
+      ],
+      "Fundraising Status": "Closed",
+      "Fund Website": "https://www.earthling.vc/"
+    }
+  },
+  {
+    "id": "recnawcvKpRR1nEle",
+    "createdTime": "2025-11-04T20:20:58.000Z",
+    "fields": {
+      "Fund Name": "Elsa Capital",
+      "GP Name": "Sarah Fu",
+      "GP Linkedin": "https://www.linkedin.com/in/sarahfu/",
+      "Fund Number": "I",
+      "Co-Investors": [
+        "Decile Capital"
+      ],
+      "Why Interesting?": "Elsa Capital is led by Sarah Fu, Founder and Managing Partner, who previously served as CEO and co-founder of a YC-backed fintech startup and held product, strategy, and finance leadership roles at Stripe, where she helped scale the company 10x. Before Stripe, she invested in public markets at Fidelity and began her career in investment banking at Morgan Stanley. The fund backs seed-stage companies at the intersection of fintech and AI, focusing on founders building new financial infrastructure, vertical applications, and intelligent automation. Fu’s edge comes from her rare combination of deep fintech operating experience, investor discipline, and firsthand founder perspective, enabling her to identify and support technically sophisticated teams reshaping financial systems.",
+      "Submission Date": "2025-11-04T20:20:58.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Fintech"
+      ],
+      "Fundraising Status": "Raising ",
+      "Fund Website": "https://www.elsacap.com/"
     }
   },
   {
@@ -1500,12 +2195,17 @@
       "GP Name": "Ihar Mahaniok",
       "GP Linkedin": "https://www.linkedin.com/in/mahaniok/",
       "Fund Number": "II",
+      "Co-Investors": [
+        "Decile Capital"
+      ],
+      "Why Interesting?": "Geek Ventures is led by Ihar Mahaniok, founder and managing partner, who immigrated from Belarus and spent over 20 years building engineering teams and ML systems at Google and Meta. He started Geek Ventures in 2021 to invest at pre-seed and seed stage in immigrant founders building bold tech companies across SaaS, hardware, deep tech and AI. Mahaniok’s edge comes from his dual engineering-investor background, a track record of angel investing into companies like Instacart and PandaDoc, and a mission-driven thesis that talent is distributed globally while opportunity is not — allowing him to find high-potential founders overlooked by the traditional ecosystem.",
       "Submission Date": "2025-09-24T20:12:43.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "VC Lab"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://geek.vc/"
@@ -1519,10 +2219,13 @@
       "GP Name": "Arvind Gupta",
       "GP Linkedin": "https://www.linkedin.com/in/arvndgpta",
       "Fund Number": "I",
-      "Why Interesting?": "Mayfield affiliate fund; Navin Chaddha is a co-GP; Arvind is also the founder of IndieBio",
+      "Why Interesting?": "Novera VC is an affiliate fund of Mayfield led by GPs including Navin Chaddha and Arvind Gupta (the founder of IndieBio). The fund focuses on backing early-stage ideas and research-led companies in biotech, engineering biology, and adjacent deep tech. Chaddha and Gupta bring Mayfield’s institutional expertise and IndieBio’s scientific infrastructure respectively, giving Novera an edge in identifying founding teams at the intersection of science and venture.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://noveravc.com/"
@@ -1533,7 +2236,9 @@
     "createdTime": "2025-09-18T15:17:19.000Z",
     "fields": {
       "Fund Name": "YLEM",
-      "GP Name": "Bastian Lehmann, Vivek Patel",
+      "GP Name": "Bastian Lehmann",
+      "GP Linkedin": "https://www.linkedin.com/in/vdp83/",
+      "Add. Partners LinkedIns": "Vivek Patel",
       "Fund Number": "I",
       "Co-Investors": [
         "Neil Mehta",
@@ -1545,7 +2250,7 @@
         "Cyan Banister",
         "Harry Stebbings"
       ],
-      "Why Interesting?": "Founders of Postmates",
+      "Why Interesting?": "YLEM Fund is co-founded by Bastian Lehmann, founder and former CEO of Postmates, and Vivek Patel, the company’s former COO. Lehmann built Postmates into one of the defining on-demand logistics platforms of the past decade, leading it through rapid growth and a $5B acquisition by Uber. Patel, who previously founded Sosh (acquired by Postmates) and held key roles at Slide and Climate Corporation, brings deep experience in scaling teams, operations, and go-to-market strategy. Based in San Francisco, YLEM backs early-stage founders working on transformative software, marketplace, and AI-driven businesses. Their edge comes from hands-on operational expertise, firsthand experience growing companies from zero to scale, and a pragmatic, founder-aligned approach to building enduring technology comp",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
@@ -1562,10 +2267,10 @@
     "createdTime": "2025-09-18T15:17:19.000Z",
     "fields": {
       "Fund Name": "Oceans Ventures",
-      "GP Name": "Steven Rosenblatt + 4",
+      "GP Name": "Steven Rosenblatt",
       "GP Linkedin": "https://www.linkedin.com/in/stevenrosenblatt/",
       "Fund Number": "III",
-      "Why Interesting?": "Steven = former president of Foursquare, all other 4 GPs are all former big tech execs",
+      "Why Interesting?": "Oceans Ventures is led by Steven Rosenblatt, former President of Foursquare, alongside GPs Glenn Evans, Joshua Rahn, Brian Shoop, and Risa Stein. Collectively, the team brings decades of operating experience from senior roles at top technology companies including Google, Twitter, Dropbox, and Facebook. The firm backs pre-seed and seed-stage startups in software, consumer, and frontier technology. Oceans’ edge lies in its all-operator partnership—each GP has built and scaled products inside category-defining companies—giving them a uniquely practical ability to help founders navigate product, growth, and organizational inflection points from day one.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
@@ -1586,15 +2291,18 @@
       "GP Linkedin": "https://www.linkedin.com/in/anneleeskates/",
       "Fund Number": "I",
       "Co-Investors": [
-        "Mixi"
+        "Mixi",
+        "Screendoor"
       ],
-      "Why Interesting?": "Has been deep in consumer and was one of the primary investors while at a16z in Whatnot; married to Spencer Skates (founder/CEO of Amplitude)",
+      "Why Interesting?": "Parable is led by Anne Lee Skates, a Princeton graduate and former partner at both Andreessen Horowitz and Floodgate, where she helped lead early investments in breakout consumer companies including Whatnot and Kindred. The fund backs pre-seed and seed-stage startups reimagining consumer experiences and AI-driven software products. Skates’s edge comes from her decade of experience identifying inflection points in consumer behavior, her operating empathy built through close partnerships with founders, and a deep network shaped by her time at two of Silicon Valley’s most respected venture firms. She is married to Spencer Skates, founder and CEO of Amplitude.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Consumer",
+        "Gen Z"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://parablevc.com/"
@@ -1607,14 +2315,22 @@
       "Fund Name": "Better Tomorrow Ventures",
       "GP Name": "Sheel Mohnot",
       "GP Linkedin": "https://www.linkedin.com/in/smohnot/",
+      "Add. Partners LinkedIns": "Jake Gibson",
       "Fund Number": "II",
-      "Why Interesting?": "Investing at the earliest stages of fintech and has become the primary voice of fintech in the last few years",
+      "Co-Investors": [
+        "Cendana",
+        "Industry Ventures",
+        "Vintage",
+        "Invesco"
+      ],
+      "Why Interesting?": "Better Tomorrow Ventures is led by Sheel Mohnot and Jake Gibson, two experienced fintech operators and investors. Mohnot previously led fintech investing at 500 Startups, co-founded a payments company acquired by Groupon, and has built one of the largest fintech audiences on X, where his insights shape much of the industry’s early-stage discourse. Gibson co-founded NerdWallet and helped scale it into a leading consumer finance platform before turning to venture. The firm invests at the pre-seed and seed stages in fintech globally, focusing on infrastructure, payments, embedded finance, and financial access. Their edge comes from deep fintech operating experience, a founder-first approach, and a global network that consistently surfaces the best early fintech talent and ideas.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "Fintech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "http://btv.vc/"
@@ -1627,10 +2343,16 @@
       "Fund Name": "Walkabout Ventures",
       "GP Name": "Josh Diamond",
       "GP Linkedin": "https://www.linkedin.com/in/josh-diamond-5669b624/",
+      "Add. Partners LinkedIns": "Jordy Albert",
       "Fund Number": "I",
+      "Why Interesting?": "Walkabout Ventures is led by Josh Diamond and Jordy Albert, who partner to back pre-seed and seed-stage founders building at the intersection of culture, consumer, and technology. Diamond brings deep experience as an early-stage investor and community builder with strong ties across the creator and consumer ecosystems. Albert, a former operator and investor, adds experience in product and company building, helping founders move quickly from idea to execution. Walkabout’s edge comes from the partners’ cultural fluency, founder-first approach, and strong sourcing networks, allowing them to identify breakout consumer and community-driven startups before they hit the mainstream venture radar.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team",
+        "Consumer"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.walkabout.vc/"
@@ -1640,11 +2362,12 @@
     "id": "recsGKkbRj1uLEaYY",
     "createdTime": "2025-09-18T23:12:49.000Z",
     "fields": {
-      "Fund Name": "Argon Ventures II",
+      "Fund Name": "Argon Ventures",
       "GP Name": "Andy Feinberg",
       "GP Linkedin": "https://www.linkedin.com/in/andy-feinberg-a81a38/",
       "Add. Partners LinkedIns": "Bob Mason",
       "Fund Number": "I",
+      "Why Interesting?": "Argon Ventures is led by co-founders Andy Feinberg and Bob Mason. Feinberg spent three decades in executive roles—including CEO, President and General Counsel—at Brightcove and prior technology and legal careers. Mason was a software engineer, two-time founder/CTO and investor since 2011. The fund focuses on pre-seed rounds of “Intelligent Industry Solutions” where deep tech, ML/data and vertical-market insight intersect. Their edge comes from hands-on operator experience, a strong engineering/GTG playbook and a high-ownership, founder-aligned early stage model that leads rounds and brings together syndicates",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -1664,12 +2387,18 @@
       "GP Name": "Balaji S. Srinivasan",
       "GP Linkedin": "https://www.linkedin.com/in/balajissrinivasan/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Brian Armstrong",
+        "Marc Andreessen/Chris Dixon"
+      ],
+      "Why Interesting?": "Balaji Fund is led by Balaji S. Srinivasan, former CTO of Coinbase and general partner at Andreessen Horowitz. Structured as a 506(c) vehicle, the fund invests publicly and transparently in seed and early-stage companies across crypto, AI, biotech, and network-driven innovation. Srinivasan’s edge comes from his rare combination of operating scale, technical depth, and a global brand/following of engineers, founders, and builders that enables him to identify frontier technologies early and catalyze capital and talent around them. The fund includes many celebrated founder, and investors as LPs.",
       "Submission Date": "2025-10-22T13:55:15.000Z",
       "Visibility": [
         "Review"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Crypto/Blockchain"
       ],
       "Fundraising Status": "Raising ",
       "Fund Website": "https://venture.angellist.com/v/back/balaji-fund"
@@ -1683,15 +2412,20 @@
       "GP Name": "Julian Shapiro",
       "GP Linkedin": "https://www.linkedin.com/in/julian-shapiro/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Cendana"
+      ],
+      "Why Interesting?": "Julian Capital is led by Julian Shapiro, founder and operator turned investor, best known for helping scale Webflow as VP of Marketing and for founding Demand Curve, one of the most influential growth education platforms in tech. The fund invests at the pre-seed and seed stages in deep tech, AI, chips, energy, and robotics. Shapiro’s edge comes from his rare mix of engineering, growth, and brand-building experience—he’s built a massive online following through transparent startup writing and founder tools like SeedChecks, DeepChecks, and CarevOut, which connect investors and founders at scale. His ability to mobilize community and distribution gives Julian Capital unique sourcing visibility and leverage in supporting founders building technically ambitious companies from day one.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Deep Tech"
       ],
       "Fundraising Status": "Closed",
-      "Fund Website": "https://www.julian.com/"
+      "Fund Website": "https://www.julian.capital/"
     }
   },
   {
@@ -1702,13 +2436,38 @@
       "GP Name": "Jackie Fast",
       "GP Linkedin": "https://www.linkedin.com/in/jackiefast/",
       "Fund Number": "II",
-      "Why Interesting?": "Backing celebrity-endorsed/owned brands",
+      "Why Interesting?": "Sandbox Studios is led by Jackie Fast, founder and general partner, who previously built and sold the global sponsorship agency Slingshot, where she worked directly with talent and brands including The Rolling Stones, Elton John, Richard Branson, and Prince. Based in Hollywood, the $30M seed-stage fund exclusively backs consumer brands founded or endorsed by A-list celebrities, with a portfolio that includes ventures alongside Justin Timberlake, Jennifer Aniston, Charlie D’Amelio, Shawn Mendes, and Serena Williams. Fast’s edge comes from two decades at the intersection of entertainment, branding, and commerce, giving Sandbox unique access to high-profile talent and the ability to accelerate brand awareness, consumer trust, and retail distribution from day one.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
       ],
+      "Keywords": [
+        "Solo GP"
+      ],
       "Fundraising Status": "Closed",
       "Fund Website": "http://www.sandboxstudios.ventures/"
+    }
+  },
+  {
+    "id": "rectmwoOqWhLYEQ4T",
+    "createdTime": "2025-11-04T20:18:38.000Z",
+    "fields": {
+      "Fund Name": "Spatial Capital",
+      "GP Name": "Doug Griffin",
+      "GP Linkedin": "linkedin.com/in/douggriffin",
+      "Fund Number": "I",
+      "Why Interesting?": "Spatial Capital is led by Doug Griffin, founder and general partner, who has spent his career at the intersection of computer vision, 3D graphics, and AI. Griffin began as an engineer advancing real-time visualization systems that shaped modern graphics workflows and later became Vice President of Product and Corporate Development at a public computer-vision company, leading strategy and partnerships. As a founder, he built and scaled multiple companies applying AI and 3D technologies across creative and enterprise markets, earning over a dozen patents and three successful exits, including acquisitions by Apple and Roblox. Spatial Capital backs early-stage deep tech founders building at the frontier of perception, visualization, and computation. Griffin’s edge comes from decades of hands-on technical and leadership experience turning cutting-edge research into commercial products, giving him a rare ability to help founders bridge innovation and execution.",
+      "Submission Date": "2025-11-04T20:18:38.000Z",
+      "Visibility": [
+        "Review"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "Specialist",
+        "Spatial"
+      ],
+      "Fundraising Status": "Raising ",
+      "Fund Website": "https://www.spatial.capital/"
     }
   },
   {
@@ -1716,15 +2475,18 @@
     "createdTime": "2025-09-18T23:12:49.000Z",
     "fields": {
       "Fund Name": "HF0",
-      "GP Name": "Munjal C. Shah",
+      "GP Name": "Dave Fontenot",
       "GP Linkedin": "https://www.linkedin.com/in/munjals/",
+      "Add. Partners LinkedIns": "Dan Morse",
       "Fund Number": "I",
+      "Why Interesting?": "HFO Residency is led by Dave Fontenot (General Partner & CEO) and the fund is led by Dan Morse (Partner). HFO is focused on building and investing in early-stage companies through a residency model—providing founder teams access to operational support, talent, and capital from Day One. Fontenot brings years of startup and investment experience to HFO, while Morse adds strength in founder outreach, IR and community building. Their edge comes from combining a structured operational engine with capital deployment and a hands-on approach to growing company-formation and seed-stage ventures.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Team"
+        "Team",
+        "Accelerator"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.hf0.com/"
@@ -1738,15 +2500,38 @@
       "GP Name": "Erica Wenger",
       "GP Linkedin": "http://www.linkedin.com/in/erica-wenger-ms-811b80132",
       "Fund Number": "I",
+      "Why Interesting?": "Park Rangers Capital is a solo female–led fund founded by Erica Wenger, formerly on the investing team at Brex. The firm backs pre-seed and seed-stage software companies built around communities—where customers evolve into members and products become networks. Wenger’s thesis centers on community as a durable moat in software and consumer technology, betting that the most valuable companies of the next decade will be built on authentic connection rather than traditional growth loops. Her edge comes from her experience bridging venture and early operations at Brex, her deep network among emerging founders, and her strong presence on TikTok and social media, where she’s built a trusted brand demystifying startups and venture for the next generation of builders.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Brex"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.parkrangerscap.com/"
+    }
+  },
+  {
+    "id": "recuStFLofw11R5fh",
+    "createdTime": "2025-11-05T20:00:07.000Z",
+    "fields": {
+      "Fund Name": "Mu Ventures",
+      "GP Name": "Gary Benerofe",
+      "GP Linkedin": "https://www.linkedin.com/in/gary-benerofe/",
+      "Fund Number": "I",
+      "Why Interesting?": "Mu Ventures is led by Gary Benerofe, a former founder and operator who previously served as CEO of the e-commerce agency Mediaspa, later acquired by Overdose, where he became Managing Director for the Americas. Earlier in his career, he worked in investment banking at Lehman Brothers and led commerce strategy for brands such as DKNY, Nespresso, MakerBot, and BODYARMOR. The fund brings a commerce-operator lens to pre-seed and seed investing, backing founders building in infrastructure, vertical software, and marketplaces. Mu Ventures’ edge comes from Gary’s deep operational experience in digital commerce and his network across brand, retail, and software ecosystems, giving him sharp insight into how products scale from zero to traction.",
+      "Submission Date": "2025-11-05T20:00:07.000Z",
+      "Visibility": [
+        "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP",
+        "e-Commerce"
+      ],
+      "Fundraising Status": "Raising ",
+      "Fund Website": "https://www.muventures.com/"
     }
   },
   {
@@ -1760,9 +2545,13 @@
       "Co-Investors": [
         "Pattern Ventures"
       ],
+      "Why Interesting?": "Mythos Ventures is led by Vishal Maini with investing partners Jonathan Eng and Paul Gu. Maini, a former DeepMind researcher and product leader, brings firsthand experience working at the frontier of artificial intelligence (AI), while Gu, co-founder of Upstart, adds deep expertise in applied AI and fintech systems. The fund backs pre-seed and seed-stage companies building in AI, robotics, simulation, and deep technology infrastructure. Their edge comes from operating and investing at the core of the AI revolution—combining research-level technical insight with practical company-building experience to support founders developing transformative intelligent systems from day one.",
       "Submission Date": "2025-09-25T15:57:51.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Team"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.mythos.vc/about"
@@ -1776,9 +2565,13 @@
       "GP Name": "Rishi Taparia",
       "GP Linkedin": "https://www.linkedin.com/in/rktaparia/",
       "Fund Number": "I",
+      "Why Interesting?": "Garuda Ventures is led by Rishi Taparia, Co-founder and General Partner, a former venture investor and operator who helped scale payments and commerce businesses at Poynt (acquired by GoDaddy) and led seed deals as an early team member at Matrix Partners (which seeded Canva). The fund focuses on pre-seed and seed B2B software companies with themes in cloud infrastructure, AI-enabled applications, commerce infrastructure and enterprise software. Taparia’s edge comes from his combined experience as investor and operator, his ability to dial into founder-led moments at the product and go-to-market level, and his “first call” approach to building relationships at the earliest stage of a company’s journey.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.garuda.vc/"
@@ -1792,10 +2585,13 @@
       "GP Name": "Bilal Zuberi",
       "GP Linkedin": "https://www.linkedin.com/in/bzuberi/",
       "Fund Number": "I",
-      "Why Interesting?": "Former GP at Lux Capital",
+      "Why Interesting?": "RedGlass Capital is led by Bilal Zuberi, founder and managing partner, who previously served as a general partner at Lux Capital, where he spent more than a decade investing in frontier technology companies across defense, robotics, AI, and climate. The firm backs early-stage startups developing foundational technologies for security, industrial resilience, and scientific innovation. Zuberi’s edge comes from two decades of experience working with technical founders at the intersection of hard science and national importance, deep ties across government and research ecosystems, and a reputation for backing companies solving hard, consequential problems rather than incremental ones.",
       "Submission Date": "2025-09-18T15:17:19.000Z",
       "Visibility": [
         "Tracking"
+      ],
+      "Keywords": [
+        "Solo GP"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "http://redglass.vc/"
@@ -1809,12 +2605,14 @@
       "GP Name": "Rex Salisbury",
       "GP Linkedin": "https://www.linkedin.com/in/rexsalisbury/",
       "Fund Number": "I",
+      "Why Interesting?": "Cambrian Ventures is led by Rex Salisbury, a former founding partner of Andreessen Horowitz’s fintech practice and early engineer-turned-investor with deep roots in the fintech ecosystem. The fund backs pre-seed and seed-stage fintech companies across payments, lending, infrastructure, and financial operations. Salisbury built the Cambrian community—now one of the most active founder networks in fintech—and writes extensively about early-stage fintech trends, product evolution, and market structure, giving him unmatched visibility into emerging founders and themes. His edge comes from that active network, combined with institutional investing experience from a16z and authentic founder credibility built through years of hands-on engagement with the fintech community.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "Fintech"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.cambrian.vc/"
@@ -1828,6 +2626,7 @@
       "GP Name": "Finn Murphy",
       "GP Linkedin": "https://www.linkedin.com/in/finn-murphy-16160465/",
       "Fund Number": "I",
+      "Why Interesting?": "Nebular Ventures is led by Finn Murphy, founder and general partner, now based in New York after a decade investing in deep tech across Europe. Before founding Nebular, Murphy spent six years as a partner at Frontline Ventures and co-founded Project 11, a research and venture initiative focused on quantum technology and its commercial applications. The firm backs pre-seed and seed-stage companies in AI, data infrastructure, developer tools, and frontier computing. Murphy’s edge comes from his rare combination of deep technical curiosity, early-stage investing experience, and cross-Atlantic founder network—positioning Nebular as a bridge between Europe’s research-driven technical talent and the U.S. startup ecosystem.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
@@ -1847,12 +2646,19 @@
       "GP Name": "Nick Chirls",
       "GP Linkedin": "https://www.linkedin.com/in/nchirls/",
       "Fund Number": "I",
+      "Co-Investors": [
+        "Cendana",
+        "Sapphire",
+        "Slipstream"
+      ],
+      "Why Interesting?": "Asylum Ventures is a solo GP fund led by Nick Chirls, previously co-founder and GP at Notation Capital, one of New York’s top-performing early-stage firms with exits including Clay.com and Bison Trails. Based in Brooklyn, Asylum backs seed-stage founders—often from New York’s emerging creative and technical communities—building companies with deep intent and originality. Chirls works with a small team of investing partners and applies the same disciplined, founder-first approach that made Notation successful, focusing on concentrated, high-conviction investments and close relationships with builders from the earliest days.",
       "Submission Date": "2025-09-18T23:12:49.000Z",
       "Visibility": [
         "Tracking"
       ],
       "Keywords": [
-        "Solo GP"
+        "Solo GP",
+        "New York"
       ],
       "Fundraising Status": "Closed",
       "Fund Website": "https://www.asylum.vc/"

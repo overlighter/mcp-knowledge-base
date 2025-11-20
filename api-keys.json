@@ -4,11 +4,11 @@
       "key": "user_key_1234567890",
       "email": "ckai.intel@gmail.com",
       "createdAt": "2025-11-03T09:15:23.097Z",
-      "lastUsed": "2025-11-04T21:03:29.446Z"
+      "lastUsed": "2025-11-19T14:13:18.885Z"
     },
     {
       "key": "user_key_12345678901",
-      "email": "nohfajarbin@gmail.com",
+      "email": "amandaclark@gmail.com",
       "createdAt": "2025-11-03T09:55:41.073Z",
       "lastUsed": "2025-11-06T04:10:04.383Z",
       "accessToken": "mcp_access_token_163fad068a18b7d67dfdce686f84c0d6b8a8a8674fb4b5d259751cba01d07d8b",
@@ -20,11 +20,41 @@
       "key": "user_key_123456789012",
       "email": "sam.huleatt@gmail.com",
       "createdAt": "2025-11-04T11:56:37.631Z",
-      "lastUsed": "2025-11-04T14:56:43.367Z"
+      "lastUsed": "2025-11-18T22:18:54.152Z",
+      "accessToken": "mcp_access_token_d08cf464b3ce949e8b04cc5e68f7627e2b717d84036db3dfd3ca4c98ec2205ed",
+      "refreshToken": "mcp_refresh_token_c15b80c4ed2d53fbc42a41a714b23d80d35eacefd7dfad3460dd3a3ab28b8ff0",
+      "tokenExpiresAt": "2026-02-16T22:18:54.151Z",
+      "refreshTokenExpiresAt": "2026-05-17T22:18:54.151Z"
+    },
+    {
+      "key": "1234567890123456",
+      "email": "asiyemiea01@gmail.com",
+      "createdAt": "2025-11-10T13:48:53.362Z",
+      "lastUsed": "2025-11-20T12:35:02.833Z",
+      "accessToken": "mcp_access_token_a7618346198d0a4b74b089285a410b167aa526aefde3ba5d89c72e4290611ed7",
+      "refreshToken": "mcp_refresh_token_7b513f1db153202ea1019a46d599c133cf9f69a1abf06985b5abb737405ba6b6",
+      "tokenExpiresAt": "2026-02-18T12:35:02.832Z",
+      "refreshTokenExpiresAt": "2026-05-19T12:35:02.832Z"
+    },
+    {
+      "key": "user_907831091cf2b0f31070f76f2c59d2934237c11b41d8c93d",
+      "email": "johnsmith@gmail.com",
+      "createdAt": "2025-11-20T12:23:58.079Z",
+      "lastUsed": "2025-11-20T12:56:54.650Z"
+    },
+    {
+      "key": "user_0f7fd11d29fe3fb8056a24c2c810066822ed3d65a24aa853",
+      "email": "davidmike@gmail.com",
+      "createdAt": "2025-11-20T14:06:24.111Z"
+    },
+    {
+      "key": "user_436295bc48fb9153ee184634f415c1ce46a26daa15ae627f",
+      "email": "johndoe@gmail.com",
+      "createdAt": "2025-11-20T14:25:16.409Z"
     }
   ],
   "adminApiKeys": [
     "admin_super_key_xyz123"
   ],
-  "lastUpdated": "2025-11-06T04:10:04.383Z"
+  "lastUpdated": "2025-11-20T14:25:16.409Z"
 }

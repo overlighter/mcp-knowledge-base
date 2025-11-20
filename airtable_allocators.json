@@ -24,12 +24,18 @@
         "Emerging Managers",
         "hybrid FoF"
       ],
+      "Website": "https://foundry.vc/team/jaclyn-freeman-hester/",
+      "Title": "Partner",
+      "City": "Boulder, CO",
+      "Country": "USA",
       "Gender": "Female",
       "Entity Name": "Foundry Group",
+      "Linkedin URL": "https://www.linkedin.com/in/jaclyn-freeman-hester-70621126",
+      "Podcast URL": "https://www.youtube.com/watch?v=0d4fE-By0hs",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Jaclyn Freeman Hester is a Partner at Foundry. She joined in 2016 with a passion for supporting the next generation of entrepreneurs and investors. Jaclyn leads direct investments in early-stage companies, often collaborating with Foundry’s partner funds. She loves working closely with founders to solve hard problems and think about the human elements of business. She invests across B2B and consumer companies that exhibit strong end-user empathy and use technology to empower individuals, unlock potential, and improve experiences.\n\nJaclyn helped launch Foundry’s partner fund strategy, building the portfolio to nearly 50 managers. Bringing her unique GP + LP perspective, Jaclyn has become a go-to sounding board for emerging VCs.\n\nJaclyn first fell in love with entrepreneurship while earning her JD/MBA at CU Boulder (Go Buffs!). There, she served as Executive Director of Startup Colorado, where she got to know Foundry and the incredible Boulder/Denver startup community the firm helped catalyze. In her brief stint as a practicing attorney, Jaclyn advised clients in M&A transactions and early-stage financings. She also witnessed the founder journey first-hand, working closely with her husband and his family as they built a B2B SaaS company, FareHarbor (acquired by BKNG).\n\nJaclyn loves the Boulder lifestyle, but her heart will always be on the East Coast, having grown up a New England “beach kid.” She is the proud mother of three humans and three dogs and is a blue-groomer-on-a-sunny-day skier and 9-hole golfer. In her glimpses of free time, you can find Jaclyn enjoying live music, especially at Red Rocks and in Telluride, two of the most magical places in the world."
+      "Investor Thesis & Background": "Jaclyn Freeman Hester is a Partner at Foundry. She joined in 2016 with a passion for supporting the next generation of entrepreneurs and investors. Jaclyn leads direct investments in early-stage companies, often collaborating with Foundry’s partner funds. She loves working closely with founders to solve hard problems and think about the human elements of business. She invests across B2B and consumer companies that exhibit strong end-user empathy and use technology to empower individuals, unlock potential, and improve experiences.\n\nJaclyn helped launch Foundry’s partner fund strategy, building the portfolio to nearly 50 managers. Bringing her unique GP + LP perspective, Jaclyn has become a go-to sounding board for emerging VCs.\n\nJaclyn first fell in love with entrepreneurship while earning her JD/MBA at CU Boulder (Go Buffs!). There, she served as Executive Director of Startup Colorado, where she got to know Foundry and the incredible Boulder/Denver startup community the firm helped catalyze. In her brief stint as a practicing attorney, Jaclyn advised clients in M&A transactions and early-stage financings. She also witnessed the founder journey first-hand, working closely with her husband and his family as they built a B2B SaaS company, FareHarbor (acquired by BKNG).\n\nJaclyn loves the Boulder lifestyle, but her heart will always be on the East Coast, having grown up a New England “beach kid.” She is the proud mother of three humans and three dogs and is a blue-groomer-on-a-sunny-day skier and 9-hole golfer. In her glimpses of free time, you can find Jaclyn enjoying live music, especially at Red Rocks and in Telluride, two of the most magical places in the world."
     }
   },
   {
@@ -51,16 +57,18 @@
     }
   },
   {
-    "id": "rec176R3qY1QVQD1U",
-    "createdTime": "2025-09-19T13:17:57.000Z",
+    "id": "rec0sJPdzWWjXOemg",
+    "createdTime": "2025-11-17T03:49:31.000Z",
     "fields": {
-      "Investor Name": "Ian Park",
-      "Investor Type": "Soverign Wealth",
-      "Website": "https://www.ifswf.org/member-profiles/korea-investment-corporation",
-      "City": "San Francisco",
+      "Investor Name": "Kendrick Nguyen",
+      "Website": "https://republic.com",
+      "Title": "Co-Founder and CEO",
+      "City": "New York",
+      "Country": "USA",
       "Gender": "Male",
-      "Entity Name": "Korea Investment Corporation (KIC)",
-      "Linkedin URL": "https://www.linkedin.com/in/park-ian/"
+      "Entity Name": "Republic",
+      "Linkedin URL": "https://www.linkedin.com/in/kendrick-nguyen-7145bb5/",
+      "Podcast URL": "https://www.youtube.com/watch?v=cVu906pns0o"
     }
   },
   {
@@ -68,13 +76,22 @@
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
       "Investor Name": "Steve Chasan",
+      "Investor Type": "Fund of Funds",
+      "LP Keywords": [
+        "Deep Tech",
+        "Rothschild"
+      ],
       "Website": "https://www.rothcap.com/",
       "Title": "Head of Investments",
       "City": "London",
       "Country": "United Kingdom",
       "Gender": "Male",
       "Entity Name": "Catalyst42",
-      "Linkedin URL": "https://www.linkedin.com/in/steve-chasan/?originalSubdomain=uk"
+      "Linkedin URL": "https://www.linkedin.com/in/steve-chasan/?originalSubdomain=uk",
+      "Podcast URL": "https://www.youtube.com/watch?v=OQ92u2BDbSQ",
+      "Podcast Name": [
+        "Superclusters"
+      ]
     }
   },
   {
@@ -98,9 +115,12 @@
     "fields": {
       "Investor Name": "Christina Tan",
       "Investor Type": "Fund of Funds",
+      "Website": "https://v0invest.com/",
+      "Title": "Managing Partner",
       "City": "San Francisco, California",
       "Country": "United States",
       "Gender": "Female",
+      "Entity Name": "V0",
       "Linkedin URL": "https://www.linkedin.com/in/christina-xiao-tan/"
     }
   },
@@ -153,7 +173,7 @@
       "Investor Name": "Lo Toney",
       "Investor Type": "Fund of Funds",
       "LP Keywords": [
-        "#women #diversity"
+        "Diversity"
       ],
       "Website": "https://www.plexocap.com/",
       "Title": "Founding Partner",
@@ -286,12 +306,14 @@
     "id": "rec4MeF1yDxtxwzXA",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
+      "Investor Name": "Jordi Jofre Arajol",
+      "Investor Type": "Fund of Funds",
       "LP Keywords": [
         "#Spain #FoF"
       ],
       "Website": "https://www.mastertechvc.es/",
       "Gender": "Male",
-      "Entity Name": "Master Tech"
+      "Entity Name": "Mastertech Capital SCR"
     }
   },
   {
@@ -304,11 +326,14 @@
         "Korea",
         "Beauty"
       ],
+      "Website": "https://www.sazze.vc/team",
       "Gender": "Male",
+      "Linkedin URL": "https://www.linkedin.com/in/park-ian/",
+      "Podcast URL": "https://www.youtube.com/watch?v=bRxu3xJ9rlA",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Ian Park is a Partner at Primer Sazze, a firm dedicated to investing in ambitious talent across East Asia and North America. Prior to Primer Sazze, he was a venture capital allocator at Korea Investment Corporation (KIC), one of the largest sovereign wealth institutions in the world, where he focused on investments into venture managers and founders. He’s also amassed a fervent following of AI, VC, and LP fans over the years through writing his newsletter and his YouTube channel. Prior to KIC, he’s built his investing repertoire at VMG Partners and Bertram Capital after leaving the world of consulting.\n\nIan studied mathematics and economics at University of Minnesota and earned his master’s degree in economics at Boston College. He’s also got his master’s in computer and information technology from University of Pennsylvania as well.\n\n"
+      "Investor Thesis & Background": "Ian Park is a Partner at Primer Sazze, a firm dedicated to investing in ambitious talent across East Asia and North America. Prior to Primer Sazze, he was a venture capital allocator at Korea Investment Corporation (KIC), one of the largest sovereign wealth institutions in the world, where he focused on investments into venture managers and founders. He’s also amassed a fervent following of AI, VC, and LP fans over the years through writing his newsletter and his YouTube channel. Prior to KIC, he’s built his investing repertoire at VMG Partners and Bertram Capital after leaving the world of consulting.\n\nIan studied mathematics and economics at University of Minnesota and earned his master’s degree in economics at Boston College. He’s also got his master’s in computer and information technology from University of Pennsylvania as well.\n\n"
     }
   },
   {
@@ -425,9 +450,6 @@
     "fields": {
       "Investor Name": "David Fauchier",
       "Investor Type": "Fund of Funds",
-      "LP Keywords": [
-        "#web3 #blockchain"
-      ],
       "Website": "https://cambrial.com/",
       "Title": "CIO",
       "City": "London",
@@ -461,12 +483,18 @@
       "LP Keywords": [
         "Secondaries"
       ],
+      "Website": "https://practicalvc.com/team/Dave-McClure",
+      "Title": "Managing Partner",
+      "City": "Los Altos",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Practical VC",
+      "Linkedin URL": "https://www.linkedin.com/in/davemcclure/",
+      "Podcast URL": "https://www.youtube.com/watch?v=Lr4iBAumuxk",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Dave McClure has been a Silicon Valley entrepreneur and investor for over 25 years. He has invested in hundreds of startups around the world, including 10+ IPOs and 40+ unicorns (Credit Karma, Twilio, SendGrid, Lyft, The RealReal, Talkdesk, Grab, Intercom, Canva, Udemy, Lucid, GitLab, Reddit, Stripe, Bukalapak).\n\nPrior to launching PVC in 2019, he was the founding partner of 500 Startups, a global VC firm with $1B AUM that has invested in over 2,500 companies and 5,000 founders across 75 countries. Dave created 20 VC funds under the 500 brand and invested in 20 other VC funds around the world.\n\nDave began his investing career at Founders Fund where he made seed-stage investments in 40 companies, resulting in 4 unicorns and 3 IPOs. He led the Credit Karma seed round in 2009 (acq INTU, over 400X return). His $3M portfolio returned more than $200M (~65X) in under 10 years.\n\nBefore he became an investor, Dave was Director of Marketing at PayPal from 2001-2004. He was also the founder/CEO of Aslan Computing, acquired by Servinet in 1998. Dave graduated from the Johns Hopkins University (BS, Engineering / Applied Mathematics).\n\n"
+      "Investor Thesis & Background": "Dave McClure has been a Silicon Valley entrepreneur and investor for over 25 years. He has invested in hundreds of startups around the world, including 10+ IPOs and 40+ unicorns (Credit Karma, Twilio, SendGrid, Lyft, The RealReal, Talkdesk, Grab, Intercom, Canva, Udemy, Lucid, GitLab, Reddit, Stripe, Bukalapak).\n\nPrior to launching PVC in 2019, he was the founding partner of 500 Startups, a global VC firm with $1B AUM that has invested in over 2,500 companies and 5,000 founders across 75 countries. Dave created 20 VC funds under the 500 brand and invested in 20 other VC funds around the world.\n\nDave began his investing career at Founders Fund where he made seed-stage investments in 40 companies, resulting in 4 unicorns and 3 IPOs. He led the Credit Karma seed round in 2009 (acq INTU, over 400X return). His $3M portfolio returned more than $200M (~65X) in under 10 years.\n\nBefore he became an investor, Dave was Director of Marketing at PayPal from 2001-2004. He was also the founder/CEO of Aslan Computing, acquired by Servinet in 1998. Dave graduated from the Johns Hopkins University (BS, Engineering / Applied Mathematics).\n\n"
     }
   },
   {
@@ -479,12 +507,15 @@
         "Emerging Managers",
         "Solo GPs"
       ],
+      "Website": "https://www.linkedin.com/company/amkan-ventures",
       "Gender": "Female",
       "Entity Name": "Amkan Ventures",
+      "Linkedin URL": "https://ae.linkedin.com/in/raidadaouk",
+      "Podcast URL": "https://www.youtube.com/watch?v=Yyov97oBQJc",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Raida Daouk started her career in banking before moving to the investment team of BY Venture Partner, a venture fund with offices in Beirut and Abu Dhabi. She quickly climbed the ranks within the company and ultimately became a Venture Partner.\n\nRecognizing a void in the market for personalized venture consulting services, Raida established Amkan Advisory, a boutique consultancy firm specializing in assisting family offices and high-net-worth individuals in identifying venture funds that align with their specific strategies. Given that first-time fund managers often possess the most aligned incentives with their investors, she understood the significant value they bring to the venture capital landscape. However, Raida also understood the reluctance of family offices to commit capital to relatively unproven managers. By curating a portfolio of carefully selected funds, she aims to mitigate the perceived risk associated with investing in first-time managers while still accessing the high-growth potential of emerging ventures.\n\nAmkan Ventures emerged to offer LPs access to emerging managers beyond their direct reach. Focusing on small Funds I and II led by ambitious managers with a conviction-driven approach, the firm prioritizes delivering returns and nurturing opportunities in the venture arena.\n\nAmkan Ventures’ first close occurred in April 2024, with one investment already made in a $30M fund I out of NY and one more about to be announced.\n\nRaida currently serves on the Selection Committees of RAISE Global and The Bridge Platform."
+      "Investor Thesis & Background": "Raida Daouk started her career in banking before moving to the investment team of BY Venture Partner, a venture fund with offices in Beirut and Abu Dhabi. She quickly climbed the ranks within the company and ultimately became a Venture Partner.\n\nRecognizing a void in the market for personalized venture consulting services, Raida established Amkan Advisory, a boutique consultancy firm specializing in assisting family offices and high-net-worth individuals in identifying venture funds that align with their specific strategies. Given that first-time fund managers often possess the most aligned incentives with their investors, she understood the significant value they bring to the venture capital landscape. However, Raida also understood the reluctance of family offices to commit capital to relatively unproven managers. By curating a portfolio of carefully selected funds, she aims to mitigate the perceived risk associated with investing in first-time managers while still accessing the high-growth potential of emerging ventures.\n\nAmkan Ventures emerged to offer LPs access to emerging managers beyond their direct reach. Focusing on small Funds I and II led by ambitious managers with a conviction-driven approach, the firm prioritizes delivering returns and nurturing opportunities in the venture arena.\n\nAmkan Ventures’ first close occurred in April 2024, with one investment already made in a $30M fund I out of NY and one more about to be announced.\n\nRaida currently serves on the Selection Committees of RAISE Global and The Bridge Platform."
     }
   },
   {
@@ -492,13 +523,15 @@
     "createdTime": "2025-09-18T18:50:04.000Z",
     "fields": {
       "Investor Name": "Nicky Sugarman",
+      "Investor Type": "Supporter",
       "Gender": "Male",
       "Entity Name": "Mountside Ventures",
       "Linkedin URL": "https://www.linkedin.com/in/nicky-sugarman-98188636/",
+      "Podcast URL": "https://www.youtube.com/watch?v=RqX7UzcQGW0",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Nicky Sugarman is a highly sought after advisor to both family offices and venture investors. Prior, he was also a partner at Stanhope, a $40B multi family office, running their private equity and venture practices. Moreover he, along with Jonathan Hollis at Mountside Ventures, launched the program for the emerging manager to learn the institutional lens."
+      "Investor Thesis & Background": "Nicky Sugarman is a highly sought after advisor to both family offices and venture investors. Prior, he was also a partner at Stanhope, a $40B multi family office, running their private equity and venture practices. Moreover he, along with Jonathan Hollis at Mountside Ventures, launched the program for the emerging manager to learn the institutional lens."
     }
   },
   {
@@ -508,7 +541,7 @@
       "Investor Name": "Guy Perelmuter",
       "Investor Type": "Fund of Funds",
       "LP Keywords": [
-        "#deeptech #science"
+        "Deep Tech"
       ],
       "Website": "https://www.gridscapital.com/",
       "Title": "Founder",
@@ -516,7 +549,11 @@
       "Country": "Brazil",
       "Gender": "Male",
       "Entity Name": "GRIDS Capital",
-      "Linkedin URL": "https://www.linkedin.com/in/guyperelmuter/"
+      "Linkedin URL": "https://www.linkedin.com/in/guyperelmuter/",
+      "Podcast URL": "https://www.youtube.com/watch?v=wtcdbm07CUM",
+      "Podcast Name": [
+        "10x Capital Podcast"
+      ]
     }
   },
   {
@@ -561,13 +598,18 @@
       "Country": "United States",
       "Gender": "Male",
       "Entity Name": "Foundry Group Next",
-      "Linkedin URL": "https://www.linkedin.com/in/lindel-eakman-778326/"
+      "Linkedin URL": "https://www.linkedin.com/in/lindel-eakman-778326/",
+      "Podcast URL": "https://www.youtube.com/watch?v=qbriLGKx7oQ",
+      "Podcast Name": [
+        "10x Capital Podcast"
+      ]
     }
   },
   {
     "id": "rec8vbkoBSH0amUj1",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
+      "Investor Name": "Hiroki Sato",
       "Investor Type": "CVC",
       "LP Keywords": [
         "#revere"
@@ -605,12 +647,18 @@
         "Emerging Managers",
         "CVCs"
       ],
+      "Website": "https://renvcf.com/people/jeff-rinvelt/",
+      "Title": "Partner",
+      "City": "Ann Arbor",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Renaissance Capital",
+      "Linkedin URL": "https://www.linkedin.com/in/rinvelt/",
+      "Podcast URL": "https://www.youtube.com/watch?v=hXWGXAIHx0U",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Jeff is a partner at Renaissance Venture Capital an innovative venture capital fund of funds. Jeff’s diverse background in venture capital and technology and his experience working in various start-up ventures uniquely position him to advise startups. In addition, Jeff is quite active in the Michigan start-up community, volunteering his time to mentor young entrepreneurs, judge pitch competitions, and guest lecture student classes and organizations. Through Jeff’s work on the Fund, his volunteer efforts, and his role as the chair of the Michigan Venture Capital Association’s board of directors, his passion for fostering a productive environment for venture capital investment in the State of Michigan is evident."
+      "Investor Thesis & Background": "Jeff is a partner at Renaissance Venture Capital an innovative venture capital fund of funds. Jeff’s diverse background in venture capital and technology and his experience working in various start-up ventures uniquely position him to advise startups. In addition, Jeff is quite active in the Michigan start-up community, volunteering his time to mentor young entrepreneurs, judge pitch competitions, and guest lecture student classes and organizations. Through Jeff’s work on the Fund, his volunteer efforts, and his role as the chair of the Michigan Venture Capital Association’s board of directors, his passion for fostering a productive environment for venture capital investment in the State of Michigan is evident."
     }
   },
   {
@@ -691,15 +739,21 @@
       "Investor Name": "Aakar Vachhani",
       "Investor Type": "Fund of Funds",
       "LP Keywords": [
-        "#diversity",
-        "SMA"
+        "SMA",
+        "Diversity"
       ],
+      "Website": "http://www.fairviewcapital.com/",
+      "Title": "Managing Partner",
+      "City": "San Francisco, CA",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Fairview Capital",
+      "Linkedin URL": "https://www.linkedin.com/in/aakarvachhani/",
+      "Podcast URL": "https://www.youtube.com/watch?v=fQ2xNAtLglg",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Aakar Vachhani is a Managing Partner and a member of Fairview’s investment committee. He is involved in research, due diligence, investment monitoring, and business development for Fairview’s venture capital and private equity partnership and direct co-investment portfolios.\n\nPrior to joining Fairview, Aakar was with Cambridge Associates, a leading investment advisor to foundations, endowments and corporate and government entities. He was responsible for analyzing private equity and venture capital investments in support of the firm’s clients and consultants. In addition, he led research and data analytics projects on the firm’s private equity and venture capital database. Aakar also spent time with MK Capital, a multi-stage venture capital firm with a sector focus on software and cloud services.\n\nAakar Vachhani holds a B.S. in Economics-Finance from Bentley University and an MBA in Finance and Entrepreneurship & Innovation from the Kellogg School of Management. He is a member of the Board of Directors of San Francisco Achievers and the New Breath Foundation. On top of that, Aakar established and leads Fairview’s San Francisco office."
+      "Investor Thesis & Background": "Aakar Vachhani is a Managing Partner and a member of Fairview’s investment committee. He is involved in research, due diligence, investment monitoring, and business development for Fairview’s venture capital and private equity partnership and direct co-investment portfolios.\n\nPrior to joining Fairview, Aakar was with Cambridge Associates, a leading investment advisor to foundations, endowments and corporate and government entities. He was responsible for analyzing private equity and venture capital investments in support of the firm’s clients and consultants. In addition, he led research and data analytics projects on the firm’s private equity and venture capital database. Aakar also spent time with MK Capital, a multi-stage venture capital firm with a sector focus on software and cloud services.\n\nAakar Vachhani holds a B.S. in Economics-Finance from Bentley University and an MBA in Finance and Entrepreneurship & Innovation from the Kellogg School of Management. He is a member of the Board of Directors of San Francisco Achievers and the New Breath Foundation. On top of that, Aakar established and leads Fairview’s San Francisco office."
     }
   },
   {
@@ -708,12 +762,15 @@
     "fields": {
       "Investor Name": "Scott Saslow",
       "Investor Type": "SFO",
+      "Website": "http://oneworld.investments/",
       "Gender": "Male",
       "Entity Name": "One World Investments",
+      "Linkedin URL": "https://www.linkedin.com/in/scott-d-saslow-46620/",
+      "Podcast URL": "https://www.youtube.com/watch?v=mkX6i5tTdGE",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Scott Saslow is the founder, CEO, and family office principal for ONE WORLD. He’s also the founder and CEO of The Institute of Executive Development, as well as the author of Building a Sustainable Family Office: An Insider’s Guide to What Works and What Doesn’t, which at the time of the podcast launch is the only book written for family office principals by a family office principal. Scott is also the host of the podcast Family Office Principals where he interviews principals on how families can be made to be more resilient. Prior, he’s also found independent success at both Microsoft and Seibel Systems.\n\n"
+      "Investor Thesis & Background": "Scott Saslow is the founder, CEO, and family office principal for ONE WORLD. He’s also the founder and CEO of The Institute of Executive Development, as well as the author of Building a Sustainable Family Office: An Insider’s Guide to What Works and What Doesn’t, which at the time of the podcast launch is the only book written for family office principals by a family office principal. Scott is also the host of the podcast Family Office Principals where he interviews principals on how families can be made to be more resilient. Prior, he’s also found independent success at both Microsoft and Seibel Systems.\n\n"
     }
   },
   {
@@ -726,6 +783,20 @@
       "Gender": "Female",
       "Entity Name": "TPG NEXT",
       "Linkedin URL": "https://www.linkedin.com/in/pamela-pavkov-88937b4/"
+    }
+  },
+  {
+    "id": "recAdvqtSU8epOcQf",
+    "createdTime": "2025-11-10T15:05:08.000Z",
+    "fields": {
+      "Investor Name": "Emily LeVan",
+      "Investor Type": "SFO",
+      "Website": "https://www.talipot.net/",
+      "City": "San Diego",
+      "Country": "USA",
+      "Gender": "Male",
+      "Entity Name": "Talipot",
+      "Linkedin URL": "https://www.linkedin.com/in/emilylevan/"
     }
   },
   {
@@ -744,10 +815,12 @@
       "Gender": "Male",
       "Entity Name": "Revere",
       "Linkedin URL": "https://www.linkedin.com/in/ericwoo/",
+      "Podcast URL": "https://www.youtube.com/watch?v=8j-FyVDUkZE",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Eric Woo is co-founder and CEO of Revere, where he leads product development and investment analysis & due diligence efforts.\n\nPrior to starting Revere, he was Head of Institutional Capital at AngelList, the world’s largest online venture capital investment platform that supports over $10B in assets and has participated in the financing of over 190 “unicorn” companies. At AngelList, Eric worked closely with investors to curate early-stage fund and deal opportunities. He also developed systematic and data-driven strategies for institutional investors.\n\nOver the last 12 years, Eric has helped allocate over $160 million in venture funds and direct co-investments. Notably, he played a key role in establishing the emerging manager investment programs at Top Tier Capital and Northgate Capital, organizations that collectively have more than $15B in AUM. Eric is an acknowledged thought leader in the VC emerging managers ecosystem.\n\nBefore his venture career, Eric worked in pricing and risk management for a large insurance company and financial guarantor. He also has experience in online marketing and private market research. Eric is also a  venture partner at N Fund, a fund of funds. A Bay Area native, Eric graduated with a B.S. degree in Mechanical Engineering from UC Berkeley and has been a CFA charter holder since 2004."
+      "Investor Thesis & Background": "Eric Woo is co-founder and CEO of Revere, where he leads product development and investment analysis & due diligence efforts.\n\nPrior to starting Revere, he was Head of Institutional Capital at AngelList, the world’s largest online venture capital investment platform that supports over $10B in assets and has participated in the financing of over 190 “unicorn” companies. At AngelList, Eric worked closely with investors to curate early-stage fund and deal opportunities. He also developed systematic and data-driven strategies for institutional investors.\n\nOver the last 12 years, Eric has helped allocate over $160 million in venture funds and direct co-investments. Notably, he played a key role in establishing the emerging manager investment programs at Top Tier Capital and Northgate Capital, organizations that collectively have more than $15B in AUM. Eric is an acknowledged thought leader in the VC emerging managers ecosystem.\n\nBefore his venture career, Eric worked in pricing and risk management for a large insurance company and financial guarantor. He also has experience in online marketing and private market research. Eric is also a  venture partner at N Fund, a fund of funds. A Bay Area native, Eric graduated with a B.S. degree in Mechanical Engineering from UC Berkeley and has been a CFA charter holder since 2004.",
+      "Happenstance": "https://drive.google.com/file/d/1O5TNtE1qSs-erIvaQsgBW0EL4sWUr7Ll/view?usp=sharing"
     }
   },
   {
@@ -805,10 +878,12 @@
         "Emerging Managers"
       ],
       "Gender": "Female",
+      "Linkedin URL": "https://www.linkedin.com/in/susankimberlin/",
+      "Podcast URL": "https://www.youtube.com/watch?v=b9FH3bmXWqg",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Susan Kimberlin builds and invests in things that are Good & Useful. She is an angel investor, limited partner and product leader with a career that is equal parts building SaaS software products, and investing in companies, funds, teams, and projects that promote social equity with practical solutions for real-world problems. She is committed to bringing more diverse people into investing and the innovation economy. With a background in building search and natural language products for companies like PayPal and Salesforce, she leverages her experience to help her portfolio companies with product and fundraising strategies. Susan believes that bringing diverse perspectives to creative and practical challenges is the best way to create durable and impactful change.\n\nIn addition to her tech roles, Susan co-owns and manages Tammberlin Vineyards, growing Rhône wine varietals in Bennett Valley, Sonoma County. She works on documentary and narrative film projects as an executive producer, supporting creative projects that raise awareness, start conversations, and bring joy. She is a lifelong singer, and has been singing with pop a cappella group The Loose Interpretations for nearly 20 years."
+      "Investor Thesis & Background": "Susan Kimberlin builds and invests in things that are Good & Useful. She is an angel investor, limited partner and product leader with a career that is equal parts building SaaS software products, and investing in companies, funds, teams, and projects that promote social equity with practical solutions for real-world problems. She is committed to bringing more diverse people into investing and the innovation economy. With a background in building search and natural language products for companies like PayPal and Salesforce, she leverages her experience to help her portfolio companies with product and fundraising strategies. Susan believes that bringing diverse perspectives to creative and practical challenges is the best way to create durable and impactful change.\n\nIn addition to her tech roles, Susan co-owns and manages Tammberlin Vineyards, growing Rhône wine varietals in Bennett Valley, Sonoma County. She works on documentary and narrative film projects as an executive producer, supporting creative projects that raise awareness, start conversations, and bring joy. She is a lifelong singer, and has been singing with pop a cappella group The Loose Interpretations for nearly 20 years."
     }
   },
   {
@@ -852,7 +927,11 @@
       "Country": "United States",
       "Gender": "Female",
       "Entity Name": "Accolade Partners",
-      "Linkedin URL": "https://www.linkedin.com/in/joelle-kayden-938a708/"
+      "Linkedin URL": "https://www.linkedin.com/in/joelle-kayden-938a708/",
+      "Podcast URL": "https://www.youtube.com/watch?v=D8GckTwxGZE",
+      "Podcast Name": [
+        "Capital Allocators"
+      ]
     }
   },
   {
@@ -861,12 +940,15 @@
     "fields": {
       "Investor Name": "Albert Azout",
       "Investor Type": "Fund of Funds",
+      "Website": "http://www.levelvc.com/",
       "Gender": "Male",
       "Entity Name": "Level Ventures",
+      "Linkedin URL": "https://www.linkedin.com/in/albertazout/",
+      "Podcast URL": "https://www.youtube.com/watch?v=c8PI3cH0aOY",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Albert Azout is the Co-Founder and Managing Partner of Level Ventures, a technology investment firm built on software and data science and invests in both entrepreneurs and venture capital managers, including the likes of Air Street Capital, Emergent Ventures and Work-Bench, just to name a few. Prior to Level, Albert has been a serial founder, starting analytics businesses and even a social media company before Facebook."
+      "Investor Thesis & Background": "Albert Azout is the Co-Founder and Managing Partner of Level Ventures, a technology investment firm built on software and data science and invests in both entrepreneurs and venture capital managers, including the likes of Air Street Capital, Emergent Ventures and Work-Bench, just to name a few. Prior to Level, Albert has been a serial founder, starting analytics businesses and even a social media company before Facebook."
     }
   },
   {
@@ -893,12 +975,18 @@
     "fields": {
       "Investor Name": "Felipe Valencia",
       "Investor Type": "Fund of Funds",
+      "LP Keywords": [
+        "LATAM"
+      ],
+      "Website": "https://veronorte.com/",
       "Gender": "Male",
       "Entity Name": "Veronorte",
+      "Linkedin URL": "https://www.linkedin.com/in/felipevalencia/",
+      "Podcast URL": "https://www.youtube.com/watch?v=KF_1rf_zznk",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Felipe Valencia is one of the co-founders of Veronorte, a venture capital investment firm based out of Colombia. In the first decade, Veronorte focused on managing Corporate Venture Programs for some of the largest Corporations in Latam.\n\nThese days, they’re diving into a Fund of Funds investment strategy in the Venture Capital space. For the last 12 years, Veronorte has invested in over 25 startups across the U.S., India, Europe, Mexico, and Colombia, and in more than 12 Venture Capital funds, primarily in the U.S.\n\nWith over 20 years of experience under his belt, Felipe has dabbled in various fields like robotics, the internet, international trade, and infrastructure project management.\n\nFelipe graduated summa cum laude with a Mechanical Engineering degree from EAFIT University. He also holds a Master’s in Web Communication from the European Institute of Design in Rome and an MBA from the University of Chicago, where he focused on entrepreneurship and finance.\n\nFelipe’s journey has taken him all over the world: He worked for AVG – Robotics in Los Angeles, did research and development in Mechatronics at Siemens in Germany, and was the Commercial and Strategic Director of Indexcol in Colombia. He also served as the Commercial Attaché at the Colombian Embassy in China and led the Proexport office there. Most recently, he was involved in business development at Pierson Capital in Beijing and managed infrastructure projects in Mexico."
+      "Investor Thesis & Background": "Felipe Valencia is one of the co-founders of Veronorte, a venture capital investment firm based out of Colombia. In the first decade, Veronorte focused on managing Corporate Venture Programs for some of the largest Corporations in Latam.\n\nThese days, they’re diving into a Fund of Funds investment strategy in the Venture Capital space. For the last 12 years, Veronorte has invested in over 25 startups across the U.S., India, Europe, Mexico, and Colombia, and in more than 12 Venture Capital funds, primarily in the U.S.\n\nWith over 20 years of experience under his belt, Felipe has dabbled in various fields like robotics, the internet, international trade, and infrastructure project management.\n\nFelipe graduated summa cum laude with a Mechanical Engineering degree from EAFIT University. He also holds a Master’s in Web Communication from the European Institute of Design in Rome and an MBA from the University of Chicago, where he focused on entrepreneurship and finance.\n\nFelipe’s journey has taken him all over the world: He worked for AVG – Robotics in Los Angeles, did research and development in Mechatronics at Siemens in Germany, and was the Commercial and Strategic Director of Indexcol in Colombia. He also served as the Commercial Attaché at the Colombian Embassy in China and led the Proexport office there. Most recently, he was involved in business development at Pierson Capital in Beijing and managed infrastructure projects in Mexico."
     }
   },
   {
@@ -923,11 +1011,14 @@
       "LP Keywords": [
         "Services"
       ],
+      "Website": "https://www.linkedin.com/in/evanfinkel/",
       "Gender": "Male",
+      "Linkedin URL": "https://www.linkedin.com/in/evanfinkel/",
+      "Podcast URL": "https://www.youtube.com/watch?v=iz3C-qzgqek",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Evan currently serves as Head of Venture Capital Investments and Research for Integra Global Advisors, a multi-family office. Prior to Integra, Evan served as Senior Manager of Data Science for Anheuser-Busch InBev where he oversaw data science and strategy for the US marketing organization. Prior to Anheuser-Busch, Evan spent two years as a Management Consultant at Marketing Management Analytics and held a technical role at Amazon. Evan earned an MS in Computer Science with a concentration in machine learning from Georgia Tech and studied computational and applied mathematics at the City University of New York and finance and psychology at the University of Miami."
+      "Investor Thesis & Background": "Evan currently serves as Head of Venture Capital Investments and Research for Integra Global Advisors, a multi-family office. Prior to Integra, Evan served as Senior Manager of Data Science for Anheuser-Busch InBev where he oversaw data science and strategy for the US marketing organization. Prior to Anheuser-Busch, Evan spent two years as a Management Consultant at Marketing Management Analytics and held a technical role at Amazon. Evan earned an MS in Computer Science with a concentration in machine learning from Georgia Tech and studied computational and applied mathematics at the City University of New York and finance and psychology at the University of Miami."
     }
   },
   {
@@ -958,6 +1049,16 @@
       "Gender": "Male",
       "Entity Name": "Peakview Capital (Shengjing Group)",
       "Linkedin URL": "https://www.linkedin.com/in/erik-lassila-45727/"
+    }
+  },
+  {
+    "id": "recDuCWOKW1RH30W2",
+    "createdTime": "2025-11-07T14:51:35.000Z",
+    "fields": {
+      "Investor Name": "Daniel Balmisse",
+      "Investor Type": "Fund of Funds",
+      "Gender": "Male",
+      "Entity Name": "Cathay InnoSquare"
     }
   },
   {
@@ -1009,9 +1110,12 @@
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
       "Investor Name": "Meggie Ramirez",
+      "Website": "https://www.citizensbank.com/",
+      "Title": "Senior Director ",
       "City": "San Jose, California",
       "Country": "United States",
       "Gender": "Female",
+      "Entity Name": "Citizen's Private Bank",
       "Linkedin URL": "https://www.linkedin.com/in/meggie-ramirez/"
     }
   },
@@ -1051,6 +1155,16 @@
     }
   },
   {
+    "id": "recGcjmIs3TbDcG1c",
+    "createdTime": "2025-11-07T19:29:46.000Z",
+    "fields": {
+      "Investor Name": "William Walsh",
+      "Investor Type": "Foundation",
+      "Gender": "Male",
+      "Entity Name": "The Passport Foundation"
+    }
+  },
+  {
     "id": "recGgTr8nG61TAmAN",
     "createdTime": "2025-09-18T16:08:16.000Z",
     "fields": {
@@ -1068,10 +1182,12 @@
       "Gender": "Female",
       "Entity Name": "Sapphire Partners",
       "Linkedin URL": "https://www.linkedin.com/in/elizabethclarkson/",
+      "Podcast URL": "https://www.youtube.com/watch?v=XjiR8n8mOWM",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Beezer Clarkson leads Sapphire Partners‘ investments in venture funds domestically and internationally. Beezer began her career in financial services over 20 years ago at Morgan Stanley in its global infrastructure group. Since, she has held various direct and indirect venture investment roles, as well as operational roles in software business development at Hewlett Packard. Prior to joining Sapphire in 2012, Beezer managed the day-to-day operations of the Draper Fisher Jurvetson Global Network, which then had $7 billion under management across 16 venture funds worldwide.\n\nIn 2016, Beezer led the launch of OpenLP, an effort to help foster greater understanding in the entrepreneur-to-LP tech ecosystem. Beezer earned a bachelor’s in government from Wesleyan University, where she served on the board of trustees and currently serves as an advisor to the Wesleyan Endowment Investment Committee. She is currently serving on the board of the NVCA and holds an MBA from Harvard Business School."
+      "Investor Thesis & Background": "Beezer Clarkson leads Sapphire Partners‘ investments in venture funds domestically and internationally. Beezer began her career in financial services over 20 years ago at Morgan Stanley in its global infrastructure group. Since, she has held various direct and indirect venture investment roles, as well as operational roles in software business development at Hewlett Packard. Prior to joining Sapphire in 2012, Beezer managed the day-to-day operations of the Draper Fisher Jurvetson Global Network, which then had $7 billion under management across 16 venture funds worldwide.\n\nIn 2016, Beezer led the launch of OpenLP, an effort to help foster greater understanding in the entrepreneur-to-LP tech ecosystem. Beezer earned a bachelor’s in government from Wesleyan University, where she served on the board of trustees and currently serves as an advisor to the Wesleyan Endowment Investment Committee. She is currently serving on the board of the NVCA and holds an MBA from Harvard Business School.",
+      "Happenstance": "https://drive.google.com/file/d/1KABrvn9NN3pAAC0x6vVOfIm5lm3YBZVi/view?usp=sharing"
     }
   },
   {
@@ -1134,12 +1250,18 @@
         "accelerator",
         "Emerging Managers"
       ],
+      "Website": "https://www.wintermead.com/contact-0",
+      "Title": "Founder",
+      "City": "Salt Lake City, UT",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Coolwater",
+      "Linkedin URL": "https://www.linkedin.com/in/wintermead/",
+      "Podcast URL": "https://www.youtube.com/watch?v=zY3GU0DtTec",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Winter Mead is the Founder and Managing Member of the investment firm Coolwater Capital, which exclusively focuses on emerging managers and technology investments. Coolwater is an academy for training, building and scaling emerging managers, a curated community of VC investors and early-stage investment specialists, and an investment firm. Coolwater has helped launch over 175 emerging managers, establishing strong ties and trust with these managers, who form the foundation of the Coolwater community. Winter is also the author of “How To Raise A Venture Capital Fund”.\n\nPrior to Coolwater, he played a key role in an evergreen investment fund at SAP, co-founded the LP transparency movement called #OpenLP, and served on the committee for the Institutional Limited Partners Association (ILPA), which sets the standards for the private equity industry. Winter’s extensive experience includes private equity and venture capital roles in San Francisco, institutional fund investments, direct technology investments, and angel investing.\n\nHe also served as junior faculty at Stanford Graduate School of Business, holding degrees from the University of Oxford and Harvard University, and now resides in Utah with his family, passionately solving business challenges."
+      "Investor Thesis & Background": "Winter Mead is the Founder and Managing Member of the investment firm Coolwater Capital, which exclusively focuses on emerging managers and technology investments. Coolwater is an academy for training, building and scaling emerging managers, a curated community of VC investors and early-stage investment specialists, and an investment firm. Coolwater has helped launch over 175 emerging managers, establishing strong ties and trust with these managers, who form the foundation of the Coolwater community. Winter is also the author of “How To Raise A Venture Capital Fund”.\n\nPrior to Coolwater, he played a key role in an evergreen investment fund at SAP, co-founded the LP transparency movement called #OpenLP, and served on the committee for the Institutional Limited Partners Association (ILPA), which sets the standards for the private equity industry. Winter’s extensive experience includes private equity and venture capital roles in San Francisco, institutional fund investments, direct technology investments, and angel investing.\n\nHe also served as junior faculty at Stanford Graduate School of Business, holding degrees from the University of Oxford and Harvard University, and now resides in Utah with his family, passionately solving business challenges."
     }
   },
   {
@@ -1206,13 +1328,16 @@
     "createdTime": "2025-09-18T18:50:04.000Z",
     "fields": {
       "Investor Name": "Asher Siddiqui",
-      "Investor Type": "HNWI",
+      "Investor Type": "Advisor/CIO",
+      "Website": "https://www.asilica.com/",
       "Gender": "Male",
       "Entity Name": "Asilica",
+      "Linkedin URL": "https://www.linkedin.com/in/ashersiddiqui/",
+      "Podcast URL": "https://www.youtube.com/watch?v=Ff8UWJhQcRM",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Asher Siddiqui is a global tech investor, M&A dealmaker, and venture fund builder with over 25 years of hands-on experience across venture capital, entrepreneurship, and more than $15B in executed M&A transactions.\n\nHe began his career as a software engineer and entrepreneur in the US and UK before spending a decade leading M&A and corporate venture at Etisalat Group (now e& Group), one of the world’s largest listed TMT investment groups. There, he led acquisitions, exits, and strategic transactions across multiple continents.\n\nIn 2016, Asher joined the global leadership team at 500 Startups in San Francisco, helping scale the platform to $2B+ AUM, with a portfolio that includes 35+ unicorns and 160+ centaurs.\n\nSince then, he has helped launch and scale several institutional VC firms—including Race Capital, Lumikai, Sukna Ventures, Zayn VC, and Humanrace Capital—and serves on the advisory boards of funds such as FootPrint Coalition Ventures, Merus Capital, and The Treasury.\n\nTo date, Asher has made 100+ venture investments (both direct and LP), raised hundreds of millions in LP commitments, mentored hundreds of emerging VC managers globally, and advised countless founders.\n\n"
+      "Investor Thesis & Background": "Asher Siddiqui is a global tech investor, M&A dealmaker, and venture fund builder with over 25 years of hands-on experience across venture capital, entrepreneurship, and more than $15B in executed M&A transactions.\n\nHe began his career as a software engineer and entrepreneur in the US and UK before spending a decade leading M&A and corporate venture at Etisalat Group (now e& Group), one of the world’s largest listed TMT investment groups. There, he led acquisitions, exits, and strategic transactions across multiple continents.\n\nIn 2016, Asher joined the global leadership team at 500 Startups in San Francisco, helping scale the platform to $2B+ AUM, with a portfolio that includes 35+ unicorns and 160+ centaurs.\n\nSince then, he has helped launch and scale several institutional VC firms—including Race Capital, Lumikai, Sukna Ventures, Zayn VC, and Humanrace Capital—and serves on the advisory boards of funds such as FootPrint Coalition Ventures, Merus Capital, and The Treasury.\n\nTo date, Asher has made 100+ venture investments (both direct and LP), raised hundreds of millions in LP commitments, mentored hundreds of emerging VC managers globally, and advised countless founders.\n\n"
     }
   },
   {
@@ -1387,6 +1512,26 @@
     }
   },
   {
+    "id": "recNU8kHQ1HepURnR",
+    "createdTime": "2025-11-07T15:07:52.000Z",
+    "fields": {
+      "Investor Name": "Mel Williams",
+      "Investor Type": "Fund of Funds",
+      "Website": "https://truebridgecapital.com/",
+      "Gender": "Male",
+      "Entity Name": "Truebridge-Kauffman",
+      "Linkedin URL": "https://www.linkedin.com/in/mel-williams-00584a5/"
+    }
+  },
+  {
+    "id": "recNYDjDiFZeHSUCc",
+    "createdTime": "2025-11-07T15:03:40.000Z",
+    "fields": {
+      "Gender": "Male",
+      "Entity Name": "General Endowment Management (GEM)"
+    }
+  },
+  {
     "id": "recNcfsguQr1TxQZk",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
@@ -1488,12 +1633,17 @@
     "fields": {
       "Investor Name": "Peter Teneriello",
       "Investor Type": "Fund of Funds",
+      "Website": "https://www.pomifercapital.com/",
+      "Title": "Director",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Pomifer Capital",
+      "Linkedin URL": "https://www.linkedin.com/in/peterteneriello/",
+      "Podcast URL": "https://www.youtube.com/watch?v=7sv33ujwBcE",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Peter Teneriello has been a career-long investor in the private markets. He has experience as an allocator across a range of institutional types, from wealth management firms to pensions and endowments, and helped launch the venture capital program for the Texas Municipal Retirement System. Other past experiences of his have included leading finance/operations for a venture-backed startup, in addition to vetting investments for a family office and working with their portfolio companies. Over the years he has also written about his investing experience on Medium and Substack.\n\nHe is a graduate of the University of Notre Dame as well as the Kauffman Fellows Program, an executive education program focused on venture capital and innovation leadership. He wears many hats."
+      "Investor Thesis & Background": "Peter Teneriello has been a career-long investor in the private markets. He has experience as an allocator across a range of institutional types, from wealth management firms to pensions and endowments, and helped launch the venture capital program for the Texas Municipal Retirement System. Other past experiences of his have included leading finance/operations for a venture-backed startup, in addition to vetting investments for a family office and working with their portfolio companies. Over the years he has also written about his investing experience on Medium and Substack.\n\nHe is a graduate of the University of Notre Dame as well as the Kauffman Fellows Program, an executive education program focused on venture capital and innovation leadership. He wears many hats."
     }
   },
   {
@@ -1538,12 +1688,18 @@
         "crypto",
         "Emerging Managers"
       ],
+      "Website": "https://www.accoladepartners.com/team",
+      "Title": "Partner",
+      "City": "Washington, DC",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Accolade Partners",
+      "Linkedin URL": "https://www.linkedin.com/in/aram-verdiyan-8099186/",
+      "Podcast URL": "https://www.youtube.com/watch?v=DIxF2eJ-vR0",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Aram Verdiyan is a Partner at Accolade. Previously, he worked on the investment team at Andreessen Horowitz. Before that, Aram worked in BD, sales and marketing at Aviatrix, a cloud native enterprise software company. Aram worked at Accolade from 2012 to 2015 as a Senior Investment Associate and at Deloitte Consulting LLP. He holds an M.B.A from the Stanford Graduate School of Business (GSB) and a B.S. from the George Washington University."
+      "Investor Thesis & Background": "Aram Verdiyan is a Partner at Accolade. Previously, he worked on the investment team at Andreessen Horowitz. Before that, Aram worked in BD, sales and marketing at Aviatrix, a cloud native enterprise software company. Aram worked at Accolade from 2012 to 2015 as a Senior Investment Associate and at Deloitte Consulting LLP. He holds an M.B.A from the Stanford Graduate School of Business (GSB) and a B.S. from the George Washington University."
     }
   },
   {
@@ -1554,16 +1710,21 @@
       "Investor Type": "Fund of Funds",
       "LP Keywords": [
         "accelerator",
-        "#diversity",
-        "Emerging Managers"
+        "Emerging Managers",
+        "Diversity"
       ],
-      "Website": "https://www.linkedin.com/in/courtneymccrea/",
+      "Website": "https://recastcapital.com/",
+      "Title": "co-founder",
+      "City": "San Francisco",
+      "Country": "USA",
       "Gender": "Female",
       "Entity Name": "Recast Capital",
+      "Linkedin URL": "https://www.linkedin.com/in/courtneymccrea/",
+      "Podcast URL": "https://www.youtube.com/watch?v=M-PpT_Kr4Hk",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Courtney Russell McCrea enjoys over 30 years of venture capital and private equity investment experience including 13 years of fund investing and 18 years of direct principal investing.\n\nCourtney is Co-Founder and Managing Partner of Recast Capital, a 100% women-owned platform investing in and supporting emerging managers in venture, with a focus on diverse partnerships.\n\nPrior to co-founding Recast, Courtney was a Managing Director of Weathergage Capital, a boutique fund of funds that provided its clients with access to premier venture capital, growth equity and micro-VC partnerships. Venture fund commitments included both brand name funds and emerging managers. In addition to fund investment responsibilities, Courtney led the direct co investing program at Weathergage. During her 10 year tenure at Weathergage, Courtney made commitments to 100 funds and seven direct co-investments.\n\nPrior to Weathergage, Courtney was a General Partner with Weston Presidio, a leading diversified private equity firm based in San Francisco. After 7 years at Weston Presidio, she left in 2004 and founded Silver Partners, a private equity advisory firm where she evaluated secondary and co-investment opportunities and advised consumer growth businesses. Courtney was also a Director at Sterling Stamos, where she managed investments in buyout funds, venture capital funds and hedge funds.\n\nEarlier in her career, Courtney made equity co-investments as an Assistant Vice President at PPM America. She also spent 5 years at GE Capital where she worked on private equity, senior and subordinated debt investing.\n\nCourtney has an M.B.A., with honors, from the Kellogg Graduate School of Management and a B.A. in Economics from the University of Illinois, Champaign-Urbana. She is a member of the Kauffman Fellows Class 3.\n\nCourtney is a member of the NVCA Forward Board of Directors and the Alzheimer’s Association Northern California and Nevada Board of Directors.\n\n"
+      "Investor Thesis & Background": "Courtney Russell McCrea enjoys over 30 years of venture capital and private equity investment experience including 13 years of fund investing and 18 years of direct principal investing.\n\nCourtney is Co-Founder and Managing Partner of Recast Capital, a 100% women-owned platform investing in and supporting emerging managers in venture, with a focus on diverse partnerships.\n\nPrior to co-founding Recast, Courtney was a Managing Director of Weathergage Capital, a boutique fund of funds that provided its clients with access to premier venture capital, growth equity and micro-VC partnerships. Venture fund commitments included both brand name funds and emerging managers. In addition to fund investment responsibilities, Courtney led the direct co investing program at Weathergage. During her 10 year tenure at Weathergage, Courtney made commitments to 100 funds and seven direct co-investments.\n\nPrior to Weathergage, Courtney was a General Partner with Weston Presidio, a leading diversified private equity firm based in San Francisco. After 7 years at Weston Presidio, she left in 2004 and founded Silver Partners, a private equity advisory firm where she evaluated secondary and co-investment opportunities and advised consumer growth businesses. Courtney was also a Director at Sterling Stamos, where she managed investments in buyout funds, venture capital funds and hedge funds.\n\nEarlier in her career, Courtney made equity co-investments as an Assistant Vice President at PPM America. She also spent 5 years at GE Capital where she worked on private equity, senior and subordinated debt investing.\n\nCourtney has an M.B.A., with honors, from the Kellogg Graduate School of Management and a B.A. in Economics from the University of Illinois, Champaign-Urbana. She is a member of the Kauffman Fellows Class 3.\n\nCourtney is a member of the NVCA Forward Board of Directors and the Alzheimer’s Association Northern California and Nevada Board of Directors.\n\n"
     }
   },
   {
@@ -1613,10 +1774,12 @@
       "Gender": "Male",
       "Entity Name": "Ahoy Capital",
       "Linkedin URL": "https://www.linkedin.com/in/chrisdouvos/",
+      "Podcast URL": "https://www.youtube.com/watch?v=7H0xuaZHzyk",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Chris Douvos founded Ahoy Capital in 2018 to build an intentionally right-sized firm that could pursue investment excellence while prizing a spirit of partnership with all of its constituencies. A pioneering investor in the micro-VC movement, Chris has been a fixture in venture capital for nearly two decades. In addition to successfully identifying and catalyzing nascent funds, he bridges a gap between the providers of capital and the consumers of capital by creating platforms for transparent dialogue. Chris authors the blog SuperLP in which he chronicles his adventures investing in venture capital and private equity; and his brick oven pizza parties, small gatherings of LPs, GPs, and entrepreneurs, are well-known in the Valley. He is sought after not only for investment capital, but also for his advice, and serves on numerous managers’ advisory boards.\n\nPrior to Ahoy Capital, Chris spearheaded investment efforts at Venture Investment Associates, and The Investment Fund for Foundations. He learned the craft of illiquid investing at Princeton University’s endowment. He started his business career as a strategy consultant at Monitor Company. Chris regularly speaks at industry conferences and business schools and is a frequent resource for tech and business media. He earned his B.A. with Distinction in history from Yale College in 1994 and an M.B.A. from Yale School of Management in 2001. He was awarded the CFA Charter in 2004."
+      "Investor Thesis & Background": "Chris Douvos founded Ahoy Capital in 2018 to build an intentionally right-sized firm that could pursue investment excellence while prizing a spirit of partnership with all of its constituencies. A pioneering investor in the micro-VC movement, Chris has been a fixture in venture capital for nearly two decades. In addition to successfully identifying and catalyzing nascent funds, he bridges a gap between the providers of capital and the consumers of capital by creating platforms for transparent dialogue. Chris authors the blog SuperLP in which he chronicles his adventures investing in venture capital and private equity; and his brick oven pizza parties, small gatherings of LPs, GPs, and entrepreneurs, are well-known in the Valley. He is sought after not only for investment capital, but also for his advice, and serves on numerous managers’ advisory boards.\n\nPrior to Ahoy Capital, Chris spearheaded investment efforts at Venture Investment Associates, and The Investment Fund for Foundations. He learned the craft of illiquid investing at Princeton University’s endowment. He started his business career as a strategy consultant at Monitor Company. Chris regularly speaks at industry conferences and business schools and is a frequent resource for tech and business media. He earned his B.A. with Distinction in history from Yale College in 1994 and an M.B.A. from Yale School of Management in 2001. He was awarded the CFA Charter in 2004.",
+      "Happenstance": "https://drive.google.com/file/d/1a2yeLEBWnnPPoy4v-xReBXpYqc5quaou/view?usp=sharing"
     }
   },
   {
@@ -1625,10 +1788,32 @@
     "fields": {
       "Investor Name": "Jon Staenberg",
       "Investor Type": "Family Office",
+      "LP Keywords": [
+        "Search Funds"
+      ],
+      "Website": "https://www.agatehound.fund/",
+      "Title": "Founder & CEO",
       "City": "Greater Seattle Area",
       "Country": "United States",
       "Gender": "Male",
+      "Entity Name": "Staenberg Venture Partners",
       "Linkedin URL": "https://www.linkedin.com/in/jonstaenberg/"
+    }
+  },
+  {
+    "id": "recRAqCo08uhmK6AI",
+    "createdTime": "2025-11-03T20:59:02.000Z",
+    "fields": {
+      "Investor Name": "Charlotte Palmer",
+      "Investor Type": "Fund of Funds",
+      "Website": "https://www.integraga.com/",
+      "Gender": "Female",
+      "Entity Name": "Integra Global Advisors",
+      "Linkedin URL": "https://www.linkedin.com/in/charlotte-palmer1/",
+      "Podcast URL": "https://www.youtube.com/watch?v=JCOrqd2_QXI&t=1394s",
+      "Podcast Name": [
+        "Swimming with Allocators"
+      ]
     }
   },
   {
@@ -1649,11 +1834,14 @@
     "fields": {
       "Investor Name": "Charissa Lai",
       "Investor Type": "HNWI",
+      "Website": "http://www.fidelity.com/",
       "Gender": "Female",
+      "Linkedin URL": "https://www.linkedin.com/in/charissa-lai/?originalSubdomain=ca",
+      "Podcast URL": "https://www.youtube.com/watch?v=1UI-8teZC4k",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Charissa has experience in Investing, Strategy and Relationship Management across Private Equity and Investment Banking. She’s gained global perspective from having worked and lived in South Africa, England, Canada, China and the USA. Her expertise includes selecting fund managers and co-investments, developing alternatives strategies and building relationships. She’s a recipient of 2016 Women in Capital Markets Emerging Leaders Award with CPPIB. She serves as a Board Director at the Toronto Humane Society.\n\nCharissa holds an MBA from Northwestern University and an HBSc. from University of Toronto."
+      "Investor Thesis & Background": "Charissa has experience in Investing, Strategy and Relationship Management across Private Equity and Investment Banking. She’s gained global perspective from having worked and lived in South Africa, England, Canada, China and the USA. Her expertise includes selecting fund managers and co-investments, developing alternatives strategies and building relationships. She’s a recipient of 2016 Women in Capital Markets Emerging Leaders Award with CPPIB. She serves as a Board Director at the Toronto Humane Society.\n\nCharissa holds an MBA from Northwestern University and an HBSc. from University of Toronto."
     }
   },
   {
@@ -1673,7 +1861,7 @@
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
       "Investor Name": "Matthew Malone",
-      "Investor Type": "Fund of Funds",
+      "Investor Type": "Platform",
       "LP Keywords": [
         "#JoeLonsdale #8vc"
       ],
@@ -1711,7 +1899,11 @@
       "Country": "United States",
       "Gender": "Male",
       "Entity Name": "Stepstone",
-      "Linkedin URL": "https://www.linkedin.com/in/hunter-somerville-2a24117/"
+      "Linkedin URL": "https://www.linkedin.com/in/hunter-somerville-2a24117/",
+      "Podcast URL": "https://www.youtube.com/watch?v=IxAGhh7GiVE",
+      "Podcast Name": [
+        "10x Capital Podcast"
+      ]
     }
   },
   {
@@ -1751,7 +1943,11 @@
       "Country": "United States",
       "Gender": "Male",
       "Entity Name": "Tribe Capital",
-      "Linkedin URL": "https://www.linkedin.com/in/jonathanphsu/"
+      "Linkedin URL": "https://www.linkedin.com/in/jonathanphsu/",
+      "Podcast URL": "https://www.youtube.com/watch?v=PZq5cFFnYeI",
+      "Podcast Name": [
+        "10x Capital Podcast"
+      ]
     }
   },
   {
@@ -1867,12 +2063,17 @@
         "Growth",
         "#israel"
       ],
+      "Website": "https://vintage-ip.com/team/",
+      "Title": "Co-Managing Partner",
+      "Country": "Israel",
       "Gender": "Male",
       "Entity Name": "Vintage Investment Partners",
+      "Linkedin URL": "https://www.linkedin.com/in/abe-finkelstein/?originalSubdomain=il",
+      "Podcast URL": "https://www.youtube.com/watch?v=5Fa3mVCH06g",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Abe Finkelstein, Managing Partner at Vintage, has been leading fund, secondary, and growth stage investments focused on fintech, gaming, and SMB software, among others, leading growth stage and secondary investments for Vintage in companies like Monday.com, Minute Media, Payoneer, MoonActive and Honeybook.\n\nPrior to joining Vintage in 2003, Abe was an equity analyst with Goldman Sachs, covering Israel-based technology companies in a wide variety of sectors, including software, telecom equipment, networking, semiconductors, and satellite communications. While at Goldman Sachs, Abe, and the Israel team were highly ranked by both Thomson Extel and Institutional Investor.\n\nPrior to Goldman Sachs, Abe was Vice-President at U.S. Bancorp Piper Jaffray, where he helped launch and led the firm’s Israel technology shares institutional sales effort. Before joining Piper, he was an Associate at Brown Brothers Harriman, covering the enterprise software and internet sectors. Abe began his career at Josephthal, Lyon, and Ross, joining one of the first research teams focused exclusively on Israel-based companies.\n\nAbe graduated Magna Cum Laude from the Wharton School at the University of Pennsylvania with a BS in Economics and a concentration in Finance.\n\nVintage Investment Partners is a global venture platform managing ~$4 billion across venture Fund of Funds, Secondary Funds, and Growth-Stage Funds focused on venture in the U.S., Europe, Israel, and Canada. Vintage is invested in many of the world’;s leading venture funds and growth-stage tech startups striving to make a lasting impact on the world and has exposure directly and indirectly to over 6,000 technology companies."
+      "Investor Thesis & Background": "Abe Finkelstein, Managing Partner at Vintage, has been leading fund, secondary, and growth stage investments focused on fintech, gaming, and SMB software, among others, leading growth stage and secondary investments for Vintage in companies like Monday.com, Minute Media, Payoneer, MoonActive and Honeybook.\n\nPrior to joining Vintage in 2003, Abe was an equity analyst with Goldman Sachs, covering Israel-based technology companies in a wide variety of sectors, including software, telecom equipment, networking, semiconductors, and satellite communications. While at Goldman Sachs, Abe, and the Israel team were highly ranked by both Thomson Extel and Institutional Investor.\n\nPrior to Goldman Sachs, Abe was Vice-President at U.S. Bancorp Piper Jaffray, where he helped launch and led the firm’s Israel technology shares institutional sales effort. Before joining Piper, he was an Associate at Brown Brothers Harriman, covering the enterprise software and internet sectors. Abe began his career at Josephthal, Lyon, and Ross, joining one of the first research teams focused exclusively on Israel-based companies.\n\nAbe graduated Magna Cum Laude from the Wharton School at the University of Pennsylvania with a BS in Economics and a concentration in Finance.\n\nVintage Investment Partners is a global venture platform managing ~$4 billion across venture Fund of Funds, Secondary Funds, and Growth-Stage Funds focused on venture in the U.S., Europe, Israel, and Canada. Vintage is invested in many of the world’;s leading venture funds and growth-stage tech startups striving to make a lasting impact on the world and has exposure directly and indirectly to over 6,000 technology companies."
     }
   },
   {
@@ -1913,12 +2114,18 @@
       "LP Keywords": [
         "non profit/charity"
       ],
+      "Website": "https://www.nextlegacy.com/team/ben-choi",
+      "Title": "Managing Director",
+      "City": "Palo Alto",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Next Legacy",
+      "Linkedin URL": "https://www.linkedin.com/in/bchoi",
+      "Podcast URL": "https://www.youtube.com/watch?v=W0dRjXD8ltg",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Ben Choi manages over $3B investments with many of the world’s premier venture capital firms as well as directly in early stage startups. He brings to Next Legacy a distinguished track record spanning over two decades founding and investing in early-stage technology businesses. Ben’s love for technology products formed the basis for his successful venture track record, including early stage investments in Marketo (acquired for $4.75B) and CourseHero (last valued at $3.6B). He previously ran product for Adobe’s Creative Cloud offerings and founded CoffeeTable, where he raised venture capital financing, built a team, and ultimately sold the company.\n\nBen is an engaged member of the Society of Kauffman Fellows and has been named to the Board of Directors for the San Francisco Chinese Culture Center and Children’s Health Council. Ben studied Computer Science at Harvard University before Mark Zuckerberg made it cool and received his MBA from Columbia Business School. Born in Peoria, raised in San Francisco, and educated in Cambridge, Ben now lives in Palo Alto with his wife, Lydia, and three very active sons."
+      "Investor Thesis & Background": "Ben Choi manages over $3B investments with many of the world’s premier venture capital firms as well as directly in early stage startups. He brings to Next Legacy a distinguished track record spanning over two decades founding and investing in early-stage technology businesses. Ben’s love for technology products formed the basis for his successful venture track record, including early stage investments in Marketo (acquired for $4.75B) and CourseHero (last valued at $3.6B). He previously ran product for Adobe’s Creative Cloud offerings and founded CoffeeTable, where he raised venture capital financing, built a team, and ultimately sold the company.\n\nBen is an engaged member of the Society of Kauffman Fellows and has been named to the Board of Directors for the San Francisco Chinese Culture Center and Children’s Health Council. Ben studied Computer Science at Harvard University before Mark Zuckerberg made it cool and received his MBA from Columbia Business School. Born in Peoria, raised in San Francisco, and educated in Cambridge, Ben now lives in Palo Alto with his wife, Lydia, and three very active sons."
     }
   },
   {
@@ -1958,14 +2165,19 @@
       "Investor Type": "Fund of Funds",
       "LP Keywords": [
         "Emerging Managers",
-        "#europe"
+        "Europe"
       ],
+      "Website": "https://www.multiple.capital/",
+      "Title": "Founder",
+      "Country": "Luxembourg",
       "Gender": "Male",
       "Entity Name": "Multiple Capital",
+      "Linkedin URL": "https://lu.linkedin.com/in/ertancan",
+      "Podcast URL": "https://www.youtube.com/watch?v=l4y0p52Ijxc",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Ertan Can is the Founder of Multiple Capital, a fund of funds focused on investing in micro VC funds in Europe and has been a limited partner in top funds you’ve heard of including Entrepreneur First and Angular Ventures, just to name a few. He’s done his tour of duty in the asset management world at JP Morgan to covering investor relations topics at Thomson Reuters to investing in startups at a family office. Ertan is also a founding member of 2hearts, a community dedicated to building tomorrow’s tech society with cultural diversity.\n\nHe is also a proud MBA graduate from the ESCP Business School and a long time student of finance and law catalyzed by his time at Frankfurt and London."
+      "Investor Thesis & Background": "Ertan Can is the Founder of Multiple Capital, a fund of funds focused on investing in micro VC funds in Europe and has been a limited partner in top funds you’ve heard of including Entrepreneur First and Angular Ventures, just to name a few. He’s done his tour of duty in the asset management world at JP Morgan to covering investor relations topics at Thomson Reuters to investing in startups at a family office. Ertan is also a founding member of 2hearts, a community dedicated to building tomorrow’s tech society with cultural diversity.\n\nHe is also a proud MBA graduate from the ESCP Business School and a long time student of finance and law catalyzed by his time at Frankfurt and London."
     }
   },
   {
@@ -1996,13 +2208,6 @@
     }
   },
   {
-    "id": "recYHT9AA1F9YA5HS",
-    "createdTime": "2025-10-31T17:30:53.000Z",
-    "fields": {
-      "Gender": "Male"
-    }
-  },
-  {
     "id": "recYSquSiUAZOgbwX",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
@@ -2027,7 +2232,11 @@
       "Country": "United States",
       "Gender": "Female",
       "Entity Name": "Top Tier Capital Partners",
-      "Linkedin URL": "https://www.linkedin.com/in/lisa-edgar-928b001/"
+      "Linkedin URL": "https://www.linkedin.com/in/lisa-edgar-928b001/",
+      "Podcast URL": "https://www.youtube.com/watch?v=dY94C26V0Vs",
+      "Podcast Name": [
+        "Billion Dollar Moves"
+      ]
     }
   },
   {
@@ -2050,6 +2259,7 @@
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
       "Investor Name": "Gary Gitelson",
+      "Title": "Senior Director",
       "City": "San Jose, California",
       "Country": "United States",
       "Gender": "Male",
@@ -2098,7 +2308,11 @@
       "Country": "United States",
       "Gender": "Male",
       "Entity Name": "Accolade Partners",
-      "Linkedin URL": "https://www.linkedin.com/in/atul-rustgi-14624b/"
+      "Linkedin URL": "https://www.linkedin.com/in/atul-rustgi-14624b/",
+      "Podcast URL": "https://www.youtube.com/watch?v=R5UjEXh2ZI0",
+      "Podcast Name": [
+        "10x Capital Podcast"
+      ]
     }
   },
   {
@@ -2107,12 +2321,18 @@
     "fields": {
       "Investor Name": "Charlotte Zhang",
       "Investor Type": "Foundation",
+      "LP Keywords": [
+        "#impact"
+      ],
+      "Website": "https://www.inatai.org/",
       "Gender": "Female",
       "Entity Name": "Inatai Foundation",
+      "Linkedin URL": "https://www.linkedin.com/in/charlotterzhang/",
+      "Podcast URL": "https://www.youtube.com/watch?v=kUlSri4IjW8",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "As the director of investments, Charlotte Zhang oversees the selection of external investment managers at Inatai Foundation, conducts portfolio research, and helps to institutionalize processes, tools, and resources. Experienced in impact investing, she previously served as a senior associate at ICONIQ Capital and, before that, Medley Partners. Investing on behalf of foundations affiliated with family offices, her investments supported a variety of nonprofit work, from early childhood education to autism research. Charlotte was a founding partner of Seed Consulting Group, a California-based nonprofit that provides pro bono strategy consulting to environmental and public health organizations, and currently serves on the Women’s Association of Venture and Equity’s west coast steering committee and as a Project Pinklight panelist for Private Equity Women Investor Network. She is also on the advisory boards of MoDa Partners, a family office whose mission is to advance the economic and educational equity of women and girls, and 8090 Partners, a multifamily office consisting of families and entrepreneurs across diverse industries that is currently deploying an impact investment fund.\n\nCharlotte earned a BS with honors in business administration from the University of California, Berkley. When not working, you can find her globetrotting (18 countries and counting), writing a Yelp review about the best bite in town, or cuddling up with a book and her two adorable cats.\n\n"
+      "Investor Thesis & Background": "As the director of investments, Charlotte Zhang oversees the selection of external investment managers at Inatai Foundation, conducts portfolio research, and helps to institutionalize processes, tools, and resources. Experienced in impact investing, she previously served as a senior associate at ICONIQ Capital and, before that, Medley Partners. Investing on behalf of foundations affiliated with family offices, her investments supported a variety of nonprofit work, from early childhood education to autism research. Charlotte was a founding partner of Seed Consulting Group, a California-based nonprofit that provides pro bono strategy consulting to environmental and public health organizations, and currently serves on the Women’s Association of Venture and Equity’s west coast steering committee and as a Project Pinklight panelist for Private Equity Women Investor Network. She is also on the advisory boards of MoDa Partners, a family office whose mission is to advance the economic and educational equity of women and girls, and 8090 Partners, a multifamily office consisting of families and entrepreneurs across diverse industries that is currently deploying an impact investment fund.\n\nCharlotte earned a BS with honors in business administration from the University of California, Berkley. When not working, you can find her globetrotting (18 countries and counting), writing a Yelp review about the best bite in town, or cuddling up with a book and her two adorable cats.\n\n"
     }
   },
   {
@@ -2121,12 +2341,18 @@
     "fields": {
       "Investor Name": "Ben Ehrlich",
       "Investor Type": "Fund of Funds",
+      "LP Keywords": [
+        "Sub $50M"
+      ],
+      "Website": "https://firstmomentumcapital.substack.com/",
       "Gender": "Male",
       "Entity Name": "First Momentum Capital",
+      "Linkedin URL": "https://www.linkedin.com/in/benjamin-ehrlich-43b75498/",
+      "Podcast URL": "https://www.youtube.com/watch?v=JOPgHdbUBpU",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Ben Ehrlich is the founder and General Partner of First Momentum Capital, where he helps seed a new generation of venture capital firms. He is also the Director of Strategy at the Long Term Stock Exhange. Previously Ben worked across the venture ecosystem supporting companies in the Canadian Technology Accelerator, OutCast Communications and Cribspot (YC 15). In his free time Ben takes his Irish setter doodle hiking and enjoys watching the University of Michigan football team (mostly) win."
+      "Investor Thesis & Background": "Ben Ehrlich is the founder and General Partner of First Momentum Capital, where he helps seed a new generation of venture capital firms. He is also the Director of Strategy at the Long Term Stock Exhange. Previously Ben worked across the venture ecosystem supporting companies in the Canadian Technology Accelerator, OutCast Communications and Cribspot (YC 15). In his free time Ben takes his Irish setter doodle hiking and enjoys watching the University of Michigan football team (mostly) win."
     }
   },
   {
@@ -2163,13 +2389,15 @@
     "id": "recbLNpjzLLIYBCC4",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
+      "Investor Name": "Jon Clark",
       "Investor Type": "Endowment/Pension",
-      "LP Keywords": [
-        "#DonHo"
-      ],
       "Website": "https://www.sic.state.nm.us/about-the-sic/",
+      "Title": "State Investment Officer",
+      "City": "Albuquerque",
+      "Country": "United States",
       "Gender": "Male",
-      "Entity Name": "State of New Mexico Investment Council\n  (SIC)"
+      "Entity Name": "State of New Mexico Investment Council\n  (SIC)",
+      "Linkedin URL": "https://www.linkedin.com/in/jonclarknm/"
     }
   },
   {
@@ -2193,6 +2421,7 @@
       "Investor Name": "Eric Ries",
       "Investor Type": "Fund of Funds",
       "Website": "firstmomentum.vc",
+      "Title": "Partner",
       "City": "San Francisco, California,",
       "Country": "United States",
       "Gender": "Male",
@@ -2223,12 +2452,15 @@
         "Emerging Managers",
         "Anchor LP"
       ],
+      "Website": "https://www.screendoor.co/team",
       "Gender": "Female",
       "Entity Name": "Screendoor",
+      "Linkedin URL": "https://www.linkedin.com/in/31mml/",
+      "Podcast URL": "https://www.youtube.com/watch?v=u_cyw1XIJqc",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Lisa Cawley is the Managing Director of Screendoor, a highly respected LP of GPs, investing in firm-builders by firm-builders, with a unique model for partnering with allocators to access the emerging manager ecosystem. She’s been covering venture capital for more than a dozen years, since 2010 at Ernst and Young, a private investment firm, and now to Screendoor.\n\nLisa is a proud graduate of Loyola University Maryland where she’s earned her MBA and MS in Finance, as well as her BBA in Accounting, with a double minor in Information Systems and Spanish. Lisa is a CFA Charterholder and holds a CPA from the State of Maryland. In addition, she’s also a member of Class 29 of the Kauffman Fellows.\n\n"
+      "Investor Thesis & Background": "Lisa Cawley is the Managing Director of Screendoor, a highly respected LP of GPs, investing in firm-builders by firm-builders, with a unique model for partnering with allocators to access the emerging manager ecosystem. She’s been covering venture capital for more than a dozen years, since 2010 at Ernst and Young, a private investment firm, and now to Screendoor.\n\nLisa is a proud graduate of Loyola University Maryland where she’s earned her MBA and MS in Finance, as well as her BBA in Accounting, with a double minor in Information Systems and Spanish. Lisa is a CFA Charterholder and holds a CPA from the State of Maryland. In addition, she’s also a member of Class 29 of the Kauffman Fellows.\n\n"
     }
   },
   {
@@ -2265,6 +2497,7 @@
     "id": "reccwOW7mb1CZ1Adz",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
+      "Investor Name": "Alfonso Bassols",
       "Website": "https://www.aldea.ventures/",
       "Gender": "Male",
       "Entity Name": "Aldea Ventures"
@@ -2314,7 +2547,11 @@
       "Country": "Saudi Arabia",
       "Gender": "Male",
       "Entity Name": "MASIC",
-      "Linkedin URL": "https://www.linkedin.com/in/ramzissamara/"
+      "Linkedin URL": "https://www.linkedin.com/in/ramzissamara/",
+      "Podcast URL": "https://www.youtube.com/watch?v=vOwK2XK4Isg",
+      "Podcast Name": [
+        "10x Capital Podcast"
+      ]
     }
   },
   {
@@ -2445,10 +2682,11 @@
       "Investor Name": "Matt Curtolo",
       "Investor Type": "HNWI",
       "Gender": "Male",
+      "Podcast URL": "https://www.youtube.com/watch?v=7Q3M-lxccRw",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Matt Curtolo, CAIA is a seasoned private markets investor and allocator with over two decades of experience at leading financial institutions. Throughout his career, he has been directly responsible for allocating more than $6 billion in commitments to private market investments and maintains relationships with hundreds of general partner relationships across the full spectrum of private capital strategies.\n\nMost recently, as Head of Investments at Allocate, a venture-backed fintech startup. Matt built the investment capability from the ground up, broadening access to top-tier venture capital opportunities for the private wealth market. Prior to this, he served as a senior leader at MetLife, serving on the investment committee, co-managing their global alternatives portfolio and leading the firm’s US Buyout portfolio. Earlier in his career, Matt led all private equity activities as Head of Private Equity at Hirtle Callaghan, a large independent outsourced Chief Investment Officer (oCIO). Matt’s foundational experience was gained at Hamilton Lane during its early growth phase, before it became the world’s preeminent private markets allocator, in research, investment and client-facing roles. Matt currently holds several advisory positions that span start-ups, asset management firms and fund of funds. He also manages his own advice practice, providing GPs with strategic guidance on strategy, fundraising and investor relations."
+      "Investor Thesis & Background": "Matt Curtolo, CAIA is a seasoned private markets investor and allocator with over two decades of experience at leading financial institutions. Throughout his career, he has been directly responsible for allocating more than $6 billion in commitments to private market investments and maintains relationships with hundreds of general partner relationships across the full spectrum of private capital strategies.\n\nMost recently, as Head of Investments at Allocate, a venture-backed fintech startup. Matt built the investment capability from the ground up, broadening access to top-tier venture capital opportunities for the private wealth market. Prior to this, he served as a senior leader at MetLife, serving on the investment committee, co-managing their global alternatives portfolio and leading the firm’s US Buyout portfolio. Earlier in his career, Matt led all private equity activities as Head of Private Equity at Hirtle Callaghan, a large independent outsourced Chief Investment Officer (oCIO). Matt’s foundational experience was gained at Hamilton Lane during its early growth phase, before it became the world’s preeminent private markets allocator, in research, investment and client-facing roles. Matt currently holds several advisory positions that span start-ups, asset management firms and fund of funds. He also manages his own advice practice, providing GPs with strategic guidance on strategy, fundraising and investor relations."
     }
   },
   {
@@ -2521,21 +2759,6 @@
     }
   },
   {
-    "id": "reciPNOfioVVOlhLJ",
-    "createdTime": "2025-09-19T13:17:57.000Z",
-    "fields": {
-      "Investor Name": "Jaclyn Hester",
-      "Investor Type": "Fund of Funds",
-      "Website": "https://foundry.vc/blog/2016/09/our-newest-fund-foundry-group-next/",
-      "Title": "Partner",
-      "City": "Boulder",
-      "Country": "United States",
-      "Gender": "Female",
-      "Entity Name": "Foundry Group Next",
-      "Linkedin URL": "https://www.linkedin.com/in/jaclyn-freeman-hester-70621126/"
-    }
-  },
-  {
     "id": "reciS73StBQUy5xqF",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
@@ -2558,7 +2781,9 @@
     "fields": {
       "Investor Name": "JT Esquibel",
       "Investor Type": "Family Office",
-      "Title": "Fund of Funds Manager",
+      "Website": "https://a16z.com/",
+      "Title": "Family Office",
+      "City": "New York, NY",
       "Country": "United States",
       "Gender": "Male",
       "Entity Name": "Andreessen/Dixon Family Office",
@@ -2571,12 +2796,15 @@
     "fields": {
       "Investor Name": "Dan Stolar",
       "Investor Type": "SFO",
+      "Website": "https://colibriequity.vc/",
       "Gender": "Male",
       "Entity Name": "Colibri",
+      "Linkedin URL": "https://www.linkedin.com/in/danielstolar/",
+      "Podcast URL": "https://www.youtube.com/watch?v=LNMCNUVR3ps",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Dan Stolar is a Principal at Colibri Equity Ventures, a single family office based in NYC and San Diego. Dan leads the venture capital strategy and also participates in all alternative private investments, including sports investing and private equity. As part of the venture strategy, Dan particularly focuses on investing in emerging venture capital funds. Since launching the strategy in late 2022, the firm has invested in ~15 managers. Dan started his venture capital journey as an intern at Viola Credit, a venture debt fund in Tel Aviv, before spending time in investment banking at Peter J. Solomon Co. (now Solomon Partners) where he focused on consumer and retail mergers & acquisitions. After banking, Dan spent ~5 years at Alpha Partners, a late-stage venture firm that partners with early stage managers helping them follow on in their late stage deals. Dan is still involved with Alpha as a Venture Partner. Dan is a proud New Jersey native, and a graduate of the University of Michigan (Go Blue!).\n\n"
+      "Investor Thesis & Background": "Dan Stolar is a Principal at Colibri Equity Ventures, a single family office based in NYC and San Diego. Dan leads the venture capital strategy and also participates in all alternative private investments, including sports investing and private equity. As part of the venture strategy, Dan particularly focuses on investing in emerging venture capital funds. Since launching the strategy in late 2022, the firm has invested in ~15 managers. Dan started his venture capital journey as an intern at Viola Credit, a venture debt fund in Tel Aviv, before spending time in investment banking at Peter J. Solomon Co. (now Solomon Partners) where he focused on consumer and retail mergers & acquisitions. After banking, Dan spent ~5 years at Alpha Partners, a late-stage venture firm that partners with early stage managers helping them follow on in their late stage deals. Dan is still involved with Alpha as a Venture Partner. Dan is a proud New Jersey native, and a graduate of the University of Michigan (Go Blue!).\n\n"
     }
   },
   {
@@ -2658,10 +2886,11 @@
       "Gender": "Female",
       "Entity Name": "Screendoor",
       "Linkedin URL": "https://www.linkedin.com/in/jerrcfa/",
+      "Podcast URL": "https://www.youtube.com/watch?v=zNkwpBoprPM",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Jamie Rhode is a partner at Screendoor and former Principal at Verdis Investment Management, focused emerging manager sourcing and due diligence.\n\nShe joined Verdis from Bloomberg, where she held roles in both equity research and credit analysis. There, she created, managed and leveraged an extensive library of statutory and financial and market data for buy and sell-side clients that use Bloomberg to make investment decisions.\n\nA licensed Chartered Financial Analyst, she earned her bachelor’s degree in Finance and Marketing from Drexel University’s College of Business Administration."
+      "Investor Thesis & Background": "Jamie Rhode is a partner at Screendoor and former Principal at Verdis Investment Management, focused emerging manager sourcing and due diligence.\n\nShe joined Verdis from Bloomberg, where she held roles in both equity research and credit analysis. There, she created, managed and leveraged an extensive library of statutory and financial and market data for buy and sell-side clients that use Bloomberg to make investment decisions.\n\nA licensed Chartered Financial Analyst, she earned her bachelor’s degree in Finance and Marketing from Drexel University’s College of Business Administration."
     }
   },
   {
@@ -2687,10 +2916,12 @@
       "Investor Type": "SFO",
       "Gender": "Male",
       "Entity Name": "leafplanner",
+      "Linkedin URL": "https://www.linkedin.com/in/joshua-kanter/",
+      "Podcast URL": "https://www.youtube.com/watch?v=xQJVwm4n1-4",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Josh Kanter is the family office principal at Josh Kanter Wealth Advisory Services. He is also the founder & CEO at leafplanner, a comprehensive solution on planning for the 100-year time horizon for a family office, birthed out of his own need with his own family of creating an everlasting institution.\n\nAfter decades as a lawyer, he went on to focus on his family business where he also currently serves as President of Chicago Financial, Inc., a single family office overseeing a complex organization of trusts, investment and philanthropic entities for a multi-branch and multi-generational family."
+      "Investor Thesis & Background": "Josh Kanter is the family office principal at Josh Kanter Wealth Advisory Services. He is also the founder & CEO at leafplanner, a comprehensive solution on planning for the 100-year time horizon for a family office, birthed out of his own need with his own family of creating an everlasting institution.\n\nAfter decades as a lawyer, he went on to focus on his family business where he also currently serves as President of Chicago Financial, Inc., a single family office overseeing a complex organization of trusts, investment and philanthropic entities for a multi-branch and multi-generational family."
     }
   },
   {
@@ -2745,12 +2976,18 @@
         "Emerging Managers",
         "Established Managers"
       ],
+      "Website": "https://www.marktlinkcapital.com/nl/",
+      "Title": "Managing Partner",
+      "City": "Amsterdam",
+      "Country": "Netherlands",
       "Gender": "Male",
       "Entity Name": "Marktlink Capital",
+      "Linkedin URL": "https://www.linkedin.com/in/jaap-vriesendorp-82a3a259/?originalSubdomain=nl",
+      "Podcast URL": "https://www.youtube.com/watch?v=88fqYDlWmHw",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Jaap Vriesendorp is one of the managing partners of Marktlink Capital, an investment manager from the Netherlands investing over $1b into private equity and venture capital funds. Marktlink Capital’s LPs are almost exclusively Dutch (tech) entrepreneurs from companies such as Booking.com, Adyen and Hellofresh. At Marktlink Capital Jaap focusses on selecting venture and growth funds across Europe and the US. Before Marktlink Capital, he spent the majority of his time at McKinsey where he was one of the leaders of McKinsey’s practice for Venture Capital, Unicorns & Startups in Europe. Besides work, Jaap enjoys sports, mountains, technology, comic books, music and art.\n\nHe holds an MBA from INSEAD and is a guest lecturer at the Rotterdam School of Management (Erasmus University). He occasionally shares his views on private market investing on Medium."
+      "Investor Thesis & Background": "Jaap Vriesendorp is one of the managing partners of Marktlink Capital, an investment manager from the Netherlands investing over $1b into private equity and venture capital funds. Marktlink Capital’s LPs are almost exclusively Dutch (tech) entrepreneurs from companies such as Booking.com, Adyen and Hellofresh. At Marktlink Capital Jaap focusses on selecting venture and growth funds across Europe and the US. Before Marktlink Capital, he spent the majority of his time at McKinsey where he was one of the leaders of McKinsey’s practice for Venture Capital, Unicorns & Startups in Europe. Besides work, Jaap enjoys sports, mountains, technology, comic books, music and art.\n\nHe holds an MBA from INSEAD and is a guest lecturer at the Rotterdam School of Management (Erasmus University). He occasionally shares his views on private market investing on Medium."
     }
   },
   {
@@ -2813,12 +3050,15 @@
     "fields": {
       "Investor Name": "Adam Marchick",
       "Investor Type": "Fund of Funds",
+      "Website": "http://akkadian.vc/",
       "Gender": "Male",
       "Entity Name": "Akkadian Ventures",
+      "Linkedin URL": "https://www.linkedin.com/in/adammarchick/",
+      "Podcast URL": "https://www.youtube.com/watch?v=pIYRyih6CHI",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Over the past twenty years, Adam Marchick has had unique experiences as a founder, general partner (GP), and limited partner (LP). Most recently, Adam managed the venture capital portfolio at Emory’s endowment, a $2 billion portfolio within the $10 billion endowment. Prior to Emory, Adam spent ten years building two companies, the most recent being Alpine.AI, which was acquired by Headspace. Simultaneously, Adam was a Sequoia Scout and built an angel portfolio of over 25 companies. Adam was a direct investor at Menlo Ventures and Bain Capital Ventures, sourcing and supporting companies including Carbonite (IPO), Rent The Runway (IPO), Rapid7 (IPO), Archer (M&A), and AeroScout (M&A). He started his career in engineering and product roles at Facebook, Oracle, and startups."
+      "Investor Thesis & Background": "Over the past twenty years, Adam Marchick has had unique experiences as a founder, general partner (GP), and limited partner (LP). Most recently, Adam managed the venture capital portfolio at Emory’s endowment, a $2 billion portfolio within the $10 billion endowment. Prior to Emory, Adam spent ten years building two companies, the most recent being Alpine.AI, which was acquired by Headspace. Simultaneously, Adam was a Sequoia Scout and built an angel portfolio of over 25 companies. Adam was a direct investor at Menlo Ventures and Bain Capital Ventures, sourcing and supporting companies including Carbonite (IPO), Rent The Runway (IPO), Rapid7 (IPO), Archer (M&A), and AeroScout (M&A). He started his career in engineering and product roles at Facebook, Oracle, and startups."
     }
   },
   {
@@ -2895,7 +3135,11 @@
       "Country": "United States",
       "Gender": "Female",
       "Entity Name": "Columbia University",
-      "Linkedin URL": "https://www.linkedin.com/in/lisa-edgar-928b001/"
+      "Linkedin URL": "https://www.linkedin.com/in/lisa-edgar-928b001/",
+      "Podcast URL": "https://www.youtube.com/watch?v=X4Go-yRHK2w",
+      "Podcast Name": [
+        "Capital Allocators"
+      ]
     }
   },
   {
@@ -2985,12 +3229,18 @@
         "Sub $50M",
         "Emerging Managers"
       ],
+      "Website": "https://www.patternventures.com/",
+      "Title": "Partner",
+      "City": "New York",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Pattern Ventures",
+      "Linkedin URL": "https://www.linkedin.com/in/johnfelix12",
+      "Podcast URL": "https://www.youtube.com/watch?v=RDyCrLtoMeI",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "John is a partner at Pattern Ventures, a fund o funds focused on sub $50M funds using a quantitative approach. Prior, John was Head of Emerging Managers at Allocate where he leads manager diligence and product innovation within the emerging manager ecosystem. Prior to joining Allocate, John worked at Bowdoin College’s Office of Investments, helping to invest the $2.8 billion endowment across all asset classes, focusing on venture capital. Prior to Bowdoin, John worked at Edgehill Endowment Partners, a $2 billion boutique OCIO. At Edgehill, John was responsible for building out the firm’s venture capital portfolio, sourcing and leading all venture fund commitments. John started his career at Washington University’s Investment Management Company as a member of the small investment team responsible for managing the university’s now $15 billion endowment. John graduated from Washington University in St. Louis with a BSBA in Finance and Entrepreneurship."
+      "Investor Thesis & Background": "John is a partner at Pattern Ventures, a fund o funds focused on sub $50M funds using a quantitative approach. Prior, John was Head of Emerging Managers at Allocate where he leads manager diligence and product innovation within the emerging manager ecosystem. Prior to joining Allocate, John worked at Bowdoin College’s Office of Investments, helping to invest the $2.8 billion endowment across all asset classes, focusing on venture capital. Prior to Bowdoin, John worked at Edgehill Endowment Partners, a $2 billion boutique OCIO. At Edgehill, John was responsible for building out the firm’s venture capital portfolio, sourcing and leading all venture fund commitments. John started his career at Washington University’s Investment Management Company as a member of the small investment team responsible for managing the university’s now $15 billion endowment. John graduated from Washington University in St. Louis with a BSBA in Finance and Entrepreneurship."
     }
   },
   {
@@ -2998,9 +3248,13 @@
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
       "Investor Name": "Steve Bennet",
+      "Investor Type": "Advisor/CIO",
+      "Website": "https://www.linkedin.com/company/bodega-partners/about/",
+      "Title": "Angel Investor",
       "City": "Palo Alto, California",
       "Country": "United States",
       "Gender": "Male",
+      "Entity Name": "Bodega Partners",
       "Linkedin URL": "https://www.linkedin.com/in/stevebennet/"
     }
   },
@@ -3010,12 +3264,15 @@
     "fields": {
       "Investor Name": "Jay Rongjie Wang",
       "Investor Type": "SFO",
+      "Website": "https://www.primitivaglobal.com/",
       "Gender": "Female",
       "Entity Name": "Primitiva Global",
+      "Linkedin URL": "https://www.linkedin.com/in/wangrongjie/",
+      "Podcast URL": "https://www.youtube.com/watch?v=QcJfQXKNin0",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Jay Rongjie Wang is the founding Chief Investment Officer of Primitiva Global, where she runs a family-backed Multi-asset Strategy. She also works extensively with emerging VC managers, and sits on the Selection Committee of Bridge Funding Global.\n\nJay’s background uniquely combines software engineering (at the world’s largest fintech platform) and institutional investing (at top funds including Fidelity and Sequoia), as well as general management (3x executive in tech startups). Jay has lived in 5 different countries across 9 major cities, giving her a global perspective.\n\nJay obtained her B.A and M.Sci in Physics from Cambridge University and M.B.A from INSEAD. In 2023 she was listed as an Entrepreneurial Pioneer Under 35 by Hurun Wealth."
+      "Investor Thesis & Background": "Jay Rongjie Wang is the founding Chief Investment Officer of Primitiva Global, where she runs a family-backed Multi-asset Strategy. She also works extensively with emerging VC managers, and sits on the Selection Committee of Bridge Funding Global.\n\nJay’s background uniquely combines software engineering (at the world’s largest fintech platform) and institutional investing (at top funds including Fidelity and Sequoia), as well as general management (3x executive in tech startups). Jay has lived in 5 different countries across 9 major cities, giving her a global perspective.\n\nJay obtained her B.A and M.Sci in Physics from Cambridge University and M.B.A from INSEAD. In 2023 she was listed as an Entrepreneurial Pioneer Under 35 by Hurun Wealth."
     }
   },
   {
@@ -3024,7 +3281,7 @@
     "fields": {
       "Website": "https://www.axavp.com/fund-investing/",
       "Gender": "Male",
-      "Entity Name": "AXA Venture Partners"
+      "Entity Name": "AVP (Formerly AXA Venture Partners)"
     }
   },
   {
@@ -3061,12 +3318,15 @@
     "fields": {
       "Investor Name": "Sean Warrington",
       "Investor Type": "MFO",
+      "Website": "https://www.greshampartners.com/",
       "Gender": "Male",
       "Entity Name": "Gresham Partners",
+      "Linkedin URL": "https://www.linkedin.com/in/srwarrington/",
+      "Podcast URL": "https://www.youtube.com/watch?v=dhoiTaLuheQ",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Sean Warrington leads private market investing at Gresham Partners, a $10 billion multi-family office based in Chicago. Known for being a transparent and user-friendly LP, he and the Gresham team aim to simplify the fundraising process — offering single-check investments, a streamlined diligence process, and prompt, candid feedback to GPs."
+      "Investor Thesis & Background": "Sean Warrington leads private market investing at Gresham Partners, a $10 billion multi-family office based in Chicago. Known for being a transparent and user-friendly LP, he and the Gresham team aim to simplify the fundraising process — offering single-check investments, a streamlined diligence process, and prompt, candid feedback to GPs."
     }
   },
   {
@@ -3092,12 +3352,18 @@
         "hybrid FoF",
         "Emerging Managers"
       ],
+      "Website": "https://www.socialleverage.com/team",
+      "Title": "General Partner ",
+      "City": "Coronado",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Social Leverage",
+      "Linkedin URL": "https://www.linkedin.com/in/howardlindzon/",
+      "Podcast URL": "https://www.youtube.com/watch?v=_2twZuGr12g",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Howard Lindzon has over 20 years of experience in both public and private market investing. He previously founded and managed the hedge fund Lindzon Capital, and is currently the founder and General Partner of the early-stage venture capital firm Social Leverage. Through Social Leverage, he and his partners have been seed investors in startups like Robinhood, Beehiiv, and Manscaped to name a few. Howard was the founder of Wallstrip (acquired by CBS), and is the the co-founder and Chairman of Stocktwits, the leading social platform for traders and investors. Throughout his career, Howard has strongly advocated for and helped drive the decentralization and democratization of investing. He resides in Phoenix, AZ and Coronado, California."
+      "Investor Thesis & Background": "Howard Lindzon has over 20 years of experience in both public and private market investing. He previously founded and managed the hedge fund Lindzon Capital, and is currently the founder and General Partner of the early-stage venture capital firm Social Leverage. Through Social Leverage, he and his partners have been seed investors in startups like Robinhood, Beehiiv, and Manscaped to name a few. Howard was the founder of Wallstrip (acquired by CBS), and is the the co-founder and Chairman of Stocktwits, the leading social platform for traders and investors. Throughout his career, Howard has strongly advocated for and helped drive the decentralization and democratization of investing. He resides in Phoenix, AZ and Coronado, California."
     }
   },
   {
@@ -3124,12 +3390,18 @@
     "fields": {
       "Investor Name": "David York",
       "Investor Type": "Fund of Funds",
+      "LP Keywords": [
+        "Anchor LP"
+      ],
+      "Website": "https://ttcp.com/",
       "Gender": "Male",
       "Entity Name": "Top Tier Capital Partners",
+      "Linkedin URL": "https://www.linkedin.com/in/david-york-2407295/",
+      "Podcast URL": "https://www.youtube.com/watch?v=kvHz8eGXeGE",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "David York’s thirty plus years of industry knowledge and networks uniquely equip him to be a liaison and international ambassador not only for Top Tier’s brand, but also the broader venture community. In 2000, David joined Phil Paul to lead the fund of funds team at Paul Capital, which spun out in 2011 to form Top Tier.\n\nDavid has been active in the global venture capital community since the early 1990s. As a founder of Top Tier, he has led the development of the Firm for over twenty years and has been involved in every aspect of it. His involvement in the industry has led him to participate in numerous industry events and conferences, and also the NVCA, where he is an active board member. David led the fund of funds business at Paul Capital Partners, before spinning it out and founding Top Tier. Prior to Paul Capital, David spent seventeen years on Wall Street running various trading desks. In 1999, he was Managing Director at Chase H&Q, where he ran Equity Capital Markets liquidity, and from 1994 to 1999 he ran Venture Services for Hambrecht & Quist, a San Francisco-based, technology-focused investment bank acquired by Chase Bank."
+      "Investor Thesis & Background": "David York’s thirty plus years of industry knowledge and networks uniquely equip him to be a liaison and international ambassador not only for Top Tier’s brand, but also the broader venture community. In 2000, David joined Phil Paul to lead the fund of funds team at Paul Capital, which spun out in 2011 to form Top Tier.\n\nDavid has been active in the global venture capital community since the early 1990s. As a founder of Top Tier, he has led the development of the Firm for over twenty years and has been involved in every aspect of it. His involvement in the industry has led him to participate in numerous industry events and conferences, and also the NVCA, where he is an active board member. David led the fund of funds business at Paul Capital Partners, before spinning it out and founding Top Tier. Prior to Paul Capital, David spent seventeen years on Wall Street running various trading desks. In 1999, he was Managing Director at Chase H&Q, where he ran Equity Capital Markets liquidity, and from 1994 to 1999 he ran Venture Services for Hambrecht & Quist, a San Francisco-based, technology-focused investment bank acquired by Chase Bank."
     }
   },
   {
@@ -3192,7 +3464,11 @@
       "Country": "United States",
       "Gender": "Female",
       "Entity Name": "The University of Chicago",
-      "Linkedin URL": "https://www.linkedin.com/in/joanna-rupp-cfa-184412a/"
+      "Linkedin URL": "https://www.linkedin.com/in/joanna-rupp-cfa-184412a/",
+      "Podcast URL": "https://www.youtube.com/watch?v=ON1fQIef4Ok",
+      "Podcast Name": [
+        "Origins"
+      ]
     }
   },
   {
@@ -3201,12 +3477,15 @@
     "fields": {
       "Investor Name": "Ashby Monk",
       "Investor Type": "HNWI",
+      "Website": "http://stanford.edu/",
       "Gender": "Male",
       "Entity Name": "Stanford",
+      "Linkedin URL": "https://www.linkedin.com/in/ashby-monk-208a479/",
+      "Podcast URL": "https://www.youtube.com/watch?v=0CdQbn6AlDA",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Dr. Ashby Monk is currently a Senior Research Engineer, School of Engineering at Stanford University and holds the position of Executive Director of the Stanford Research Initiative on Long-Term Investing.\n\nAshby has more than 20 years of experience studying and advising investment organizations. He has authored multiple books and published 100s of research papers on institutional investing. His latest book, The Technologized Investor, won the 2021 Silver Medal from the Axiom Business Book Awards in the Business Technology category.\n\nOutside of academia, Ashby has co-founded several companies that help investors make better investment decisions, including Real Capital Innovation (acquired by Addepar), FutureProof, GrowthsphereAI, Long Game Savings (acquired by Truist), NetPurpose, D.A.T.A., SheltonAI, and ThirdAct. He is co-founder and managing partner of KDX, a venture capital firm focused on investment technologies.\n\nHe is a member of the CFA Institute’s Future of Finance Advisory Council and was named by CIO Magazine as one of the most influential academics in the institutional investing world. He received his Doctorate in Economic Geography at the University of Oxford, holds a Master’s in International Economics from the Université de Paris I – Pantheon Sorbonne, and has a Bachelor’s in Economics from Princeton University."
+      "Investor Thesis & Background": "Dr. Ashby Monk is currently a Senior Research Engineer, School of Engineering at Stanford University and holds the position of Executive Director of the Stanford Research Initiative on Long-Term Investing.\n\nAshby has more than 20 years of experience studying and advising investment organizations. He has authored multiple books and published 100s of research papers on institutional investing. His latest book, The Technologized Investor, won the 2021 Silver Medal from the Axiom Business Book Awards in the Business Technology category.\n\nOutside of academia, Ashby has co-founded several companies that help investors make better investment decisions, including Real Capital Innovation (acquired by Addepar), FutureProof, GrowthsphereAI, Long Game Savings (acquired by Truist), NetPurpose, D.A.T.A., SheltonAI, and ThirdAct. He is co-founder and managing partner of KDX, a venture capital firm focused on investment technologies.\n\nHe is a member of the CFA Institute’s Future of Finance Advisory Council and was named by CIO Magazine as one of the most influential academics in the institutional investing world. He received his Doctorate in Economic Geography at the University of Oxford, holds a Master’s in International Economics from the Université de Paris I – Pantheon Sorbonne, and has a Bachelor’s in Economics from Princeton University."
     }
   },
   {
@@ -3219,18 +3498,25 @@
         "Emerging Managers",
         "Established Managers"
       ],
+      "Website": "http://www.allocate.co/",
+      "Title": "CEO",
+      "City": "Menlo Park",
+      "Country": "USA",
       "Gender": "Male",
       "Entity Name": "Allocate",
+      "Linkedin URL": "https://www.linkedin.com/in/samirkaji/",
+      "Podcast URL": "https://www.youtube.com/watch?v=SAwrBYb1QBk",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Samir Kaji is the CEO and Co-Founder of Allocate, a private markets technology company that pairs origination with portfolio management tools to allow investors to efficiently construct and manage their alternatives portfolios. \n\nPrior to Allocate, Samir spent 22 years in venture banking between SVB and First Republic Bank and closely worked with and advised over 700 venture capital and private equity firms. During this time, he completed over $12B in structured debt transactions and has invested personally in over 75 funds and companies, including early-stage investments into Carta (seed), Side (seed), PolicyGenius (Series A), and FanDuel (Series B) as well as Growth investments into Reddit, Alto Pharmacy, and Carbon Health. He has also invested in over 40 funds across various investment types.\n\nSamir completed a finance undergraduate degree at San Jose State University, a finance MBA from Santa Clara University, and completed the prestigious Kauffman Fellows venture program in 2017. Samir is also the host of Venture Unlocked, a top venture capital podcast available on Itunes, Spotify, and Substack.\n\n"
+      "Investor Thesis & Background": "Samir Kaji is the CEO and Co-Founder of Allocate, a private markets technology company that pairs origination with portfolio management tools to allow investors to efficiently construct and manage their alternatives portfolios. \n\nPrior to Allocate, Samir spent 22 years in venture banking between SVB and First Republic Bank and closely worked with and advised over 700 venture capital and private equity firms. During this time, he completed over $12B in structured debt transactions and has invested personally in over 75 funds and companies, including early-stage investments into Carta (seed), Side (seed), PolicyGenius (Series A), and FanDuel (Series B) as well as Growth investments into Reddit, Alto Pharmacy, and Carbon Health. He has also invested in over 40 funds across various investment types.\n\nSamir completed a finance undergraduate degree at San Jose State University, a finance MBA from Santa Clara University, and completed the prestigious Kauffman Fellows venture program in 2017. Samir is also the host of Venture Unlocked, a top venture capital podcast available on Itunes, Spotify, and Substack.\n\n"
     }
   },
   {
     "id": "recruSyQwcU16s6M2",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
+      "Investor Name": "Erin Harkless Moore",
       "LP Keywords": [
         "#sustainability #Youngrok"
       ],
@@ -3285,12 +3571,15 @@
     "fields": {
       "Investor Name": "Narayan Chowdhury",
       "Investor Type": "Fund of Funds",
+      "Website": "http://www.franklinparkllc.com/",
       "Gender": "Male",
       "Entity Name": "Franklin Park",
+      "Linkedin URL": "https://www.linkedin.com/in/narayan-chowdhury/",
+      "Podcast URL": "https://www.youtube.com/watch?v=iXU8QHIGuyA",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Ritujoy Narayan Chowdhury is the co-founder and Managing Director at Franklin Park, where he focuses on private equity investment opportunities, monitoring clients’ portfolios and conducting industry research. He also plays a key role in the development and implementation of Franklin Park’s technology platform, and regularly interacts with clients on investment and portfolio matters.\n\nPrior to Franklin Park, Narayan worked with Hamilton Lane and Public Financial Management. He is a CFA Charterholder and a member of the CFA Institute. Narayan received a B.A. in Mathematics and Economics from Bucknell University."
+      "Investor Thesis & Background": "Ritujoy Narayan Chowdhury is the co-founder and Managing Director at Franklin Park, where he focuses on private equity investment opportunities, monitoring clients’ portfolios and conducting industry research. He also plays a key role in the development and implementation of Franklin Park’s technology platform, and regularly interacts with clients on investment and portfolio matters.\n\nPrior to Franklin Park, Narayan worked with Hamilton Lane and Public Financial Management. He is a CFA Charterholder and a member of the CFA Institute. Narayan received a B.A. in Mathematics and Economics from Bucknell University."
     }
   },
   {
@@ -3356,6 +3645,7 @@
     "id": "recuCGgdxR4AmQhex",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
+      "Investor Name": "Amina Bijedić",
       "Website": "https://www.aqvc.com/",
       "Gender": "Male",
       "Entity Name": "AQ VC"
@@ -3368,7 +3658,7 @@
       "Investor Name": "Prem Kalevar",
       "Investor Type": "Fund of Funds",
       "Website": "inovia.vc",
-      "Title": "Vice President,",
+      "Title": "Vice President",
       "City": "Toronto, Ontario",
       "Country": "Canada",
       "Gender": "Male",
@@ -3401,14 +3691,18 @@
         "CVCs",
         "Emerging Managers"
       ],
+      "Website": "http://greelpfund.com/",
+      "Title": "Founding Partner",
       "City": "San Francisco",
       "Country": "USA",
       "Gender": "Male",
       "Entity Name": "GREE LP Fund",
+      "Linkedin URL": "https://www.linkedin.com/in/youngrok-kim/",
+      "Podcast URL": "https://www.youtube.com/watch?v=-Km7GHYLc9I",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Youngrok Kim is a Partner at GREE LP Fund, a Fund of Funds operating in the US and Japan. Previously, he held the position of SVP at Recruit Strategic Partner, the strategic investment arm of Recruit Holdings, a major internet company in Japan. Youngrok began his career as an engineer at Goldman Sachs before transitioning to a VC career at ARCH Venture Partners in Chicago. He earned an MBA from the University of Chicago and received his degrees in Information Technology from Aoyama Gakuin University in Tokyo."
+      "Investor Thesis & Background": "Youngrok Kim is a Partner at GREE LP Fund, a Fund of Funds operating in the US and Japan. Previously, he held the position of SVP at Recruit Strategic Partner, the strategic investment arm of Recruit Holdings, a major internet company in Japan. Youngrok began his career as an engineer at Goldman Sachs before transitioning to a VC career at ARCH Venture Partners in Chicago. He earned an MBA from the University of Chicago and received his degrees in Information Technology from Aoyama Gakuin University in Tokyo."
     }
   },
   {
@@ -3425,6 +3719,7 @@
     "id": "recvSYwXx0uAFU9bI",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
+      "Investor Name": "Xue Koh",
       "Investor Type": "Family Office",
       "LP Keywords": [
         "#revere #SFO"
@@ -3432,7 +3727,8 @@
       "Website": "https://blackkitecapital.com/",
       "City": "Singapore",
       "Gender": "Male",
-      "Entity Name": "Black Kite Capital"
+      "Entity Name": "Black Kite Capital",
+      "Linkedin URL": "https://www.linkedin.com/in/xuekoh/"
     }
   },
   {
@@ -3454,6 +3750,7 @@
     "id": "recvvXsB90oWUmaEs",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
+      "Investor Name": "Jack Litowitz",
       "Investor Type": "Family Office",
       "LP Keywords": [
         "#chicago #SFO"
@@ -3506,17 +3803,28 @@
     }
   },
   {
+    "id": "recxaOmQYsbJOVz4x",
+    "createdTime": "2025-11-07T14:52:54.000Z",
+    "fields": {
+      "Gender": "Male",
+      "Entity Name": "BMO Family Office"
+    }
+  },
+  {
     "id": "recxhO3ooH2BES8da",
     "createdTime": "2025-09-18T18:50:04.000Z",
     "fields": {
       "Investor Name": "Raviv Sapir",
       "Investor Type": "Fund of Funds",
+      "Website": "https://www.vinthera.com/",
       "Gender": "Male",
       "Entity Name": "Vinthera",
+      "Linkedin URL": "https://www.linkedin.com/in/raviv-sapir/",
+      "Podcast URL": "https://www.youtube.com/watch?v=O00aUqGjrOo",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "Raviv Sapir is an early-stage investor at Vinthera, a fund of funds and venture firm with a hybrid strategy that combines VC fund investments with direct startup investments. With a background in tech and finance, an MBA from HEC Paris, and years of experience mentoring startups and supporting LPs, Raviv brings a sharp eye for high-conviction opportunities and a practical approach to venture. He previously held product roles at leading Israeli startups and served in a technological unit within the Israeli Defense Forces. His work across geographies, sectors, and investment stages gives him a uniquely holistic and global perspective on the venture ecosystem."
+      "Investor Thesis & Background": "Raviv Sapir is an early-stage investor at Vinthera, a fund of funds and venture firm with a hybrid strategy that combines VC fund investments with direct startup investments. With a background in tech and finance, an MBA from HEC Paris, and years of experience mentoring startups and supporting LPs, Raviv brings a sharp eye for high-conviction opportunities and a practical approach to venture. He previously held product roles at leading Israeli startups and served in a technological unit within the Israeli Defense Forces. His work across geographies, sectors, and investment stages gives him a uniquely holistic and global perspective on the venture ecosystem."
     }
   },
   {
@@ -3626,18 +3934,26 @@
     "fields": {
       "Investor Name": "Kelli Fontaine",
       "Investor Type": "Fund of Funds",
+      "LP Keywords": [
+        "Emerging Managers",
+        "Anchor LP"
+      ],
+      "Website": "https://www.cendanacapital.com/",
       "Gender": "Female",
       "Entity Name": "Cendana Capital",
+      "Linkedin URL": "https://www.linkedin.com/in/kellitrent/",
+      "Podcast URL": "https://www.youtube.com/watch?v=u1nrxjhTA68",
       "Podcast Name": [
         "Superclusters"
       ],
-      "Investor Thesis": "From investing in great fund managers to data to investor relations, Kelli Fontaine is a partner at Cendana Capital, a fund of funds who’s solely focused on the best pre-seed and seed funds with over 2 billion under management and includes the likes of Forerunner, Founder Collective, Lerer Hippeau, Uncork, Susa Ventures and more. Kelli comes from the world of data, and has been a founder, marketing expert, and an advisor to founders since 2010.\n\n"
+      "Investor Thesis & Background": "From investing in great fund managers to data to investor relations, Kelli Fontaine is a partner at Cendana Capital, a fund of funds who’s solely focused on the best pre-seed and seed funds with over 2 billion under management and includes the likes of Forerunner, Founder Collective, Lerer Hippeau, Uncork, Susa Ventures and more. Kelli comes from the world of data, and has been a founder, marketing expert, and an advisor to founders since 2010.\n\n"
     }
   },
   {
     "id": "recztruwSkQQG55Te",
     "createdTime": "2025-09-19T13:17:57.000Z",
     "fields": {
+      "Investor Name": "Peter Cullom",
       "Investor Type": "Family Office",
       "LP Keywords": [
         "#sustainability"

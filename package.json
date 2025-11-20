@@ -8,8 +8,9 @@
     "build:watch": "tsc --watch",
     "server:dev": "tsx src/server.ts",
     "server:start": "node build/server.js",
+    "server:test": "tsx src/test.ts",
     "start": "tsx src/server.ts",
-    "server:inspect": "set DANGEROUSLY_OMIT_AUTH=true && npx @modelcontextprotocol/inspector npm run server:dev",
+    "server:inspect": "set DANGEROUSLY_OMIT_AUTH=true && npx @modelcontextprotocol/inspector npm run server2:dev",
     "airtable:sync": "tsx src/airtableService.ts sync",
     "airtable:test": "tsx src/airtableService.ts test",
     "airtable:force": "tsx src/airtableService.ts force"
