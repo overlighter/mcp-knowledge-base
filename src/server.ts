@@ -3,6 +3,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { z } from "zod";
 import dotenv from 'dotenv';
+import { SIDE_LETTER_SYSTEM_PROMPT } from './prompts.js';
 
 import express, { Request, Response, NextFunction } from 'express';
 import { ResourceTemplate } from "@modelcontextprotocol/sdk/server/mcp.js";
@@ -1011,7 +1012,24 @@ server.resource(
     }
   }
 );
-
+server.prompt(
+  "side-letter-system",
+  "The standard system prompt for Side Letter AI assistant",
+  {},
+  ({ }) => {
+    return {
+      messages: [
+        {
+          role: "user",
+          content: {
+            type: "text",
+            text: SIDE_LETTER_SYSTEM_PROMPT
+          }
+        }
+      ]
+    };
+  }
+);
 // ============================================================================
 // UNIFIED AUTHENTICATION HELPER - SUPPORTS OAUTH, HEADER, AND URL PARAMS
 // ============================================================================

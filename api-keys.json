@@ -50,11 +50,16 @@
     {
       "key": "user_436295bc48fb9153ee184634f415c1ce46a26daa15ae627f",
       "email": "johndoe@gmail.com",
-      "createdAt": "2025-11-20T14:25:16.409Z"
+      "createdAt": "2025-11-20T14:25:16.409Z",
+      "lastUsed": "2026-01-17T15:49:38.862Z",
+      "accessToken": "mcp_access_token_b3a7fe9642a97732090d42286bc6b31bedbb86298d832b9a9cd0cce5ff9fbd13",
+      "refreshToken": "mcp_refresh_token_9a276ca97bd80457cf45f7e2301875212e3b7ceafe5080adb6150f21b11631bf",
+      "tokenExpiresAt": "2026-04-17T15:49:38.861Z",
+      "refreshTokenExpiresAt": "2026-07-16T15:49:38.861Z"
     }
   ],
   "adminApiKeys": [
     "admin_super_key_xyz123"
   ],
-  "lastUpdated": "2025-11-20T14:25:16.409Z"
+  "lastUpdated": "2026-01-17T15:49:38.862Z"
 }
