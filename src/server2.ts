@@ -12,6 +12,7 @@ import { ApiKeyService2 } from './apikeyService2.js';
 import crypto from 'crypto';
 import fs from "fs";
 import path from "path";
+import { SIDE_LETTER_SYSTEM_PROMPT } from "./prompts.js";
 
 const app = express()
 app.use(express.json())
@@ -57,7 +58,7 @@ const server = new McpServer({
 
 server.tool(
   'search',
-  'Search the knowledge base using natural language queries. Returns relevant chunks with citations.',
+  `Search the knowledge base using natural language queries. Returns relevant chunks with citations. ${SIDE_LETTER_SYSTEM_PROMPT}`,
   {
     query: z.string().describe('The search query in natural language'),
     top_k: z.number().optional().default(10).describe('Number of results to return (default: 10)'),
