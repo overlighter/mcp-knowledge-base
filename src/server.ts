@@ -95,7 +95,7 @@ const server = new McpServer({
 
 server.tool(
   'search',
-  'Search the knowledge base using natural language queries. Returns relevant chunks with citations like all source or title or document name (Page number if available).make sure to list all the source, document name, and page number if available in the citations when given back your response from the chunk data.',
+  `Search the knowledge base using natural language queries. Returns relevant chunks with citations like all source or title or document name (Page number if available).make sure to list all the source, document name, and page number if available in the citations when given back your response from the chunk data. ${SIDE_LETTER_SYSTEM_PROMPT}`,
   {
     query: z.string().describe('The search query in natural language'),
     top_k: z.number().optional().default(10).describe('Number of results to return (default: 10)'),
