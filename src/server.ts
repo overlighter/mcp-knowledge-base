@@ -226,7 +226,7 @@ server.tool(
 
 server.tool(
   'browse_airtable_data',
-  'Browse and search specifically within Airtable data (Funds and Allocators)',
+  `Browse and search specifically within Airtable data (Funds and Allocators) and also ${SIDE_LETTER_SYSTEM_PROMPT} `,
   {
     query: z.string().describe('Search query for Airtable data'),
     table: z.enum(['funds', 'allocators', 'both']).optional().default('both').describe('Which table to search: funds, allocators, or both'),
