@@ -12,7 +12,7 @@ dotenv.config({ path: path.join(projectRoot, '.env') });
 
 const AIRTABLE_PAT = process.env.AIRTABLE_PAT;
 const BASE_ID = "appMXDULPdtP3RsYT";
-const RAGIE_API_KEY = process.env.RAGIE_API_KEY || "tnt_JdgN2vTLRVd_uyxjbRI6iWJYttXGYX9vOsWdSDgOuWloz3MtgcNbvOJ";
+const RAGIE_API_KEY = process.env.RAGIE_API_KEY;
 
 // ✅ Tables to export
 const TABLES = [
@@ -49,7 +49,7 @@ class AirtableService {
       throw new Error('AIRTABLE_PAT environment variable is required. Check console for details.');
     }
     
-    this.ragieService = new RagieService(RAGIE_API_KEY);
+    this.ragieService = new RagieService(RAGIE_API_KEY!);
     this.hashFilePath = path.join(process.cwd(), 'data_hashes.json');
   }
 

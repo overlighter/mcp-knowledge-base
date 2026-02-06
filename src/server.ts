@@ -80,7 +80,13 @@ function verifyCodeChallenge(codeVerifier: string, codeChallenge: string, method
 
 const projectRoot = path.resolve(__dirname, '..');
 dotenv.config({ path: path.join(projectRoot, '.env') });
-const ragieService = new RagieService("tnt_JdgN2vTLRVd_uyxjbRI6iWJYttXGYX9vOsWdSDgOuWloz3MtgcNbvOJ")
+
+
+if (!process.env.RAGIE_API_KEY) {
+  throw new Error('RAGIE_API_KEY environment variable is required');
+}
+
+const ragieService = new RagieService(process.env.RAGIE_API_KEY);
 const airtableService = new AirtableService();
 
 const server = new McpServer({

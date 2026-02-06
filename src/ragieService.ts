@@ -51,7 +51,8 @@ export class RagieService {
           response: response
         };
         
-        const logFile = path.join(logsDir, 'ragie-search-response.log');
+        // const logFile = path.join(logsDir, 'ragie-search-response.log');
+        
         // fs.appendFileSync(logFile, JSON.stringify(logData, null, 2) + '\n---\n\n');
         // console.error('Response logged to:', logFile);
       } catch (logError) {
